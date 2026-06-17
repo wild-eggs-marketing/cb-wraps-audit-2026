@@ -1,0 +1,75 @@
+PHASE 4: CORE WEB VITALS AUDIT - QUICK START GUIDE
+===================================================
+
+STATUS: Phase 4 Complete (Fallback Analysis)
+NEXT: Get API key and re-run for real CWV metrics
+
+FILES GENERATED:
+- /audit/reports/cwv.md (Main report with Priority 1 pages)
+- /audit/PHASE_4_SUMMARY.md (Detailed execution summary)
+- /audit/cwv_audit.py (Audit script - ready to use with API key)
+- /audit/PHASE_4_QUICK_START.txt (This file)
+
+KEY FINDINGS:
+=============
+
+Priority 1 Pages (>50% bounce rate requiring immediate attention):
+
+1. /delivery (68.9% bounce, 209 sessions)
+2. /bowls/mediterranean-bowl (69.3% bounce, 179 sessions)
+3. /bowls/fajita-bowl-8-55-9-55 (65.8% bounce, 111 sessions)
+4. /wraps/buffalo-wrap (63.4% bounce, 164 sessions)
+5. /bowls/teriyaki-bowl-7-35-8-55 (62.0% bounce, 108 sessions)
+6. /nutrition-information (62.1% bounce, 3,490 sessions)
+7. /wraps/caesar-wrap (59.5% bounce, 173 sessions)
+8. /bowls/pesto-bowl-7-50-8-50 (58.1% bounce, 136 sessions)
+9. /locations (53.5% bounce, 19,663 sessions)
+
+WHY THESE MATTER:
+High bounce = users leaving due to poor performance/UX
+Total: 24,233 sessions affected
+
+TO GET REAL CWV METRICS:
+=======================
+
+1. Get API Key (15 minutes):
+   - Go to: https://console.cloud.google.com/apis/credentials
+   - Create project or use existing
+   - Enable "PageSpeed Insights API"
+   - Create API Key
+
+2. Run Audit (10 minutes + API time):
+   cd "/Users/ellebrayton/Crazy Bowls and Wraps"
+   PSI_API_KEY=your_key python3 audit/cwv_audit.py
+
+3. Review Results:
+   - Full CWV metrics in /audit/reports/cwv.md
+   - Mobile + Desktop scores
+   - Specific bottlenecks identified
+   - Actionable recommendations per page
+
+MANUAL AUDIT (No API Key):
+==========================
+
+Audit individual pages in Chrome:
+1. Open page
+2. Press F12 → Lighthouse tab
+3. Click "Analyze page load"
+4. Check: LCP, INP, CLS, TTFB, Score
+5. Compare to targets:
+   - LCP < 2.5s
+   - INP < 200ms
+   - CLS < 0.1
+   - TTFB < 800ms
+   - Score > 50
+
+Start with Priority 1 pages above.
+
+QUESTIONS?
+==========
+
+See:
+- /audit/reports/cwv.md - Full report
+- /audit/PHASE_4_SUMMARY.md - Detailed execution info
+- Google PSI API docs - https://developers.google.com/speed/pagespeed/insights
+

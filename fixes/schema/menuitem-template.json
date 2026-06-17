@@ -1,0 +1,149 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "MenuItem",
+  "name": "[PRODUCT_NAME]",
+  "description": "[PRODUCT_DESCRIPTION_FROM_PAGE]",
+  "url": "[PRODUCT_PAGE_URL]",
+  "image": {
+    "@type": "ImageObject",
+    "url": "[PRODUCT_IMAGE_URL_HTTPS]",
+    "width": 800,
+    "height": 600
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "[SMALL_SIZE_PRICE]",
+      "name": "Regular Size"
+    },
+    {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "[LARGE_SIZE_PRICE]",
+      "name": "Large Size"
+    }
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "[TO_BE_EXTRACTED_FROM_NUTRITION_PAGE_OR_PDF]",
+    "carbohydrateContent": {
+      "@type": "Mass",
+      "unitCode": "GRM",
+      "value": "[GRAMS]"
+    },
+    "proteinContent": {
+      "@type": "Mass",
+      "unitCode": "GRM",
+      "value": "[GRAMS]"
+    },
+    "fatContent": {
+      "@type": "Mass",
+      "unitCode": "GRM",
+      "value": "[GRAMS]"
+    },
+    "saturatedFatContent": {
+      "@type": "Mass",
+      "unitCode": "GRM",
+      "value": "[GRAMS]"
+    },
+    "sodiumContent": {
+      "@type": "Mass",
+      "unitCode": "GRM",
+      "value": "[MILLIGRAMS]"
+    },
+    "fiberContent": {
+      "@type": "Mass",
+      "unitCode": "GRM",
+      "value": "[GRAMS]"
+    },
+    "sugarContent": {
+      "@type": "Mass",
+      "unitCode": "GRM",
+      "value": "[GRAMS]"
+    }
+  },
+  "suitableForDiet": [
+    "[INCLUDE_IF_APPLICABLE: VeganDiet]",
+    "[INCLUDE_IF_APPLICABLE: VegetarianDiet]",
+    "[INCLUDE_IF_APPLICABLE: GlutenFreeDiet]",
+    "[INCLUDE_IF_APPLICABLE: LowCalorieDiet]",
+    "[INCLUDE_IF_APPLICABLE: LowFatDiet]",
+    "[INCLUDE_IF_APPLICABLE: LowLactoseDiet]",
+    "[INCLUDE_IF_APPLICABLE: LowSaltDiet]"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "[TO_BE_FILLED_IF_REVIEW_DATA_EXISTS]",
+    "ratingCount": "[TO_BE_FILLED_IF_REVIEW_DATA_EXISTS]"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "[REVIEWER_NAME]"
+      },
+      "datePublished": "[DATE_PUBLISHED_YYYY-MM-DD]",
+      "description": "[REVIEW_TEXT]",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "[1-5]"
+      }
+    }
+  ],
+  "_INSTRUCTIONS": {
+    "description": "This is a template for individual menu items. Deploy one instance per menu item on the product pages (80+ items).",
+    "required_fields": [
+      "name: Product name (e.g., 'BBQ Bowl')",
+      "url: Absolute URL of product page (canonical URL)",
+      "image.url: HTTPS URL of product image"
+    ],
+    "recommended_fields": [
+      "description: From the product page text",
+      "offers.price: Regular and Large sizes if available",
+      "suitableForDiet: For dietary filters in search results"
+    ],
+    "optional_fields": [
+      "nutrition: Only if nutrition data is available",
+      "aggregateRating: Only if you have review aggregation",
+      "review: Individual reviews (can be multiple)"
+    ],
+    "price_extraction": {
+      "note": "Prices appear in URLs like 'thai-bowl-7-35-8-55' (7.35 small, 8.55 large)",
+      "method": "Parse URL slug for size pricing or extract from product page text",
+      "example_url": "https://crazybowlsandwraps.com/bowls/thai-bowl-7-35-8-55/",
+      "extraction": {
+        "small_price": "7.35",
+        "large_price": "8.55"
+      }
+    },
+    "deployment_strategy": {
+      "option_1": "Hardcode in WordPress template header for each product page",
+      "option_2": "Generate JSON-LD dynamically in PHP from post metadata",
+      "option_3": "Use Yoast SEO or Rank Math to auto-generate from post fields",
+      "option_4": "Inject via JavaScript after page load (less ideal for crawlability)"
+    },
+    "example_filled": {
+      "@type": "MenuItem",
+      "name": "BBQ Bowl",
+      "description": "Grilled chicken with BBQ sauce, rice, black beans, corn, and caramelized onions.",
+      "url": "https://crazybowlsandwraps.com/bowls/bbq-bowl/",
+      "image": {
+        "url": "https://crazybowlsandwraps.com/wp-content/uploads/2023/09/bbq-bowl.jpg"
+      },
+      "offers": [
+        {
+          "priceCurrency": "USD",
+          "price": "7.35",
+          "name": "Regular Size"
+        },
+        {
+          "priceCurrency": "USD",
+          "price": "8.55",
+          "name": "Large Size"
+        }
+      ]
+    }
+  }
+}

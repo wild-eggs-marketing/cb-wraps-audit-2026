@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org/",
+  "@graph": [
+    {
+      "@type": ["LocalBusiness", "Restaurant"],
+      "@id": "https://crazybowlsandwraps.com/locations/#location-1",
+      "name": "Crazy Bowls and Wraps - [LOCATION_NAME]",
+      "description": "Fresh bowls and wraps made to order. Customizable menu with vegetarian and vegan options.",
+      "url": "https://crazybowlsandwraps.com/locations/[LOCATION_SLUG]/",
+      "telephone": "[TO_BE_FILLED_FROM_CMS_PHONE]",
+      "email": "[TO_BE_FILLED_FROM_CMS_EMAIL]",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[TO_BE_FILLED_FROM_CMS]",
+        "addressLocality": "[TO_BE_FILLED_FROM_CMS_CITY]",
+        "addressRegion": "[TO_BE_FILLED_FROM_CMS_STATE]",
+        "postalCode": "[TO_BE_FILLED_FROM_CMS_ZIP]",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "[TO_BE_FILLED_FROM_CMS_LAT]",
+        "longitude": "[TO_BE_FILLED_FROM_CMS_LON]"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "[TO_BE_FILLED_FROM_CMS_LOCATION_IMAGE]",
+        "width": 800,
+        "height": 600
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "[TO_BE_FILLED_FROM_CMS_HH:MM]",
+          "closes": "[TO_BE_FILLED_FROM_CMS_HH:MM]"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday"],
+          "opens": "[TO_BE_FILLED_FROM_CMS_HH:MM]",
+          "closes": "[TO_BE_FILLED_FROM_CMS_HH:MM]"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "[TO_BE_FILLED_FROM_CMS_HH:MM]",
+          "closes": "[TO_BE_FILLED_FROM_CMS_HH:MM]"
+        }
+      ],
+      "servesCuisine": [
+        "Fast Casual",
+        "Healthy",
+        "Vegetarian",
+        "Vegan",
+        "Mexican",
+        "Asian",
+        "Mediterranean"
+      ],
+      "priceRange": "$$",
+      "menu": {
+        "@type": "Menu",
+        "name": "Crazy Bowls and Wraps Menu",
+        "url": "https://crazybowlsandwraps.com/menu/"
+      },
+      "hasMap": "https://www.google.com/maps/search/crazy+bowls+and+wraps+[LOCATION_NAME]",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "[TO_BE_FILLED_IF_REVIEW_DATA_EXISTS]",
+        "reviewCount": "[TO_BE_FILLED_IF_REVIEW_DATA_EXISTS]"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "[TO_BE_FILLED_FROM_CMS_PHONE]",
+        "areaServed": ["[STATE]"]
+      },
+      "parentOrganization": {
+        "@id": "https://crazybowlsandwraps.com/#organization"
+      }
+    }
+  ],
+  "_INSTRUCTIONS": {
+    "description": "This is a template for each location. Duplicate this @graph entry for each physical location and fill in the [TO_BE_FILLED_*] placeholders from your CMS.",
+    "required_fields": [
+      "name (append location name)",
+      "telephone (main location phone)",
+      "address (full street address)",
+      "addressLocality (city name)",
+      "addressRegion (state abbreviation: KY, IN, OH, TN)",
+      "postalCode (ZIP code)",
+      "geo.latitude (decimal degrees)",
+      "geo.longitude (decimal degrees)"
+    ],
+    "optional_fields": [
+      "image (location photo for knowledge panel)",
+      "openingHoursSpecification (breakfast/lunch/dinner times if different by dayOfWeek)",
+      "aggregateRating (if you have Google reviews or other review aggregation)",
+      "email (location-specific email if different from main)"
+    ],
+    "example_filled": {
+      "name": "Crazy Bowls and Wraps - Louisville",
+      "url": "https://crazybowlsandwraps.com/locations/louisville/",
+      "telephone": "+1-502-555-0100",
+      "address": {
+        "streetAddress": "123 Main St",
+        "addressLocality": "Louisville",
+        "addressRegion": "KY",
+        "postalCode": "40202",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "latitude": "38.2527",
+        "longitude": "-85.7585"
+      }
+    }
+  }
+}

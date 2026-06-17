@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org/",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://crazybowlsandwraps.com/#organization-catering",
+      "name": "Crazy Bowls and Wraps - Catering",
+      "description": "Professional catering services for corporate events, private parties, and celebrations across Kentucky, Indiana, Ohio, and Tennessee.",
+      "url": "https://crazybowlsandwraps.com/catering/",
+      "parentOrganization": {
+        "@id": "https://crazybowlsandwraps.com/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "State",
+          "name": "Kentucky"
+        },
+        {
+          "@type": "State",
+          "name": "Indiana"
+        },
+        {
+          "@type": "State",
+          "name": "Ohio"
+        },
+        {
+          "@type": "State",
+          "name": "Tennessee"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Catering Sales",
+          "telephone": "[TO_BE_FILLED_FROM_CMS_CATERING_PHONE]",
+          "email": "[TO_BE_FILLED_FROM_CMS_CATERING_EMAIL]",
+          "areaServed": ["KY", "IN", "OH", "TN"],
+          "availableLanguage": ["en"]
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "telephone": "[TO_BE_FILLED_FROM_CMS_MAIN_PHONE]",
+          "url": "https://crazybowlsandwraps.com/catering/",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "17:00"
+          }
+        }
+      ],
+      "image": {
+        "@type": "ImageObject",
+        "url": "[TO_BE_FILLED_FROM_CMS_CATERING_HERO_IMAGE]"
+      },
+      "priceRange": "[TO_BE_FILLED_FROM_CMS: e.g. $$$]"
+    }
+  ],
+  "_INSTRUCTIONS": {
+    "description": "Catering schema provides structured data for catering inquiries, making it easier for potential customers to find and contact the catering service.",
+    "required_fields": [
+      "name: 'Crazy Bowls and Wraps - Catering'",
+      "url: 'https://crazybowlsandwraps.com/catering/'",
+      "contactPoint.telephone: Main catering phone number",
+      "contactPoint.email: Catering email (may differ from main company email)"
+    ],
+    "optional_fields": [
+      "image: Catering hero image or sample catering spread photo",
+      "areaServed: States where catering is available",
+      "priceRange: Approximate catering cost indicator ($$$ or price per person)",
+      "availableLanguage: Languages for catering consultations"
+    ],
+    "phone_number_format": {
+      "standard": "+1-502-555-0100",
+      "e164": "+15025550100",
+      "note": "Use E.164 format for best compatibility with voice assistants and click-to-call on mobile."
+    },
+    "email_format": "catering@crazybowlsandwraps.com (obfuscated email protection by Cloudflare noted on site; ensure JSON-LD uses plain email for schema parsing)",
+    "impact": {
+      "local_search": "Catering phone number appears prominently in local pack if structured correctly",
+      "voice_search": "Voice assistants can route catering inquiries directly: 'Hey Google, call Crazy Bowls catering'",
+      "knowledge_panel": "May appear in Knowledge Panel for the company with catering contact details",
+      "featured_snippets": "Catering info may appear in 'People also ask' snippets for catering queries"
+    },
+    "deployment_note": "This schema should be added to the /catering/ page via <script type='application/ld+json'> tag in the <head> section."
+  }
+}

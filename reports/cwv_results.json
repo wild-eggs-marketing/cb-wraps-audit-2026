@@ -1,0 +1,164 @@
+[
+  {
+    "path": "/",
+    "full_url": "https://www.crazybowlsandwraps.com/",
+    "sessions": 166277,
+    "engagement_rate": 0.6576,
+    "bounce_rate": 0.3424,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/menu",
+    "full_url": "https://www.crazybowlsandwraps.com/menu",
+    "sessions": 20660,
+    "engagement_rate": 0.6823,
+    "bounce_rate": 0.3177,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/locations",
+    "full_url": "https://www.crazybowlsandwraps.com/locations",
+    "sessions": 19663,
+    "engagement_rate": 0.4647,
+    "bounce_rate": 0.5353,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/nutrition-information",
+    "full_url": "https://www.crazybowlsandwraps.com/nutrition-information",
+    "sessions": 3490,
+    "engagement_rate": 0.3794,
+    "bounce_rate": 0.6205,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/catering",
+    "full_url": "https://www.crazybowlsandwraps.com/catering",
+    "sessions": 1105,
+    "engagement_rate": 0.5936,
+    "bounce_rate": 0.4064,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/choose-your-location",
+    "full_url": "https://www.crazybowlsandwraps.com/choose-your-location",
+    "sessions": 1060,
+    "engagement_rate": 0.9208,
+    "bounce_rate": 0.0792,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/fall-menu",
+    "full_url": "https://www.crazybowlsandwraps.com/fall-menu",
+    "sessions": 595,
+    "engagement_rate": 0.758,
+    "bounce_rate": 0.242,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/loyalty",
+    "full_url": "https://www.crazybowlsandwraps.com/loyalty",
+    "sessions": 257,
+    "engagement_rate": 0.5759,
+    "bounce_rate": 0.4241,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/delivery",
+    "full_url": "https://www.crazybowlsandwraps.com/delivery",
+    "sessions": 209,
+    "engagement_rate": 0.311,
+    "bounce_rate": 0.689,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/bowls/mediterranean-bowl",
+    "full_url": "https://www.crazybowlsandwraps.com/bowls/mediterranean-bowl",
+    "sessions": 179,
+    "engagement_rate": 0.3073,
+    "bounce_rate": 0.6927,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/wraps/caesar-wrap",
+    "full_url": "https://www.crazybowlsandwraps.com/wraps/caesar-wrap",
+    "sessions": 173,
+    "engagement_rate": 0.4046,
+    "bounce_rate": 0.5954,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/wraps/buffalo-wrap",
+    "full_url": "https://www.crazybowlsandwraps.com/wraps/buffalo-wrap",
+    "sessions": 164,
+    "engagement_rate": 0.3659,
+    "bounce_rate": 0.6341,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/bowl_categories/gluten-free",
+    "full_url": "https://www.crazybowlsandwraps.com/bowl_categories/gluten-free",
+    "sessions": 143,
+    "engagement_rate": 0.7832,
+    "bounce_rate": 0.2168,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/bowls/pesto-bowl-7-50-8-50",
+    "full_url": "https://www.crazybowlsandwraps.com/bowls/pesto-bowl-7-50-8-50",
+    "sessions": 136,
+    "engagement_rate": 0.4191,
+    "bounce_rate": 0.5809,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/bowls/fajita-bowl-8-55-9-55",
+    "full_url": "https://www.crazybowlsandwraps.com/bowls/fajita-bowl-8-55-9-55",
+    "sessions": 111,
+    "engagement_rate": 0.3423,
+    "bounce_rate": 0.6577,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/bowls/teriyaki-bowl-7-35-8-55",
+    "full_url": "https://www.crazybowlsandwraps.com/bowls/teriyaki-bowl-7-35-8-55",
+    "sessions": 108,
+    "engagement_rate": 0.3796,
+    "bounce_rate": 0.6204,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/bowls/high-protein-bowl-grain-free-9-50",
+    "full_url": "https://www.crazybowlsandwraps.com/bowls/high-protein-bowl-grain-free-9-50",
+    "sessions": 104,
+    "engagement_rate": 0.6058,
+    "bounce_rate": 0.3942,
+    "mobile": null,
+    "desktop": null
+  },
+  {
+    "path": "/allergen-menu",
+    "full_url": "https://www.crazybowlsandwraps.com/allergen-menu",
+    "sessions": 99,
+    "engagement_rate": 0.9394,
+    "bounce_rate": 0.0606,
+    "mobile": null,
+    "desktop": null
+  }
+]

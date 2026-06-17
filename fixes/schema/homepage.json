@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org/",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://crazybowlsandwraps.com/#organization",
+      "name": "Crazy Bowls and Wraps",
+      "description": "Fast-casual restaurant chain serving fresh, customizable bowls and wraps across Kentucky, Indiana, Ohio, and Tennessee.",
+      "url": "https://crazybowlsandwraps.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://crazybowlsandwraps.com/[PATH_TO_LOGO]",
+        "width": 250,
+        "height": 250
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://crazybowlsandwraps.com/[PATH_TO_HERO_IMAGE]"
+      },
+      "sameAs": [
+        "https://www.facebook.com/crazybowlsandwraps",
+        "https://www.instagram.com/crazybowlsandwraps",
+        "https://www.linkedin.com/company/crazy-bowls-and-wraps"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[TO_BE_FILLED_FROM_CMS_HEADQUARTERS]",
+        "addressLocality": "[TO_BE_FILLED_FROM_CMS]",
+        "addressRegion": "[TO_BE_FILLED_FROM_CMS]",
+        "postalCode": "[TO_BE_FILLED_FROM_CMS]",
+        "addressCountry": "US"
+      },
+      "telephone": "[TO_BE_FILLED_FROM_CMS]",
+      "email": "[TO_BE_FILLED_FROM_CMS]",
+      "foundingDate": "[FOUNDING_YEAR_IF_AVAILABLE]",
+      "areaServed": [
+        {
+          "@type": "State",
+          "name": "Kentucky"
+        },
+        {
+          "@type": "State",
+          "name": "Indiana"
+        },
+        {
+          "@type": "State",
+          "name": "Ohio"
+        },
+        {
+          "@type": "State",
+          "name": "Tennessee"
+        }
+      ],
+      "priceRange": "$$",
+      "servesCuisine": [
+        "Fast Casual",
+        "Healthy",
+        "Customizable",
+        "Vegetarian",
+        "Vegan"
+      ],
+      "parentOrganization": "[PARENT_COMPANY_IF_APPLICABLE]"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://crazybowlsandwraps.com/#website",
+      "url": "https://crazybowlsandwraps.com",
+      "name": "Crazy Bowls and Wraps",
+      "description": "Fresh Food Fast — Customizable bowls and wraps",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://crazybowlsandwraps.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "isPartOf": {
+        "@id": "https://crazybowlsandwraps.com/#organization"
+      }
+    }
+  ]
+}

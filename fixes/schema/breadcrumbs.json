@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://crazybowlsandwraps.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "[PARENT_CATEGORY_NAME]",
+      "item": "[PARENT_CATEGORY_URL]"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "[CURRENT_PAGE_NAME]",
+      "item": "[CURRENT_PAGE_URL]"
+    }
+  ],
+  "_INSTRUCTIONS": {
+    "description": "This BreadcrumbList schema should be added to EVERY page except the homepage. It improves internal link structure, breadcrumb navigation in search results, and user experience.",
+    "required_fields": [
+      "itemListElement: array of ListItem objects in order",
+      "Each ListItem must have @type, position, name, and item (URL)"
+    ],
+    "deployment_strategy": {
+      "approach": "Generate dynamically from page hierarchy on each page",
+      "wordpress_method": "Use template function in functions.php or custom post template",
+      "static_site_method": "Build during site generation from directory structure"
+    },
+    "page_type_examples": {
+      "menu_item_page": {
+        "description": "Product pages like /bowls/bbq-bowl/",
+        "breadcrumb": [
+          {
+            "position": 1,
+            "name": "Home",
+            "item": "https://crazybowlsandwraps.com/"
+          },
+          {
+            "position": 2,
+            "name": "Menu",
+            "item": "https://crazybowlsandwraps.com/menu/"
+          },
+          {
+            "position": 3,
+            "name": "Bowls",
+            "item": "https://crazybowlsandwraps.com/bowls/"
+          },
+          {
+            "position": 4,
+            "name": "BBQ Bowl",
+            "item": "https://crazybowlsandwraps.com/bowls/bbq-bowl/"
+          }
+        ]
+      },
+      "category_page": {
+        "description": "Category pages like /bowl_categories/vegan/",
+        "breadcrumb": [
+          {
+            "position": 1,
+            "name": "Home",
+            "item": "https://crazybowlsandwraps.com/"
+          },
+          {
+            "position": 2,
+            "name": "Menu",
+            "item": "https://crazybowlsandwraps.com/menu/"
+          },
+          {
+            "position": 3,
+            "name": "Bowls",
+            "item": "https://crazybowlsandwraps.com/bowls/"
+          },
+          {
+            "position": 4,
+            "name": "Vegan",
+            "item": "https://crazybowlsandwraps.com/bowl_categories/vegan/"
+          }
+        ]
+      },
+      "non_menu_page": {
+        "description": "Pages like /catering/ or /contact-us/",
+        "breadcrumb": [
+          {
+            "position": 1,
+            "name": "Home",
+            "item": "https://crazybowlsandwraps.com/"
+          },
+          {
+            "position": 2,
+            "name": "Catering",
+            "item": "https://crazybowlsandwraps.com/catering/"
+          }
+        ]
+      }
+    },
+    "implementation_checklist": [
+      "Generate breadcrumb for EVERY non-homepage page",
+      "Ensure position attribute is sequential (1, 2, 3...)",
+      "Use canonical URLs (no query strings or fragments)",
+      "Match breadcrumb text with visible page title",
+      "Test with Google Rich Results Test tool",
+      "Verify all URLs are absolute (https://...)",
+      "Check that breadcrumb path matches actual navigation structure"
+    ],
+    "rich_snippet_benefit": "Google will display breadcrumb navigation in search results, improving click-through rate and user experience."
+  }
+}

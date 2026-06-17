@@ -1,0 +1,57 @@
+
+Website Audit: Phase 2 Crawl Summary
+=====================================
+Date: 2026-06-15T16:22:59.401204
+Domain: crazybowlsandwraps.com
+
+CRAWL STATISTICS
+================
+Total pages crawled: 126
+Total unique URLs discovered: 126
+Total internal links found: 495
+
+HTTP STATUS DISTRIBUTION
+=========================
+         200 :  125 pages ( 99.2%)
+         404 :    1 pages (  0.8%)
+
+CANONICAL TAGS
+===============
+Self-referential: 97 pages
+External links: 1 pages
+Missing canonical: 28 pages
+
+IMAGE ALT TEXT COVERAGE
+========================
+Total images found: 362
+Images with alt text: 226
+Coverage: 62.4%
+
+STRUCTURED DATA (JSON-LD)
+==========================
+Pages with schema markup: 0 (0.0%)
+Total schema blocks found: 0
+
+PAGE METRICS (averages)
+========================
+Avg word count: 59
+Avg H1 tags: 0.9
+Avg load time: 259ms
+
+LINK GRAPH STATS
+=================
+Nodes (unique URLs): 126
+Edges (internal links): 495
+
+GA4 CROSS-REFERENCE
+====================
+Pages matched to GA4 data: 0
+Pages with zero traffic: 125
+
+NOTES
+======
+- Crawler respects robots.txt (10 second crawl delay)
+- Timeout threshold: 30s
+- Request delay: 0.3s
+- Only HTML pages included in analysis
+- Crawl started from XML sitemap data

@@ -1,0 +1,261 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Menu",
+  "name": "Crazy Bowls and Wraps Full Menu",
+  "description": "Customizable bowls and wraps with fresh ingredients, vegetarian and vegan options, and dietary accommodations.",
+  "url": "https://crazybowlsandwraps.com/menu/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://crazybowlsandwraps.com/[PATH_TO_MENU_IMAGE]"
+  },
+  "hasMenuSection": [
+    {
+      "@type": "MenuSection",
+      "name": "Breakfast",
+      "description": "Breakfast bowls, burritos, wraps, and omelets available 7am-11am daily.",
+      "url": "https://crazybowlsandwraps.com/breakfast/",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Breakfast Bowl",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/breakfast/breakfast-bowl/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Bowls",
+      "description": "Signature and customizable bowls featuring proteins, vegetables, grains, and sauces.",
+      "url": "https://crazybowlsandwraps.com/bowls/",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "BBQ Bowl",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/bowls/bbq-bowl/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Thai Bowl",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/bowls/thai-bowl-7-35-8-55/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mediterranean Bowl",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/bowls/mediterranean-bowl/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Power Bowl",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/bowls/power-bowl-7-55-8-80/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Buffalo Bowl",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/bowls/buffalo-bowl/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Wraps",
+      "description": "Fresh wraps filled with proteins, vegetables, and signature sauces.",
+      "url": "https://crazybowlsandwraps.com/wraps/",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Caesar Wrap",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/wraps/caesar-wrap/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Buffalo Wrap",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/wraps/buffalo-wrap/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Thai Wrap",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/wraps/thai-wrap/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Pesto Wrap",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/wraps/pesto-wrap/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Salads",
+      "description": "Fresh salads with customizable toppings and dressings.",
+      "url": "https://crazybowlsandwraps.com/salads/",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Santa Fe Salad",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/salads/santa-fe-salad/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Starters",
+      "description": "Appetizers and sides to share or enjoy on their own.",
+      "url": "https://crazybowlsandwraps.com/starters/",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Crispy Chicken Bites",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/starters/crispy-chicken-bites/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Dessert",
+      "description": "Sweet treats to finish your meal.",
+      "url": "https://crazybowlsandwraps.com/dessert/",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Crazy Crispy Treat - Chocolate",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/dessert/crazy-crispy-treat-chocolate/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Kids Menu",
+      "description": "Smaller portions and kid-friendly options.",
+      "url": "https://crazybowlsandwraps.com/kids-menu/",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Kids' Cheese Quesadilla",
+          "description": "[TO_BE_EXTRACTED_FROM_PRODUCT_PAGE]",
+          "url": "https://crazybowlsandwraps.com/kids_menu/cheese-quesadilla/",
+          "image": "https://crazybowlsandwraps.com/[PATH_TO_IMAGE]",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "[TO_BE_EXTRACTED_OR_FILLED]"
+          }
+        }
+      ]
+    }
+  ],
+  "_INSTRUCTIONS": {
+    "description": "This Menu schema links all menu sections and menu items together. Duplicate and expand MenuSection for each category, adding all MenuItems from the site.",
+    "key_fields": [
+      "hasMenuSection: array of MenuSection objects",
+      "Each MenuSection has hasMenuItem: array of MenuItem objects",
+      "Each MenuItem must have name, url, offers.price"
+    ],
+    "optional_fields": [
+      "MenuItem.nutrition (if available)",
+      "MenuItem.aggregateRating (if reviews available)",
+      "MenuItem.suitableForDiet (e.g., 'VeganDiet', 'GlutenFreeDiet')"
+    ],
+    "extraction_note": "Menu sections and items should be generated programmatically from your WordPress database or CMS to ensure completeness and avoid manual errors. Sample items provided above as template.",
+    "count_by_section": {
+      "Breakfast": "[EXTRACT_FROM_CMS]",
+      "Bowls": "[EXTRACT_FROM_CMS: 15-20 items typical]",
+      "Wraps": "[EXTRACT_FROM_CMS: 10-15 items typical]",
+      "Salads": "[EXTRACT_FROM_CMS: 3-5 items]",
+      "Starters": "[EXTRACT_FROM_CMS: 8-10 items]",
+      "Sides": "[EXTRACT_FROM_CMS: 5-8 items]",
+      "Dessert": "[EXTRACT_FROM_CMS: 2-3 items]",
+      "Kids Menu": "[EXTRACT_FROM_CMS: 5-7 items]"
+    }
+  }
+}
