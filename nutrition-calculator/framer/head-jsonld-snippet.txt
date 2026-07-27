@@ -1,0 +1,438 @@
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "Crazy Bowls & Wraps Nutrition Calculator",
+    "url": "https://www.crazybowlsandwraps.com/nutrition-calculator",
+    "hasMenuItem": [
+      {
+        "@type": "MenuItem",
+        "name": "Stir Fry Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "530 calories",
+          "proteinContent": "40 g",
+          "carbohydrateContent": "83 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Sweet & Sour Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "560 calories",
+          "proteinContent": "35 g",
+          "carbohydrateContent": "85 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Teriyaki Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "650 calories",
+          "proteinContent": "41 g",
+          "carbohydrateContent": "110 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Thai Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "710 calories",
+          "proteinContent": "45 g",
+          "carbohydrateContent": "97 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "High-Protein Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "380 calories",
+          "proteinContent": "62 g",
+          "carbohydrateContent": "23 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Jerk Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "770 calories",
+          "proteinContent": "47 g",
+          "carbohydrateContent": "96 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Fajita Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "710 calories",
+          "proteinContent": "43 g",
+          "carbohydrateContent": "98 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Poke Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "410 calories",
+          "proteinContent": "34 g",
+          "carbohydrateContent": "38 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Power Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "680 calories",
+          "proteinContent": "42 g",
+          "carbohydrateContent": "92 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mediterranean Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "900 calories",
+          "proteinContent": "44 g",
+          "carbohydrateContent": "81 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "BBQ Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "410 calories",
+          "proteinContent": "33 g",
+          "carbohydrateContent": "50 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Buffalo Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "320 calories",
+          "proteinContent": "34 g",
+          "carbohydrateContent": "24 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Caesar Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "480 calories",
+          "proteinContent": "34 g",
+          "carbohydrateContent": "26 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Pesto Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "670 calories",
+          "proteinContent": "46 g",
+          "carbohydrateContent": "71 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Jerk Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "560 calories",
+          "proteinContent": "42 g",
+          "carbohydrateContent": "50 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "BBQ Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "410 calories",
+          "proteinContent": "33 g",
+          "carbohydrateContent": "50 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Buffalo Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "320 calories",
+          "proteinContent": "34 g",
+          "carbohydrateContent": "24 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mediterranean Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "530 calories",
+          "proteinContent": "38 g",
+          "carbohydrateContent": "38 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Power Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "430 calories",
+          "proteinContent": "36 g",
+          "carbohydrateContent": "39 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Crispy Chicken Bites",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "440 calories",
+          "proteinContent": "44 g",
+          "carbohydrateContent": "11 g"
+        }
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Garlic Ginger Edamame",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "340 calories",
+          "proteinContent": "25 g",
+          "carbohydrateContent": "24 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Salt & Lime Edamame",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "240 calories",
+          "proteinContent": "20 g",
+          "carbohydrateContent": "24 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Spicy Edamame",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "250 calories",
+          "proteinContent": "21 g",
+          "carbohydrateContent": "22 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "GF Quinoa Falafel",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "390 calories",
+          "proteinContent": "12 g",
+          "carbohydrateContent": "37 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Carrots",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "80 calories",
+          "proteinContent": "1 g",
+          "carbohydrateContent": "9 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Broccoli with Olive Oil & Herb",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "210 calories",
+          "proteinContent": "2 g",
+          "carbohydrateContent": "5 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Mixed Veggies",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "50 calories",
+          "proteinContent": "3 g",
+          "carbohydrateContent": "12 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Banana",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "105 calories",
+          "proteinContent": "1 g",
+          "carbohydrateContent": "27 g"
+        },
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does Crazy Bowls & Wraps have gluten-free options?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Several bowls are made without gluten-containing ingredients — the Stir Fry Bowl, Sweet & Sour Bowl, Thai Bowl, Poke Bowl, Fajita Bowl, Power Bowl, Mediterranean Bowl, Pesto Bowl, Jerk Bowl and High-Protein Bowl — along with our GF Quinoa Falafel and all four edamame starters. 8 of our 9 flavors (BBQ, Buffalo, Caesar, Jerk, Mediterranean, Pesto, Power and Thai) can also be ordered as a Lettuce Wrap instead of a tortilla; Teriyaki is the one exception, because its teriyaki sauce contains wheat even without the tortilla. Because we cook in a shared kitchen we can't guarantee any item is free from gluten cross-contact, so we don't label items certified gluten-free — if you have celiac disease, please talk to our staff before ordering."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Crazy Bowls & Wraps have a gluten-free tortilla or wrap?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — our Flour, Tomato and Whole Wheat tortillas all contain wheat, so there is no gluten-free tortilla. For a wrap without gluten-containing ingredients, order any flavor except Teriyaki as a Lettuce Wrap, which uses romaine leaves instead of a tortilla."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What dairy-free options does Crazy Bowls & Wraps have?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Confirmed dairy-free bowls include the Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Thai Bowl, High-Protein Bowl and Poke Bowl. All four edamame starters — Garlic Ginger, Salt & Lime, Spicy and Teriyaki — are dairy-free, as are the Carrots, Broccoli with Olive Oil & Herb and Mixed Veggies sides. Use the Dairy-Free filter in our Nutrition Calculator to check any specific item, and tell our staff if you have a dairy allergy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a vegan menu at Crazy Bowls & Wraps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every bowl and wrap is built to order and comes with grilled chicken as the default protein, so our bowls are not vegan as listed — they become vegan when you swap the protein to Tofu or Plant Based Chicken. Items that are fully plant-based exactly as served: Garlic Ginger Edamame, Salt & Lime Edamame, Spicy Edamame, Carrots with Olive Oil & Herb, Broccoli with Olive Oil & Herb, Mixed Veggies and a Banana."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I make a Crazy Bowls & Wraps bowl vegan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Ask for Tofu or Plant Based Chicken instead of the default grilled chicken. The Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Bean & Veggie Bowl and High-Protein Bowl contain no dairy, egg or honey in their other ingredients, so swapping the protein makes them fully plant-based. A few bowls can't be made vegan by a protein swap alone: the Fajita Bowl and Power Bowl include cheese, and the Thai Bowl's peanut sauce contains honey — ask us to leave those out."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the best high-protein, lower-calorie options at Crazy Bowls & Wraps — good for GLP-1 or weight-management diets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our High-Protein Bowl has 62g of protein at 380 calories, the highest protein-to-calorie ratio on the menu. Other protein-forward, portion-conscious picks under 650 calories include the Buffalo Bowl, Caesar Bowl, Poke Bowl and BBQ Bowl (all 33g+ protein), most of our Wraps, the Crispy Chicken Bites starter, and Garlic Ginger Edamame at 25g protein. These are macro-based picks, not medical advice — if you're managing your diet around a GLP-1 medication or another weight-management plan, check with your doctor or dietitian about what fits your needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are the nutrition values in the Crazy Bowls & Wraps Nutrition Calculator accurate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Values come from our official nutrition analysis and are estimated on our standard serving portions, so expect about 10% variance depending on how an item is prepared that day. Every bowl and wrap is shown as served with brown rice and grilled chicken — changing the protein, base, sauce or tortilla changes the numbers. Allergen information reflects ingredients on file; because we prepare food in a shared kitchen we can't guarantee any item is completely free of a given allergen. Please tell our staff about any allergy before ordering."
+        }
+      }
+    ]
+  }
+]
+</script>
