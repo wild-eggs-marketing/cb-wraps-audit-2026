@@ -1,0 +1,68 @@
+Item	Dietary Tags	Reason
+BBQ Bowl	—	no ingredient statement — left untagged (fail closed)
+Buffalo Bowl	—	no ingredient statement — left untagged (fail closed)
+Caesar Bowl	—	no ingredient statement — left untagged (fail closed)
+Jerk Bowl	vegetarian-without-chicken, gluten-free	contains honey, yogurt, cheese plus the default Grilled Chicken
+Fajita Bowl	vegetarian-without-chicken, gluten-free	contains cheese plus the default Grilled Chicken
+High-Protein Bowl	vegan-without-chicken, vegetarian-without-chicken, gluten-free, dairy-free	only animal ingredient is the default Grilled Chicken
+Pesto Bowl	vegetarian-without-chicken, gluten-free	contains yogurt, cheese, milk plus the default Grilled Chicken
+Poke Bowl	—	contains tuna, honey
+Power Bowl	vegetarian-without-chicken, gluten-free	contains cheese plus the default Grilled Chicken
+Stir Fry Bowl	vegan-without-chicken, vegetarian-without-chicken, gluten-free, dairy-free	only animal ingredient is the default Grilled Chicken
+Sweet & Sour Bowl	vegan-without-chicken, vegetarian-without-chicken, gluten-free, dairy-free	only animal ingredient is the default Grilled Chicken
+Teriyaki Bowl	vegan-without-chicken, vegetarian-without-chicken, dairy-free	only animal ingredient is the default Grilled Chicken
+Thai Bowl	vegetarian-without-chicken, gluten-free, dairy-free	contains honey plus the default Grilled Chicken
+Mediterranean Bowl	vegetarian-without-chicken, gluten-free	contains yogurt, milk, cheese plus the default Grilled Chicken
+Fruit Bowl	—	no ingredient statement — left untagged (fail closed)
+Jerk Wrap	vegetarian-without-chicken	contains honey, yogurt, cheese plus the default Grilled Chicken
+BBQ Wrap	vegetarian-without-chicken	contains honey, cheese plus the default Grilled Chicken
+Buffalo Wrap	vegetarian-without-chicken	contains yogurt, cheese plus the default Grilled Chicken
+Caesar Wrap	—	contains cheese, milk, egg, anchovy
+Mediterranean Wrap	vegetarian-without-chicken	contains yogurt, milk, cheese plus the default Grilled Chicken
+Pesto Wrap	vegetarian-without-chicken	contains yogurt, cheese, milk plus the default Grilled Chicken
+Teriyaki Wrap	vegan-without-chicken, vegetarian-without-chicken, dairy-free	only animal ingredient is the default Grilled Chicken
+Thai Wrap	vegetarian-without-chicken, dairy-free	contains honey plus the default Grilled Chicken
+Breakfast Bowl	vegetarian, gluten-free	contains eggs, cheese
+Breakfast Crunch	—	no ingredient statement — left untagged (fail closed)
+Breakfast Tacos	—	no ingredient statement — left untagged (fail closed)
+Breakfast Wrap	vegetarian	contains eggs, cheese
+Spinach Breakfast Bowl	—	no ingredient statement — left untagged (fail closed)
+Beans & Rice	vegetarian, gluten-free	contains cheese
+Beans	—	no ingredient statement — left untagged (fail closed)
+Carrots	vegan, vegetarian, gluten-free, dairy-free	no animal ingredients
+Chips	vegan, vegetarian, dairy-free	no animal ingredients
+Queso	—	no ingredient statement — left untagged (fail closed)
+Carrots & Ranch	—	no ingredient statement — left untagged (fail closed)
+Chips & Queso	—	no ingredient statement — left untagged (fail closed)
+Kids Bowl	—	no ingredient statement — left untagged (fail closed)
+Kids Chicken Bowl	—	no ingredient statement — left untagged (fail closed)
+Power Wrap	vegetarian-without-chicken	contains cheese plus the default Grilled Chicken
+Tacos	—	no ingredient statement — left untagged (fail closed)
+Chicken Tex Mex Egg Roll	—	chicken is the product, not a swappable default
+Tostada Starter	—	no ingredient statement — left untagged (fail closed)
+BBQ Quesadilla	—	chicken is the product, not a swappable default
+Roasted Cauliflower	vegetarian, gluten-free	contains yogurt, milk
+GF Quinoa Falafel	vegetarian, gluten-free	contains yogurt, milk
+Garlic Ginger Edamame	vegan, vegetarian, gluten-free, dairy-free	no animal ingredients
+Salt & Lime Edamame	vegan, vegetarian, gluten-free, dairy-free	no animal ingredients
+Teriyaki Edamame	vegan, vegetarian, dairy-free	no animal ingredients
+Spicy Edamame	vegan, vegetarian, gluten-free, dairy-free	no animal ingredients
+Crispy Chicken Bites	—	chicken is the product, not a swappable default
+Original Crispy Treat	—	no ingredient statement — left untagged (fail closed)
+Chocolate Crispy Treat	—	no ingredient statement — left untagged (fail closed)
+Side of Quinoa	—	no ingredient statement — left untagged (fail closed)
+Kid's Crunchy Chicken Meal	—	chicken is the product, not a swappable default
+Kid's Chicken Wrap	—	no ingredient statement — left untagged (fail closed)
+Kid's Cheese Quesadilla	vegetarian	contains cheese
+Vegetable Wontons	vegan, vegetarian, dairy-free	no animal ingredients
+Broccoli with Olive Oil & Herb	vegan, vegetarian, gluten-free, dairy-free	no animal ingredients
+Mixed Veggies	vegan, vegetarian, gluten-free, dairy-free	no animal ingredients
+Spicy Slaw	vegetarian, gluten-free, dairy-free	contains honey
+Healthy Burrito	vegetarian, dairy-free	contains eggs
+Kids Broccoli & Chicken Bowl	—	chicken is the product, not a swappable default
+Kids Chicken Teriyaki Wrap	—	chicken is the product, not a swappable default
+Huevos Rancheros	—	no ingredient statement — left untagged (fail closed)
+Fruit Cup	—	no ingredient statement — left untagged (fail closed)
+Banana	vegan, vegetarian, gluten-free, dairy-free	single whole food — the item name is the complete ingredient list
+Lobster Rangoon	—	contains lobster
+Lettuce Wraps	—	no ingredient statement — left untagged (fail closed)

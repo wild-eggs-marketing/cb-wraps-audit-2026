@@ -1,5 +1,5 @@
 const fs=require('fs')
-const src=fs.readFileSync(require('path').join(__dirname,'..','worker','worker_v4_final.js'),'utf8')
+const src=fs.readFileSync(require('path').join(__dirname,'..','worker','worker_v5.js'),'utf8')
 const i=src.indexOf('const MENU_DATA = ')
 const start=src.indexOf('[', i)
 // find matching close bracket
@@ -17,8 +17,8 @@ const dietFromCms=(i,...a)=>{ if(!i.dietaryTags) return null; const t=cmsDietTag
 const hasAllergen=(i,words)=>{const hay=norm(i.allergens); if(!hay) return false; return words.some(w=>hay.includes(w))}
 const hasAllergenData=i=>{const a=norm(i.allergens).trim(); return a!==''&&a!=='unconfirmed'}
 const T={
- "Vegetarian": i=>dietFromCms(i,"vegetarian","vegan") ?? false,
- "Vegan": i=>dietFromCms(i,"vegan") ?? false,
+ "Vegetarian": i=>dietFromCms(i,"vegetarian","vegan","vegetarian-without-chicken","vegan-without-chicken") ?? false,
+ "Vegan": i=>dietFromCms(i,"vegan","vegan-without-chicken") ?? false,
  "Gluten-Free": i=>dietFromCms(i,"gluten-free","gluten free") ?? (hasAllergenData(i)&&!hasAllergen(i,["wheat"])),
  "Dairy-Free": i=>dietFromCms(i,"dairy-free","dairy free","low-lactose","low lactose","vegan") ?? (hasAllergenData(i)&&!hasAllergen(i,["milk"])),
  "High Protein": i=>(i.protein||0)>=25,

@@ -8,6 +8,88 @@
     "hasMenuItem": [
       {
         "@type": "MenuItem",
+        "name": "Jerk Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "770 calories",
+          "proteinContent": "47 g",
+          "carbohydrateContent": "96 g"
+        },
+        "description": "Caribbean-inspired jerk seasoned chicken over a base of your choice, topped with fresh vegetables and house sauces.",
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Fajita Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "710 calories",
+          "proteinContent": "43 g",
+          "carbohydrateContent": "98 g"
+        },
+        "description": "Red pepper, zucchini, pico de gallo, roasted jalapeño, cheddar, avocado, and beans with jalapeño-cilantro sauce. Served with a warm tortilla or chips. Small $8.55 / Regular $9.55.",
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "High-Protein Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "380 calories",
+          "proteinContent": "62 g",
+          "carbohydrateContent": "23 g"
+        },
+        "description": "Steamed mixed veggies with double protein, no grain. Choose from regular teriyaki, spicy teriyaki, basil pesto, Thai peanut, olive oil and herb, or garlic ginger sauce. $9.50.",
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Pesto Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "670 calories",
+          "proteinContent": "46 g",
+          "carbohydrateContent": "71 g"
+        },
+        "description": "Spinach, red pepper, zucchini, and asiago stir-fried in house made creamy nut-free basil pesto sauce. Small $7.25 / Regular $8.25.",
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Poke Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "410 calories",
+          "proteinContent": "34 g",
+          "carbohydrateContent": "38 g"
+        },
+        "description": "Fresh tuna mixed with gluten-free garlic ginger sauce, onion, tomato, and cucumber, topped with avocado and gomo shio on shredded romaine. Served with choice of grain, house made spicy slaw, chips, and sriracha."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Power Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "680 calories",
+          "proteinContent": "42 g",
+          "carbohydrateContent": "92 g"
+        },
+        "description": "Romaine, beans, cheddar, avocado, pico de gallo, and corn salsa. Small $7.35 / Regular $8.55.",
+        "suitableForDiet": [
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
         "name": "Stir Fry Bowl",
         "nutrition": {
           "@type": "NutritionInformation",
@@ -15,6 +97,7 @@
           "proteinContent": "40 g",
           "carbohydrateContent": "83 g"
         },
+        "description": "Steamed mixed veggies stir-fried in your choice of regular teriyaki, spicy teriyaki, Thai peanut sauce, or olive oil and herb. Small $6.95 / Regular $8.15.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
@@ -29,6 +112,7 @@
           "proteinContent": "35 g",
           "carbohydrateContent": "85 g"
         },
+        "description": "Red pepper and onion stir-fried in sweet and sour sauce. Small $7.65 / Regular $8.85.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
@@ -43,6 +127,7 @@
           "proteinContent": "41 g",
           "carbohydrateContent": "110 g"
         },
+        "description": "Steamed mixed veggies with your choice of regular or spicy teriyaki. Small $6.95 / Regular $8.15.",
         "suitableForDiet": [
           "https://schema.org/LowLactoseDiet"
         ]
@@ -56,76 +141,10 @@
           "proteinContent": "45 g",
           "carbohydrateContent": "97 g"
         },
+        "description": "Steamed mixed veggies with house made gluten-free Thai peanut sauce. Small $6.95 / Regular $8.15.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
-        ]
-      },
-      {
-        "@type": "MenuItem",
-        "name": "High-Protein Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "380 calories",
-          "proteinContent": "62 g",
-          "carbohydrateContent": "23 g"
-        },
-        "suitableForDiet": [
-          "https://schema.org/GlutenFreeDiet",
-          "https://schema.org/LowLactoseDiet"
-        ]
-      },
-      {
-        "@type": "MenuItem",
-        "name": "Jerk Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "770 calories",
-          "proteinContent": "47 g",
-          "carbohydrateContent": "96 g"
-        },
-        "suitableForDiet": [
-          "https://schema.org/GlutenFreeDiet"
-        ]
-      },
-      {
-        "@type": "MenuItem",
-        "name": "Fajita Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "710 calories",
-          "proteinContent": "43 g",
-          "carbohydrateContent": "98 g"
-        },
-        "suitableForDiet": [
-          "https://schema.org/GlutenFreeDiet"
-        ]
-      },
-      {
-        "@type": "MenuItem",
-        "name": "Poke Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "410 calories",
-          "proteinContent": "34 g",
-          "carbohydrateContent": "38 g"
-        },
-        "suitableForDiet": [
-          "https://schema.org/GlutenFreeDiet",
-          "https://schema.org/LowLactoseDiet"
-        ]
-      },
-      {
-        "@type": "MenuItem",
-        "name": "Power Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "680 calories",
-          "proteinContent": "42 g",
-          "carbohydrateContent": "92 g"
-        },
-        "suitableForDiet": [
-          "https://schema.org/GlutenFreeDiet"
         ]
       },
       {
@@ -137,49 +156,7 @@
           "proteinContent": "44 g",
           "carbohydrateContent": "81 g"
         },
-        "suitableForDiet": [
-          "https://schema.org/GlutenFreeDiet"
-        ]
-      },
-      {
-        "@type": "MenuItem",
-        "name": "BBQ Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "410 calories",
-          "proteinContent": "33 g",
-          "carbohydrateContent": "50 g"
-        }
-      },
-      {
-        "@type": "MenuItem",
-        "name": "Buffalo Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "320 calories",
-          "proteinContent": "34 g",
-          "carbohydrateContent": "24 g"
-        }
-      },
-      {
-        "@type": "MenuItem",
-        "name": "Caesar Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "480 calories",
-          "proteinContent": "34 g",
-          "carbohydrateContent": "26 g"
-        }
-      },
-      {
-        "@type": "MenuItem",
-        "name": "Pesto Bowl",
-        "nutrition": {
-          "@type": "NutritionInformation",
-          "calories": "670 calories",
-          "proteinContent": "46 g",
-          "carbohydrateContent": "71 g"
-        },
+        "description": "Sun-drenched Mediterranean flavors — falafel or grilled chicken, hummus, tabbouleh, olives, and tzatziki.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet"
         ]
@@ -192,7 +169,8 @@
           "calories": "560 calories",
           "proteinContent": "42 g",
           "carbohydrateContent": "50 g"
-        }
+        },
+        "description": "Our Caribbean jerk chicken wrapped tight with fresh veggies and pineapple salsa in a warm flour tortilla."
       },
       {
         "@type": "MenuItem",
@@ -202,7 +180,8 @@
           "calories": "410 calories",
           "proteinContent": "33 g",
           "carbohydrateContent": "50 g"
-        }
+        },
+        "description": "Romaine, spicy slaw, and cheddar with BBQ sauce. Choose whole wheat, tomato, or flour tortilla."
       },
       {
         "@type": "MenuItem",
@@ -212,7 +191,19 @@
           "calories": "320 calories",
           "proteinContent": "34 g",
           "carbohydrateContent": "24 g"
-        }
+        },
+        "description": "Romaine, cheddar cheese, and house made creamy buffalo sauce. Choose whole wheat, tomato, or flour tortilla. $8.95."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Caesar Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "480 calories",
+          "proteinContent": "34 g",
+          "carbohydrateContent": "26 g"
+        },
+        "description": "Romaine and asiago with caesar dressing. Choose whole wheat, tomato, or flour tortilla."
       },
       {
         "@type": "MenuItem",
@@ -222,7 +213,124 @@
           "calories": "530 calories",
           "proteinContent": "38 g",
           "carbohydrateContent": "38 g"
-        }
+        },
+        "description": "House made hummus, romaine, sun-dried tomatoes, Kalamata olives, feta, and tzatziki. Choose whole wheat, tomato, or flour tortilla. $8.95."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Pesto Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "390 calories",
+          "proteinContent": "37 g",
+          "carbohydrateContent": "27 g"
+        },
+        "description": "Spinach, asiago, red pepper, and zucchini stir-fried in a creamy nut-free basil pesto sauce. Choose whole wheat, tomato, or flour tortilla."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Teriyaki Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "400 calories",
+          "proteinContent": "34 g",
+          "carbohydrateContent": "56 g"
+        },
+        "description": "Steamed mixed veggies with house made teriyaki sauce. Choose whole wheat, tomato, or flour tortilla. $8.95.",
+        "suitableForDiet": [
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Thai Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "500 calories",
+          "proteinContent": "38 g",
+          "carbohydrateContent": "43 g"
+        },
+        "description": "Spicy slaw and spinach with house made gluten-free Thai peanut sauce. Choose whole wheat, tomato, or flour tortilla. $8.95.",
+        "suitableForDiet": [
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Breakfast Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "280 calories",
+          "proteinContent": "23 g",
+          "carbohydrateContent": "1 g"
+        },
+        "description": "Fresh cracked eggs topped with cheddar cheese and your choice of grain, protein, and salsa. Tortilla on the side.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Breakfast Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "280 calories",
+          "proteinContent": "23 g",
+          "carbohydrateContent": "1 g"
+        },
+        "description": "Fresh cracked eggs and cheddar cheese wrapped with your choice of grain, protein, and salsa.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Beans & Rice",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "170 calories",
+          "proteinContent": "6 g",
+          "carbohydrateContent": "29 g"
+        },
+        "description": "Seasoned black or pinto beans with steamed rice. $1.95.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Carrots",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "80 calories",
+          "proteinContent": "0 g",
+          "carbohydrateContent": "9 g"
+        },
+        "description": "Fresh-cut carrots. $1.95.",
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Chips",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "180 calories",
+          "proteinContent": "2 g",
+          "carbohydrateContent": "18 g"
+        },
+        "description": "House-seasoned tortilla chips, lightly salted and perfectly crunchy.",
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
       },
       {
         "@type": "MenuItem",
@@ -232,17 +340,60 @@
           "calories": "430 calories",
           "proteinContent": "36 g",
           "carbohydrateContent": "39 g"
-        }
+        },
+        "description": "Beans, romaine, cheddar, corn salsa, avocado, and pico de gallo. Choose whole wheat, tomato, or flour tortilla."
       },
       {
         "@type": "MenuItem",
-        "name": "Crispy Chicken Bites",
+        "name": "Chicken Tex Mex Egg Roll",
         "nutrition": {
           "@type": "NutritionInformation",
-          "calories": "440 calories",
-          "proteinContent": "44 g",
-          "carbohydrateContent": "11 g"
-        }
+          "calories": "270 calories",
+          "proteinContent": "9 g",
+          "carbohydrateContent": "21 g"
+        },
+        "description": "Crispy Chicken Tex Mex egg roll served with house made creamy buffalo sauce."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "BBQ Quesadilla",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "690 calories",
+          "proteinContent": "50 g",
+          "carbohydrateContent": "70 g"
+        },
+        "description": "Grilled chicken, cheddar, and BBQ sauce in a crispy quesadilla."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Roasted Cauliflower",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "570 calories",
+          "proteinContent": "8 g",
+          "carbohydrateContent": "19 g"
+        },
+        "description": "Roasted cauliflower topped with sun dried tomatoes, feta, and gomo shio. Served with gluten-free tahini.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "GF Quinoa Falafel",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "390 calories",
+          "proteinContent": "12 g",
+          "carbohydrateContent": "37 g"
+        },
+        "description": "Gluten-free quinoa falafel served with hummus and tzatziki for dipping.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet"
+        ]
       },
       {
         "@type": "MenuItem",
@@ -253,6 +404,7 @@
           "proteinContent": "25 g",
           "carbohydrateContent": "24 g"
         },
+        "description": "Steamed edamame topped with gluten-free garlic ginger sauce, gomo shio, and a lime wedge.",
         "suitableForDiet": [
           "https://schema.org/VeganDiet",
           "https://schema.org/VegetarianDiet",
@@ -269,10 +421,27 @@
           "proteinContent": "20 g",
           "carbohydrateContent": "24 g"
         },
+        "description": "Steamed edamame with fresh squeezed lime juice, herb salt, gomo shio, and a lime wedge.",
         "suitableForDiet": [
           "https://schema.org/VeganDiet",
           "https://schema.org/VegetarianDiet",
           "https://schema.org/GlutenFreeDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Teriyaki Edamame",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "390 calories",
+          "proteinContent": "22 g",
+          "carbohydrateContent": "56 g"
+        },
+        "description": "Steamed edamame topped with teriyaki sauce, gomo shio, and a lime wedge.",
+        "suitableForDiet": [
+          "https://schema.org/VeganDiet",
+          "https://schema.org/VegetarianDiet",
           "https://schema.org/LowLactoseDiet"
         ]
       },
@@ -285,6 +454,7 @@
           "proteinContent": "21 g",
           "carbohydrateContent": "22 g"
         },
+        "description": "Steamed edamame topped with jalapeño cilantro sauce, gomo shio, and a lime wedge.",
         "suitableForDiet": [
           "https://schema.org/VeganDiet",
           "https://schema.org/VegetarianDiet",
@@ -294,31 +464,52 @@
       },
       {
         "@type": "MenuItem",
-        "name": "GF Quinoa Falafel",
+        "name": "Crispy Chicken Bites",
         "nutrition": {
           "@type": "NutritionInformation",
-          "calories": "390 calories",
-          "proteinContent": "12 g",
-          "carbohydrateContent": "37 g"
+          "calories": "440 calories",
+          "proteinContent": "44 g",
+          "carbohydrateContent": "11 g"
         },
+        "description": "Crispy chicken bites served with your choice of 2 dipping sauces."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kid's Crunchy Chicken Meal",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "310 calories",
+          "proteinContent": "30 g",
+          "carbohydrateContent": "8 g"
+        },
+        "description": "Crispy crunchy chicken served with a side of carrots and ranch. $9.55."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kid's Cheese Quesadilla",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "370 calories",
+          "proteinContent": "15 g",
+          "carbohydrateContent": "47 g"
+        },
+        "description": "Cheesy quesadilla served with a side of carrots and ranch. $8.35.",
         "suitableForDiet": [
-          "https://schema.org/VegetarianDiet",
-          "https://schema.org/GlutenFreeDiet"
+          "https://schema.org/VegetarianDiet"
         ]
       },
       {
         "@type": "MenuItem",
-        "name": "Carrots",
+        "name": "Vegetable Wontons",
         "nutrition": {
           "@type": "NutritionInformation",
-          "calories": "80 calories",
-          "proteinContent": "1 g",
-          "carbohydrateContent": "9 g"
+          "calories": "340 calories",
+          "proteinContent": "7 g",
+          "carbohydrateContent": "41 g"
         },
         "suitableForDiet": [
           "https://schema.org/VeganDiet",
           "https://schema.org/VegetarianDiet",
-          "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
         ]
       },
@@ -356,19 +547,66 @@
       },
       {
         "@type": "MenuItem",
-        "name": "Banana",
+        "name": "Spicy Slaw",
         "nutrition": {
           "@type": "NutritionInformation",
-          "calories": "105 calories",
-          "proteinContent": "1 g",
-          "carbohydrateContent": "27 g"
+          "calories": "110 calories",
+          "proteinContent": "2 g",
+          "carbohydrateContent": "12 g"
         },
         "suitableForDiet": [
-          "https://schema.org/VeganDiet",
           "https://schema.org/VegetarianDiet",
           "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
         ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Healthy Burrito",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "270 calories",
+          "proteinContent": "21 g",
+          "carbohydrateContent": "11 g"
+        },
+        "description": "Fresh cracked eggs with onion, red pepper, and roasted salsa wrapped with your choice of grain, protein, and tortilla.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/LowLactoseDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kids Broccoli & Chicken Bowl",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "450 calories",
+          "proteinContent": "34 g",
+          "carbohydrateContent": "67 g"
+        },
+        "description": "Grilled chicken and steamed broccoli over brown rice with teriyaki sauce — a wholesome kid-sized bowl. $8.95."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kids Chicken Teriyaki Wrap",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "590 calories",
+          "proteinContent": "39 g",
+          "carbohydrateContent": "89 g"
+        },
+        "description": "Teriyaki chicken and brown rice wrapped in a flour tortilla with teriyaki sauce — a kid-sized wrap they'll ask for again. $8.95."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Lobster Rangoon",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "500 calories",
+          "proteinContent": "12 g",
+          "carbohydrateContent": "73 g"
+        },
+        "description": "Crispy wontons stuffed with creamy lobster and cream cheese filling, served with sweet chili sauce."
       }
     ]
   },
@@ -397,7 +635,7 @@
         "name": "What dairy-free options does Crazy Bowls & Wraps have?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Confirmed dairy-free bowls include the Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Thai Bowl, High-Protein Bowl and Poke Bowl. All four edamame starters — Garlic Ginger, Salt & Lime, Spicy and Teriyaki — are dairy-free, as are the Carrots, Broccoli with Olive Oil & Herb and Mixed Veggies sides. Use the Dairy-Free filter in our Nutrition Calculator to check any specific item, and tell our staff if you have a dairy allergy."
+          "text": "19 items on our menu contain no milk according to our official allergen analysis: Banana, Broccoli with Olive Oil & Herb, Carrots, Chips, Garlic Ginger Edamame, Healthy Burrito, High-Protein Bowl, Mixed Veggies, Salt & Lime Edamame, Spicy Edamame, Spicy Slaw, Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Teriyaki Edamame, Teriyaki Wrap, Thai Bowl, Thai Wrap and Vegetable Wontons. We cook in a shared kitchen, so we can't guarantee any item is free from dairy cross-contact — ask our staff if it matters for you."
         }
       },
       {
@@ -405,7 +643,7 @@
         "name": "Is there a vegan menu at Crazy Bowls & Wraps?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Every bowl and wrap is built to order and comes with grilled chicken as the default protein, so our bowls are not vegan as listed — they become vegan when you swap the protein to Tofu or Plant Based Chicken. Items that are fully plant-based exactly as served: Garlic Ginger Edamame, Salt & Lime Edamame, Spicy Edamame, Carrots with Olive Oil & Herb, Broccoli with Olive Oil & Herb, Mixed Veggies and a Banana."
+          "text": "We don't have a separate vegan menu, but there is plenty that is vegan as it comes: Banana, Broccoli with Olive Oil & Herb, Carrots, Chips, Garlic Ginger Edamame, Mixed Veggies, Salt & Lime Edamame, Spicy Edamame, Teriyaki Edamame and Vegetable Wontons. Several main dishes are vegan when you order them without the grilled chicken they are built with by default — High-Protein Bowl, Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl and Teriyaki Wrap. The calorie and protein figures shown for those dishes are measured with the chicken in, so they will be lower without it. Because we cook in a shared kitchen we can't guarantee any item is free from cross-contact with animal products."
         }
       },
       {
@@ -413,7 +651,7 @@
         "name": "Can I make a Crazy Bowls & Wraps bowl vegan?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Ask for Tofu or Plant Based Chicken instead of the default grilled chicken. The Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Bean & Veggie Bowl and High-Protein Bowl contain no dairy, egg or honey in their other ingredients, so swapping the protein makes them fully plant-based. A few bowls can't be made vegan by a protein swap alone: the Fajita Bowl and Power Bowl include cheese, and the Thai Bowl's peanut sauce contains honey — ask us to leave those out."
+          "text": "Yes. Every composed bowl is built with grilled chicken by default, and you can ask for it without. Ordered that way, High-Protein Bowl, Stir Fry Bowl, Sweet & Sour Bowl and Teriyaki Bowl contain no animal ingredients at all. Fajita Bowl, Jerk Bowl, Mediterranean Bowl, Pesto Bowl, Power Bowl and Thai Bowl become vegetarian rather than vegan without the chicken, because they still contain dairy or honey — the Fajita and Power Bowls have cheese, the Thai Bowl has honey, and the Mediterranean, Pesto and Jerk Bowls have dairy in their sauces. Nutrition shown for all of these is measured with the chicken included."
         }
       },
       {

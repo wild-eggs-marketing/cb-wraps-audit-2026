@@ -7,7 +7,7 @@ import { useState, useMemo, useEffect, useRef, useDeferredValue, useReducer, use
 // BUMP THIS ON EVERY PUSH. It exists so "did the change go live?" is answered by
 // reading one string off the page, instead of counting filter results and inferring
 // which code path produced them — two pushes were published stale before this existed.
-const BUILD = "2026-07-27-05"
+const BUILD = "2026-07-27-06"
 
 const MOBILE_BP   = 680
 const MAX_TRAY    = 3
@@ -103,6 +103,13 @@ interface MenuItem {
     // Set by the feed when Wheat was added because the item is served in a wheat
     // tortilla that the source nutrition row omits (its rows are filling-only).
     wheatFromTortilla?: boolean
+    // Caveat attached to a conditional diet tag — e.g. an item that is only vegan
+    // when ordered without its default grilled chicken. Shown wherever the diet
+    // claim is shown, never separated from it.
+    dietNote?: string
+    // Caveat about the allergen list itself, for items where one CMS record covers
+    // several builds and the list is a union across them.
+    allergenNote?: string
     // True when the CMS stores floor values ("from 150", "150+") for a variant
     // family — macros display as minimums ("150+ cal") and the item is excluded
     // from calorie-ceiling filters, combined totals, and budget math.
@@ -247,6 +254,21 @@ const dietFromCms = (i: MenuItem, ...aliases: string[]): boolean | null => {
     return aliases.some(a => tags.has(a))
 }
 
+// True when the item's vegan/vegetarian claim is conditional on leaving out the
+// default protein. Used to decide whether the caveat must be shown alongside the
+// claim — a conditional claim shown without its condition is just a wrong claim.
+const isConditionalDiet = (i: MenuItem): boolean => {
+    const tags = cmsDietTags(i)
+    return tags.has("vegan-without-chicken") || tags.has("vegetarian-without-chicken")
+}
+
+// The caveat text to show next to a conditional claim. Prefers the feed's own
+// wording so it can be corrected without a code deploy.
+const dietCaveat = (i: MenuItem): string | null =>
+    isConditionalDiet(i)
+        ? (i.dietNote || "Vegan/vegetarian only when ordered without the default grilled chicken. The nutrition shown is measured with chicken.")
+        : null
+
 const DIETARY_TAGS: Record<string, (i: MenuItem) => boolean> = {
     // Vegan/Vegetarian NEVER fall back to the keyword heuristic — they require an
     // explicit CMS/feed tag, and an untagged item is treated as NOT vegan.
@@ -258,8 +280,13 @@ const DIETARY_TAGS: Record<string, (i: MenuItem) => boolean> = {
     // is no signal in this data that can prove an item is meat-free; absent a
     // human-verified tag the only safe answer is "no". Sparse-but-true beats
     // full-but-wrong when a vegetarian guest is deciding what to eat.
-    "Vegetarian":   i => dietFromCms(i, "vegetarian", "vegan") ?? false,
-    "Vegan":        i => dietFromCms(i, "vegan") ?? false,
+    // The "-without-chicken" variants are real matches, not weaker ones: the item
+    // qualifies when ordered without its default grilled chicken, which is a
+    // normal counter order. Suppressing them would have left the Vegan filter at
+    // 10 sides and no main dish. They always carry dietNote, and every surface
+    // that shows the diet claim shows that caveat with it — see dietCaveat().
+    "Vegetarian":   i => dietFromCms(i, "vegetarian", "vegan", "vegetarian-without-chicken", "vegan-without-chicken") ?? false,
+    "Vegan":        i => dietFromCms(i, "vegan", "vegan-without-chicken") ?? false,
     // Gluten is proxied from the Wheat flag: the source export's "Contains Gluten"
     // column is empty. That proxy was tested, not assumed — all 89 ingredient
     // statements were scanned for barley/rye/malt/oats/spelt/farro/semolina/durum,
@@ -365,6 +392,8 @@ function mapCmsItem(raw: Record<string, unknown>, index: number): MenuItem {
         allergens:   str(FIELD.allergens, "allergens", "Allergens"),
         dietaryTags: str(FIELD.dietaryTags, "dietaryTags", "Dietary Tags"),
         dataConfidence: str("dataConfidence", "data_confidence") || undefined,
+        dietNote:       str("dietNote", "diet_note") || undefined,
+        allergenNote:   str("allergenNote", "allergen_note") || undefined,
         wheatFromTortilla: Boolean(pick("wheatFromTortilla", "wheat_from_tortilla")),
     }
 }
@@ -1100,6 +1129,11 @@ function NutritionCalculator({
                                     Wheat comes from the tortilla. Order it as a Lettuce Wrap to leave the tortilla out.
                                 </div>
                             )}
+                            {sel.allergenNote && (
+                                <div style={{ fontSize: 11, color: C.inkSoft, marginTop: 6, lineHeight: 1.5 }}>
+                                    {sel.allergenNote}
+                                </div>
+                            )}
                             {al.state !== "unknown" && (
                                 <div style={{ fontSize: 11, color: C.inkSoft, marginTop: 6, lineHeight: 1.5 }}>
                                     Prepared in a shared kitchen, so we can&apos;t guarantee any item is free from cross-contact.
@@ -1108,6 +1142,14 @@ function NutritionCalculator({
                         </div>
                     )
                 })()}
+                {/* Conditional diet caveat. Deliberately styled as prominently as the
+                    claim it qualifies, and placed before the description so it can't
+                    be missed by someone who stops reading at the macros. */}
+                {dietCaveat(sel) && (
+                    <div style={{ fontSize: 12, color: C.ink, background: C.tint, borderLeft: `3px solid ${C.teal}`, borderRadius: 8, padding: "9px 12px", lineHeight: 1.55 }}>
+                        {dietCaveat(sel)}
+                    </div>
+                )}
                 {/* Data provenance — an unreconciled item must not look as authoritative
                     as a verified one just because both render the same way. */}
                 {sel.dataConfidence && sel.dataConfidence !== "verified" && sel.dataConfidence !== "verified-alias" && (
@@ -1328,6 +1370,15 @@ function NutritionCalculator({
                                                 </div>
                                             )
                                         })()}
+                                        {/* The conditional-diet caveat rides on the card whenever the
+                                            grid is filtered to Vegan or Vegetarian. Without it the card
+                                            reads as an unqualified vegan claim for a dish the kitchen
+                                            builds with chicken by default. */}
+                                        {dietCaveat(item) && (dietary.includes("Vegan") || dietary.includes("Vegetarian")) && (
+                                            <div style={{ fontSize: 10, color: C.teal, fontWeight: 700, marginBottom: 6, lineHeight: 1.4 }}>
+                                                Order without chicken
+                                            </div>
+                                        )}
                                         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                                             {item.calories > 0
                                                 ? <span style={{ fontSize: 13, fontWeight: 800, color: C.ink }}>{item.calories}{item.variable ? "+" : ""}<span style={{ fontSize: 10, fontWeight: 600, color: C.inkSoft }}> cal</span></span>
