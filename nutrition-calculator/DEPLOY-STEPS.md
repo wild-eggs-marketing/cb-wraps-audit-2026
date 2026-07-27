@@ -10,6 +10,9 @@ it worked, so don't skip it.
 1. Cloudflare dashboard → Workers & Pages → your nutrition worker → **Edit code**
 2. Select all, delete, paste the contents of **`worker/worker_v5.js`**
 3. **Save and deploy**
+4. Open the worker URL in a browser. You should get JSON starting `[{"id":`.
+   If you get a `ReferenceError` page, you have the first build of v5 — get the
+   current file and repaste.
 
 What changed: 76 items → **67**. Ten records that were not in your Framer Menu CMS
 are gone (nine `<Flavour> Lettuce Wrap` entries and `Bag of Chips`), replaced by

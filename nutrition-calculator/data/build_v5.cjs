@@ -37,7 +37,10 @@ for (let k = start; k < src.length; k++) {
     else if (ch === "]") { depth--; if (!depth) { end = k; break } }
 }
 const items = JSON.parse(src.slice(start, end + 1))
-const head = src.slice(0, anchor)
+// `anchor` is the index of "const MENU_DATA = ", so head must run to `start` —
+// the "[" — not to `anchor`, or the declaration itself is dropped and the Worker
+// throws "MENU_DATA is not defined" at the first request.
+const head = src.slice(0, start)
 const tail = src.slice(end + 1)
 
 // ── 1. drop items absent from the CMS ─────────────────────────────────────────
