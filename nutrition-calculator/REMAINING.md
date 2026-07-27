@@ -112,15 +112,26 @@ not below the CTA section. Worth a look while you're in Framer.
 
 ## 7. Kitchen sign-off — not optional
 
-The vegan/vegetarian tagging on 36 items is derived from ingredient statements by
+The vegan/vegetarian tagging on 37 items is derived from ingredient statements by
 rule. It is defensible and the reasoning for every item is in
-`data/v5-tagging-report.tsv`, but nobody at Crazy Bowls & Wraps has confirmed it.
-Two specific questions on top of the seven in `OPEN-QUESTIONS-FOR-CBW.md`:
+`data/v5-tagging-report.tsv`, but nobody at Crazy Bowls & Wraps has confirmed the
+per-item results.
 
-- **BBQ Quesadilla** lists grilled chicken but isn't a Bowl or Wrap, so I left it
-  untagged. Is the chicken swappable on it?
-- **Is "no protein" actually orderable** on the composed bowls? The whole
-  "order without chicken" mechanic assumes it is.
+**Answered 27 Jul 2026:** anything on the menu can be ordered without chicken.
+That removed the category gate — BBQ Quesadilla is now tagged
+`vegetarian-without-chicken`, and Vegetarian went from 29 cards to 30.
+
+One judgment call left in the code, flagged rather than decided: items whose
+**name** contains the protein — `Kids Broccoli & Chicken Bowl`,
+`Kids Chicken Teriyaki Wrap`, `Kid's Chicken Wrap` — are excluded from the Vegan
+and Vegetarian filters even though the kitchen confirmed they can be ordered
+without chicken. A card reading "Kids Broccoli & Chicken Bowl" under the Vegan
+filter looks like a bug to whoever is scanning the grid, caveat or not. The
+general policy is stated in the FAQ answer instead, where a sentence can carry the
+explanation. Say the word and I'll include them.
+
+Still unanswered from `OPEN-QUESTIONS-FOR-CBW.md`: the gluten cross-contact
+protocol (question 1) and the six data-hygiene items.
 
 ## 8. Later, not now
 

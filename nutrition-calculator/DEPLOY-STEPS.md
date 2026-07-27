@@ -16,8 +16,12 @@ it worked, so don't skip it.
 
 What changed: 76 items → **67**. Ten records that were not in your Framer Menu CMS
 are gone (nine `<Flavour> Lettuce Wrap` entries and `Bag of Chips`), replaced by
-the single **Lettuce Wraps** item your CMS actually has. Thirty-six items now
-carry vegan/vegetarian tags, eighteen of them with a chicken caveat.
+the single **Lettuce Wraps** item your CMS actually has. Thirty-seven items now
+carry vegan/vegetarian tags, nineteen of them with a chicken caveat.
+
+> **Repaste note.** If you already deployed a v5 earlier today, deploy this one
+> again — the file changed after you confirmed that anything can be ordered
+> without chicken, which added BBQ Quesadilla as vegetarian.
 
 ## Step 2 — Publish Framer
 
@@ -43,7 +47,7 @@ redo it. Everything below is meaningless until this line is right.
 |---|---|
 | No filter | **57** |
 | Vegan | **14** |
-| Vegetarian | **29** |
+| Vegetarian | **30** |
 | Gluten-Free | **22** |
 | Dairy-Free | **22** |
 | High Protein | 23 |
@@ -88,10 +92,9 @@ Once step 3 passes:
 1. URL Inspection → `https://www.crazybowlsandwraps.com/nutrition-calculator` →
    **Request Indexing**
 2. Sitemaps → confirm the sitemap is submitted and the page is in it
-3. Still outstanding, and worth more than anything above: the **301 redirects**
-   for the five dead WordPress diet URLs. Until those exist, the links and
-   history that used to rank still point at 404s. Redirect map is in
-   `reports/` from the original audit.
+3. Still outstanding, and worth more than anything above: the **URL question** —
+   `/nutrition-information/` carried 3,490 GA4 sessions before the migration and
+   the calculator now lives at a different path. See item 3 of `REMAINING.md`.
 
 ---
 
@@ -120,13 +123,7 @@ call — the current state is accurate either way.
 
 ## Still open
 
-- `NutritionQuickAnswers` position — you moved the FAQ; confirm the answers block
-  sits above the calculator, not below the CTA
-- Page `<title>` and meta description
-- The five 301 redirects
-- The seven questions in `OPEN-QUESTIONS-FOR-CBW.md`. Two are now more urgent:
-  **BBQ Quesadilla** has grilled chicken as an ingredient but isn't a Bowl or
-  Wrap, so I left it untagged — is chicken swappable on it? And the whole
-  vegan/vegetarian tagging in step 1 is derived from ingredient statements by
-  rule, not confirmed by your kitchen. The reasoning for every item is in
-  `data/v5-tagging-report.tsv`. Have someone sign it off.
+See `REMAINING.md` for the full list in priority order. The one that still needs a
+person rather than a deploy: the vegan/vegetarian tagging on 37 items is derived
+from ingredient statements by rule, not confirmed by your kitchen. The reasoning
+for every item is in `data/v5-tagging-report.tsv` — have someone sign it off.

@@ -40,7 +40,7 @@ Power Wrap	vegetarian-without-chicken	contains cheese plus the default Grilled C
 Tacos	—	no ingredient statement — left untagged (fail closed)
 Chicken Tex Mex Egg Roll	—	chicken is the product, not a swappable default
 Tostada Starter	—	no ingredient statement — left untagged (fail closed)
-BBQ Quesadilla	—	chicken is the product, not a swappable default
+BBQ Quesadilla	vegetarian-without-chicken	contains cheese, milk plus the default Grilled Chicken
 Roasted Cauliflower	vegetarian, gluten-free	contains yogurt, milk
 GF Quinoa Falafel	vegetarian, gluten-free	contains yogurt, milk
 Garlic Ginger Edamame	vegan, vegetarian, gluten-free, dairy-free	no animal ingredients

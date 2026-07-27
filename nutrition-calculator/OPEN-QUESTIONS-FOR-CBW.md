@@ -14,7 +14,15 @@ than "gluten-free," because "gluten-free" is an FDA-regulated claim (21 CFR
 kitchen. If a protocol exists and is documented, we can revisit the wording — it
 is worth meaningful search traffic. If not, the current wording stays.
 
-## 2. Per-item vegan / vegetarian sign-off — blocking the biggest traffic win
+## 2. Per-item vegan / vegetarian sign-off — partly answered 27 Jul 2026
+
+> **Answered:** anything on the menu can be ordered without chicken. Applied — 37
+> items now carry vegan/vegetarian tags (19 with an "order without chicken"
+> caveat), Vegan shows 14 cards and Vegetarian 30, up from 7 and 8.
+>
+> **Still needed:** someone at CBW to check the per-item results in
+> `data/v5-tagging-report.tsv`. The tags are derived from the ingredient
+> statements by rule, and the reasoning for each item is listed there.
 
 Your export shows every composed bowl and wrap measured **with Grilled Chicken by
 default**, and there is no column that identifies meat or animal products. So we

@@ -94,8 +94,13 @@ const VEGETARIAN_OK = /^(honey|milk|cream|cheese|whey|casein|yogurt|eggs?)$/
 // Breast" are the product itself and cannot be removed — verified across all 34
 // chicken-containing items.
 const SWAPPABLE_CHICKEN = /Grilled Chicken/i
+
+// Items named after their protein stay out even though the kitchen confirmed
+// anything can be ordered without chicken. A card reading "Kids Broccoli &
+// Chicken Bowl" under the Vegan filter reads as a bug to the person scanning the
+// grid, caveat or not — the name contradicts the filter. Those items are listed
+// in the FAQ prose instead, where a sentence can carry the explanation.
 const PROTEIN_IN_NAME = /chicken|steak|tuna|poke|salmon|shrimp|crab|lobster|falafel|tofu|egg|beef|pork/i
-const COMPOSED_CATEGORY = new Set(["Bowls", "Wraps"])
 
 const classify = it => {
     const s = String(it.ingredientStatement || "")
@@ -106,9 +111,13 @@ const classify = it => {
     const hasChicken = hits.includes("chicken")
 
     // Chicken present but not removable → no vegan/vegetarian claim at all.
+    // The kitchen confirmed (27 Jul 2026) that any item can be ordered without
+    // chicken, so category is no longer a gate — a quesadilla qualifies the same
+    // as a bowl. "Crispy Chicken" and "Boneless Chicken Wings" still don't:
+    // there is no dish left once you remove them.
     const chickenRemovable =
         !hasChicken ||
-        (SWAPPABLE_CHICKEN.test(s) && !PROTEIN_IN_NAME.test(it.title) && COMPOSED_CATEGORY.has(it.category))
+        (SWAPPABLE_CHICKEN.test(s) && !PROTEIN_IN_NAME.test(it.title))
     if (hasChicken && !chickenRemovable)
         return { diet: null, why: "chicken is the product, not a swappable default" }
 

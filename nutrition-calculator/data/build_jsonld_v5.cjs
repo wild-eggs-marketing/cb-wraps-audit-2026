@@ -88,8 +88,10 @@ const setAnswer = (question, text) => {
 
 setAnswer("Is there a vegan menu at Crazy Bowls & Wraps?",
     `We don't have a separate vegan menu, but there is plenty that is vegan as it comes: ${list(veganAsServed)}. ` +
-    `Several main dishes are vegan when you order them without the grilled chicken they are built with by default — ${list(veganWithout)}. ` +
-    `The calorie and protein figures shown for those dishes are measured with the chicken in, so they will be lower without it. ` +
+    `Any item on our menu can also be ordered without the grilled chicken it is built with by default. ` +
+    `Ordered that way these contain no animal ingredients at all: ${list(veganWithout)}. ` +
+    `That applies to the kids' bowls and wraps too, even where the name mentions chicken. ` +
+    `The calorie and protein figures shown are measured with the chicken in, so they will be lower without it. ` +
     `Because we cook in a shared kitchen we can't guarantee any item is free from cross-contact with animal products.`)
 
 setAnswer("Can I make a Crazy Bowls & Wraps bowl vegan?",
