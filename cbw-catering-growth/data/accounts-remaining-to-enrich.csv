@@ -1,0 +1,584 @@
+Location,Slug,Street Address,City,State,Zip Code,Assigned Store,Order Count,First Order Date,Last Order Date,Days Since Last Order,Median Reorder Gap (days),Avg Food Total,Total Food Spend,Primary Source,Segment
+Hunter engineering - c/o Jim T,hunter-engineering---c-o-jim-t,"11250 Hunter Dr Building ""A""",Bridgeton,MO,63044.0,West Oak,4,2025-12-17,2026-06-30,27,60.0,272.85,1091.4,Marketplace Takeout,active
+Mercy,mercy,3915 Watson Rd Suite 100B,St. Louis,MO,63109.0,Sunset Hills,4,2026-03-23,2026-07-20,7,47.0,294.85,1179.4,Marketplace Takeout,active
+WashU,washu,7425 Forsyth Blvd,Clayton,MO,63105.0,Forsyth/Clayton,4,2025-11-11,2026-07-13,14,73.0,263.45,1053.79,Marketplace Takeout,active
+Weissman Photo Studio,weissman-photo-studio,6726 Manchester Ave,St. Louis,MO,63139.0,South City,4,2026-02-26,2026-07-15,12,34.0,507.86,2031.45,Marketplace Takeout,active
+Benefit Finance Partners,benefit-finance-partners,6 Cityplace Dr 6 Cityplace Drive 400,Creve Coeur,MO,63141.0,Creve Coeur,3,2025-11-03,2026-07-20,7,128.0,419.87,1259.6,Marketplace Takeout,active
+Ernst and Young,ernst-and-young,7676 Forsyth Blvd Suite 2600,Clayton,MO,63105.0,Forsyth/Clayton,3,2026-06-18,2026-07-15,12,13.0,212.92,638.76,Marketplace Takeout,active
+St Elizabeths cath lab and ep lab in hospital,st-elizabeths-cath-lab-and-ep-lab-in-hospital,1 St Elizabeth's Blvd Second floor,O'Fallon,IL,62269.0,Shiloh,3,2025-04-11,2026-07-16,11,230.0,596.33,1789.0,Marketplace Takeout,active
+St. Louis Music,st-louis-music,1400 Ferguson Ave,St. Louis,MO,63133.0,Forsyth/Clayton,3,2026-07-14,2026-07-16,11,0.0,142.07,426.22,Marketplace Takeout,active
+Clementine's Ice Cream,clementines-ice-cream,8014 N Broadway,St. Louis,MO,63147.0,Lindell/SLU,2,2026-05-04,2026-07-17,10,73.0,313.88,627.75,Marketplace Takeout,active
+Dr. Michael Snyder,dr-michael-snyder,12700 Southfork Rd 270,St. Louis,MO,63128.0,Tesson,2,2026-05-21,2026-07-09,18,48.0,251.52,503.05,Marketplace Takeout,active
+Gatewood Wealth Solutions,gatewood-wealth-solutions,1401 S Brentwood Blvd Suite 400,St. Louis,MO,63144.0,Rock Hill/Glendale,2,2026-05-01,2026-07-20,7,80.0,283.7,567.4,Marketplace Takeout,active
+Heartland Dental,heartland-dental,701 Emerson Rd 1st Floor- Straight back upon entry,Creve Coeur,MO,63141.0,West Oak,2,2026-04-01,2026-07-10,17,99.0,161.09,322.18,Marketplace Takeout,active
+Mercy South Hospital - Hospitalist Office,mercy-south-hospital---hospitalist-office,10100 Kennerly Rd,Sappington,MO,63128.0,Tesson,2,2026-07-01,2026-07-08,19,7.0,380.55,761.1,Marketplace Takeout,active
+Procter and Gamble Mfg,procter-and-gamble-mfg,169 E Grand Ave Collaboration Center,St. Louis,MO,63147.0,Lindell/SLU,2,2025-10-01,2026-07-14,13,286.0,162.38,324.75,Marketplace Takeout,active
+SIEMENS,siemens,13690 Riverport Dr 100,Maryland Heights,MO,63043.0,Lindenwood,2,2025-07-17,2026-07-23,4,371.0,770.88,1541.75,Marketplace Takeout,active
+St. Lukes Multispecialty,st-lukes-multispecialty,222 S Woods Mill Rd Suite 750 North building,Chesterfield,MO,63017.0,Creve Coeur,2,2025-12-16,2026-06-30,27,195.0,350.32,700.63,Marketplace Takeout,active
+Talisen Technologies Inc,talisen-technologies-inc,12655 Olive Blvd 500,Creve Coeur,MO,63141.0,Creve Coeur,2,2025-08-20,2026-07-07,20,321.0,159.6,319.2,Marketplace Takeout,active
+AAIM Employers' Association,aaim-employers-association,12851 Manchester Rd Suite 150,St. Louis,MO,63131.0,Manchester,1,2026-07-20,2026-07-20,7,,112.5,112.5,Marketplace Takeout,active
+Ameren - North Metro Operating Center,ameren---north-metro-operating-center,4427 Geraldine Ave,St. Louis,MO,63115.0,Lindell/SLU,1,2026-07-22,2026-07-22,5,,302.9,302.9,Marketplace Takeout,active
+Barnes Jewish Hospital POD 5,barnes-jewish-hospital-pod-5,4969 Barnes Jewish Hospital Plaza POD5,St. Louis,MO,63110.0,Lindell/SLU,1,2026-07-07,2026-07-07,20,,931.99,931.99,Marketplace Takeout,active
+Confluence Academies,confluence-academies,319 N 4th St Suite 500,St. Louis,MO,63102.0,Lindell/SLU,1,2026-06-30,2026-06-30,27,,102.47,102.47,Marketplace Takeout,active
+Creve Couer Soccer Complex,creve-couer-soccer-complex,2350 Creve Coeur Mill Rd,Maryland Heights,MO,63043.0,Creve Coeur,1,2026-06-29,2026-06-29,28,,596.0,596.0,Marketplace Takeout,active
+Crossroads Veterinary Hospital,crossroads-veterinary-hospital,10253 Highway DD,Wentzville,MO,63385.0,O'Fallon,1,2026-07-21,2026-07-21,6,,142.75,142.75,Marketplace Takeout,active
+Dr Melvin,dr-melvin,5551 Winghaven Blvd Dr Knox suite 142 142,O'Fallon,MO,63368.0,O'Fallon,1,2026-07-16,2026-07-16,11,,243.03,243.03,Marketplace Takeout,active
+Ess health urology,ess-health-urology,12255 De Paul Dr 200,Bridgeton,MO,63044.0,Lindenwood,1,2026-07-22,2026-07-22,5,,164.95,164.95,Marketplace Takeout,active
+Goodwill Outlet,goodwill-outlet,5665 St Louis Mls Blvd Door 9,Bridgeton,MO,63044.0,Lindenwood,1,2026-07-10,2026-07-10,17,,79.71,79.71,Marketplace Takeout,active
+Guarantee Electrical Construction Compa,guarantee-electrical-construction-compa,3415 Bent Ave,St. Louis,MO,63116.0,South City,1,2026-07-09,2026-07-09,18,,140.5,140.5,Marketplace Takeout,active
+HSHS Medical Group,hshs-medical-group,2401 S Center St,Maryville,IL,62062.0,Edwardsville,1,2026-07-17,2026-07-17,10,,237.75,237.75,Marketplace Takeout,active
+Lafayette Preparatory Academy,lafayette-preparatory-academy,1900 Lafayette Ave,St. Louis,MO,63104.0,Lindell/SLU,1,2026-07-14,2026-07-14,13,,238.2,238.2,Marketplace Takeout,active
+Lou Fusz Soccer Complex,lou-fusz-soccer-complex,2155 Creve Coeur Mill Rd,St. Louis,MO,63146.0,Creve Coeur,1,2026-06-29,2026-06-29,28,,1122.0,1122.0,Marketplace Takeout,active
+MRHFM- St Louis,mrhfm--st-louis,1015 Locust St Ste 1200,St Louis,MO,63101.0,West Oak,1,2026-07-14,2026-07-14,13,,213.58,213.58,Meal Program,active
+Marriott St. Louis West,marriott-st-louis-west,660 Maryville Centre Dr,St. Louis,MO,63141.0,Creve Coeur,1,2026-07-02,2026-07-02,25,,339.6,339.6,Marketplace Takeout,active
+Mercy Dr levey,mercy-dr-levey,300 Winding Woods Dr 100,O'Fallon,MO,63366.0,O'Fallon,1,2026-07-06,2026-07-06,21,,246.08,246.08,Marketplace Takeout,active
+Mercy Oncology Suite 120,mercy-oncology-suite-120,15945 Clayton Rd 150,Ballwin,MO,63011.0,Chesterfield Valley,1,2026-07-13,2026-07-13,14,,307.2,307.2,Marketplace Takeout,active
+Mercy Primary Care 2nd FL,mercy-primary-care-2nd-fl,7345 Watson Rd 202,St. Louis,MO,63119.0,South City,1,2026-07-24,2026-07-24,3,,503.95,503.95,Marketplace Takeout,active
+Nashville SC,nashville-sc,2019 Market St,St. Louis,MO,63103.0,Lindell/SLU,1,2026-07-09,2026-07-09,18,,708.7,708.7,Marketplace Takeout,active
+Nestle Purina Petcare - E Bldg,nestle-purina-petcare---e-bldg,800 Chouteau Ave,St. Louis,MO,63102.0,Lindell/SLU,1,2026-07-15,2026-07-15,12,,367.0,367.0,Marketplace Takeout,active
+Nestle Purina Petcare - Tower Building,nestle-purina-petcare---tower-building,901 Chouteau Ave,St. Louis,MO,63102.0,Lindell/SLU,1,2026-07-23,2026-07-23,4,,249.75,249.75,Marketplace Takeout,active
+ROESLEIN AND ASSOCIATES-,roeslein-and-associates-,9200 Watson Rd,St. Louis,MO,63126.0,Sunset Hills,1,2026-07-14,2026-07-14,13,,293.5,293.5,Marketplace Takeout,active
+Scott Air Force Base,scott-air-force-base,719 Scheel St,Belleville,IL,62220.0,Shiloh,1,2026-07-24,2026-07-24,3,,1006.15,1006.15,Marketplace Takeout,active
+The retina institue,the-retina-institue,5 Country Club Executive Park,Glen Carbon,IL,62034.0,Edwardsville,1,2026-07-27,2026-07-27,0,,243.95,243.95,Marketplace Takeout,active
+Urology of st louis fairview heights,urology-of-st-louis-fairview-heights,326 Fountains Pkwy,Fairview Heights,IL,62208.0,Shiloh,1,2026-07-06,2026-07-06,21,,246.0,246.0,Marketplace Takeout,active
+WashU Bernard Becker Medical Library,washu-bernard-becker-medical-library,660 S Euclid Ave,St. Louis,MO,63110.0,South City,1,2026-07-15,2026-07-15,12,,209.35,209.35,Marketplace Takeout,active
+WashU Biology Department Danforth Campus,washu-biology-department-danforth-campus,Tolman Wy,St. Louis County,MO,63105.0,Forsyth/Clayton,1,2026-07-22,2026-07-22,5,,204.34,204.34,Marketplace Takeout,active
+Washington University - Pediatric Residency,washington-university---pediatric-residency,1 Children's Place St. Louis Children’s Hospital Visitor Garage 2nd Level Drop Off/Pick Up Zone,St. Louis,MO,63110.0,Lindell/SLU,1,2026-06-30,2026-06-30,27,,1072.75,1072.75,Marketplace Takeout,active
+"World Wide Technology, Inc.",world-wide-technology-inc,701 Fee Fee Rd,Maryland Heights,MO,63043.0,West Oak,1,2026-07-08,2026-07-08,19,,83.7,83.7,Marketplace Takeout,active
+Nestle Purina Pet Care,nestle-purina-pet-care,901 Chouteau Ave 5T,St. Louis,MO,63102.0,Lindell/SLU,4,2025-07-07,2025-12-02,237,47.0,121.46,485.83,Marketplace Takeout,cold
+Sysco Foods,sysco-foods,3850 Mueller Rd,Saint Charles,MO,63301.0,Lindenwood,4,2025-03-04,2025-04-10,473,7.0,325.59,1302.35,ezOrdering Takeout,cold
+[REMOVED],[removed],4620381 Ezcater St,Ezcater,MA,63045.0,O'Fallon,4,2025-04-23,2025-11-12,257,65.0,219.36,877.45,Marketplace Takeout,cold
+AFB International,afb-international,3 Research Park Dr,Weldon Spring,MO,63304.0,O'Fallon,3,2025-03-20,2025-09-04,326,84.0,413.7,1241.1,Marketplace Takeout,cold
+ATB Technologies,atb-technologies,14567 N Outer 40 Rd suite 525,Chesterfield,MO,63017.0,West Oak,3,2025-01-13,2025-04-04,479,40.0,252.72,758.15,Meal Program,cold
+Advantage Solutions,advantage-solutions,8001 Forsyth Blvd Suite 1025 Suite 1025 / 10th floor,Clayton,MO,63105.0,Forsyth/Clayton,3,2025-01-09,2025-08-07,354,104.0,216.15,648.45,Marketplace Takeout,cold
+CEDARHURST SENIOR LIVING,cedarhurst-senior-living,300 Hunter Ave SUITE 200,St. Louis,MO,63124.0,Forsyth/Clayton,3,2025-04-29,2025-06-05,417,17.0,183.4,550.2,Marketplace Takeout,cold
+Caleres,caleres,8300 Maryland Ave co Jennifer Grace,Clayton,MO,63105.0,Forsyth/Clayton,3,2025-01-13,2025-02-25,517,21.0,235.93,707.8,Marketplace Takeout,cold
+Chestnut Health Systems,chestnut-health-systems,2148 Vadalabene Dr,Maryville,IL,62062.0,Edwardsville,3,2025-02-27,2025-05-19,434,40.0,354.8,1064.4,Marketplace Takeout,cold
+Enterprise Rent a Car,enterprise-rent-a-car,9636 Natural Bridge Rd,Berkeley,MO,63134.0,Forsyth/Clayton,3,2025-01-27,2025-02-05,537,4.0,192.43,577.3,Marketplace Takeout,cold
+Hunter Engineering - c/o Jim T,hunter-engineering---c-o-jim-t,"11250 Hunter Dr Building ""A""",Bridgeton,MO,63044.0,West Oak,3,2025-02-11,2025-10-22,278,126.0,304.47,913.4,Marketplace Takeout,cold
+"McCarthy Building Companies, Inc.",mccarthy-building-companies-inc,12851 Manchester Rd McCarthy - floor 2,Des Peres,MO,63131.0,Manchester,3,2025-01-14,2025-07-10,382,88.0,354.12,1062.35,Marketplace Takeout,cold
+Mercy Clinic Pediatrics,mercy-clinic-pediatrics,1203 Smizer Mill Rd Suite 108,Fenton,MO,63026.0,Sunset Hills,3,2025-06-02,2025-12-05,234,93.0,217.5,652.5,Marketplace Takeout,cold
+Rung for Women,rung-for-women,2717 Sidney St,St. Louis,MO,63104.0,Lindell/SLU,3,2025-06-04,2025-08-01,360,28.0,463.8,1391.4,Marketplace Takeout,cold
+SAINT LOUIS UNIVERSITY,saint-louis-university,3674 Lindell Blvd Floor 2/Shanahan Atrium,St. Louis,MO,63108.0,Lindell/SLU,3,2025-02-06,2025-05-02,451,42.0,296.0,888.0,Marketplace Takeout,cold
+St. Louis City Training Center,st-louis-city-training-center,2227 Clark Ave,St. Louis,MO,63103.0,Lindell/SLU,3,2025-11-15,2025-11-15,254,0.0,267.42,802.25,Marketplace Takeout,cold
+St. Louis Trust & Family Office,st-louis-trust-and-family-office,7701 Forsyth Blvd Suite 1100,Clayton,MO,63105.0,Forsyth/Clayton,3,2025-01-15,2025-06-17,405,76.0,356.47,1069.4,Marketplace Takeout,cold
+Wash-U School of Medicine,wash-u-school-of-medicine,"4990 Children's Pl Northwest Tower, 15th Floor",St. Louis,MO,63110.0,Lindell/SLU,3,2025-02-06,2025-06-19,403,66.0,329.51,988.53,Marketplace Takeout,cold
+Washington University School of Medicine,washington-university-school-of-medicine,520 S Euclid Ave,St. Louis,MO,63110.0,Forsyth/Clayton,3,2025-02-13,2025-11-11,258,135.0,242.58,727.73,Marketplace Takeout,cold
+Alberici,alberici,8800 Page Ave,St. Louis,MO,63114.0,Forsyth/Clayton,2,2025-05-01,2025-05-22,431,21.0,283.52,567.03,Marketplace Takeout,cold
+America's Center Convention Complex Loading Dock,americas-center-convention-complex-loading-dock,701 Convention Plaza,St. Louis,MO,63101.0,Lindell/SLU,2,2025-10-11,2025-10-12,288,0.0,749.5,1499.0,Marketplace Takeout,cold
+Anheuser-Busch,anheuser-busch,2800 S 9th St,St. Louis,MO,63118.0,Lindell/SLU,2,2025-03-31,2025-04-15,468,14.0,255.06,510.11,Marketplace Takeout,cold
+Ashley Homstore/DSG,ashley-homstore-dsg,3700 Green Mt Crossing Dr,Shiloh,IL,62269.0,Shiloh,2,2025-05-14,2025-09-15,315,124.0,245.38,490.77,Marketplace Takeout,cold
+Associated Couriers,associated-couriers,4806 Trade Access Blvd Ste 100 100,Hazelwood,MO,63042.0,Lindenwood,2,2025-02-11,2025-04-08,475,56.0,477.75,955.5,Marketplace Takeout,cold
+"Benefit Finance Partners, LLC",benefit-finance-partners-llc,6 Cityplace Dr 4th floor suite 400,Creve Coeur,MO,63141.0,Creve Coeur,2,2025-05-12,2025-09-02,328,113.0,527.55,1055.1,Marketplace Takeout,cold
+Cancer Care Specialists,cancer-care-specialists,321 Regency Park,O'Fallon,IL,62269.0,Shiloh,2,2025-03-27,2025-06-12,410,77.0,406.05,812.1,Marketplace Takeout,cold
+Cancer Care Specialists of Illinois,cancer-care-specialists-of-illinois,321 Regency Park,O'Fallon,IL,62269.0,Shiloh,2,2025-02-13,2025-05-21,432,97.0,598.5,1197.0,Marketplace Takeout,cold
+Cath lab,cath-lab,1 St Elizabeth's Blvd,O'Fallon,IL,62269.0,Shiloh,2,2025-01-13,2025-01-21,552,8.0,388.7,777.4,Marketplace Takeout,cold
+Chaifetz Arena,chaifetz-arena,1 S Compton Ave Loading Dock,St. Louis,MO,63103.0,Lindell/SLU,2,2025-10-04,2026-01-03,205,91.0,326.35,652.7,Marketplace Takeout,cold
+Core and Main,core-and-main,1830 Craig Park Ct.,St. Louis,MO,63146.0,West Oak,2,2025-03-11,2025-03-18,496,7.0,872.62,1745.25,Marketplace Takeout,cold
+Dowd Bennett Law Firm,dowd-bennett-law-firm,7676 Forsyth Blvd 1900,Clayton,MO,63105.0,Forsyth/Clayton,2,2025-07-10,2025-07-17,375,7.0,140.38,280.77,Marketplace Takeout,cold
+Equifax,equifax,7676 Forsyth Blvd,Clayton,MO,63105.0,Forsyth/Clayton,2,2025-08-19,2025-12-03,236,105.0,664.53,1329.05,Marketplace Takeout,cold
+HNTB,hntb,211 N Broadway 13th floor,St. Louis,MO,63102.0,Lindell/SLU,2,2025-02-24,2025-04-22,461,57.0,230.7,461.4,Marketplace Takeout,cold
+Hermann Statdium,hermann-statdium,3330 Laclede Ave Dead end of Laclede Ave,St. Louis,MO,63103.0,Lindell/SLU,2,2025-07-15,2025-08-24,337,40.0,349.28,698.56,Marketplace Takeout,cold
+Impact Group,impact-group,12977 N 40 Dr Ste 300,St. Louis,MO,63141.0,West Oak,2,2025-03-31,2025-10-01,299,183.0,294.98,589.95,Marketplace Takeout,cold
+KIPP St. Louis High,kipp-st-louis-high,706 N Jefferson Ave,St. Louis,MO,63103.0,Lindell/SLU,2,2025-08-04,2025-09-19,311,46.0,4533.75,9067.5,Marketplace Delivery,cold
+Meramec Dermatology,meramec-dermatology,3783 Vogel Rd,Arnold,MO,63010.0,Tesson,2,2025-04-24,2025-07-31,361,98.0,291.1,582.2,Marketplace Takeout,cold
+Mercy IBD Center,mercy-ibd-center,1001 S Kirkwood Rd Suite 100,Kirkwood,MO,63122.0,Sunset Hills,2,2025-01-29,2025-05-29,424,120.0,287.25,574.5,Marketplace Takeout,cold
+Mercy Internal Med,mercy-internal-med,12855 N Forty Dr Ste 280,St. Louis,MO,63141.0,Manchester,2,2025-05-27,2025-07-30,362,64.0,432.5,865.0,Marketplace Takeout,cold
+Mercy endocrinology,mercy-endocrinology,621 S New Ballas Rd Tower a ste 460a,Creve Coeur,MO,63141.0,West Oak,2,2025-05-01,2025-07-17,375,77.0,229.48,458.95,Marketplace Takeout,cold
+Missouri Baptist Hospital,missouri-baptist-hospital,3015 N Ballas Rd,St. Louis,MO,63131.0,West Oak,2,2025-01-23,2025-10-01,299,250.0,278.75,557.5,Marketplace Takeout,cold
+Moneta,moneta,100 South Brentwood Blvd,St. Louis,MO,63105.0,Forsyth/Clayton,2,2025-01-21,2025-06-18,404,147.0,539.25,1078.5,Marketplace Takeout,cold
+Musick Dermatology,musick-dermatology,4948 Benchmark Centre Dr,Swansea,IL,62226.0,Shiloh,2,2025-05-06,2025-06-06,416,31.0,119.93,239.85,Marketplace Takeout,cold
+NESTLE PURINA PETCARE,nestle-purina-petcare,801 Chouteau Ave Administration Building/1st Floor Lobby,St. Louis,MO,63102.0,Lindell/SLU,2,2025-07-07,2025-07-30,362,23.0,168.29,336.57,Marketplace Takeout,cold
+NUTRIFORMANCE,nutriformance,1033 Corporate Square Dr,St. Louis,MO,63132.0,Creve Coeur,2,2025-08-21,2026-01-15,193,146.0,366.17,732.35,Marketplace Takeout,cold
+Optimist International,optimist-international,4494 Lindell Blvd,St. Louis,MO,63108.0,Lindell/SLU,2,2025-05-08,2025-11-13,256,189.0,113.98,227.96,Marketplace Takeout,cold
+P&G,pandg,120 E Grand Ave,St. Louis,MO,63147.0,Lindell/SLU,2,2025-02-11,2025-11-12,257,274.0,423.14,846.28,Marketplace Takeout,cold
+Physicians pain services,physicians-pain-services,114 Piper Hill Dr Ste 103,St. Peters,MO,63376.0,Lindenwood,2,2025-05-16,2025-05-29,424,13.0,244.53,489.06,Marketplace Takeout,cold
+Royal Canin,royal-canin,4 Cityplace Dr 1st Floor,St. Louis,MO,63141.0,West Oak,2,2025-06-18,2025-08-13,348,56.0,339.52,679.05,Marketplace Delivery,cold
+SIHF Belleville,sihf-belleville,311 W Lincoln St Suite 200,Belleville,IL,62220.0,Shiloh,2,2025-03-18,2025-09-22,308,187.0,294.15,588.3,Marketplace Takeout,cold
+SSM SLUCare Academic Pavilion,ssm-slucare-academic-pavilion,"1008 S Spring Ave 1st Floor, conference room 1001",St. Louis,MO,63110.0,South City,2,2025-10-20,2025-12-29,210,69.0,113.5,227.0,Marketplace Takeout,cold
+Saint Louis University,saint-louis-university,20 N Grand Blvd BSC 319,St. Louis,MO,63103.0,Lindell/SLU,2,2025-08-22,2025-10-10,290,48.0,124.57,249.14,Marketplace Takeout,cold
+Sensient Colors,sensient-colors,2515 N Jefferson Ave Executive Building,St. Louis,MO,63106.0,Lindell/SLU,2,2025-05-02,2025-10-20,280,170.0,272.95,545.9,Marketplace Takeout,cold
+Silverback Brentwood Studios,silverback-brentwood-studios,1034 S Brentwood Blvd,Richmond Heights,MO,63117.0,Creve Coeur,2,2025-03-05,2025-03-15,499,10.0,258.1,516.2,Marketplace Takeout,cold
+Sound Health Services,sound-health-services,1010 Old Des Peres Rd,Des Peres,MO,63131.0,Manchester,2,2025-06-04,2025-09-02,328,90.0,118.18,236.35,Marketplace Takeout,cold
+St Louis Music,st-louis-music,1400 Ferguson Ave,St. Louis,MO,63133.0,Lindell/SLU,2,2025-09-16,2025-09-17,313,0.0,311.32,622.63,Marketplace Takeout,cold
+St. Lous Gastroenterology Associates,st-lous-gastroenterology-associates,3555 Sunset Office Dr Suite 107,St. Louis,MO,63127.0,Sunset Hills,2,2025-09-18,2025-12-11,228,83.0,513.87,1027.74,Marketplace Takeout,cold
+St. Lukes Chesterfield Cardiology Care,st-lukes-chesterfield-cardiology-care,222 S Woods Mill Rd Suite 560N,Chesterfield,MO,63017.0,Creve Coeur,2,2025-02-03,2025-03-11,503,36.0,232.5,465.0,Marketplace Takeout,cold
+Subtext,subtext,3000 Locust St,St. Louis,MO,63103.0,Lindell/SLU,2,2025-06-17,2025-08-18,343,61.0,128.22,256.45,Marketplace Takeout,cold
+TVS Supply Chain Solutions,tvs-supply-chain-solutions,201 Logistics Center Dr,Wentzville,MO,63385.0,Rock Hill/Glendale,2,2025-02-26,2025-06-18,404,111.0,164.62,329.25,Marketplace Takeout,cold
+The Residence Inn Downtown St. Louis,the-residence-inn-downtown-st-louis,525 S Jefferson Ave,St. Louis,MO,63103.0,Lindell/SLU,2,2025-05-03,2025-05-03,450,0.0,291.8,583.6,Marketplace Takeout,cold
+United Way Building Downtown St. Louis,united-way-building-downtown-st-louis,910 N 11th St The Gateway Room,St. Louis,MO,63101.0,Lindell/SLU,2,2025-10-22,2025-10-23,277,0.0,177.92,355.85,Marketplace Takeout,cold
+Vodaland,vodaland,3120 Riverport Tech Center Dr,Maryland Heights,MO,63043.0,Lindenwood,2,2025-03-20,2025-06-10,412,81.0,306.9,613.8,Marketplace Takeout,cold
+Wash U Urology,wash-u-urology,70 Jungermann Cir 402,St. Peters,MO,63376.0,Lindenwood,2,2025-07-10,2025-10-14,286,95.0,224.24,448.49,Marketplace Delivery,cold
+WashU/Center for Experiential Learning,washu-center-for-experiential-learning,"Forsyth Blvd Simon Hall, Suite 100",St. Louis,MO,63130.0,Forsyth/Clayton,2,2025-04-18,2025-10-30,270,195.0,124.5,249.0,Marketplace Takeout,cold
+Washington University - College Office,washington-university---college-office,1 Brookings Dr,St. Louis,MO,63130.0,Forsyth/Clayton,2,2025-03-11,2025-04-28,455,47.0,77.02,154.03,Marketplace Takeout,cold
+Washington University Medical Campus - UHSP,washington-university-medical-campus---uhsp,2 Pharmacy Pl,St. Louis,MO,63110.0,Lindell/SLU,2,2025-03-13,2025-04-17,466,34.0,120.02,240.05,Marketplace Takeout,cold
+Westside Pediatrics,westside-pediatrics,100 Brevco Plaza 101,Lake Saint Louis,MO,63367.0,Wentzville,2,2025-06-05,2025-09-04,326,90.0,208.77,417.55,Marketplace Takeout,cold
+Wiese,wiese,1435 Woodson Rd,St. Louis,MO,63132.0,Forsyth/Clayton,2,2025-02-18,2025-05-21,432,91.0,333.25,666.5,Marketplace Takeout,cold
+Woodard & Curran,woodard-and-curran,1520 South 5th St Suite 273,Saint Charles,MO,63303.0,Lindenwood,2,2025-04-14,2025-08-18,343,125.0,236.72,473.45,Marketplace Takeout,cold
+WorldWide Technology,worldwide-technology,108 Gateway Commerce Center Dr N,Edwardsville,IL,62025.0,Edwardsville,2,2025-05-20,2025-05-20,433,0.0,284.28,568.57,Marketplace Takeout,cold
+Worldwide Technology,worldwide-technology,108 Gateway Commerce Center Dr N,Edwardsville,IL,62025.0,Edwardsville,2,2025-07-14,2025-10-15,285,93.0,306.36,612.72,Marketplace Takeout,cold
+#1365 McCauley Animal Clinic,#1365-mccauley-animal-clinic,4646 Mid Rivers Mall Dr,St. Peters,MO,63376.0,O'Fallon,1,2025-11-11,2025-11-11,258,,365.0,365.0,Marketplace Takeout,cold
+12303 DePaul Drive,12303-depaul-drive,12303 De Paul Dr May Center,Bridgeton,MO,63044.0,Lindenwood,1,2025-10-24,2025-10-24,276,,270.0,270.0,Marketplace Takeout,cold
+4565 McKinley Ave,4565-mckinley-ave,Saint Louis 1st Floor,St. Louis,MO,63110.0,Lindell/SLU,1,2025-09-22,2025-09-22,308,,602.8,602.8,Marketplace Takeout,cold
+API Innovation Center,api-innovation-center,20 S Sarah St,St. Louis,MO,63108.0,Lindell/SLU,1,2025-03-13,2025-03-13,501,,184.95,184.95,Marketplace Takeout,cold
+ARCO Business Services,arco-business-services,8300 Eager Rd Ste. 500,Brentwood,MO,63144.0,Forsyth/Clayton,1,2025-06-18,2025-06-18,404,,300.78,300.78,Marketplace Takeout,cold
+ATI Restoration,ati-restoration,13586 NW Industrial Dr,Bridgeton,MO,63044.0,Lindenwood,1,2025-03-17,2025-03-17,497,,92.7,92.7,Marketplace Takeout,cold
+Accent Group Solutions,accent-group-solutions,1154 Reco Ave,St. Louis,MO,63126.0,Sunset Hills,1,2025-02-04,2025-02-04,538,,140.95,140.95,ezOrdering Takeout,cold
+AdaptHealth / Mercy Clinic Primary Care - Water Tower Place,adapthealth---mercy-clinic-primary-care---water-tower-place,1237 Water Tower Place,Arnold,MO,63010.0,Tesson,1,2025-04-29,2025-04-29,454,,197.6,197.6,Marketplace Takeout,cold
+Advanced Heart Care,advanced-heart-care,5020 N Illinois St,Fairview Heights,IL,62208.0,Shiloh,1,2025-06-17,2025-06-17,405,,125.8,125.8,Marketplace Takeout,cold
+Affinia Healthcare,affinia-healthcare,1717 Biddle St Women's Health Dept.,St. Louis,MO,63106.0,Lindell/SLU,1,2025-04-23,2025-04-23,460,,104.29,104.29,Marketplace Takeout,cold
+Alberici - St. Louis,alberici---st-louis,8800 Page Ave,St. Louis,MO,63114.0,West Oak,1,2025-10-16,2025-10-16,284,,292.5,292.5,Marketplace Takeout,cold
+Alberici Constructors,alberici-constructors,2150 Kienlen Ave Building 2,St. Louis,MO,63121.0,Forsyth/Clayton,1,2025-10-15,2025-10-15,285,,75.85,75.85,Marketplace Takeout,cold
+Alltru CU,alltru-cu,1232 Wentzville Parkway 1,Wentzville,MO,63385.0,Wentzville,1,2025-07-08,2025-07-08,384,,105.64,105.64,Marketplace Takeout,cold
+Amazon STL8,amazon-stl8,4000 Premier Pkwy,St. Peters,MO,63376.0,O'Fallon,1,2025-07-23,2025-07-23,369,,452.46,452.46,Marketplace Takeout,cold
+America's Center,americas-center,911 Washington Ave,St. Louis,MO,63101.0,Lindell/SLU,1,2025-03-08,2025-03-08,506,,241.0,241.0,Marketplace Takeout,cold
+America's Center Convention Complex,americas-center-convention-complex,701 Convention Plaza,St. Louis,MO,63101.0,Lindell/SLU,1,2025-03-16,2025-03-16,498,,208.03,208.03,Marketplace Takeout,cold
+American Family Insurance,american-family-insurance,800 NW Plz Dr,Saint Ann,MO,63074.0,West Oak,1,2025-02-06,2025-02-06,536,,504.06,504.06,Marketplace Takeout,cold
+Americas Center,americas-center,701 Convention Plaza,St. Louis,MO,63101.0,Lindell/SLU,1,2025-11-07,2025-11-07,262,,344.75,344.75,Marketplace Takeout,cold
+Anderson Med Group - Dr. Dean Schueler,anderson-med-group---dr-dean-schueler,20 Professional Park Dr Suite B,Maryville,IL,62062.0,Edwardsville,1,2025-06-09,2025-06-09,413,,265.45,265.45,Marketplace Takeout,cold
+Anderson Medical Group- Gastroenterology,anderson-medical-group--gastroenterology,6812 IL-162 Suite 204,Maryville,IL,62062.0,Edwardsville,1,2025-10-27,2025-10-27,273,,314.2,314.2,Marketplace Takeout,cold
+Arch Cancer Center,arch-cancer-center,12855 N Forty Dr Ground Level,Creve Coeur,MO,63141.0,Manchester,1,2025-10-06,2025-10-06,294,,290.33,290.33,Marketplace Takeout,cold
+Arnold Eyecare,arnold-eyecare,Water Tower Pl,Arnold,MO,63010.0,Tesson,1,2025-08-20,2025-08-20,341,,178.95,178.95,Marketplace Takeout,cold
+Axiom Administration Services,axiom-administration-services,1 Progress Point Pkwy Ste 101,O'Fallon,MO,63368.0,O'Fallon,1,2025-05-08,2025-05-08,445,,353.0,353.0,Marketplace Takeout,cold
+Azimuth Renewables,azimuth-renewables,7800 Forsyth Blvd Suite 300B,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-09-24,2025-09-24,306,,419.25,419.25,Marketplace Takeout,cold
+BJC Edwardsville,bjc-edwardsville,2122 Troy Rd,Edwardsville,IL,62025.0,Edwardsville,1,2025-03-26,2025-03-26,488,,94.99,94.99,Marketplace Takeout,cold
+BJC Medical Group at St. Peters,bjc-medical-group-at-st-peters,201 Bjc-Saint Peters Dr building C (3) suite 200,St. Peters,MO,63376.0,Lindenwood,1,2025-03-14,2025-03-14,500,,519.11,519.11,Marketplace Takeout,cold
+BJC Medical Group of Illinois,bjc-medical-group-of-illinois,310 N 7 Hills Rd,O'Fallon,IL,62269.0,Shiloh,1,2025-02-26,2025-02-26,516,,322.2,322.2,Marketplace Takeout,cold
+BJC OB-GYN,bjc-ob-gyn,1414 Cross St 240,Shiloh,IL,62269.0,Shiloh,1,2025-03-14,2025-03-14,500,,406.75,406.75,ezOrdering Takeout,cold
+BJC Outpatient Center at Edwardsville,bjc-outpatient-center-at-edwardsville,2122 Troy Rd,Edwardsville,IL,62025.0,Edwardsville,1,2025-02-13,2025-02-13,529,,367.5,367.5,Marketplace Takeout,cold
+BJC Wentzville,bjc-wentzville,1520 Wentzville Pkwy,Wentzville,MO,63385.0,Wentzville,1,2025-03-26,2025-03-26,488,,435.0,435.0,Marketplace Takeout,cold
+BJCMG Cardiology Wentzville - Metro Heart Group,bjcmg-cardiology-wentzville---metro-heart-group,1520 Wentzville Pkwy,Wentzville,MO,63385.0,Wentzville,1,2025-03-17,2025-03-17,497,,362.1,362.1,Marketplace Takeout,cold
+Baram Psychiatry,baram-psychiatry,10420 Old Olive St Rd Suite 205,Creve Coeur,MO,63141.0,West Oak,1,2025-08-04,2025-08-04,357,,103.45,103.45,Marketplace Takeout,cold
+Barnes Jewish,barnes-jewish,1 Barnes Jewish Hospital Plaza,St. Louis,MO,63110.0,Lindell/SLU,1,2025-04-02,2025-04-02,481,,266.1,266.1,Marketplace Takeout,cold
+Barnes Jewish Hospital Main Campus. Meet in main lobby,barnes-jewish-hospital-main-campus-meet-in-main-lobby,Barnes Jewish Hospital Plaza,St. Louis,MO,63110.0,Lindell/SLU,1,2025-12-21,2025-12-21,218,,341.95,341.95,Marketplace Takeout,cold
+Barnes Jewish Hospital main campus.,barnes-jewish-hospital-main-campus,Barnes Jewish Hospital Plaza,St. Louis,MO,63110.0,Lindell/SLU,1,2025-12-21,2025-12-21,218,,341.95,341.95,Marketplace Takeout,cold
+Bauer Hall/Bauer Leaders Academy,bauer-hall-bauer-leaders-academy,1 Snow Way Dr 5th Floor/Room 550,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-02-26,2025-02-26,516,,297.85,297.85,Marketplace Takeout,cold
+Becker Library,becker-library,660 S Euclid Ave,St. Louis,MO,63110.0,Lindell/SLU,1,2025-10-16,2025-10-16,284,,205.8,205.8,Marketplace Takeout,cold
+Becker Library  - WashU Medical School,becker-library----washu-medical-school,660 S Euclid Ave,St. Louis,MO,63110.0,Lindell/SLU,1,2025-08-28,2025-08-28,333,,246.9,246.9,Marketplace Takeout,cold
+Benefit finance Partners,benefit-finance-partners,6 Cityplace Dr 4th floor suite 400,Creve Coeur,MO,63141.0,West Oak,1,2026-01-19,2026-01-19,189,,449.2,449.2,Marketplace Takeout,cold
+Best Western Plus,best-western-plus,9730 Hayden Dr,Mascoutah,IL,62258.0,Shiloh,1,2025-02-15,2025-02-15,527,,396.7,396.7,Marketplace Takeout,cold
+Best Western Plus - Drury Womens Basketball,best-western-plus---drury-womens-basketball,1425 S 5th St lobby,Saint Charles,MO,63301.0,Lindenwood,1,2025-03-08,2025-03-08,506,,257.75,257.75,Marketplace Takeout,cold
+Bjc o fallon family,bjc-o-fallon-family,310 N 7 Hills Rd 220,O'Fallon,IL,62269.0,Shiloh,1,2025-02-19,2025-02-19,523,,296.9,296.9,Marketplace Takeout,cold
+Bjc primary care,bjc-primary-care,2630 State Hwy K,O'Fallon,MO,63368.0,O'Fallon,1,2025-03-13,2025-03-13,501,,232.0,232.0,Marketplace Takeout,cold
+Boeing Institute of IB at SLU,boeing-institute-of-ib-at-slu,3674 Lindell Blvd Room 330,St. Louis,MO,63108.0,Lindell/SLU,1,2025-04-24,2025-04-24,459,,325.35,325.35,Marketplace Takeout,cold
+Boys & Girls Clubs of Greater St. Louis,boys-and-girls-clubs-of-greater-st-louis,9200 W Florissant Ave Attn: St. Louis Internship Program,St. Louis,MO,63136.0,Forsyth/Clayton,1,2025-11-17,2025-11-17,252,,85.56,85.56,Marketplace Takeout,cold
+Building B suite 40- urology,building-b-suite-40--urology,111 St Luke's Center Dr,Chesterfield,MO,63017.0,Creve Coeur,1,2025-08-29,2025-08-29,332,,246.0,246.0,Marketplace Takeout,cold
+Busch Stadium - Visiting Clubhouse,busch-stadium---visiting-clubhouse,700 Clark Ave,St. Louis,MO,63102.0,Lindell/SLU,1,2025-06-22,2025-06-22,400,,133.0,133.0,Marketplace Takeout,cold
+Busey Bank,busey-bank,330 W Vandalia St,Edwardsville,IL,62025.0,Edwardsville,1,2026-01-20,2026-01-20,188,,341.2,341.2,Marketplace Takeout,cold
+CIC @ CET,cic-@-cet,20 S Sarah St 1st Floor,St. Louis,MO,63108.0,Lindell/SLU,1,2025-04-23,2025-04-23,460,,599.4,599.4,Marketplace Takeout,cold
+CPM Urology (3rd floor) suite 330,cpm-urology-(3rd-floor)-suite-330,701 S New Ballas Rd Suite 330 Urology 3rd floor,St. Louis,MO,63141.0,West Oak,1,2025-06-10,2025-06-10,412,,327.87,327.87,Marketplace Takeout,cold
+CRB Group,crb-group,721 Emerson Rd Suite 600,St. Louis,MO,63141.0,West Oak,1,2025-05-21,2025-05-21,432,,128.95,128.95,Marketplace Takeout,cold
+CUSD 187,cusd-187,1700 Jerome Lane,Sauget,IL,62206.0,Lindell/SLU,1,2025-06-06,2025-06-06,416,,276.18,276.18,Marketplace Takeout,cold
+Caduceus Corporation Pulmonary and Sleep Medicine,caduceus-corporation-pulmonary-and-sleep-medicine,11200 Tesson Ferry Rd Suite 100,St. Louis,MO,63123.0,Tesson,1,2025-08-21,2025-08-21,340,,285.0,285.0,Marketplace Takeout,cold
+"Cancer center, 2nd floor",cancer-center-2nd-floor,10050 Kennerly Rd,Sappington,MO,63128.0,Tesson,1,2025-04-07,2025-04-07,476,,537.01,537.01,Marketplace Takeout,cold
+CancerCare Specialist,cancercare-specialist,321 Regency Park,O'Fallon,IL,62269.0,Shiloh,1,2025-03-13,2025-03-13,501,,710.15,710.15,Marketplace Takeout,cold
+Cannon Design,cannon-design,1100 Clark Ave,St. Louis,MO,63102.0,Lindell/SLU,1,2025-11-18,2025-11-18,251,,132.3,132.3,Marketplace Takeout,cold
+"Cantor Injury Law, LLC",cantor-injury-law-llc,12283 Olive Blvd,Creve Coeur,MO,63141.0,West Oak,1,2025-10-08,2025-10-08,292,,340.0,340.0,Marketplace Takeout,cold
+CapyBio,capybio,4340 Duncan Ave 290,St. Louis,MO,63110.0,Lindell/SLU,1,2025-09-09,2025-09-09,321,,164.82,164.82,Marketplace Takeout,cold
+Cardiac cath lab,cardiac-cath-lab,1404 Cross St,Shiloh,IL,62269.0,Shiloh,1,2025-03-25,2025-03-25,489,,254.4,254.4,Marketplace Takeout,cold
+Cardiac cath lab- first floor,cardiac-cath-lab--first-floor,2 Progress Point Pkwy,O'Fallon,MO,63368.0,O'Fallon,1,2025-06-24,2025-06-24,398,,295.9,295.9,Marketplace Takeout,cold
+Cardio-Pulmonary Consultants,cardio-pulmonary-consultants,222 S Woods Mill Rd 310,Creve Coeur,MO,63141.0,Creve Coeur,1,2025-05-07,2025-05-07,446,,256.5,256.5,Marketplace Takeout,cold
+Castle Contracting,castle-contracting,345 Marshall Ave Suite 302,Webster Groves,MO,63119.0,Rock Hill/Glendale,1,2025-07-16,2025-07-16,376,,88.2,88.2,Marketplace Takeout,cold
+Center For Career Engagement,center-for-career-engagement,6475 Forsyth Blvd. Danforth University Center Suite 110,St. Louis,MO,63105.0,Forsyth/Clayton,1,2025-03-25,2025-03-25,489,,80.65,80.65,Marketplace Takeout,cold
+Center for Advanced Medicine,center-for-advanced-medicine,4921 Parkview Pl,St. Louis,MO,63110.0,Lindell/SLU,1,2025-04-02,2025-04-02,481,,207.1,207.1,Marketplace Takeout,cold
+Cerro Flow Products,cerro-flow-products,3000 Mississippi Ave Human Resourses,East St. Louis,IL,62206.0,Lindell/SLU,1,2025-11-18,2025-11-18,251,,93.87,93.87,Marketplace Takeout,cold
+Chaifetz,chaifetz,1 S Compton Ave,St. Louis,MO,63103.0,Forsyth/Clayton,1,2025-12-14,2025-12-14,225,,445.14,445.14,Marketplace Takeout,cold
+Champions Center--Chaifeitz Arena,champions-center--chaifeitz-arena,1 S Compton Ave Go through gate to back entrance,St. Louis,MO,63103.0,Lindell/SLU,1,2025-08-28,2025-08-28,333,,249.65,249.65,Marketplace Takeout,cold
+Champions Center/Chaifetz Arena,champions-center-chaifetz-arena,3330 Laclede Ave,St. Louis,MO,63103.0,Lindell/SLU,1,2025-05-20,2025-05-20,433,,105.85,105.85,Marketplace Takeout,cold
+Chase Park Plaza/Saint Louis Chess Club,chase-park-plaza-saint-louis-chess-club,212 N Kingshighway Blvd,St. Louis,MO,63108.0,Lindell/SLU,1,2025-06-07,2025-06-07,415,,88.75,88.75,Marketplace Takeout,cold
+Chesterfield Cardiology-Dr. Baig,chesterfield-cardiology-dr-baig,222 S. Woods Mill Rd. North Medical Building Suite 560 Ste 560,Chesterfield,MO,63017.0,Manchester,1,2025-05-01,2025-05-01,452,,253.9,253.9,Marketplace Takeout,cold
+Chesterfield Counseling Associates,chesterfield-counseling-associates,15455 Conway Rd Suite 100,Chesterfield,MO,63017.0,Creve Coeur,1,2025-01-31,2025-01-31,542,,184.5,184.5,ezOrdering Takeout,cold
+Christner Architects,christner-architects,621 Skinker Blvd Suite 220,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-07-16,2025-07-16,376,,232.5,232.5,Marketplace Takeout,cold
+City Academy,city-academy,4175 Kingshighway Blvd,St. Louis,MO,63115.0,Lindell/SLU,1,2025-08-13,2025-08-13,348,,878.25,878.25,Marketplace Takeout,cold
+City of Sunset Hills,city-of-sunset-hills,3915 S Lindbergh Blvd,St. Louis,MO,63127.0,Manchester,1,2025-08-06,2025-08-06,355,,264.0,264.0,Marketplace Takeout,cold
+Clayton Police Department,clayton-police-department,10 S Brentwood Blvd,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-04-08,2025-04-08,475,,628.18,628.18,Marketplace Takeout,cold
+Club Fitness,club-fitness,215 Arnold Crossroads Center Ground floor,Arnold,MO,63010.0,Tesson,1,2025-12-12,2025-12-12,227,,479.58,479.58,Marketplace Takeout,cold
+Color Art Integrated Interiors,color-art-integrated-interiors,1325 North Warson Rd Front Desk,St. Louis,MO,63132.0,West Oak,1,2025-07-16,2025-07-16,376,,104.0,104.0,Marketplace Takeout,cold
+Commerce Connect,commerce-connect,56 N Euclid Ave Suite 200,St. Louis,MO,63108.0,Lindell/SLU,1,2025-11-03,2025-11-03,266,,175.0,175.0,Marketplace Takeout,cold
+Community And Long Term Care Psychiatry (Dr. Graypel office),community-and-long-term-care-psychiatry-(dr-graypel-office),10004 Kennerly Rd Suite 362 B,St. Louis,MO,63128.0,Tesson,1,2025-04-22,2025-04-22,461,,281.39,281.39,Marketplace Takeout,cold
+Community and LT Care Psychiatry,community-and-lt-care-psychiatry,10004 Kennerly Rd 362B,St. Louis,MO,63128.0,Sunset Hills,1,2025-12-29,2025-12-29,210,,218.94,218.94,Marketplace Takeout,cold
+"Community and Long Term Care Psychiatry, LLC",community-and-long-term-care-psychiatry-llc,10004 Kennerly Rd 362B,St. Louis,MO,63128.0,Tesson,1,2025-10-30,2025-10-30,270,,231.25,231.25,Marketplace Takeout,cold
+Corporate Hill - Training Room - DiningRD,corporate-hill---training-room---diningrd,1630 Des Peres Rd First Floor Training Room,St. Louis,MO,63131.0,Manchester,1,2025-04-29,2025-04-29,454,,886.5,886.5,Marketplace Takeout,cold
+Counselors associates LTC,counselors-associates-ltc,7348 state route 162,Troy,IL,62294.0,Edwardsville,1,2025-07-10,2025-07-10,382,,245.25,245.25,Marketplace Takeout,cold
+Dedicated Senior Medical Center,dedicated-senior-medical-center,3721 S Grand Blvd,St. Louis,MO,63118.0,Lindell/SLU,1,2025-11-12,2025-11-12,257,,319.0,319.0,Marketplace Takeout,cold
+Deloitte,deloitte,100 S 4th St,St. Louis,MO,63102.0,Lindell/SLU,1,2025-12-08,2025-12-08,231,,297.85,297.85,Marketplace Takeout,cold
+Deluxe Dermatology,deluxe-dermatology,1034 S Brentwood Blvd 1000,Richmond Heights,MO,63117.0,Rock Hill/Glendale,1,2025-01-13,2025-01-13,560,,174.04,174.04,Marketplace Takeout,cold
+Derm Care,derm-care,12200 Weber Hill Rd 200,St. Louis,MO,63127.0,Tesson,1,2025-09-09,2025-09-09,321,,457.5,457.5,Marketplace Takeout,cold
+DermCare,dermcare,"12200 Weber Hill Rd 200, 2nd floor",St. Louis,MO,63127.0,Sunset Hills,1,2025-05-08,2025-05-08,445,,434.05,434.05,Marketplace Takeout,cold
+Distribution Management,distribution-management,5 Research Park Dr,Saint Charles,MO,63304.0,O'Fallon,1,2025-06-25,2025-06-25,397,,280.9,280.9,Marketplace Delivery,cold
+Distribution Management (DM),distribution-management-(dm),5 Research Park Dr,Saint Charles,MO,63304.0,O'Fallon,1,2025-01-23,2025-01-23,550,,342.4,342.4,ezOrdering Takeout,cold
+"Distribution Management, Inc.",distribution-management-inc,5 Research Park Dr,Saint Charles,MO,63304.0,O'Fallon,1,2025-03-04,2025-03-04,510,,211.7,211.7,ezOrdering Takeout,cold
+Dr Alonso - neurology,dr-alonso---neurology,3009 N Ballas Rd Suite 102 bldg B,St. Louis,MO,63131.0,West Oak,1,2025-03-27,2025-03-27,487,,316.2,316.2,Marketplace Takeout,cold
+Dr Hill,dr-hill,2090 Vadalabene Dr,Maryville,IL,62062.0,Edwardsville,1,2025-07-01,2025-07-01,391,,232.0,232.0,Marketplace Takeout,cold
+Dr Terkonda,dr-terkonda,121 St Luke's Center Dr Suite 504,Chesterfield,MO,63017.0,Creve Coeur,1,2025-08-04,2025-08-04,357,,263.5,263.5,Marketplace Takeout,cold
+Dr Wood MD Endocrine,dr-wood-md-endocrine,"10345 Watson Rd If you pull to back of building, enter via back door is the easiest",St. Louis,MO,63127.0,Sunset Hills,1,2025-05-23,2025-05-23,430,,200.4,200.4,Marketplace Takeout,cold
+Dr coyne,dr-coyne,1502 W Meyer Rd,Wentzville,MO,63385.0,Wentzville,1,2025-05-06,2025-05-06,447,,192.48,192.48,Marketplace Takeout,cold
+Dr joshua Binek,dr-joshua-binek,"621 S New Ballas Rd Suite 507, tower A",St. Louis,MO,63141.0,West Oak,1,2025-04-16,2025-04-16,467,,196.5,196.5,Marketplace Takeout,cold
+Dr wade sihf,dr-wade-sihf,311 W Lincoln St,Belleville,IL,62220.0,Shiloh,1,2025-04-01,2025-04-01,482,,304.5,304.5,Marketplace Takeout,cold
+Dr. Capps Office,dr-capps-office,12445 Dorsett Rd,Maryland Heights,MO,63043.0,West Oak,1,2025-07-21,2025-07-21,371,,174.9,174.9,Marketplace Takeout,cold
+Dr. Lottes and Houser,dr-lottes-and-houser,1820 Zumbehl Rd 120,Saint Charles,MO,63303.0,Lindenwood,1,2025-04-24,2025-04-24,459,,310.5,310.5,Marketplace Takeout,cold
+Dr. Salama,dr-salama,8790 Watson Rd Ste 100,St. Louis,MO,63123.0,Rock Hill/Glendale,1,2025-11-14,2025-11-14,255,,102.9,102.9,Marketplace Takeout,cold
+Dr. Sills Powell Podiatry,dr-sills-powell-podiatry,1776 Crosswinds Dr,Wentzville,MO,63385.0,Wentzville,1,2025-09-04,2025-09-04,326,,79.2,79.2,Marketplace Takeout,cold
+Drummond hall,drummond-hall,3691 Rutger St,St. Louis,MO,63110.0,Lindell/SLU,1,2025-10-07,2025-10-07,293,,343.33,343.33,Marketplace Takeout,cold
+Drury Hotels Corporate Office,drury-hotels-corporate-office,13075 Manchester Rd,Des Peres,MO,63131.0,Manchester,1,2025-08-13,2025-08-13,348,,231.32,231.32,Marketplace Takeout,cold
+Drury Inn & Suites,drury-inn-and-suites,8700 Eager Rd,Brentwood,MO,63144.0,Forsyth/Clayton,1,2025-01-04,2025-01-04,569,,636.9,636.9,Marketplace Takeout,cold
+Easterseals Midwest,easterseals-midwest,11933 Westline Industrial Dr,St. Louis,MO,63146.0,West Oak,1,2025-05-12,2025-05-12,441,,283.25,283.25,Marketplace Takeout,cold
+Eden Theological Seminary,eden-theological-seminary,479 E Lockwood Ave Commons Building,Webster Groves,MO,63119.0,Rock Hill/Glendale,1,2025-02-25,2025-02-25,517,,596.25,596.25,Marketplace Takeout,cold
+Enterprise Mobilit,enterprise-mobilit,2281 Ball Dr 4th floor,St. Louis,MO,63146.0,West Oak,1,2025-04-30,2025-04-30,453,,155.5,155.5,Marketplace Takeout,cold
+Erin Hogg @ Washington University School of Medicine,erin-hogg-@-washington-university-school-of-medicine,517 S Euclid Ave,St. Louis,MO,63110.0,Lindell/SLU,1,2025-05-27,2025-05-27,426,,75.25,75.25,Marketplace Takeout,cold
+Esse Health,esse-health,1027 Bellevue Ave Suite 107,St. Louis,MO,63117.0,Forsyth/Clayton,1,2025-05-07,2025-05-07,446,,363.7,363.7,Marketplace Takeout,cold
+Esse primary care,esse-primary-care,1078 Wentzville Pkwy,Wentzville,MO,63385.0,Wentzville,1,2025-05-29,2025-05-29,424,,132.0,132.0,Marketplace Takeout,cold
+Eurofins St Louis,eurofins-st-louis,2250 Welsch Industrial Ct A,St. Louis,MO,63146.0,Forsyth/Clayton,1,2025-12-17,2025-12-17,222,,296.33,296.33,Marketplace Takeout,cold
+Evernorth / Cigna,evernorth---cigna,8455 University Pl Dr floor 1.,St. Louis,MO,63121.0,Forsyth/Clayton,1,2025-03-04,2025-03-04,510,,278.62,278.62,Marketplace Takeout,cold
+EyeCare Partners,eyecare-partners,15933 Clayton Rd 210,Ballwin,MO,63011.0,Creve Coeur,1,2025-05-01,2025-05-01,452,,847.75,847.75,Marketplace Takeout,cold
+FARNSWORTH GROUP,farnsworth-group,300 E Main St STE 101,Belleville,IL,62220.0,Shiloh,1,2025-05-28,2025-05-28,425,,72.0,72.0,Marketplace Takeout,cold
+FGM Architects,fgm-architects,475 Regency Park Dr. Suite 325,O'Fallon,IL,62269.0,Shiloh,1,2025-03-20,2025-03-20,494,,77.29,77.29,Marketplace Takeout,cold
+FM,fm,12645 Olive Blvd Suite 400,Creve Coeur,MO,63141.0,West Oak,1,2025-03-19,2025-03-19,495,,465.0,465.0,Marketplace Takeout,cold
+Family Eye Care of OFallon,family-eye-care-of-ofallon,735 Insight Ave,O'Fallon,IL,62269.0,Shiloh,1,2025-09-22,2025-09-22,308,,343.53,343.53,Marketplace Takeout,cold
+Family Practice Belleville,family-practice-belleville,4600 Memorial Dr Suite 400,Belleville,IL,62226.0,Shiloh,1,2025-03-26,2025-03-26,488,,368.95,368.95,Marketplace Takeout,cold
+Family health care center,family-health-care-center,4352 Manchester Ave,St. Louis,MO,63110.0,Lindell/SLU,1,2025-03-24,2025-03-24,490,,135.0,135.0,Marketplace Takeout,cold
+Focus Partners Wealth,focus-partners-wealth,190 Carondelet Plaza Suite 600,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-02-04,2025-02-04,538,,119.6,119.6,ezOrdering Takeout,cold
+Forest Park Dialysis,forest-park-dialysis,4205 Forest Park Ave,St. Louis,MO,63108.0,Lindell/SLU,1,2025-02-12,2025-02-12,530,,184.8,184.8,Marketplace Takeout,cold
+GETIXCO,getixco,"6475 Forsyth Blvd Level 2, Room 234",St. Louis,MO,63105.0,Forsyth/Clayton,1,2025-10-01,2025-10-01,299,,412.5,412.5,Marketplace Takeout,cold
+Geneoscopy,geneoscopy,2220 Welsch Industrial Ct,St. Louis,MO,63146.0,West Oak,1,2025-05-06,2025-05-06,447,,990.0,990.0,Marketplace Takeout,cold
+"Golding, Inc.",golding-inc,251 Axminister Dr,Fenton,MO,63026.0,Sunset Hills,1,2025-12-16,2025-12-16,223,,229.5,229.5,Marketplace Takeout,cold
+Grace Design Studios,grace-design-studios,2464 West Port Plaza Dr Suite 200,St. Louis,MO,63146.0,West Oak,1,2025-09-25,2025-09-25,305,,308.7,308.7,Marketplace Takeout,cold
+Gulfstream -Alicia Beals,gulfstream--alicia-beals,6400 Curtiss-Steinberg Dr Hangar A 2nd Floor,Sauget,IL,62206.0,Lindell/SLU,1,2026-01-07,2026-01-07,201,,142.45,142.45,Marketplace Takeout,cold
+HOK ST. LOUIS,hok-st-louis,701 Market St 400,St. Louis,MO,63101.0,Lindell/SLU,1,2026-01-07,2026-01-07,201,,769.5,769.5,Marketplace Takeout,cold
+HSHS - Fairview Heights - Family Medicine,hshs---fairview-heights---family-medicine,5 Ludwig Dr,Fairview Heights,IL,62208.0,Shiloh,1,2025-05-01,2025-05-01,452,,124.35,124.35,Marketplace Takeout,cold
+HSHS Med Group - O'Fallon Family Medicine,hshs-med-group---ofallon-family-medicine,1512 N Green Mount Rd Suite 108,O'Fallon,IL,62269.0,Shiloh,1,2025-03-12,2025-03-12,502,,339.7,339.7,Marketplace Takeout,cold
+HSHS Medical Group Wound Clinic - O'Fallon,hshs-medical-group-wound-clinic---ofallon,1 St Elizabeth's Blvd #3000,O'Fallon,IL,62269.0,Shiloh,1,2025-06-03,2025-06-03,419,,176.4,176.4,Marketplace Takeout,cold
+HTE TECHNOLOGIES,hte-technologies,2021 Congressional Dr,St. Louis,MO,63146.0,West Oak,1,2025-09-23,2025-09-23,307,,263.0,263.0,Marketplace Takeout,cold
+Heart Care Institute,heart-care-institute,1020 N Mason Rd,Creve Coeur,MO,63141.0,Creve Coeur,1,2025-07-24,2025-07-24,368,,148.85,148.85,Marketplace Takeout,cold
+Heartland Women’s Healthcare,heartland-women’s-healthcare,1170 Fortune Blvd,Shiloh,IL,62269.0,Shiloh,1,2025-02-11,2025-02-11,531,,455.37,455.37,Marketplace Takeout,cold
+Hidden Arches,hidden-arches,811 Sontag Rd,Ballwin,MO,63021.0,Manchester,1,2025-07-05,2025-07-05,387,,139.36,139.36,Marketplace Takeout,cold
+Hilton St. Louis at the Ballpark,hilton-st-louis-at-the-ballpark,1 S Broadway,St. Louis,MO,63102.0,Lindell/SLU,1,2025-09-19,2025-09-19,311,,246.55,246.55,Marketplace Takeout,cold
+Hilton at the Ballpark,hilton-at-the-ballpark,1 S Broadway,St. Louis,MO,63102.0,Lindell/SLU,1,2025-11-05,2025-11-05,264,,350.05,350.05,Marketplace Takeout,cold
+Hope Clinic,hope-clinic,1602 21st St,Granite City,IL,62040.0,South City,1,2025-06-24,2025-06-24,398,,164.5,164.5,Marketplace Takeout,cold
+Horner Shifrin,horner-shifrin,401 S 18th St 400,St. Louis,MO,63103.0,Lindell/SLU,1,2026-01-14,2026-01-14,194,,179.25,179.25,Marketplace Takeout,cold
+Houston Dynamo 2 - Energizer Stadium,houston-dynamo-2---energizer-stadium,2100 Market St,St. Louis,MO,63103.0,Lindell/SLU,1,2025-05-04,2025-05-04,449,,439.5,439.5,Marketplace Takeout,cold
+Hunter Engineering - c/o Jim T.,hunter-engineering---c-o-jim-t,"11250 Hunter Dr Building ""A""",Bridgeton,MO,63044.0,West Oak,1,2025-08-13,2025-08-13,348,,238.2,238.2,Marketplace Takeout,cold
+Hunter Engineering - c/o Jim Tworek,hunter-engineering---c-o-jim-tworek,11250 Hunter Dr,Bridgeton,MO,63044.0,West Oak,1,2025-04-10,2025-04-10,473,,308.7,308.7,Marketplace Takeout,cold
+ICL Specialty Products,icl-specialty-products,8201 Idaho Ave NA,St. Louis,MO,63111.0,Tesson,1,2025-10-20,2025-10-20,280,,184.48,184.48,Marketplace Takeout,cold
+ICL-Group,icl-group,8201 Idaho Ave,St. Louis,MO,63111.0,Tesson,1,2025-11-06,2025-11-06,263,,242.83,242.83,Marketplace Takeout,cold
+ISC,isc,9777 Reavis Rd,Affton,MO,63123.0,Tesson,1,2025-04-15,2025-04-15,468,,142.53,142.53,Marketplace Takeout,cold
+Ideal Eye Surgery,ideal-eye-surgery,705 Insight Ave,O'Fallon,IL,62269.0,Shiloh,1,2025-01-23,2025-01-23,550,,505.7,505.7,ezOrdering Takeout,cold
+Insperity,insperity,3 Cityplace Dr,Creve Coeur,MO,63141.0,West Oak,1,2025-03-17,2025-03-17,497,,167.3,167.3,Marketplace Takeout,cold
+JM&A Group,jmanda-group,3120 Rider Trail S,Earth City,MO,63045.0,Creve Coeur,1,2025-12-04,2025-12-04,235,,1224.25,1224.25,Marketplace Takeout,cold
+JP Morgan Chase,jp-morgan-chase,7700 Forsyth Blvd 1200,St. Louis,MO,63105.0,Forsyth/Clayton,1,2025-05-14,2025-05-14,439,,91.7,91.7,Marketplace Takeout,cold
+Jacobs,jacobs,1001 Highlands Plaza Dr Suite 400,St. Louis,MO,63110.0,Lindell/SLU,1,2025-10-28,2025-10-28,272,,189.6,189.6,Marketplace Takeout,cold
+KCI CONSTRUCTION COMPANY,kci-construction-company,1260 Andes Blvd,St. Louis,MO,63132.0,West Oak,1,2025-07-16,2025-07-16,376,,184.5,184.5,Marketplace Takeout,cold
+KIPP High School,kipp-high-school,706 N Jefferson Ave 1st floor outside of 143,St. Louis,MO,63103.0,Lindell/SLU,1,2025-07-29,2025-07-29,363,,1105.0,1105.0,Marketplace Takeout,cold
+KIPP Wonder Academy,kipp-wonder-academy,3740 Marine Ave,St. Louis,MO,63118.0,Lindell/SLU,1,2026-01-05,2026-01-05,203,,275.18,275.18,Marketplace Takeout,cold
+Keg1 Missouri,keg1-missouri,3201 Rider Trail S,Earth City,MO,63045.0,Lindenwood,1,2025-11-04,2025-11-04,265,,220.5,220.5,Marketplace Takeout,cold
+Kennedy Capital Management,kennedy-capital-management,10829 Olive Blvd 1st floor receptionist,Creve Coeur,MO,63141.0,West Oak,1,2025-05-07,2025-05-07,446,,253.4,253.4,Marketplace Takeout,cold
+Kindeva,kindeva,1945 Craig Rd,St. Louis,MO,63146.0,West Oak,1,2025-06-11,2025-06-11,411,,324.87,324.87,Marketplace Takeout,cold
+Korte Stadium,korte-stadium,3345 Stadium Dr,Edwardsville,IL,62025.0,Edwardsville,1,2025-04-12,2025-04-12,471,,855.16,855.16,Marketplace Takeout,cold
+Ladue Fifth Grade Center,ladue-fifth-grade-center,10900 Ladue Rd,Creve Coeur,MO,63141.0,West Oak,1,2025-07-02,2025-07-02,390,,83.8,83.8,Marketplace Takeout,cold
+Ladue School District,ladue-school-district,1201 Warson Rd,St. Louis,MO,63124.0,Rock Hill/Glendale,1,2025-05-14,2025-05-14,439,,198.1,198.1,Marketplace Takeout,cold
+"Lashly & Baer, P.C.",lashly-and-baer-pc,714 Locust St,St. Louis,MO,63101.0,Lindell/SLU,1,2025-01-28,2025-01-28,545,,121.6,121.6,Marketplace Takeout,cold
+Legal Concierge,legal-concierge,7700 Bonhomme Ave Suite 300,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-06-10,2025-06-10,412,,383.65,383.65,Marketplace Delivery,cold
+Less Annoying CRM,less-annoying-crm,1017 Olive St Suite 300 (3rd floor),St. Louis,MO,63101.0,Lindell/SLU,1,2025-01-15,2025-01-15,558,,226.4,226.4,Marketplace Takeout,cold
+Lift for Life Academy,lift-for-life-academy,1709 S Broadway,St. Louis,MO,63104.0,Lindell/SLU,1,2025-07-22,2025-07-22,370,,111.54,111.54,Marketplace Takeout,cold
+METRO EAST DERMATOLOGY,metro-east-dermatology,331 Regency Park,O'Fallon,IL,62269.0,Shiloh,1,2025-04-07,2025-04-07,476,,415.7,415.7,ezOrdering Takeout,cold
+MG+M The Law Firm,mg+m-the-law-firm,1405 N Green Mt Rd 400,O'Fallon,IL,62269.0,Shiloh,1,2025-05-27,2025-05-27,426,,500.7,500.7,Marketplace Takeout,cold
+MLB Network Apple TV - St. Louis,mlb-network-apple-tv---st-louis,700 Clark Ave,St. Louis,MO,63102.0,Lindell/SLU,1,2025-05-22,2025-05-22,431,,315.0,315.0,Marketplace Takeout,cold
+MU Extension Center on the UMSL Campus (Regional Center for Education and Work),mu-extension-center-on-the-umsl-campus-(regional-center-for-education-and-work),8225 Florissant Rd,St. Louis,MO,63121.0,Forsyth/Clayton,1,2025-10-14,2025-10-14,286,,394.05,394.05,Marketplace Takeout,cold
+Mackey Mitchell Architects,mackey-mitchell-architects,900 Spruce St. #500,St. Louis,MO,63102.0,Lindell/SLU,1,2025-04-29,2025-04-29,454,,215.73,215.73,Marketplace Takeout,cold
+Martone Legal LLC,martone-legal-llc,600 Emerson Rd 205,Creve Coeur,MO,63141.0,West Oak,1,2025-12-08,2025-12-08,231,,305.25,305.25,Marketplace Takeout,cold
+Maryville Women's Center,maryville-womens-center,2016 Vadalabene Dr,Maryville,IL,62062.0,Edwardsville,1,2025-02-12,2025-02-12,530,,398.0,398.0,Marketplace Takeout,cold
+Medical Specialists of St. Lukes,medical-specialists-of-st-lukes,222 S Woods Mill Rd 750 North,Chesterfield,MO,63017.0,Creve Coeur,1,2025-01-08,2025-01-08,565,,378.65,378.65,Marketplace Takeout,cold
+Medical specialists of st. Lukes,medical-specialists-of-st-lukes,222 S Woods Mill Rd 750 North Building,Chesterfield,MO,63017.0,Creve Coeur,1,2025-05-13,2025-05-13,440,,379.5,379.5,Marketplace Takeout,cold
+Memorial Hospital,memorial-hospital,4600 Memorial Dr Building 2 Suite W1,Belleville,IL,62226.0,Shiloh,1,2025-02-18,2025-02-18,524,,260.24,260.24,Marketplace Takeout,cold
+Memorial Hospital Belleville,memorial-hospital-belleville,4500 Memorial Dr Main Entrance -Boardroom,Belleville,IL,62226.0,Shiloh,1,2025-02-24,2025-02-24,518,,292.2,292.2,Marketplace Takeout,cold
+Meramac Dermatology,meramac-dermatology,3783 Vogel Rd,Arnold,MO,63010.0,Tesson,1,2025-05-28,2025-05-28,425,,619.4,619.4,Marketplace Takeout,cold
+Meramec dermatology,meramec-dermatology,3783 Vogel Rd,Arnold,MO,63010.0,Tesson,1,2025-11-25,2025-11-25,244,,349.9,349.9,Marketplace Takeout,cold
+Mercy Cancer Center Radiation Oncology,mercy-cancer-center-radiation-oncology,10050 Kennerly Rd 1st floor,Sappington,MO,63128.0,Tesson,1,2025-11-18,2025-11-18,251,,258.2,258.2,Marketplace Takeout,cold
+Mercy Clinic Oncology and hematology,mercy-clinic-oncology-and-hematology,2227 Vadalabene Dr 200,Maryville,IL,62062.0,Edwardsville,1,2025-03-19,2025-03-19,495,,323.65,323.65,Marketplace Takeout,cold
+Mercy Clinic Primary Care - Des Peres - Dr. Hilgeman,mercy-clinic-primary-care---des-peres---dr-hilgeman,1000 Des Peres Rd Suite 310,Des Peres,MO,63131.0,Manchester,1,2025-09-15,2025-09-15,315,,341.0,341.0,Marketplace Takeout,cold
+Mercy Clinic Primary Care - Suite 214,mercy-clinic-primary-care---suite-214,300 Winding Woods Dr Suite 214,O'Fallon,MO,63366.0,O'Fallon,1,2025-04-28,2025-04-28,455,,356.5,356.5,Marketplace Takeout,cold
+Mercy Clinic Primary Care – Jungermann,mercy-clinic-primary-care-–-jungermann,1325 Queens Ct,St. Peters,MO,63376.0,Lindenwood,1,2025-04-21,2025-04-21,462,,165.58,165.58,Marketplace Takeout,cold
+Mercy Creve Coeur,mercy-creve-coeur,12855 N Forty Dr Suite 280,St. Louis,MO,63141.0,Manchester,1,2025-01-28,2025-01-28,545,,387.98,387.98,Marketplace Takeout,cold
+Mercy Hospital South,mercy-hospital-south,10010 Kennerly Rd John Pruellege Heart Hospital entrance,St. Louis,MO,63128.0,Tesson,1,2025-12-26,2025-12-26,213,,620.5,620.5,Marketplace Takeout,cold
+Mercy Hyperbaric and wound care,mercy-hyperbaric-and-wound-care,12700 Southfork Rd 175,St. Louis,MO,63128.0,Tesson,1,2025-05-01,2025-05-01,452,,238.45,238.45,Marketplace Takeout,cold
+Mercy IM,mercy-im,12680 Olive Blvd Ste 100,St. Louis,MO,63141.0,Creve Coeur,1,2025-03-21,2025-03-21,493,,378.0,378.0,Marketplace Takeout,cold
+Mercy Sindelar Cancer Center,mercy-sindelar-cancer-center,10050 Kennerly Rd Oncology cancer center,Sappington,MO,63128.0,Tesson,1,2025-06-02,2025-06-02,420,,653.14,653.14,Marketplace Takeout,cold
+Mercy South,mercy-south,10004 Kennerly Rd 374B,St. Louis,MO,63128.0,Tesson,1,2025-10-23,2025-10-23,277,,117.6,117.6,Marketplace Takeout,cold
+Mercy South Gastroenterology,mercy-south-gastroenterology,10012 Kennerly Rd Suite 102,St. Louis,MO,63128.0,Tesson,1,2025-05-19,2025-05-19,434,,376.08,376.08,Marketplace Takeout,cold
+Mercy Sunset OBGYN,mercy-sunset-obgyn,10777 Sunset Office Dr Suite 200,St. Louis,MO,63127.0,Sunset Hills,1,2025-01-21,2025-01-21,552,,391.28,391.28,Marketplace Takeout,cold
+Mercy Urology,mercy-urology,12700 Southfork Rd Suite 260 Suite 260,St. Louis,MO,63128.0,Tesson,1,2025-06-03,2025-06-03,419,,484.72,484.72,Marketplace Takeout,cold
+"Mercy clinic , Dr. Moore , Dr Doerr",mercy-clinic--dr-moore--dr-doerr,12348 Old Tesson Rd Suite 240,St. Louis,MO,63128.0,Tesson,1,2025-03-11,2025-03-11,503,,139.0,139.0,Marketplace Takeout,cold
+Mercy south wound care center,mercy-south-wound-care-center,12700 Southfork Rd 175,St. Louis,MO,63128.0,Tesson,1,2025-04-01,2025-04-01,482,,190.45,190.45,Marketplace Takeout,cold
+Microsoft,microsoft,4220 Duncan Ave Suite 501,St. Louis,MO,63110.0,Lindell/SLU,1,2025-01-31,2025-01-31,542,,81.6,81.6,Marketplace Takeout,cold
+Microsoft Cortex,microsoft-cortex,4220 Duncan Ave Suite 501,St. Louis,MO,63110.0,Lindell/SLU,1,2025-04-16,2025-04-16,467,,152.83,152.83,Marketplace Takeout,cold
+Midwest Chest,midwest-chest,330 1st Capitol Dr 470,Saint Charles,MO,63301.0,Lindenwood,1,2025-05-09,2025-05-09,444,,349.0,349.0,Marketplace Takeout,cold
+Midwest Sleep Sinus and Allergy,midwest-sleep-sinus-and-allergy,1179 Fortune Blvd,Shiloh,IL,62269.0,Shiloh,1,2025-06-24,2025-06-24,398,,286.98,286.98,Marketplace Takeout,cold
+MilliporeSigma - Dekalb,milliporesigma---dekalb,3500 Dekalb St,St. Louis,MO,63118.0,Lindell/SLU,1,2025-08-20,2025-08-20,341,,133.15,133.15,Marketplace Takeout,cold
+MilliporeSigma - Ewing,milliporesigma---ewing,545 S Ewing Ave 1st Floor,St. Louis,MO,63103.0,Lindell/SLU,1,2025-02-20,2025-02-20,522,,110.35,110.35,Marketplace Takeout,cold
+MilliporeSigma _ Broadway,milliporesigma-_-broadway,3506 S Broadway,St. Louis,MO,63118.0,Lindell/SLU,1,2025-06-26,2025-06-26,396,,76.0,76.0,Marketplace Takeout,cold
+Missouri Baptist Cancer Center,missouri-baptist-cancer-center,3015 N Ballas Rd,St. Louis,MO,63131.0,West Oak,1,2025-03-12,2025-03-12,502,,339.93,339.93,Marketplace Takeout,cold
+Missouri Baptist Medical Center,missouri-baptist-medical-center,3015 N Ballas Rd Lean Briefing Room,St. Louis,MO,63131.0,West Oak,1,2025-03-14,2025-03-14,500,,360.75,360.75,Marketplace Takeout,cold
+Missouri Baptist medical center,missouri-baptist-medical-center,3015 N Ballas Rd Auditorium 3,St. Louis,MO,63131.0,West Oak,1,2025-10-16,2025-10-16,284,,373.35,373.35,Marketplace Takeout,cold
+Missouri Baptist neurology,missouri-baptist-neurology,3009 N Ballas Rd 102b,St. Louis,MO,63131.0,West Oak,1,2025-02-26,2025-02-26,516,,377.0,377.0,Marketplace Takeout,cold
+Missouri Veterinary Dermatology Center,missouri-veterinary-dermatology-center,1092 Wentzville Pkwy,Wentzville,MO,63385.0,Wentzville,1,2025-12-18,2025-12-18,221,,288.55,288.55,Marketplace Takeout,cold
+Mitek,mitek,1250 Interstate Dr,Wentzville,MO,63385.0,Wentzville,1,2025-10-24,2025-10-24,276,,379.8,379.8,Marketplace Takeout,cold
+NESTLE PURINA PETCARE CO.,nestle-purina-petcare-co,801 CHOUTEAU AVE. A BLDG.,St. Louis,MO,63102.0,Lindell/SLU,1,2025-10-01,2025-10-01,299,,259.4,259.4,Marketplace Takeout,cold
+Nestle IT,nestle-it,800 Chouteau Ave Building E,St. Louis,MO,63102.0,Lindell/SLU,1,2025-06-09,2025-06-09,413,,151.05,151.05,Marketplace Takeout,cold
+Nestle Purina Petcare Company,nestle-purina-petcare-company,901 Chouteau Ave Main Tower Building - T,St. Louis,MO,63102.0,Lindell/SLU,1,2025-06-02,2025-06-02,420,,116.5,116.5,Marketplace Takeout,cold
+Neurology Associates,neurology-associates,3009 N Ballas Rd Ste 102B,St. Louis,MO,63131.0,West Oak,1,2025-02-13,2025-02-13,529,,316.2,316.2,Marketplace Takeout,cold
+Nicki Powell,nicki-powell,7980 Clayton Rd,Richmond Heights,MO,63117.0,Forsyth/Clayton,1,2025-10-22,2025-10-22,278,,357.5,357.5,Marketplace Takeout,cold
+North Kirkwood Middle School,north-kirkwood-middle-school,11287 Manchester Rd Main Office,Kirkwood,MO,63122.0,Sunset Hills,1,2025-10-06,2025-10-06,294,,113.7,113.7,Marketplace Takeout,cold
+Oakville Dental Care,oakville-dental-care,6076 Telegraph Rd,St. Louis,MO,63129.0,Tesson,1,2025-12-03,2025-12-03,236,,297.5,297.5,Marketplace Takeout,cold
+Obgyn office/Dr. Frank Patrick,obgyn-office-dr-frank-patrick,10004 Kennerly Rd 230A,St. Louis,MO,63128.0,Tesson,1,2025-02-03,2025-02-03,539,,450.98,450.98,Marketplace Takeout,cold
+Octarine,octarine,6880 Washington Ave,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-10-07,2025-10-07,293,,361.5,361.5,Marketplace Takeout,cold
+Olin Business School,olin-business-school,1 Brookings Dr Knight Hall 3rd floor Graduate Programs Office,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-01-21,2025-01-21,552,,672.0,672.0,ezOrdering Takeout,cold
+Parkcrest Plastic Surgery,parkcrest-plastic-surgery,845 North New Ballas Court Suite 300,Creve Coeur,MO,63141.0,West Oak,1,2025-02-28,2025-02-28,514,,261.8,261.8,ezOrdering Takeout,cold
+Pear Tree Inn,pear-tree-inn,711 N Broadway Market Ballroom,St. Louis,MO,63102.0,Lindell/SLU,1,2025-05-06,2025-05-06,447,,432.5,432.5,Marketplace Takeout,cold
+Perimeter Solutions,perimeter-solutions,8000 Maryland Ave Suite 350,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-04-01,2025-04-01,482,,245.82,245.82,Marketplace Takeout,cold
+Plancorp Wealth Management,plancorp-wealth-management,540 Maryville Centre Dr Suite 105,St. Louis,MO,63141.0,Creve Coeur,1,2025-09-04,2025-09-04,326,,825.0,825.0,Marketplace Takeout,cold
+"Plancorp, LLC",plancorp-llc,540 Maryville Centre Dr 105,St. Louis,MO,63141.0,Rock Hill/Glendale,1,2025-07-30,2025-07-30,362,,702.7,702.7,Marketplace Takeout,cold
+Political Science Department at WashU,political-science-department-at-washu,1 Brookings Dr Seigle Hall 230,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-11-04,2025-11-04,265,,102.4,102.4,Marketplace Takeout,cold
+Potter Global Technologies,potter-global-technologies,13723 Riverport Dr STE 3,Maryland Heights,MO,63043.0,Lindenwood,1,2025-02-17,2025-02-17,525,,116.98,116.98,Marketplace Takeout,cold
+Pulmonary Consultants,pulmonary-consultants,6 Jungermann Cir,St. Peters,MO,63376.0,Lindenwood,1,2025-01-15,2025-01-15,558,,389.0,389.0,Marketplace Takeout,cold
+Quantum Vision Center-Dr Wigton,quantum-vision-center-dr-wigton,3990 N Illinois St,Swansea,IL,62226.0,Shiloh,1,2025-06-04,2025-06-04,418,,550.5,550.5,Marketplace Takeout,cold
+RNAissance Ag,rnaissance-ag,1005 N Warson Rd Ste 375,Creve Coeur,MO,63141.0,West Oak,1,2025-12-18,2025-12-18,221,,210.25,210.25,Marketplace Takeout,cold
+Rabo Agrifinance,rabo-agrifinance,14767 N Outer 40 Rd Ste 400,Chesterfield,MO,63017.0,Creve Coeur,1,2025-03-19,2025-03-19,495,,96.45,96.45,ezOrdering Takeout,cold
+Regional Eyecare,regional-eyecare,2681 State Hwy K,O'Fallon,MO,63368.0,O'Fallon,1,2025-09-10,2025-09-10,320,,206.7,206.7,Marketplace Takeout,cold
+Remiger Design,remiger-design,2921 Olive St,St. Louis,MO,63103.0,Lindell/SLU,1,2025-03-06,2025-03-06,508,,124.39,124.39,Marketplace Takeout,cold
+Robert R. Hermann Stadium,robert-r-hermann-stadium,1 S Compton Ave,St. Louis,MO,63103.0,Lindell/SLU,1,2025-08-24,2025-08-24,337,,490.15,490.15,Marketplace Takeout,cold
+Rosemann & Associates,rosemann-and-associates,168 N Meramec Ave,St. Louis,MO,63105.0,Forsyth/Clayton,1,2025-11-18,2025-11-18,251,,126.65,126.65,Marketplace Takeout,cold
+"Rosenblum Goldenhersh, PC",rosenblum-goldenhersh-pc,7733 Forsyth Blvd Suite 400,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-03-14,2025-03-14,500,,360.0,360.0,Marketplace Takeout,cold
+Rural Family Medical Associates,rural-family-medical-associates,739 N Jefferson St Suite 200,Mascoutah,IL,62258.0,Shiloh,1,2025-01-15,2025-01-15,558,,264.4,264.4,Marketplace Takeout,cold
+SIHF,sihf,180 S 3rd St 104,Belleville,IL,62220.0,Shiloh,1,2025-04-28,2025-04-28,455,,249.9,249.9,Marketplace Takeout,cold
+SIHF Bellivelle Circle II,sihf-bellivelle-circle-ii,311 W Lincoln St 200,Belleville,IL,62220.0,Shiloh,1,2025-07-10,2025-07-10,382,,323.4,323.4,Marketplace Takeout,cold
+SIHF Healthcare,sihf-healthcare,311 W Lincoln St 200,Belleville,IL,62220.0,Shiloh,1,2025-03-26,2025-03-26,488,,296.82,296.82,Marketplace Takeout,cold
+SLU,slu,3330 Laclede Ave Dead end of Laclede Ave,St. Louis,MO,63103.0,Lindell/SLU,1,2025-06-02,2025-06-02,420,,255.8,255.8,Marketplace Takeout,cold
+SLU Baseball Field,slu-baseball-field,1 S Compton Ave,St. Louis,MO,63103.0,Lindell/SLU,1,2025-05-16,2025-05-16,437,,529.1,529.1,Marketplace Takeout,cold
+SLU Care Plastic and Reconstructive surgery,slu-care-plastic-and-reconstructive-surgery,1034 S Brentwood Blvd Suite 550,Richmond Heights,MO,63117.0,Rock Hill/Glendale,1,2025-02-05,2025-02-05,537,,82.75,82.75,Marketplace Takeout,cold
+SLUCare Physician Group,slucare-physician-group,1034 S Brentwood Blvd Suite 1120,Richmond Heights,MO,63117.0,Rock Hill/Glendale,1,2025-07-15,2025-07-15,377,,563.45,563.45,Marketplace Takeout,cold
+SLUCare Surgery - Laura,slucare-surgery---laura,1008 S. Spring Ave Suite 1501,St. Louis,MO,63110.0,Lindell/SLU,1,2026-01-17,2026-01-17,191,,569.5,569.5,Marketplace Takeout,cold
+SSM Health Saint Louis University School of Medicine,ssm-health-saint-louis-university-school-of-medicine,1008 S. Spring Ave Suite 1501,St. Louis,MO,63110.0,Lindell/SLU,1,2026-01-27,2026-01-27,181,,343.4,343.4,Marketplace Takeout,cold
+SSM St. Joseph Hospital,ssm-st-joseph-hospital,300 1st Capitol Dr Interventional Radiology,Saint Charles,MO,63301.0,Lindenwood,1,2025-11-03,2025-11-03,266,,253.5,253.5,Marketplace Takeout,cold
+STL Fertility,stl-fertility,555 N New Ballas Rd 150,St. Louis,MO,63141.0,West Oak,1,2025-12-15,2025-12-15,224,,653.7,653.7,Marketplace Takeout,cold
+STL Zoo Living World,stl-zoo-living-world,1 Government Dr,St. Louis,MO,63110.0,South City,1,2025-08-22,2025-08-22,339,,170.2,170.2,Marketplace Takeout,cold
+SWT Design,swt-design,7722 Big Bend Blvd,St. Louis,MO,63119.0,Rock Hill/Glendale,1,2025-01-13,2025-01-13,560,,169.25,169.25,ezOrdering Takeout,cold
+Saint Louis University School of Medicine,saint-louis-university-school-of-medicine,3545 Vista Ave 1st floor,St. Louis,MO,63104.0,Lindell/SLU,1,2025-08-21,2025-08-21,340,,421.34,421.34,Marketplace Takeout,cold
+"Saint Louis University School of Medicine - Center for Educator Development, Advancement, & Research",saint-louis-university-school-of-medicine---center-for-educator-development-advancement-and-research,3545 Vista Ave,St. Louis,MO,63104.0,Lindell/SLU,1,2026-01-22,2026-01-22,186,,112.8,112.8,Marketplace Takeout,cold
+Saint Peters Pharmacy,saint-peters-pharmacy,4885 Mexico Rd,St. Peters,MO,63376.0,Lindenwood,1,2025-07-29,2025-07-29,363,,115.45,115.45,Marketplace Takeout,cold
+Schweiger Derm,schweiger-derm,4575 Benes St,Glen Carbon,IL,62034.0,Edwardsville,1,2025-04-22,2025-04-22,461,,368.25,368.25,Marketplace Takeout,cold
+Sensient Colors LLC,sensient-colors-llc,2515 North Jefferson Ave,St. Louis,MO,63106.0,Lindell/SLU,1,2025-03-28,2025-03-28,486,,530.0,530.0,Marketplace Takeout,cold
+Serenity health,serenity-health,5000 Cedar Plaza Pkwy 350,St. Louis,MO,63128.0,Tesson,1,2025-08-18,2025-08-18,343,,236.33,236.33,Marketplace Takeout,cold
+Sevens Building/Maryville Consulting Group,sevens-building-maryville-consulting-group,7777 Bonhomme Ave Suite 2300,Clayton,MO,63105.0,Rock Hill/Glendale,1,2025-05-09,2025-05-09,444,,648.9,648.9,Marketplace Takeout,cold
+Sihf cardiology,sihf-cardiology,180 S 3rd St 3,Belleville,IL,62220.0,Shiloh,1,2025-05-15,2025-05-15,438,,321.9,321.9,Marketplace Takeout,cold
+Southampton Healthcare,southampton-healthcare,2340 Hampton Ave,St. Louis,MO,63128.0,South City,1,2025-08-14,2025-08-14,347,,355.95,355.95,Marketplace Takeout,cold
+Southside Family Practice,southside-family-practice,1031 Bellevue Ave Suite 300,Richmond Heights,MO,63117.0,Forsyth/Clayton,1,2025-02-21,2025-02-21,521,,495.3,495.3,Marketplace Takeout,cold
+Spark Coworking - St. Louis,spark-coworking---st-louis,6 Cardinal Wy Suite 905,St. Louis,MO,63102.0,Lindell/SLU,1,2025-10-23,2025-10-23,277,,695.85,695.85,Marketplace Takeout,cold
+Specialists in Dermatology,specialists-in-dermatology,222 S Woods Mill Rd #480n,Chesterfield,MO,63017.0,Creve Coeur,1,2025-06-23,2025-06-23,399,,291.5,291.5,Marketplace Takeout,cold
+Specialists in Gastroenterology,specialists-in-gastroenterology,11525 Olde Cabin Rd,Creve Coeur,MO,63141.0,West Oak,1,2025-08-19,2025-08-19,342,,533.1,533.1,Marketplace Takeout,cold
+Spectrum Brands,spectrum-brands,1 Rider Trl Plz Dr,Earth City,MO,63045.0,Lindenwood,1,2025-08-18,2025-08-18,343,,117.59,117.59,Marketplace Takeout,cold
+Spectrum/Charter Communications,spectrum-charter-communications,13736 Riverport Dr 5th floor ; Training Room #1,Maryland Heights,MO,63043.0,Lindenwood,1,2025-03-18,2025-03-18,496,,1421.0,1421.0,Marketplace Takeout,cold
+Spencer Fane LLP,spencer-fane-llp,1 North Brentwood Blvd Suite 1200,Clayton,MO,63105.0,Rock Hill/Glendale,1,2025-09-24,2025-09-24,306,,300.0,300.0,Marketplace Takeout,cold
+Springhill Suites Earth City,springhill-suites-earth-city,3099 Rider Trail S,Bridgeton,MO,63044.0,West Oak,1,2025-12-08,2025-12-08,231,,75.8,75.8,Marketplace Takeout,cold
+Ssm st marys,ssm-st-marys,6420 Clayton Rd Respiratory therapy,Richmond Heights,MO,63117.0,Forsyth/Clayton,1,2025-10-22,2025-10-22,278,,129.8,129.8,Marketplace Takeout,cold
+St Clare Hospital,st-clare-hospital,1015 Bowles Ave front entrance,Fenton,MO,63026.0,Sunset Hills,1,2025-04-18,2025-04-18,465,,389.7,389.7,Marketplace Takeout,cold
+St Lukes Urology,st-lukes-urology,111 St Luke's Center Dr Suite 24B,Chesterfield,MO,63017.0,Rock Hill/Glendale,1,2025-11-03,2025-11-03,266,,327.83,327.83,Marketplace Takeout,cold
+St Lukes urology suite 24B,st-lukes-urology-suite-24b,111 St Luke's Center Dr 24B,Chesterfield,MO,63017.0,Creve Coeur,1,2025-07-23,2025-07-23,369,,184.5,184.5,Marketplace Takeout,cold
+St. Louis Ballet,st-louis-ballet,210 E Monroe Ave,Kirkwood,MO,63122.0,Sunset Hills,1,2025-02-14,2025-02-14,528,,1045.0,1045.0,ezOrdering Takeout,cold
+St. Louis Healthcare (Dr. Muckermann Office),st-louis-healthcare-(dr-muckermann-office),16216 Baxter Rd Suite 100,Chesterfield,MO,63017.0,Creve Coeur,1,2025-03-12,2025-03-12,502,,362.5,362.5,Marketplace Takeout,cold
+St. Louis Heart and Vascular,st-louis-heart-and-vascular,3550 McKelvey Rd,Bridgeton,MO,63044.0,Lindenwood,1,2025-04-30,2025-04-30,453,,710.5,710.5,Marketplace Takeout,cold
+St. Louis Lambert international Airport,st-louis-lambert-international-airport,10701 Lambert International Blvd T1 Upper drive (Departures) Door6,St. Louis,MO,63145.0,Lindenwood,1,2025-02-12,2025-02-12,530,,793.5,793.5,Marketplace Takeout,cold
+St. Luke's Neurology,st-lukes-neurology,"111 St Luke's Center Dr Suite 20 B (Desloge Outpatient Center, Building B)",Chesterfield,MO,63017.0,Manchester,1,2025-02-10,2025-02-10,532,,387.37,387.37,Marketplace Takeout,cold
+St. Luke’s Internal Medicine 504A,st-luke’s-internal-medicine-504a,121 St Luke's Center Dr Building A 504,Chesterfield,MO,63017.0,Creve Coeur,1,2025-12-10,2025-12-10,229,,248.0,248.0,Marketplace Takeout,cold
+Steffenauer Residence,steffenauer-residence,511 Corley Dr,Chesterfield,MO,63017.0,Manchester,1,2025-04-29,2025-04-29,454,,353.98,353.98,Marketplace Takeout,cold
+Stifel,stifel,501 N Broadway,St. Louis,MO,63102.0,Lindell/SLU,1,2025-09-25,2025-09-25,305,,630.1,630.1,Marketplace Takeout,cold
+Strive Pharmacy,strive-pharmacy,2058 Fenton Logistics Pk Blvd,Fenton,MO,63026.0,Sunset Hills,1,2025-12-19,2025-12-19,220,,1871.5,1871.5,Marketplace Takeout,cold
+Swansea Internal Medicine,swansea-internal-medicine,4 Park Place,Swansea,IL,62226.0,Shiloh,1,2025-10-16,2025-10-16,284,,344.85,344.85,Marketplace Takeout,cold
+Synergi Medspa,synergi-medspa,17000 Baxter Rd,Chesterfield,MO,63005.0,Chesterfield Valley,1,2026-01-21,2026-01-21,187,,286.48,286.48,Marketplace Takeout,cold
+T-REX HOTEL,t-rex-hotel,911 Washington Ave #500,St. Louis,MO,63101.0,South City,1,2026-01-27,2026-01-27,181,,144.0,144.0,Marketplace Takeout,cold
+TREX,trex,911 Washington Ave Suite 500,St. Louis,MO,63101.0,Lindell/SLU,1,2025-04-08,2025-04-08,475,,140.2,140.2,Marketplace Takeout,cold
+TRUE Fitness,true-fitness,25 Lakeside Dr Lobby,Lake Saint Louis,MO,63367.0,O'Fallon,1,2025-12-18,2025-12-18,221,,164.95,164.95,Marketplace Takeout,cold
+TSCP,tscp,7676 Forsyth Blvd 2700,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-02-21,2025-02-21,521,,159.0,159.0,Marketplace Takeout,cold
+Tanoli,tanoli,224 S Woods Mill Rd 500,Chesterfield,MO,63017.0,Creve Coeur,1,2025-10-24,2025-10-24,276,,336.45,336.45,Marketplace Takeout,cold
+Target,target,40 THF Blvd,Chesterfield,MO,63005.0,Creve Coeur,1,2025-01-15,2025-01-15,558,,173.9,173.9,ezOrdering Takeout,cold
+Target O'Fallon,target-ofallon,2300 State Hwy K,O'Fallon,MO,63368.0,O'Fallon,1,2025-06-12,2025-06-12,410,,1035.5,1035.5,Marketplace Delivery,cold
+Tarlton Corportation,tarlton-corportation,5500 W Park Ave,St. Louis,MO,63110.0,South City,1,2025-09-17,2025-09-17,313,,1049.75,1049.75,Marketplace Takeout,cold
+Teach For America St. Louis,teach-for-america-st-louis,5501 Delmar Blvd Suite A280,St. Louis,MO,63112.0,Lindell/SLU,1,2025-02-11,2025-02-11,531,,450.5,450.5,Marketplace Takeout,cold
+TechArtista Foundation,techartista-foundation,4220 Duncan Ave 2nd Floor,St. Louis,MO,63110.0,Lindell/SLU,1,2025-05-14,2025-05-14,439,,206.7,206.7,Marketplace Takeout,cold
+The Bud Dome,the-bud-dome,9711 Green Park Industrial Dr,St. Louis,MO,63123.0,Tesson,1,2025-02-28,2025-02-28,514,,178.08,178.08,Marketplace Takeout,cold
+"The Clayton Engineering Company, Inc.",the-clayton-engineering-company-inc,2268 Welsch Industrial Court,St. Louis,MO,63146.0,Lindenwood,1,2025-04-30,2025-04-30,453,,92.04,92.04,Marketplace Takeout,cold
+The Crossing Church,the-crossing-church,114 N Eatherton Rd,Chesterfield,MO,63005.0,Chesterfield Valley,1,2025-08-03,2025-08-03,358,,85.5,85.5,Marketplace Takeout,cold
+The Crossing Church at Fenton,the-crossing-church-at-fenton,1800 Bowles Ave,Fenton,MO,63026.0,Sunset Hills,1,2025-03-15,2025-03-15,499,,147.0,147.0,Marketplace Takeout,cold
+The Dover Companies,the-dover-companies,300 Hunter Ave Suite 200,St. Louis,MO,63124.0,Forsyth/Clayton,1,2026-01-20,2026-01-20,188,,206.35,206.35,Marketplace Takeout,cold
+The Rehabilitation Institute of Southern Illinois,the-rehabilitation-institute-of-southern-illinois,2351 Frank Scott Pkwy E,O'Fallon,IL,62269.0,Shiloh,1,2025-11-07,2025-11-07,262,,243.7,243.7,Marketplace Takeout,cold
+The Retina Institute,the-retina-institute,226 S Woods Mill Rd 50W,Chesterfield,MO,63017.0,Manchester,1,2025-06-04,2025-06-04,418,,246.0,246.0,Marketplace Takeout,cold
+The Sheldon,the-sheldon,3648 Washington Ave,St. Louis,MO,63108.0,Lindell/SLU,1,2025-10-13,2025-10-13,287,,310.0,310.0,Marketplace Takeout,cold
+The Sheldon (STL),the-sheldon-(stl),3648 Washington Blvd,St. Louis,MO,63108.0,Lindell/SLU,1,2025-02-10,2025-02-10,532,,307.5,307.5,ezOrdering Takeout,cold
+The Spa at Mid America Plastic Surgery,the-spa-at-mid-america-plastic-surgery,4955 IL-159,Glen Carbon,IL,62034.0,Edwardsville,1,2025-05-29,2025-05-29,424,,279.9,279.9,Marketplace Delivery,cold
+The Ultimate Bride,the-ultimate-bride,1115 S Big Bend Blvd,St. Louis,MO,63117.0,Forsyth/Clayton,1,2025-01-25,2025-01-25,548,,161.7,161.7,Marketplace Takeout,cold
+Thermo Fisher,thermo-fisher,4766 La Guardia Dr,Berkeley,MO,63134.0,Forsyth/Clayton,1,2025-08-07,2025-08-07,354,,80.64,80.64,Marketplace Takeout,cold
+ThermoFisher,thermofisher,4766 La Guardia Dr,Berkeley,MO,63134.0,Forsyth/Clayton,1,2025-11-13,2025-11-13,256,,136.0,136.0,Marketplace Takeout,cold
+Thompson Street Capital Partners,thompson-street-capital-partners,7676 Forsyth Blvd Suite 2700,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-03-26,2025-03-26,488,,176.25,176.25,ezOrdering Takeout,cold
+Thompson Street Capital partners,thompson-street-capital-partners,7676 Forsyth Blvd 2700,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-01-10,2025-01-10,563,,195.0,195.0,ezOrdering Takeout,cold
+Tiffany's,tiffanys,64 Plaza Frontenac,St. Louis,MO,63131.0,Rock Hill/Glendale,1,2025-12-23,2025-12-23,216,,217.5,217.5,Marketplace Takeout,cold
+Tony Meoli Studio / RepHeads,tony-meoli-studio---repheads,3325 Washington Ave,St. Louis,MO,63103.0,Lindell/SLU,1,2025-11-20,2025-11-20,249,,142.45,142.45,Marketplace Takeout,cold
+Touhill Performing Arts Center,touhill-performing-arts-center,1 University Blvd,St. Louis,MO,63121.0,Forsyth/Clayton,1,2025-05-03,2025-05-03,450,,176.4,176.4,Marketplace Takeout,cold
+Townplace Suites (UIndy WBB),townplace-suites-(uindy-wbb),445 Regency Park,O'Fallon,IL,62269.0,Shiloh,1,2025-02-14,2025-02-14,528,,275.5,275.5,Marketplace Takeout,cold
+Trask - Saint Louis Chess Club,trask---saint-louis-chess-club,4663 Maryland Ave,St. Louis,MO,63108.0,Rock Hill/Glendale,1,2025-10-19,2025-10-19,281,,420.05,420.05,Marketplace Takeout,cold
+Tri Rinse Inc,tri-rinse-inc,1402 S 2nd St,St. Louis,MO,63104.0,Lindell/SLU,1,2026-01-21,2026-01-21,187,,88.2,88.2,Marketplace Takeout,cold
+Tri-County Family Practice - Chesterfield (SLH),tri-county-family-practice---chesterfield-(slh),17417 Chesterfield Airport Rd,Chesterfield,MO,63005.0,Chesterfield Valley,1,2025-12-23,2025-12-23,216,,176.95,176.95,Marketplace Takeout,cold
+Trivers assoc.,trivers-assoc,380 N. 18th St Suite 100,St. Louis,MO,63103.0,Lindell/SLU,1,2025-08-06,2025-08-06,355,,319.62,319.62,Marketplace Takeout,cold
+UHY Advisors,uhy-advisors,15 Sunnen Dr Suite 100,Maplewood,MO,63143.0,Rock Hill/Glendale,1,2025-01-20,2025-01-20,553,,392.4,392.4,Marketplace Takeout,cold
+UMSL Recreation and Wellness Center,umsl-recreation-and-wellness-center,11 Arnold B Grobman Dr,St. Louis,MO,63121.0,Forsyth/Clayton,1,2025-04-12,2025-04-12,471,,97.49,97.49,Marketplace Takeout,cold
+Unger Eye Wellness,unger-eye-wellness,449 S State Route 157 Ste 2020,Edwardsville,IL,62025.0,Edwardsville,1,2025-09-22,2025-09-22,308,,304.25,304.25,Marketplace Takeout,cold
+"UniGroup, Inc.",unigroup-inc,1 Premier Dr,Fenton,MO,63026.0,Sunset Hills,1,2025-03-13,2025-03-13,501,,168.21,168.21,Marketplace Takeout,cold
+Union Station,union-station,2 S 20th St,St. Louis,MO,63103.0,South City,1,2025-11-15,2025-11-15,254,,427.5,427.5,Marketplace Takeout,cold
+United Access,united-access,500 NW Plaza Dr STE 900,Saint Ann,MO,63074.0,West Oak,1,2025-11-12,2025-11-12,257,,92.75,92.75,Marketplace Takeout,cold
+University Club Medical,university-club-medical,1520 S Brentwood Blvd,Brentwood,MO,63144.0,Rock Hill/Glendale,1,2025-04-07,2025-04-07,476,,260.1,260.1,Marketplace Takeout,cold
+University Eye Center,university-eye-center,7840 Natural Bridge Rd,St. Louis,MO,63121.0,Forsyth/Clayton,1,2025-04-17,2025-04-17,466,,132.3,132.3,Marketplace Takeout,cold
+University Tower & Silverback Studios,university-tower-and-silverback-studios,1034 S Brentwood Blvd Floor 16,Richmond Heights,MO,63117.0,Lindell/SLU,1,2025-10-01,2025-10-01,299,,221.8,221.8,Marketplace Takeout,cold
+University Tower / Silverback Studios,university-tower---silverback-studios,1034 S Brentwood Blvd Floor 16,Richmond Heights,MO,63117.0,Lindell/SLU,1,2025-10-27,2025-10-27,273,,247.95,247.95,Marketplace Takeout,cold
+University Tower/STLCC,university-tower-stlcc,1034 S Brentwood Blvd Floor 16,Richmond Heights,MO,63117.0,Lindell/SLU,1,2025-08-15,2025-08-15,346,,406.15,406.15,Marketplace Takeout,cold
+"Urology Specialists, Dr. Berni and Glaser",urology-specialists-dr-berni-and-glaser,70 Jungermann Rd,St. Peters,MO,63376.0,Lindenwood,1,2025-04-14,2025-04-14,469,,152.1,152.1,Marketplace Takeout,cold
+Urology of st louis-Maryville,urology-of-st-louis-maryville,6812 IL-162 200,Maryville,IL,62062.0,Edwardsville,1,2025-09-12,2025-09-12,318,,307.5,307.5,Marketplace Takeout,cold
+Utah Hockey Club,utah-hockey-club,1401 Clark Ave,St. Louis,MO,63103.0,Lindell/SLU,1,2025-04-15,2025-04-15,468,,504.05,504.05,Marketplace Takeout,cold
+Visiting Clubhouse - Houston Astros,visiting-clubhouse---houston-astros,430 South Seventh St,St. Louis,MO,63102.0,Lindell/SLU,1,2025-04-16,2025-04-16,467,,257.5,257.5,Marketplace Takeout,cold
+Vituity,vituity,1015 Bowles Ave Main Enterence,Fenton,MO,63026.0,Sunset Hills,1,2025-04-22,2025-04-22,461,,233.03,233.03,Marketplace Takeout,cold
+Vituity/ SSM St. Charles Emergency Department,vituity--ssm-st-charles-emergency-department,300 1st Capitol Dr Emergency Department,Saint Charles,MO,63301.0,Lindenwood,1,2025-02-13,2025-02-13,529,,103.35,103.35,Marketplace Takeout,cold
+Wash U Chemistry,wash-u-chemistry,1 Brookings Dr Wrighton Hall 401,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-01-09,2025-01-09,564,,467.4,467.4,ezOrdering Takeout,cold
+Wash U Pain Management,wash-u-pain-management,969 N Mason Rd L30,Creve Coeur,MO,63141.0,Creve Coeur,1,2026-01-08,2026-01-08,200,,341.35,341.35,Marketplace Takeout,cold
+WashU  School of Medicine Pathology,washu--school-of-medicine-pathology,509 S Euclid Ave,St. Louis,MO,63110.0,Forsyth/Clayton,1,2025-04-22,2025-04-22,461,,158.85,158.85,Marketplace Takeout,cold
+WashU (Weil Hall),washu-(weil-hall),1 Wrighton Wy Weil Hall,St. Louis,MO,63105.0,Forsyth/Clayton,1,2025-12-11,2025-12-11,228,,94.49,94.49,Marketplace Takeout,cold
+WashU Advancement,washu-advancement,7425 Forsyth Blvd Suite 3100,Clayton,MO,63105.0,Rock Hill/Glendale,1,2025-04-23,2025-04-23,460,,262.5,262.5,ezOrdering Takeout,cold
+WashU Mckelvey Engineering,washu-mckelvey-engineering,1 Brookings Dr Lopata Hall Gallery,St. Louis,MO,63130.0,Forsyth/Clayton,1,2026-01-03,2026-01-03,205,,610.5,610.5,Marketplace Takeout,cold
+WashU Medicine-Anesthesiology,washu-medicine-anesthesiology,517 S Euclid Ave Anesthesiology Suite/3rd FL,St. Louis,MO,63110.0,Lindell/SLU,1,2025-09-10,2025-09-10,320,,463.95,463.95,Marketplace Takeout,cold
+WashU PM&R,washu-pmandr,4455 Duncan Ave,St. Louis,MO,63110.0,Lindell/SLU,1,2025-11-06,2025-11-06,263,,75.0,75.0,Marketplace Takeout,cold
+WashU Sam Fox School,washu-sam-fox-school,Weil Hall Wrighton Way,St. Louis,MO,63105.0,Forsyth/Clayton,1,2025-01-22,2025-01-22,551,,84.2,84.2,Marketplace Takeout,cold
+WashU School of Medicine: Couch Medical Research Building,washu-school-of-medicine:-couch-medical-research-building,"4515 McKinley Ave Dantas Lab: 5th Floor, Room 5313",St. Louis,MO,63110.0,Lindell/SLU,1,2025-03-31,2025-03-31,483,,152.98,152.98,Marketplace Takeout,cold
+Washington University (WashU),washington-university-(washu),1 Brookings Dr,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-09-22,2025-09-22,308,,118.2,118.2,Marketplace Takeout,cold
+Washington University - DIAN-TU,washington-university---dian-tu,4488 Forest Park Ave Suite 301,St. Louis,MO,63108.0,Lindell/SLU,1,2025-01-21,2025-01-21,552,,403.5,403.5,Marketplace Takeout,cold
+Washington University - South 40,washington-university---south-40,6614 Shepley Dr,Clayton,MO,63105.0,Forsyth/Clayton,1,2025-06-10,2025-06-10,412,,131.5,131.5,Marketplace Delivery,cold
+Washington University Field House,washington-university-field-house,One Brookings Dr.,St. Louis,MO,63112.0,Forsyth/Clayton,1,2025-01-19,2025-01-19,554,,216.25,216.25,ezOrdering Takeout,cold
+Washington University Orthopedics,washington-university-orthopedics,4590 Nash Way,St. Louis,MO,63110.0,Lindell/SLU,1,2025-05-21,2025-05-21,432,,241.0,241.0,Marketplace Takeout,cold
+Washington University Political Science Dept.,washington-university-political-science-dept,1 Brookings Dr Seigle Hall Room 207 Suite 230,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-02-11,2025-02-11,531,,82.8,82.8,Marketplace Takeout,cold
+"Washington University, School of Public Health",washington-university-school-of-public-health,Brookings Dr Goldfarb Hall,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-04-23,2025-04-23,460,,388.9,388.9,Marketplace Takeout,cold
+Washington University- Pediatric Neurology,washington-university--pediatric-neurology,"4990 Children's Pl 12th Floor, Northwest Tower, Suite 1260",St. Louis,MO,63110.0,Lindell/SLU,1,2025-01-27,2025-01-27,546,,385.28,385.28,Marketplace Takeout,cold
+Washington Unviersity,washington-unviersity,One Brookings Dr Knight Hall intersection of Throop & Snow Way next to Charles F Knight Center,St. Louis,MO,63130.0,Forsyth/Clayton,1,2025-04-02,2025-04-02,481,,214.45,214.45,Marketplace Takeout,cold
+Weber Chevrolet,weber-chevrolet,12015 Olive Blvd,Creve Coeur,MO,63141.0,West Oak,1,2025-09-13,2025-09-13,317,,327.5,327.5,Marketplace Takeout,cold
+Weil Hall (Sam Fox School at WashU),weil-hall-(sam-fox-school-at-washu),1 Wrighton Wy Weil 105,St. Louis,MO,63105.0,Lindell/SLU,1,2025-10-29,2025-10-29,271,,528.5,528.5,Marketplace Takeout,cold
+Weissman Theatrical,weissman-theatrical,6750 Manchester Ave,St. Louis,MO,63139.0,South City,1,2025-03-18,2025-03-18,496,,520.2,520.2,Marketplace Takeout,cold
+Whitebridge Pet Brands,whitebridge-pet-brands,11330 Olive Blvd Suite 300,Creve Coeur,MO,63141.0,West Oak,1,2025-09-03,2025-09-03,327,,875.65,875.65,Marketplace Takeout,cold
+Wiese - CAT Meeting,wiese---cat-meeting,1435 Woodson Rd,St. Louis,MO,63132.0,Forsyth/Clayton,1,2025-11-17,2025-11-17,252,,254.13,254.13,Marketplace Takeout,cold
+Willis Towers Watson (WTW),willis-towers-watson-(wtw),7733 Forsyth Blvd Suite 1350,St. Louis,MO,63105.0,Rock Hill/Glendale,1,2025-08-20,2025-08-20,341,,224.81,224.81,Marketplace Takeout,cold
+Winland Foods,winland-foods,611 E Marceau St,St. Louis,MO,63111.0,Tesson,1,2025-08-06,2025-08-06,355,,259.53,259.53,Marketplace Takeout,cold
+World Chess Hall of Fame,world-chess-hall-of-fame,4652 Maryland Ave,St. Louis,MO,63108.0,Forsyth/Clayton,1,2025-06-12,2025-06-12,410,,313.25,313.25,Marketplace Takeout,cold
+World Chess Hall of Fame & Galleries,world-chess-hall-of-fame-and-galleries,4652 Maryland Ave,St. Louis,MO,63108.0,Lindell/SLU,1,2025-09-18,2025-09-18,312,,248.0,248.0,Marketplace Takeout,cold
+World Chess Hall of Fame - Chester,world-chess-hall-of-fame---chester,4652 Maryland Ave,St. Louis,MO,63108.0,Lindell/SLU,1,2025-03-16,2025-03-16,498,,361.75,361.75,Marketplace Takeout,cold
+World Chess Hall of Fame - Trask,world-chess-hall-of-fame---trask,4651 Maryland Ave,St. Louis,MO,63108.0,Lindell/SLU,1,2025-03-06,2025-03-06,508,,328.6,328.6,Marketplace Takeout,cold
+World Wide Technology Office,world-wide-technology-office,701 Fee Fee Rd,Maryland Heights,MO,63043.0,West Oak,1,2025-10-08,2025-10-08,292,,833.5,833.5,Marketplace Takeout,cold
+ZBMidArk,zbmidark,3401 Rider Trail S,Earth City,MO,63045.0,Lindenwood,1,2025-02-18,2025-02-18,524,,333.1,333.1,ezOrdering Takeout,cold
+ashley homestore,ashley-homestore,3700 Green Mt Crossing Dr,Shiloh,IL,62269.0,Shiloh,1,2025-11-13,2025-11-13,256,,117.6,117.6,Marketplace Takeout,cold
+chesnut health systems,chesnut-health-systems,12 N 64th St,Belleville,IL,62223.0,Shiloh,1,2025-10-08,2025-10-08,292,,253.49,253.49,Marketplace Takeout,cold
+courtyard marriot st louis,courtyard-marriot-st-louis,2340 Market St,St. Louis,MO,63103.0,Lindell/SLU,1,2025-11-05,2025-11-05,264,,381.04,381.04,Marketplace Takeout,cold
+fit-flavors,fit-flavors,14824 Clayton Rd Suite 22,Chesterfield,MO,63017.0,Rock Hill/Glendale,1,2025-06-24,2025-06-24,398,,429.95,429.95,Marketplace Takeout,cold
+pink,pink,,Fairview Heights,IL,,Shiloh,1,2025-05-13,2025-05-13,440,,612.0,612.0,Marketplace Takeout,cold
+scott morrison,scott-morrison,310 N 7 Hills Rd,O'Fallon,IL,62269.0,Shiloh,1,2025-03-28,2025-03-28,486,,346.0,346.0,Marketplace Takeout,cold
+Christina White Salon,christina-white-salon,1520 S 5th St Suite 105 105 105,Saint Charles,MO,63303.0,Lindenwood,4,2025-09-10,2026-06-10,47,88.0,153.74,614.95,Marketplace Takeout,warm
+Dr Pai,dr-pai,2810 Frank Scott Pkwy W Suite 716,Belleville,IL,62223.0,Shiloh,4,2025-02-21,2026-06-09,48,104.0,334.67,1338.69,Marketplace Takeout,warm
+Faith Oakville,faith-oakville,6101 Telegraph Rd,St. Louis,MO,63129.0,Tesson,4,2025-03-26,2026-05-12,76,83.0,170.38,681.52,Marketplace Takeout,warm
+Hartwig,hartwig,10617 Trenton Ave,St. Louis,MO,63132.0,West Oak,4,2025-10-14,2026-06-17,40,29.0,214.82,859.3,Marketplace Takeout,warm
+Plancorp LLC,plancorp-llc,540 Maryville Centre Dr 105,St. Louis,MO,63141.0,Creve Coeur,4,2025-10-28,2026-05-15,73,50.0,753.01,3012.05,Marketplace Takeout,warm
+Solvay,solvay,3500 Missouri Ave,East St. Louis,IL,62205.0,Lindell/SLU,4,2026-04-15,2026-05-27,61,13.0,105.21,420.85,Marketplace Takeout,warm
+Wiegmann Associates,wiegmann-associates,650 Fountain Lakes Blvd,Saint Charles,MO,63301.0,Lindenwood,4,2025-10-02,2026-06-25,32,56.0,106.89,427.57,Marketplace Takeout,warm
+Cass,cass,13001 Hollenberg Dr,Bridgeton,MO,63044.0,Lindenwood,3,2026-01-13,2026-06-02,55,69.0,103.88,311.63,Marketplace Takeout,warm
+FTL Finance,ftl-finance,820 S Main St Suite 307,Saint Charles,MO,63301.0,Lindenwood,3,2025-04-23,2026-05-07,81,188.0,662.03,1986.1,Marketplace Takeout,warm
+ICL,icl,622 Emerson Rd Suite 500,Creve Coeur,MO,63141.0,Tesson,3,2025-09-29,2026-05-11,77,111.0,191.67,575.02,Marketplace Takeout,warm
+Rosenblum Goldenhersh PC,rosenblum-goldenhersh-pc,7733 Forsyth Blvd suite 400 400,Clayton,MO,63105.0,Forsyth/Clayton,3,2025-08-01,2026-06-19,38,160.0,376.87,1130.6,Marketplace Takeout,warm
+Tarlton Corporation,tarlton-corporation,5500 W Park Ave,St. Louis,MO,63110.0,Forsyth/Clayton,3,2025-06-05,2026-04-29,89,164.0,668.5,2005.5,Marketplace Takeout,warm
+WashU Oncology,washu-oncology,4590 Nash Wy Mid Campus Center 11th floor,St. Louis,MO,63110.0,Lindell/SLU,3,2025-10-09,2026-05-28,60,114.0,500.7,1502.11,Marketplace Takeout,warm
+AFB,afb,3 Research Park Dr,Saint Charles,MO,63304.0,O'Fallon,2,2025-06-05,2026-06-04,53,364.0,397.4,794.8,Marketplace Takeout,warm
+Acera Surgical,acera-surgical,1630 Des Peres Rd Training Room,St. Louis,MO,63131.0,Manchester,2,2025-04-15,2026-05-27,61,406.0,220.14,440.28,Marketplace Takeout,warm
+Ballas Dental Care,ballas-dental-care,2821 N Ballas Rd suite 140,St. Louis,MO,63131.0,West Oak,2,2026-02-17,2026-06-11,46,114.0,248.0,496.0,Marketplace Takeout,warm
+Centerpointe out patient,centerpointe-out-patient,4801 Weldon Spring Pkwy,Weldon Spring,MO,63304.0,O'Fallon,2,2026-03-24,2026-05-26,62,63.0,499.5,999.0,Marketplace Takeout,warm
+Education Plus,education-plus,1460 Craig Rd,St. Louis,MO,63146.0,West Oak,2,2025-02-26,2026-05-13,75,441.0,450.87,901.74,Marketplace Takeout,warm
+Epiphany Dermatology,epiphany-dermatology,8888 Ladue Rd Suite 120,St. Louis,MO,63124.0,Forsyth/Clayton,2,2026-01-12,2026-05-13,75,121.0,220.62,441.25,Marketplace Takeout,warm
+HSHS St. Elizabeth's Neurology,hshs-st-elizabeths-neurology,3 St Elizabeth's Blvd Suite 500,O'Fallon,IL,62269.0,Shiloh,2,2026-04-27,2026-06-25,32,58.0,360.45,720.9,Marketplace Takeout,warm
+Habitat for Humanity Saint Louis,habitat-for-humanity-saint-louis,3830 S Grand Blvd,St. Louis,MO,63118.0,Lindell/SLU,2,2026-03-24,2026-06-23,34,90.0,372.68,745.35,Marketplace Takeout,warm
+Kilkowski,kilkowski,6400 Clayton Rd 303,Richmond Heights,MO,63117.0,Forsyth/Clayton,2,2026-03-30,2026-05-21,67,52.0,188.95,377.9,Marketplace Takeout,warm
+Mercy primary care,mercy-primary-care,300 Winding Woods Dr 214,O'Fallon,MO,63366.0,Manchester,2,2026-01-29,2026-05-08,80,99.0,251.7,503.4,Marketplace Takeout,warm
+Mid America Transplant,mid-america-transplant,1110 Highlands Plaza Dr Suite 100,St. Louis,MO,63110.0,South City,2,2026-05-19,2026-05-21,67,2.0,147.12,294.25,Marketplace Takeout,warm
+Peoples National Bank,peoples-national-bank,14323 S Outer Forty Rd BRANCH-Teller Line,Chesterfield,MO,63017.0,Chesterfield Valley,2,2026-06-04,2026-06-24,33,19.0,141.6,283.2,Marketplace Takeout,warm
+Purina,purina,901 Chouteau Ave,St. Louis,MO,63102.0,Lindell/SLU,2,2025-12-08,2026-05-19,69,162.0,141.85,283.7,Marketplace Takeout,warm
+Renaissance Financial,renaissance-financial,5700 Oakland Ave Suite 400,St. Louis,MO,63110.0,South City,2,2026-05-05,2026-05-27,61,22.0,234.75,469.5,Marketplace Takeout,warm
+Saint Louis Zoo - The Living World,saint-louis-zoo---the-living-world,1 Government Dr,St. Louis,MO,63110.0,South City,2,2025-06-20,2026-06-12,45,356.0,474.92,949.85,Marketplace Takeout,warm
+Special School District of St. Louis County,special-school-district-of-st-louis-county,12110 Clayton Rd,St. Louis,MO,63131.0,West Oak,2,2026-03-16,2026-04-28,90,42.0,289.68,579.35,Marketplace Takeout,warm
+Vista Dermatology,vista-dermatology,1058 Old Des Peres Rd,St. Louis,MO,63131.0,Manchester,2,2025-07-23,2026-06-24,33,335.0,305.38,610.75,Marketplace Takeout,warm
+Wiese USA,wiese-usa,1435 Woodson Rd attn: Emily Ashby,St. Louis,MO,63132.0,Forsyth/Clayton,2,2026-04-28,2026-05-26,62,27.0,159.98,319.95,Marketplace Takeout,warm
+65 Prime Plus by Mercy,65-prime-plus-by-mercy,2510 Lemay Ferry Rd,St. Louis,MO,63125.0,Tesson,1,2026-06-03,2026-06-03,54,,76.0,76.0,Marketplace Takeout,warm
+Anderson Medical Group,anderson-medical-group,3417 Anderson Healthcare Dr 200,Edwardsville,IL,62025.0,Edwardsville,1,2026-06-16,2026-06-16,41,,175.75,175.75,Marketplace Takeout,warm
+Ansira - Attn: Heather Reed,ansira---attn:-heather-reed,7733 Forsyth Blvd 900,St. Louis,MO,63105.0,Forsyth/Clayton,1,2026-06-04,2026-06-04,53,,343.5,343.5,Marketplace Takeout,warm
+Associated Physicians Group,associated-physicians-group,916 Talon Dr,O'Fallon,IL,62269.0,Shiloh,1,2026-05-12,2026-05-12,76,,193.23,193.23,Marketplace Takeout,warm
+BJC COE Building,bjc-coe-building,4901 Forest Park Ave 10143. 10th floor,St. Louis,MO,63108.0,Lindell/SLU,1,2026-06-17,2026-06-17,40,,132.3,132.3,Marketplace Takeout,warm
+BJC Medical Group Orthopedics & Sports Medicine at Belleville,bjc-medical-group-orthopedics-and-sports-medicine-at-belleville,4700 Memorial Dr Suite 340 3rd Floor - Suite 340,Belleville,IL,62226.0,Shiloh,1,2026-06-25,2026-06-25,32,,149.89,149.89,Marketplace Takeout,warm
+CIC,cic,20 S Sarah St,St. Louis,MO,63108.0,Lindell/SLU,1,2026-05-20,2026-05-20,68,,163.95,163.95,Marketplace Takeout,warm
+Caleres Headquarters,caleres-headquarters,8300 Maryland Ave,St. Louis,MO,63105.0,Lindell/SLU,1,2026-05-29,2026-05-29,59,,162.5,162.5,Marketplace Takeout,warm
+Caravus,caravus,101 S Hanley Rd suite 300 300,Clayton,MO,63105.0,Forsyth/Clayton,1,2026-05-05,2026-05-05,83,,480.0,480.0,Marketplace Takeout,warm
+Cardiac Cath Lab,cardiac-cath-lab,3023 N Ballas Rd floor 2,Frontenac,MO,63131.0,Creve Coeur,1,2026-05-06,2026-05-06,82,,825.0,825.0,Marketplace Takeout,warm
+Cardio Pulmonary,cardio-pulmonary,222 South Woods Mill Rd STE 310,Chesterfield,MO,63017.0,Creve Coeur,1,2026-05-14,2026-05-14,74,,302.7,302.7,Marketplace Takeout,warm
+"Concordia Seminary, St. Louis",concordia-seminary-st-louis,801 Seminary Pl Wartburg Hall,St. Louis,MO,63105.0,South City,1,2026-06-25,2026-06-25,32,,375.0,375.0,Marketplace Takeout,warm
+Diploma in Climate Medicine - Univ of Colorado,diploma-in-climate-medicine---univ-of-colorado,5595 Grand Dr Learning Lab,St. Louis,MO,63112.0,Lindell/SLU,1,2026-05-10,2026-05-10,78,,237.4,237.4,Marketplace Takeout,warm
+Dr Baram,dr-baram,10420 Old Olive St Rd 205,Creve Coeur,MO,63141.0,West Oak,1,2026-05-04,2026-05-04,84,,169.58,169.58,Marketplace Takeout,warm
+Dr Keller suite 222,dr-keller-suite-222,300 Winding Woods Dr,O'Fallon,MO,63366.0,O'Fallon,1,2026-06-08,2026-06-08,49,,239.29,239.29,Marketplace Takeout,warm
+Dr Pais Office,dr-pais-office,2810 Frank Scott Pkwy W,Belleville,IL,62223.0,Shiloh,1,2026-05-07,2026-05-07,81,,275.33,275.33,Marketplace Takeout,warm
+Dr wang,dr-wang,12200 Weber Hill Rd 200,St. Louis,MO,63127.0,Tesson,1,2026-06-24,2026-06-24,33,,457.05,457.05,Marketplace Takeout,warm
+Drury Hotel Brentwood,drury-hotel-brentwood,8700 Eager Rd,Brentwood,MO,63144.0,Lindell/SLU,1,2026-06-01,2026-06-01,56,,217.5,217.5,Marketplace Takeout,warm
+Drury Inn Arnold,drury-inn-arnold,3800 MO-141,Arnold,MO,63010.0,Tesson,1,2026-05-28,2026-05-28,60,,357.75,357.75,Marketplace Takeout,warm
+Edward Jones,edward-jones,12555 Manchester Rd,Des Peres,MO,63131.0,Manchester,1,2026-05-14,2026-05-14,74,,106.94,106.94,Marketplace Takeout,warm
+Embody Her Health,embody-her-health,391 Frank Scott Pkwy E B,Fairview Heights,IL,62208.0,Shiloh,1,2026-05-19,2026-05-19,69,,147.0,147.0,Marketplace Takeout,warm
+Gateway Region YMCA - Association Resource Office,gateway-region-ymca---association-resource-office,2815 Scott Ave Suite D,St. Louis,MO,63103.0,Lindell/SLU,1,2026-04-29,2026-04-29,89,,144.81,144.81,Marketplace Takeout,warm
+Grant Medical and Diabetes Associates,grant-medical-and-diabetes-associates,4320 Forest Park Ave Suite 1100,St. Louis,MO,63108.0,Lindell/SLU,1,2026-06-03,2026-06-03,54,,622.2,622.2,Marketplace Takeout,warm
+HSHS FAMILY MEDICINE,hshs-family-medicine,1116 Hartman Ln,Swansea,IL,62221.0,Shiloh,1,2026-06-15,2026-06-15,42,,301.9,301.9,Marketplace Takeout,warm
+HSHS Family & Sports Medicine,hshs-family-and-sports-medicine,670 Pierce Blvd 200,O'Fallon,IL,62269.0,Shiloh,1,2026-05-28,2026-05-28,60,,223.45,223.45,Marketplace Takeout,warm
+HSHS Maryville Primary Care,hshs-maryville-primary-care,2401 S Center St,Maryville,IL,62062.0,Edwardsville,1,2026-06-09,2026-06-09,48,,304.0,304.0,Marketplace Takeout,warm
+HUB,hub,645 Maryville Centre Dr 150,St. Louis,MO,63141.0,Creve Coeur,1,2026-06-16,2026-06-16,41,,147.74,147.74,Marketplace Takeout,warm
+His & Hers,his-and-hers,2070 Little Hills Expy,Saint Charles,MO,63301.0,Lindenwood,1,2026-06-05,2026-06-05,52,,233.54,233.54,Marketplace Takeout,warm
+Hunter Engineering - c/o Joy S,hunter-engineering---c-o-joy-s,11250 Hunter Dr Building A,Bridgeton,MO,63044.0,West Oak,1,2026-05-05,2026-05-05,83,,402.4,402.4,Marketplace Takeout,warm
+Kirkwood High School,kirkwood-high-school,801 W Essex Ave CRU Dance,Kirkwood,MO,63122.0,Rock Hill/Glendale,1,2026-05-08,2026-05-08,80,,125.75,125.75,Marketplace Takeout,warm
+Larson Financial Group,larson-financial-group,100 N Broadway 17,St. Louis,MO,63102.0,Lindell/SLU,1,2026-06-25,2026-06-25,32,,196.0,196.0,Marketplace Takeout,warm
+McCarthy @ Courtyard Hotel,mccarthy-@-courtyard-hotel,12815 Daylight Dr,St. Louis,MO,63131.0,Manchester,1,2026-06-18,2026-06-18,39,,330.5,330.5,Marketplace Takeout,warm
+Mercy David C. Pratt Cancer Center Hematology and Oncology Deptartment,mercy-david-c-pratt-cancer-center-hematology-and-oncology-deptartment,607 S New Ballas Rd Hematology and Oncology Deptartment,Creve Coeur,MO,63141.0,Creve Coeur,1,2026-05-01,2026-05-01,87,,936.94,936.94,Marketplace Takeout,warm
+Mercy Gastroenterology,mercy-gastroenterology,615 S New Ballas Rd Suite 1200,St. Louis,MO,63141.0,West Oak,1,2026-05-28,2026-05-28,60,,362.5,362.5,Marketplace Takeout,warm
+Mercy kids clinic,mercy-kids-clinic,12680 Olive Blvd 116,St. Louis,MO,63141.0,Creve Coeur,1,2026-05-15,2026-05-15,73,,142.45,142.45,Marketplace Takeout,warm
+Mercy- Dr. Christopher Abercrombie,mercy--dr-christopher-abercrombie,1237 Water Tower Pl,Arnold,MO,63010.0,Tesson,1,2026-06-22,2026-06-22,35,,171.0,171.0,Marketplace Takeout,warm
+Modern Litho,modern-litho,5001 Southwest Ave,St. Louis,MO,63110.0,West Oak,1,2026-06-19,2026-06-19,38,,475.2,475.2,Marketplace Takeout,warm
+NOVUS Health,novus-health,3221 Oak Hill Ave,St. Louis,MO,63116.0,South City,1,2026-06-03,2026-06-03,54,,175.28,175.28,Marketplace Takeout,warm
+Nephrology and hypertension specialist,nephrology-and-hypertension-specialist,10004 Kennerly Rd 374B,St. Louis,MO,63128.0,Tesson,1,2026-05-14,2026-05-14,74,,212.28,212.28,Marketplace Takeout,warm
+Nortek Global HVAC - Rheem,nortek-global-hvac---rheem,8000 Phoenix Parkway,O'Fallon,MO,63368.0,O'Fallon,1,2026-06-16,2026-06-16,41,,353.0,353.0,Marketplace Takeout,warm
+Office buliding 2,office-buliding-2,70 Jungermann Cir Suite 302,St. Peters,MO,63376.0,Lindenwood,1,2026-05-20,2026-05-20,68,,244.61,244.61,Marketplace Takeout,warm
+Onyx Spine and Orthopedic,onyx-spine-and-orthopedic,425 N New Ballas Rd,Creve Coeur,MO,63141.0,West Oak,1,2026-05-06,2026-05-06,82,,256.75,256.75,Marketplace Takeout,warm
+PHX Creative,phx-creative,555 Washington Ave Floor 5,St. Louis,MO,63101.0,Lindell/SLU,1,2026-05-28,2026-05-28,60,,240.0,240.0,Marketplace Takeout,warm
+Peabody Plaza — Mercer,peabody-plaza-— mercer,800 Market St 1800,St. Louis,MO,63101.0,Lindell/SLU,1,2026-05-27,2026-05-27,61,,208.49,208.49,Marketplace Takeout,warm
+Peoples Behavioral Health,peoples-behavioral-health,5669 Delmar Blvd,St. Louis,MO,63112.0,Forsyth/Clayton,1,2026-06-11,2026-06-11,46,,421.3,421.3,Marketplace Takeout,warm
+PracticeLink,practicelink,1034 S Brentwood Blvd Ste 2200 - PH - 22,Richmond Heights,MO,63117.0,Forsyth/Clayton,1,2026-05-15,2026-05-15,73,,420.5,420.5,Marketplace Takeout,warm
+Preferred Family Helthcare,preferred-family-helthcare,4066 Dunnica Ave,St. Louis,MO,63116.0,South City,1,2026-05-13,2026-05-13,75,,247.5,247.5,Marketplace Takeout,warm
+RDG Planning & Design,rdg-planning-and-design,7415 Manchester Rd,Maplewood,MO,63143.0,South City,1,2026-06-25,2026-06-25,32,,90.1,90.1,Marketplace Takeout,warm
+Radiation Oncology,radiation-oncology,10050 Kennerly Rd,St. Louis,MO,63128.0,Tesson,1,2026-05-21,2026-05-21,67,,228.0,228.0,Marketplace Takeout,warm
+Ritz Carlton: Guest Jed Tuminaro,ritz-carlton:-guest-jed-tuminaro,100 Carondelet Plaza Presidential Suite,St. Louis,MO,63105.0,Forsyth/Clayton,1,2026-05-05,2026-05-05,83,,252.96,252.96,Marketplace Takeout,warm
+SLU Doisy College of Health Sciences,slu-doisy-college-of-health-sciences,3437 Caroline St,St. Louis,MO,63104.0,Lindell/SLU,1,2026-06-01,2026-06-01,56,,362.5,362.5,Marketplace Takeout,warm
+SSM Cardinal Glennon Children's Hospital,ssm-cardinal-glennon-childrens-hospital,1465 S Grand Blvd,St. Louis,MO,63104.0,Lindell/SLU,1,2026-06-22,2026-06-22,35,,929.4,929.4,Marketplace Takeout,warm
+School of Social Work,school-of-social-work,"3550 Lindell Blvd Tegeler Hall, 200E",St. Louis,MO,63103.0,Lindell/SLU,1,2026-06-10,2026-06-10,47,,108.95,108.95,Marketplace Takeout,warm
+Simon Law Firm,simon-law-firm,1001 Highlands Plaza Dr 300,St. Louis,MO,63110.0,South City,1,2026-05-07,2026-05-07,81,,859.75,859.75,Marketplace Takeout,warm
+Southern Illinois behavioral health,southern-illinois-behavioral-health,6805 State Route 162 Suite 201,Maryville,IL,62062.0,Edwardsville,1,2026-05-28,2026-05-28,60,,376.05,376.05,Marketplace Takeout,warm
+St Louis Rheumatology,st-louis-rheumatology,520 S Elm Ave,Webster Groves,MO,63119.0,Rock Hill/Glendale,1,2026-06-22,2026-06-22,35,,563.35,563.35,Marketplace Takeout,warm
+St Mary’s Hospital,st-mary’s-hospital,6420 Clayton Rd,Richmond Heights,MO,63117.0,Forsyth/Clayton,1,2026-06-09,2026-06-09,48,,264.4,264.4,Marketplace Takeout,warm
+St. Louis Behavioral Medicine Institute,st-louis-behavioral-medicine-institute,1129 Macklind Ave,St. Louis,MO,63110.0,South City,1,2026-06-07,2026-06-07,50,,558.0,558.0,Marketplace Takeout,warm
+St. Louis City Training Facility,st-louis-city-training-facility,218 S 22nd St,St. Louis,MO,63103.0,South City,1,2026-05-25,2026-05-25,63,,369.0,369.0,Marketplace Takeout,warm
+St. Luke’s Clinic of Internal Medicine,st-luke’s-clinic-of-internal-medicine,121 St. Luke’s Center Dr (Outpatient bldg A) 506,Chesterfield,MO,63017.0,Creve Coeur,1,2026-05-07,2026-05-07,81,,356.2,356.2,Marketplace Takeout,warm
+"Talisen Technologies, Inc",talisen-technologies-inc,12655 Olive Blvd 500,Creve Coeur,MO,63141.0,Creve Coeur,1,2026-05-27,2026-05-27,61,,178.9,178.9,Marketplace Takeout,warm
+Techartista,techartista,725 Kingsland Ave,St. Louis,MO,63130.0,Forsyth/Clayton,1,2026-05-27,2026-05-27,61,,76.55,76.55,Marketplace Takeout,warm
+The Crossing at Fenton,the-crossing-at-fenton,1800 Bowles Ave The Crossing at Fenton,Fenton,MO,63026.0,Tesson,1,2026-05-18,2026-05-18,70,,103.3,103.3,Marketplace Takeout,warm
+The Lawrence Group,the-lawrence-group,319 N 4th St 1000,St. Louis,MO,63102.0,Lindell/SLU,1,2026-05-28,2026-05-28,60,,165.8,165.8,Marketplace Takeout,warm
+The Living World Entrance,the-living-world-entrance,1 Government Dr,St. Louis,MO,63110.0,South City,1,2026-05-20,2026-05-20,68,,158.7,158.7,Marketplace Takeout,warm
+Vasantha Pai,vasantha-pai,2810 Frank Scott Pkwy W #716,Belleville,IL,62223.0,Shiloh,1,2026-05-13,2026-05-13,75,,232.5,232.5,Marketplace Takeout,warm
+Washington University Brauer Dock,washington-university-brauer-dock,6220 Forest Park Pkwy BRAUER ROOM 1015,St. Louis,MO,63112.0,Forsyth/Clayton,1,2026-04-29,2026-04-29,89,,511.5,511.5,Marketplace Takeout,warm
+Yoon dermatology,yoon-dermatology,1060 Meyer Rd,Wentzville,MO,63385.0,Wentzville,1,2026-06-04,2026-06-04,53,,331.05,331.05,Marketplace Takeout,warm
+midwest sinus sleep,midwest-sinus-sleep,1179 Fortune Blvd,Shiloh,IL,62269.0,Shiloh,1,2026-05-20,2026-05-20,68,,336.25,336.25,Marketplace Takeout,warm
