@@ -1,4 +1,4 @@
-# Exact steps — build `2026-07-27-06`
+# Exact steps — build `2026-07-27-07`
 
 Five steps. Do them in this order. Step 3 is the only place you can tell whether
 it worked, so don't skip it.
@@ -25,7 +25,7 @@ carry vegan/vegetarian tags, nineteen of them with a chicken caveat.
 
 ## Step 2 — Publish Framer
 
-The calculator component is already updated (build `2026-07-27-06`). Just hit
+The calculator component is already updated (build `2026-07-27-07`). Just hit
 **Publish**.
 
 ## Step 3 — Verify, before you touch anything else
@@ -35,10 +35,10 @@ Open `https://www.crazybowlsandwraps.com/nutrition-calculator`.
 **3a.** Bottom of the page, under the disclaimer, must read:
 
 ```
-build 2026-07-27-06 · 67 items loaded
+build 2026-07-27-07 · 67 items loaded
 ```
 
-If it says `05`, or `76 items`, one of the first two steps didn't land. Stop and
+If it says `06` or earlier, or `76 items`, one of the first two steps didn't land. Stop and
 redo it. Everything below is meaningless until this line is right.
 
 **3b.** Filter pill counts:
@@ -66,6 +66,18 @@ bowl appears with no such line, stop and tell me.
 
 **3e.** Search for **Lettuce Wrap**. You should get **one** card called
 **Lettuce Wraps**, reading `150+ cal`, not nine cards with the same photo.
+
+**3f.** Dietary filters now appear in the URL. Click **GLP-1 Friendly**, then
+**Gluten-Free**. The address bar should read:
+
+```
+?diet=glp-1-friendly,gluten-free
+```
+
+Slugs are sorted alphabetically, so clicking the two pills in the other order
+gives the same URL — identical views must not produce different URLs. Copy that
+URL into a new tab: both pills should come back up selected. Clear the pills and
+`?diet=` should disappear entirely rather than linger as an empty parameter.
 
 ## Step 4 — Replace the page's JSON-LD
 

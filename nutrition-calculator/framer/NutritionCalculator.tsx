@@ -7,7 +7,7 @@ import { useState, useMemo, useEffect, useRef, useDeferredValue, useReducer, use
 // BUMP THIS ON EVERY PUSH. It exists so "did the change go live?" is answered by
 // reading one string off the page, instead of counting filter results and inferring
 // which code path produced them — two pushes were published stale before this existed.
-const BUILD = "2026-07-27-06"
+const BUILD = "2026-07-27-07"
 
 const MOBILE_BP   = 680
 const MAX_TRAY    = 3
@@ -470,10 +470,18 @@ function useViewport(): boolean {
     return isMobile
 }
 
+// Dietary filters travel in the URL as slugs — ?diet=gluten-free,glp-1-friendly —
+// rather than as the display labels, so the query string stays readable instead of
+// percent-encoding spaces and plus signs. Round-trips through DIETARY_TAGS' keys.
+const dietSlug = (label: string): string =>
+    label.toLowerCase().replace(/\+/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
+const dietFromSlug = (slug: string): string | undefined =>
+    DIETARY.find(d => dietSlug(d) === slug.trim().toLowerCase())
+
 // Reads URL params once on mount; writes back on state changes.
 function useUrlSync(
-    state: { goal: string; category: string; sortBy: string; selected: string | null },
-    onMountCb: (p: { goal?: string; category?: string; sortBy?: string; item?: string }) => void
+    state: { goal: string; category: string; sortBy: string; selected: string | null; dietary: string[] },
+    onMountCb: (p: { goal?: string; category?: string; sortBy?: string; item?: string; dietary?: string[] }) => void
 ): void {
     const mounted      = useRef(false)
     const onMountRef   = useRef(onMountCb)
@@ -485,7 +493,10 @@ function useUrlSync(
         try {
             if (typeof window === "undefined") return
             const p = new URLSearchParams(window.location.search)
-            onMountRef.current({ goal: p.get("goal") ?? undefined, category: p.get("category") ?? undefined, sortBy: p.get("sort") ?? undefined, item: p.get("item") ?? undefined })
+            // Unknown slugs are dropped rather than passed through, so a stale or
+            // hand-edited link can't put the UI in a state no pill can clear.
+            const diets = (p.get("diet") ?? "").split(",").map(dietFromSlug).filter((d): d is string => Boolean(d))
+            onMountRef.current({ goal: p.get("goal") ?? undefined, category: p.get("category") ?? undefined, sortBy: p.get("sort") ?? undefined, item: p.get("item") ?? undefined, dietary: diets.length ? diets : undefined })
         } catch { /* noop */ }
     }, [])
 
@@ -497,10 +508,15 @@ function useUrlSync(
             if (state.category && state.category !== "All") { p.set("category", state.category) } else { p.delete("category") }
             if (state.sortBy && state.sortBy !== "goal-fit") { p.set("sort", state.sortBy) } else { p.delete("sort") }
             if (state.selected) { p.set("item", state.selected) } else { p.delete("item") }
+            // Sorted so the same set of pills always yields the same URL — otherwise
+            // click order alone produces distinct URLs for identical views, which
+            // fragments GA4 reporting and gives crawlers duplicate paths to the
+            // same content.
+            if (state.dietary.length) { p.set("diet", [...state.dietary].sort().map(dietSlug).join(",")) } else { p.delete("diet") }
             const qs = p.toString()
             history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname)
         } catch { /* noop */ }
-    }, [state.goal, state.category, state.sortBy, state.selected])
+    }, [state.goal, state.category, state.sortBy, state.selected, state.dietary])
 }
 
 function useKeyboard(key: string, handler: () => void): void {
@@ -701,15 +717,16 @@ function NutritionCalculator({
         }
     }, [trayState.open, trayState.items, dataLayerPush])
 
-    const urlMountCb = useCallback(({ goal: g, category: cat, sortBy: s, item }: { goal?: string; category?: string; sortBy?: string; item?: string }) => {
+    const urlMountCb = useCallback(({ goal: g, category: cat, sortBy: s, item, dietary: d }: { goal?: string; category?: string; sortBy?: string; item?: string; dietary?: string[] }) => {
         const validGoal = GOALS.find(x => x.id === g)
         if (validGoal) setGoal(validGoal.id)
         if (cat)  setCategory(cat)
         if (s && s !== "default") setSortBy(s)
+        if (d && d.length) setDietary(d)
         if (item) handleDeepLink(item)
     }, [handleDeepLink])
 
-    useUrlSync({ goal, category, sortBy, selected }, urlMountCb)
+    useUrlSync({ goal, category, sortBy, selected, dietary }, urlMountCb)
 
     // — Effects ————————————————————————————————————————————————————————————————
     useEffect(() => { injectStyles() }, [])
