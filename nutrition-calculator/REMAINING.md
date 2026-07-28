@@ -8,6 +8,17 @@ blocks it), so anything marked **verify** needs your eyes, not mine.
 
 ---
 
+## 0. Done and confirmed
+
+- **Worker v5 is live.** All nine on-screen counts from the 27 Jul screenshot
+  reproduce exactly against `worker_v5.js` (Keep It Light 36, 15 results,
+  Vegetarian 8, Vegan 3, Gluten-Free 3, Dairy-Free 8, High Protein 15,
+  Low Carb 2, All 57 — these are scented counts under an active
+  Keep It Light + GLP-1 filter, not totals).
+- **Dietary filters now sync to the URL** as `?diet=glp-1-friendly,gluten-free`.
+  Needs the build `2026-07-27-07` publish to go live. Read the caveat in item 3
+  before treating this as an SEO fix — it is a sharing and analytics fix.
+
 ## 1. Publish Framer and verify — 5 minutes, blocks everything else
 
 The component is pushed but a publish is what makes it public. Then check the
@@ -37,6 +48,27 @@ Test — see the changelog for why "no items detected" there is expected).
 Expect: `Menu`, 44 `MenuItem`, `FAQPage`, 7 `Question`, 0 errors.
 
 ## 3. The URL question — the highest-value item left, and I got it wrong before
+
+**Two separate things live under this heading.** `?diet=` params (done, build 07)
+make filter views shareable and let GA4 report which diets people filter by. They
+do **not** recover rankings: Google consolidates param variants to the canonical,
+the head JSON-LD is static so `?diet=vegan` would still carry schema for the whole
+menu, and nothing links to those URLs. Use the GA4 data to decide which of these
+four to build first — each a real Framer page with its own title, H1, intro copy
+and JSON-LD subset, calculator pre-filtered underneath:
+
+```
+/nutrition-calculator/gluten-free
+/nutrition-calculator/dairy-free
+/nutrition-calculator/vegan
+/nutrition-calculator/high-protein
+```
+
+The copy already exists — the four `NutritionQuickAnswers` cards map one-to-one
+onto those four pages. Also confirm the page emits a self-referencing canonical to
+the clean path, since `?goal=` and `?diet=` are now both in circulation.
+
+### And the redirect half of the question
 
 I told you earlier that the migration deleted five indexed diet-category pages
 and needed 301s. That was wrong on the specifics, and the real picture is bigger.
