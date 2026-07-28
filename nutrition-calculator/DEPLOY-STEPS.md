@@ -85,9 +85,25 @@ Framer → the nutrition-calculator page → Page Settings → **SEO** → Custo
 **End of `<head>`**. Delete the existing snippet, paste
 **`framer/head-jsonld-snippet.txt`**, publish again.
 
+That file is one long line — 20 KB minified. Crawlers don't care about whitespace,
+and it's ~25% smaller than the indented form, which matters if Framer's custom-code
+box has a size ceiling. `head-jsonld-snippet-readable.txt` is the same payload
+indented, for reading and diffing only. Don't paste that one.
+
 It now has 44 menu items (up from 28) and the vegan, dairy-free and
 "can I make it vegan" answers are regenerated from the same data the filters use,
 so the two can't drift.
+
+**Confirm it actually replaced the old one.** View source on the published page
+(Ctrl/Cmd-U) and search for:
+
+```
+Any item on our menu can also be ordered without the grilled chicken
+```
+
+That sentence exists only in the new payload. If it isn't there, you're still
+serving the old snippet — the paste didn't save, or the publish didn't include it.
+A second check: search `"MenuItem"` and count. New is **44**, old was 28.
 
 Validate at **validator.schema.org** — paste the page URL. Expect `Menu`,
 44 `MenuItem`, `FAQPage`, 7 `Question`, 0 errors.

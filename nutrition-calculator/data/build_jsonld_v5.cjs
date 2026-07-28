@@ -118,7 +118,16 @@ const payload = [
     faq,
 ]
 
+// Two forms of the same payload. Crawlers don't care about whitespace, and Framer's
+// custom-code field is a text box of unknown capacity — the minified form is ~25%
+// smaller, so it's what we hand over to paste. The indented form stays on disk for
+// humans diffing changes.
 fs.writeFileSync(OUT,
+    '<script type="application/ld+json">' +
+    JSON.stringify(payload) +
+    "</script>\n")
+
+fs.writeFileSync(OUT.replace(/\.txt$/, "-readable.txt"),
     '<script type="application/ld+json">\n' +
     JSON.stringify(payload, null, 2) +
     "\n</script>\n")
