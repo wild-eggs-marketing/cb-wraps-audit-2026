@@ -1,0 +1,674 @@
+Location,Slug,Street Address,City,State,Zip Code,Assigned Store,Order Count,First Order Date,Last Order Date,Days Since Last Order,Median Reorder Gap (days),Avg Food Total,Total Food Spend,Primary Source,Segment
+Brown Cancer Center,brown-cancer-center,2401 Terra Crossing Blvd Suite 206,Louisville,KY,40245,Landis,13,2025-01-29,2026-07-27,2,62,731.66,9511.61,Marketplace Delivery,champion
+Crossroads Church,crossroads-church,3500 Madison Rd,Cincinnati,OH,45209,Oakley,5,2025-04-16,2026-04-19,101,28,1714.4,8572.0,Marketplace Delivery,champion
+,,10300 Ormsby Park Pl 100,Louisville,KY,40223,Queen City Wild Eggs,29,2025-01-04,2026-07-14,15,12,265.38,7696.0,Marketplace Takeout,champion
+Traders Point Christian Church,traders-point-christian-church,2350 E 62nd St,Indianapolis,IN,46220,Pulliam,34,2025-01-12,2026-07-26,3,14,222.09,7551.0,Marketplace Delivery,champion
+Racing Louisville FC,racing-louisville-fc,801 Edith Rd,Louisville,KY,40206,Mercantile,19,2025-03-09,2026-07-11,18,28,316.95,6022.0,Marketplace Delivery,champion
+Traders Point Christian Church - Carmel,traders-point-christian-church---carmel,1242 W 136th St,Carmel,IN,46032,Carmel,19,2026-03-08,2026-07-26,3,7,307.58,5844.0,Marketplace Delivery,champion
+LC Rheumatology,lc-rheumatology,3897 Charlestown Rd,New Albany,IN,47150,New Albany,11,2025-05-01,2026-05-28,62,42,403.73,4441.0,Marketplace Delivery,champion
+Victory Field,victory-field,501 W Maryland St,Indianapolis,IN,46225,Pulliam,6,2026-04-08,2026-05-10,80,4,731.83,4391.0,Marketplace Delivery,champion
+Baptist Health Cancer Center,baptist-health-cancer-center,2210 Green Valley Rd,New Albany,IN,47150,New Albany,8,2025-01-28,2026-06-02,57,41,455.12,3641.0,Marketplace Delivery,champion
+Salesforce,salesforce,1 East Ohio St,Indianapolis,IN,46204,Pulliam,7,2025-05-08,2026-06-11,48,47,487.0,3409.0,Marketplace Delivery,champion
+Planet Fitness Kueber Center,planet-fitness-kueber-center,2432 S Floyd St,Louisville,KY,40209,Mercantile,5,2025-02-28,2026-04-11,109,52,670.6,3353.0,Marketplace Delivery,champion
+Louisville Pulmonary Care,louisville-pulmonary-care,4003 Kresge Way 312,Saint Matthews,KY,40207,Dupont,5,2025-06-16,2026-06-16,43,121,643.8,3219.0,Marketplace Delivery,champion
+UofL Field Hockey,uofl-field-hockey,317 University Blvd,Louisville,KY,40208,New Albany,6,2025-08-29,2026-02-28,151,24,496.83,2981.0,Marketplace Delivery,champion
+Raymond James,raymond-james,4969 US-42 1600,Northfield,KY,40222,Westport,7,2025-02-26,2026-04-22,98,71,422.29,2956.0,Marketplace Delivery,champion
+Med Center Health Neurology,med-center-health-neurology,350 Park St Suite 206-A Suite 206-A,Bowling Green,KY,42101,Bowling Green,6,2025-04-28,2026-07-22,7,76,488.5,2931.0,Marketplace Delivery,champion
+Graves Gilbert Dermatology,graves-gilbert-dermatology,1065 Ashley St Suite 200,Bowling Green,KY,42103,Bowling Green,5,2026-02-25,2026-06-17,42,42,556.8,2784.0,Marketplace Delivery,champion
+Benefits All In,benefits-all-in,8040 Hosbrook Rd,Cincinnati,OH,45236,Oakley,5,2026-01-16,2026-06-15,44,50,533.6,2668.0,Marketplace Delivery,champion
+Marathon Health,marathon-health,10 W Market St 2900,Indianapolis,IN,46204,Pulliam,6,2025-02-12,2026-05-22,68,36,427.0,2562.0,Marketplace Delivery,champion
+Traders Point Christian Church - Production,traders-point-christian-church---production,12648 E 116th St,Fishers,IN,46037,Fishers,14,2025-02-02,2026-03-01,150,21,181.36,2539.0,Marketplace Delivery,champion
+WireCrafters,wirecrafters,6210 Strawberry Lane,Louisville,KY,40214,Mercantile,5,2025-08-20,2026-04-11,109,35,477.2,2386.0,Marketplace Delivery,champion
+Procter and Gamble,procter-and-gamble,2 Procter and Gamble Plz Cafe Blue,Cincinnati,OH,45202,Queen City Wild Eggs,5,2025-05-12,2026-05-18,72,87,474.8,2374.0,Marketplace Delivery,champion
+OMS Photo,oms-photo,1636 Chase Ave,Cincinnati,OH,45223,Queen City Wild Eggs,11,2025-03-07,2026-07-07,22,39,193.91,2133.0,Marketplace Delivery,champion
+Fedex,fedex,155 Flex Park Ln,Bowling Green,KY,42101,Bowling Green,5,2025-11-18,2026-05-22,68,10,424.0,2120.0,Marketplace Delivery,champion
+StriveTogether,strivetogether,125 E 9th St Fourth Floor,Cincinnati,OH,45202,Queen City Wild Eggs,5,2025-01-14,2025-11-20,251,44,366.6,1833.0,Marketplace Delivery,champion
+Mt Auburn Nephrology,mt-auburn-nephrology,8260 Pine Rd,Cincinnati,OH,45236,Oakley,5,2025-03-07,2025-11-07,264,84,304.0,1520.0,Marketplace Delivery,champion
+University of Louisville/Clinical Translational Research Building (CTR),university-of-louisville-clinical-translational-research-building-(ctr),505 S Hancock St 1st floor Room 124,Louisville,KY,40202,Mercantile,7,2025-07-18,2026-05-01,89,63,177.14,1240.0,Marketplace Delivery,champion
+JWM Neurology,jwm-neurology,8402 Harcourt Rd #615 (St. Vincent Professional Building),Indianapolis,IN,46260,Carmel,5,2025-02-28,2026-03-12,139,130,231.6,1158.0,Marketplace Delivery,champion
+Newburgh Dermatology,newburgh-dermatology,10788 Stahl Rd.,Newburgh,IN,47630,Evansville,5,2026-03-05,2026-05-13,77,14,227.0,1135.0,Marketplace Delivery,champion
+Stoll Keenon Ogden,stoll-keenon-ogden,One Main St Suite 201,Evansville,IN,47708,Evansville,6,2025-07-09,2026-07-15,14,7,166.17,997.0,Marketplace Delivery,champion
+Christ Hospital Physicians,christ-hospital-physicians,2123 Auburn Ave Suite 624 medical office building,Cincinnati,OH,45219,Queen City Wild Eggs,5,2025-01-13,2026-04-20,100,147,197.0,985.0,Marketplace Delivery,champion
+Norton Healthcare Sleep Center,norton-healthcare-sleep-center,4950 Norton Healthcare Blvd 210,Louisville,KY,40241,Westport,6,2025-11-19,2026-06-24,35,35,150.0,900.0,Marketplace Delivery,champion
+DMG - Divisions Maintenance Group,dmg---divisions-maintenance-group,"50 West 5th St Lobby ""Foundry Lobby""",Cincinnati,OH,45202,Queen City Wild Eggs,5,2025-12-10,2026-01-29,181,5,179.2,896.0,Marketplace Delivery,champion
+Southeast Christian Church,southeast-christian-church,1309 Charlestown New Albany Rd,Jeffersonville,IN,47130,Landis,3,2025-09-14,2026-04-11,109,174,1136.33,3409.0,Marketplace Delivery,winback
+Louisville Gas & Electric,louisville-gas-and-electric,4662 Jennings Ln Admin Building,Louisville,KY,40218,Mercantile,4,2025-04-01,2026-03-17,134,92,736.25,2945.0,Marketplace Delivery,winback
+Baptist Neurology,baptist-neurology,4003 Kresge Way ste 400 400,Louisville,KY,40207,Dupont,4,2025-02-24,2026-02-19,160,64,605.0,2420.0,Marketplace Delivery,winback
+Clark Schaefer Hackett,clark-schaefer-hackett,1 E 4th St 900,Cincinnati,OH,45202,Queen City Wild Eggs,4,2025-05-06,2026-02-03,176,63,466.0,1864.0,Marketplace Delivery,winback
+Dean Dorton,dean-dorton,810 Wright's Summit Pkwy Third floor,Fort Wright,KY,41011,Fishers,4,2025-03-29,2026-03-28,123,28,440.0,1760.0,Marketplace Delivery,winback
+Graves Gilbert Clinic,graves-gilbert-clinic,1065 Ashley St Suite 200,Bowling Green,KY,42103,Bowling Green,2,2026-03-26,2026-04-27,93,32,873.0,1746.0,Marketplace Delivery,winback
+Dawes Fretzin,dawes-fretzin,7910 Shadeland Ave,Indianapolis,IN,46250,Carmel,1,2026-04-20,2026-04-20,100,,1605.0,1605.0,Marketplace Delivery,winback
+Baptist Cancer Center - Cancer & Blood Center,baptist-cancer-center---cancer-and-blood-center,Kresge Way Suite 500,Saint Matthews,KY,40207,Dupont,1,2026-02-27,2026-02-27,152,,1506.0,1506.0,Marketplace Delivery,winback
+Brown Cancer Center Fellows,brown-cancer-center-fellows,529 S Jackson St 4th floor- Fellows,Louisville,KY,40202,Westport,1,2026-04-23,2026-04-23,97,,1456.0,1456.0,Marketplace Delivery,winback
+U of L Oncology,u-of-l-oncology,529 S Jackson St Third Floor lunch Room,Louisville,KY,40202,Mercantile,3,2025-03-13,2026-04-02,118,315,483.0,1449.0,Marketplace Delivery,winback
+St Francis Cancer Center,st-francis-cancer-center,8111 South Emerson Ave Entrance 4,Indianapolis,IN,46237,Pulliam,1,2026-02-25,2026-02-25,154,,1399.0,1399.0,Marketplace Delivery,winback
+Brown Cancer Center Terra Crossing,brown-cancer-center-terra-crossing,2401 Terra Crossing Blvd 206,Louisville,KY,40245,Dupont,1,2026-03-25,2026-03-25,126,,1391.0,1391.0,Marketplace Delivery,winback
+UL Brown Cancer Center,ul-brown-cancer-center,2401 Terra Crossing Blvd Ste 206,Louisville,KY,40245,Landis,2,2025-06-06,2026-04-24,96,322,677.0,1354.0,Marketplace Delivery,winback
+EY,ey,221 E 4th St #2900 2900,Cincinnati,OH,45202,Pulliam,3,2025-06-26,2026-02-10,169,144,420.0,1260.0,Marketplace Delivery,winback
+UofL Brown Cancer Center,uofl-brown-cancer-center,2401 Terra Crossing Blvd 206,Louisville,KY,40245,Landis,2,2025-09-25,2026-04-16,104,203,624.5,1249.0,Marketplace Delivery,winback
+Elevance Health,elevance-health,220 Virginia Ave,Indianapolis,IN,46204,Oakley,2,2025-05-20,2026-02-24,155,280,619.5,1239.0,Marketplace Delivery,winback
+OnTarget CPA,ontarget-cpa,101 W Ohio St 800 800,Indianapolis,IN,46204,Pulliam,3,2025-04-13,2026-04-04,116,279,402.67,1208.0,Marketplace Delivery,winback
+Deaconess Dermatology,deaconess-dermatology,120 SE 4th St 3rd Floor,Evansville,IN,47713,Evansville,1,2026-04-07,2026-04-07,113,,1159.0,1159.0,Marketplace Delivery,winback
+louisville slugger field - Toledo Mudhens,louisville-slugger-field---toledo-mudhens,401 East Main St,Louisville,KY,40202,Mercantile,1,2026-04-18,2026-04-18,102,,1098.0,1098.0,Marketplace Delivery,winback
+DHL,dhl,236 Wendell H Ford Blvd,Florence,KY,41042,Queen City Wild Eggs,2,2025-08-21,2026-02-25,154,188,543.0,1086.0,Marketplace Delivery,winback
+Deloitte,deloitte,1 East Ohio St Floor 42,Indianapolis,IN,46204,Pulliam,2,2025-09-03,2026-02-04,175,154,522.5,1045.0,Marketplace Delivery,winback
+Merchants Bank,merchants-bank,410 Monon Blvd,Carmel,IN,46032,Carmel,2,2026-02-25,2026-04-29,91,63,500.5,1001.0,Marketplace Delivery,winback
+EGC Construction,egc-construction,30 W 4th St,Newport,KY,41071,Oakley,2,2026-03-06,2026-04-17,103,42,498.0,996.0,Marketplace Delivery,winback
+Kentuckiana Comfort Center (KCC),kentuckiana-comfort-center-(kcc),11426 Electron Dr,Louisville,KY,40299,Jtown,3,2025-02-07,2026-02-20,159,355,310.33,931.0,Marketplace Delivery,winback
+Advanced ENT and Allergy,advanced-ent-and-allergy,108 W Daisy Ln,New Albany,IN,47150,New Albany,1,2026-04-16,2026-04-16,104,,879.0,879.0,Marketplace Delivery,winback
+Brown Cancer Center - Terra Crossing,brown-cancer-center---terra-crossing,2401 Terra Crossing Blvd Suite 206,Louisville,KY,40245,Landis,1,2026-02-16,2026-02-16,163,,870.0,870.0,Marketplace Delivery,winback
+Hampton Inn & Suites South Greenwood - Vanderbilt University Volleyball,hampton-inn-and-suites-south-greenwood---vanderbilt-university-volleyball,5249 Claybrooke Commons Dr,Indianapolis,IN,46237,Greenwood,1,2026-04-12,2026-04-12,108,,845.0,845.0,Marketplace Delivery,winback
+Oncology Hematology Care,oncology-hematology-care,4350 Malsbary Rd,Cincinnati,OH,45242,Oakley,1,2026-03-09,2026-03-09,142,,834.0,834.0,Marketplace Delivery,winback
+"Portland Family Health Center-Dr Fineman, et al",portland-family-health-center-dr-fineman-et-al,2215 Portland Ave Basement-Pharmacy,Louisville,KY,40212,New Albany,2,2026-01-13,2026-03-12,139,58,400.5,801.0,Marketplace Delivery,winback
+Roehr Insurance,roehr-insurance,4642 Ridge Ave,Cincinnati,OH,45209,Oakley,1,2026-04-16,2026-04-16,104,,780.0,780.0,Marketplace Delivery,winback
+Bennett & Bloom Eye Centers,bennett-and-bloom-eye-centers,4010 Dupont Cir 380,Louisville,KY,40207,Dupont,1,2026-04-27,2026-04-27,93,,720.0,720.0,Marketplace Delivery,winback
+Univ of Louisville Cancer Center,univ-of-louisville-cancer-center,2401 Terra Crossing Blvd Suite 206,Louisville,KY,40245,Landis,1,2026-03-12,2026-03-12,139,,719.0,719.0,Marketplace Delivery,winback
+Brown Cancer Center- Terra Crossing,brown-cancer-center--terra-crossing,2401 Terra Crossing Blvd,Louisville,KY,40245,Dupont,1,2026-04-01,2026-04-01,119,,687.0,687.0,Marketplace Delivery,winback
+Southeast Christian Church Prospect Campus,southeast-christian-church-prospect-campus,12650 W U.S. Hwy 42,Prospect,KY,40059,Westport,4,2025-09-07,2026-02-22,157,49,168.75,675.0,Marketplace Delivery,winback
+Deaconess Cancer Services Medical Office Building 4,deaconess-cancer-services-medical-office-building-4,4099 Gateway Blvd MOB 4 Building - Cancer Services,Newburgh,IN,47630,Evansville,1,2026-03-24,2026-03-24,127,,667.0,667.0,Marketplace Delivery,winback
+Synergistic Designs,synergistic-designs,10325 S Medallion Dr,Cincinnati,OH,45241,Oakley,1,2026-04-27,2026-04-27,93,,639.0,639.0,Marketplace Delivery,winback
+Western Kentucky heart and lung,western-kentucky-heart-and-lung,421 U.S. 31 W Bypass 2nd floor,Bowling Green,KY,42101,Bowling Green,1,2026-01-30,2026-01-30,180,,637.0,637.0,Marketplace Delivery,winback
+Louisville Urban League,louisville-urban-league,1535 W Broadway,Louisville,KY,40203,Westport,1,2026-04-07,2026-04-07,113,,613.0,613.0,Marketplace Delivery,winback
+Deaconess MOB 4 Cancer Services,deaconess-mob-4-cancer-services,4099 Gateway Blvd MOB 4,Newburgh,IN,47630,Evansville,1,2026-03-25,2026-03-25,126,,601.0,601.0,Marketplace Delivery,winback
+Kaiser Aluminum Warrick,kaiser-aluminum-warrick,4000 IN-66 FAB Gate,Newburgh,IN,47630,Evansville,1,2026-03-25,2026-03-25,126,,598.0,598.0,Marketplace Delivery,winback
+Jane and Jewell Center,jane-and-jewell-center,1620 Columbia St,Louisville,KY,40203,Mercantile,1,2026-04-21,2026-04-21,99,,583.0,583.0,Marketplace Delivery,winback
+The Dermatology Center of Indiana,the-dermatology-center-of-indiana,2800 S State Rd. 135,Greenwood,IN,46143,Greenwood,2,2025-02-04,2026-03-23,128,412,284.5,569.0,Marketplace Delivery,winback
+ASG Indianapolis,asg-indianapolis,50 E 86th St,Indianapolis,IN,46240,Carmel,1,2026-04-27,2026-04-27,93,,562.0,562.0,Marketplace Delivery,winback
+Ten Different Looks,ten-different-looks,1816 Heaton Rd,Louisville,KY,40216,Mercantile,1,2026-03-21,2026-03-21,130,,560.0,560.0,Marketplace Delivery,winback
+"CBRE, Inc. (Ormsby III)",cbre-inc-(ormsby-iii),10200 Forest Green Blvd Suite 500,Louisville,KY,40223,Westport,1,2026-04-01,2026-04-01,119,,556.0,556.0,Marketplace Delivery,winback
+Divisions Maintenance Group,divisions-maintenance-group,50 W 5th St,Cincinnati,OH,45202,Queen City Wild Eggs,1,2026-02-02,2026-02-02,177,,549.0,549.0,Marketplace Delivery,winback
+RLS,rls,346 Gest St,Cincinnati,OH,45203,Queen City Wild Eggs,2,2026-04-01,2026-04-29,91,28,273.5,547.0,Marketplace Delivery,winback
+Louisville Endoscopy Center,louisville-endoscopy-center,1400 Poplar Level Rd,Louisville,KY,40217,Mercantile,1,2026-04-13,2026-04-13,107,,539.0,539.0,Marketplace Delivery,winback
+Brown Cancer Center - GynOnc (Metzinger/Todd),brown-cancer-center---gynonc-(metzinger-todd),529 S Jackson St 3rd floor,Louisville,KY,40202,Mercantile,1,2026-02-12,2026-02-12,167,,521.0,521.0,Marketplace Delivery,winback
+Deaconess Allergy Clinic,deaconess-allergy-clinic,6221 Physicians Ct #1,Evansville,IN,47715,Evansville,1,2026-03-03,2026-03-03,148,,501.0,501.0,Marketplace Delivery,winback
+Baptist Gastroenterology,baptist-gastroenterology,2400 Eastpoint Pkwy Suite 350,Louisville,KY,40223,Landis,1,2026-02-04,2026-02-04,175,,497.0,497.0,Marketplace Delivery,winback
+Eureka Ranch/Dexter-Brain Brew Distillery,eureka-ranch-dexter-brain-brew-distillery,3849 Edwards Rd,Newtown,OH,45244,Oakley,1,2026-02-09,2026-02-09,170,,487.0,487.0,Marketplace Delivery,winback
+Carrier,carrier,7310 W Morris St Technical Training Center,Indianapolis,IN,46231,Avon,2,2025-09-19,2026-04-09,111,202,239.5,479.0,Marketplace Delivery,winback
+Graves-Gilbert Clinic,graves-gilbert-clinic,1065 Ashley St Suite 200,Bowling Green,KY,42103,Bowling Green,1,2026-02-02,2026-02-02,177,,474.0,474.0,Marketplace Takeout,winback
+"Harding, Shymanski & Company",harding-shymanski-and-company,101 S 5th St 1700 Floor,Louisville,KY,40202,Mercantile,1,2026-04-01,2026-04-01,119,,467.0,467.0,Marketplace Delivery,winback
+P&G,pandg,1 Procter and Gamble Plz,Cincinnati,OH,45202,Queen City Wild Eggs,2,2025-02-19,2026-03-25,126,399,230.0,460.0,Marketplace Delivery,winback
+Hirons,hirons,422 E New York St,Indianapolis,IN,46202,Pulliam,1,2026-03-12,2026-03-12,139,,459.0,459.0,Marketplace Delivery,winback
+Ball State University | CAP Indy,ball-state-university-|-cap-indy,25 N Pine St,Indianapolis,IN,46202,Pulliam,1,2026-03-19,2026-03-19,132,,448.0,448.0,Marketplace Delivery,winback
+Elite Built Homes,elite-built-homes,16218 Shelbyville Rd,Louisville,KY,40245,Landis,1,2026-04-03,2026-04-03,117,,446.0,446.0,Marketplace Delivery,winback
+1st Urology,1st-urology,1919 State St Ste 205,New Albany,IN,47150,New Albany,2,2025-09-12,2026-04-03,117,203,213.5,427.0,Marketplace Delivery,winback
+University of Cincinnati Kresge Circle,university-of-cincinnati-kresge-circle,231 Albert Sabin Way,Cincinnati,OH,45267,Queen City Wild Eggs,1,2026-02-06,2026-02-06,173,,423.0,423.0,Marketplace Delivery,winback
+Brown Cancer Center - Terra Crossing Blvd,brown-cancer-center---terra-crossing-blvd,2401 Terra Crossing Blvd suite 206 Suite 206,Louisville,KY,40245,Dupont,1,2026-02-18,2026-02-18,161,,418.0,418.0,Marketplace Delivery,winback
+Audubon hosptial,audubon-hosptial,1 Audubon Plaza Dr Hybrid OR -2nd floorp,Louisville,KY,40217,Mercantile,1,2026-02-06,2026-02-06,173,,408.0,408.0,Marketplace Delivery,winback
+"Hinkle Contracting - at the Hampton Inn Louisville East, Conference Room",hinkle-contracting---at-the-hampton-inn-louisville-east-conference-room,1451 Alliant Ave Conference Room,Jeffersontown,KY,40299,Jtown,1,2026-04-08,2026-04-08,112,,402.0,402.0,Marketplace Delivery,winback
+Montgomery Community Church,montgomery-community-church,11251 Montgomery Rd,Cincinnati,OH,45249,Oakley,1,2026-02-11,2026-02-11,168,,394.0,394.0,Marketplace Delivery,winback
+UOFL ENT,uofl-ent,3920 Dutchmans Ln Suite 308 Floor 3,Louisville,KY,40207,Dupont,1,2026-03-18,2026-03-18,133,,388.0,388.0,Marketplace Delivery,winback
+Dr. Seshadri Oncology,dr-seshadri-oncology,201 Park St 3rd Floor,Bowling Green,KY,42101,Bowling Green,1,2026-02-19,2026-02-19,160,,383.0,383.0,Marketplace Delivery,winback
+Med Center Psychiatry,med-center-psychiatry,350 Park St 2nd Floor,Bowling Green,KY,42101,Bowling Green,2,2025-09-04,2026-02-13,166,162,188.5,377.0,Marketplace Delivery,winback
+Gastro Health West Side,gastro-health-west-side,3301 Mercy Health Blvd Suite 445,Cincinnati,OH,45211,Queen City Wild Eggs,1,2026-03-25,2026-03-25,126,,360.0,360.0,Marketplace Delivery,winback
+University of Evansville - Carson Center,university-of-evansville---carson-center,1800 E Walnut St,Evansville,IN,47714,Evansville,1,2026-03-08,2026-03-08,143,,358.0,358.0,Marketplace Delivery,winback
+building,building,333 E 8th St,Cincinnati,OH,45202,Queen City Wild Eggs,1,2026-04-07,2026-04-07,113,,353.0,353.0,Marketplace Delivery,winback
+The blankenbaker,the-blankenbaker,2713 Blankenbaker Pkwy,Louisville,KY,40299,Jtown,1,2026-03-20,2026-03-20,131,,343.0,343.0,Marketplace Delivery,winback
+Kidney and Hypertension Center,kidney-and-hypertension-center,830 Thomas More Pkwy 202,Edgewood,KY,41017,Queen City Wild Eggs,1,2026-02-12,2026-02-12,167,,339.0,339.0,Marketplace Delivery,winback
+Veterinary Emergency Group,veterinary-emergency-group,1480 E 86th St,Indianapolis,IN,46240,Carmel,1,2026-03-16,2026-03-16,135,,338.0,338.0,Marketplace Delivery,winback
+OnT,ont,101 W Ohio St 800,Indianapolis,IN,46204,Pulliam,1,2026-03-21,2026-03-21,130,,337.0,337.0,Marketplace Delivery,winback
+Vineyard Cincinnati Church,vineyard-cincinnati-church,11340 Century Cir E,Cincinnati,OH,45246,Oakley,1,2026-04-05,2026-04-05,115,,329.0,329.0,Marketplace Delivery,winback
+Retina Associates of Kentucky,retina-associates-of-kentucky,6450 New Dutchmans Pkwy,Louisville,KY,40205,Dupont,1,2026-04-14,2026-04-14,106,,327.0,327.0,Marketplace Delivery,winback
+Priority Physicians,priority-physicians,8333 Naab Rd Suite 360 Suite 360,Indianapolis,IN,46260,Carmel,2,2025-11-04,2026-03-18,133,134,163.0,326.0,Marketplace Delivery,winback
+Arbor Homes,arbor-homes,9225 Harrison Park Ct,Indianapolis,IN,46216,Pulliam,1,2026-02-09,2026-02-09,170,,321.0,321.0,Marketplace Delivery,winback
+FAMILY HEALTH CENTER PORTLAND- ADULT PRIMARY CARE,family-health-center-portland--adult-primary-care,2215 Portland Ave FIRST FLOOR,Louisville,KY,40212,New Albany,1,2026-04-23,2026-04-23,97,,300.0,300.0,Marketplace Delivery,winback
+Graves Gilbert Gastro,graves-gilbert-gastro,484 Golden Autumn Way 2nd floor,Bowling Green,KY,42103,Bowling Green,1,2026-04-15,2026-04-15,105,,290.0,290.0,Marketplace Delivery,winback
+IBMT,ibmt,8111 S Emerson Ave Suite 105,Indianapolis,IN,46237,Pulliam,1,2026-04-07,2026-04-07,113,,280.0,280.0,Marketplace Delivery,winback
+Deaconess Downtown Primary Care 2nd floor,deaconess-downtown-primary-care-2nd-floor,120 SE 4th St 2,Evansville,IN,47713,Evansville,1,2026-04-03,2026-04-03,117,,271.0,271.0,Marketplace Delivery,winback
+Covington by the Lake Apartments,covington-by-the-lake-apartments,7301 Monsey Circle Clubhouse,Louisville,KY,40219,Mercantile,1,2026-03-31,2026-03-31,120,,267.0,267.0,Marketplace Delivery,winback
+GE Aerospace,ge-aerospace,1 Neumann Way,Cincinnati,OH,45215,Oakley,1,2026-04-17,2026-04-17,103,,263.0,263.0,Marketplace Delivery,winback
+The Nature Conservancy,the-nature-conservancy,620 E Ohio St,Indianapolis,IN,46202,Pulliam,1,2026-04-01,2026-04-01,119,,262.0,262.0,Marketplace Delivery,winback
+DaVita,davita,3834 S Emerson Ave,Indianapolis,IN,46203,Greenwood,1,2026-03-06,2026-03-06,145,,260.0,260.0,Marketplace Delivery,winback
+Cummins,cummins,301 E Market St,Indianapolis,IN,46204,Pulliam,1,2026-04-08,2026-04-08,112,,258.0,258.0,Marketplace Delivery,winback
+Amcor,amcor,6501 Berry Plastics Blvd,Evansville,IN,47725,Evansville,1,2026-03-19,2026-03-19,132,,255.0,255.0,Marketplace Delivery,winback
+Montgomery Animal Hospital,montgomery-animal-hospital,7670 Montgomery Rd,Cincinnati,OH,45236,Oakley,1,2026-02-16,2026-02-16,163,,244.0,244.0,Marketplace Delivery,winback
+Microsoft,microsoft,2900 Reading Rd 460,Cincinnati,OH,45206,Queen City Wild Eggs,1,2026-03-11,2026-03-11,140,,228.0,228.0,Marketplace Delivery,winback
+MediMorph MedSpa,medimorph-medspa,541 Buttermilk Pike 100,Crescent Springs,KY,41017,Queen City Wild Eggs,1,2026-01-30,2026-01-30,180,,227.0,227.0,Marketplace Delivery,winback
+St Elizabeths pulmonology,st-elizabeths-pulmonology,651 Centre Blvd. First floor,Crestview Hills,KY,41017,Queen City Wild Eggs,1,2026-02-11,2026-02-11,168,,224.0,224.0,Marketplace Delivery,winback
+Matthew 25,matthew-25,101 NW 1st St 215,Evansville,IN,47708,Evansville,1,2026-03-18,2026-03-18,133,,209.0,209.0,Marketplace Delivery,winback
+Dr. Fraser Graves Gilbert Clinic Rheumatology,dr-fraser-graves-gilbert-clinic-rheumatology,2724 Nashville Rd,Bowling Green,KY,42101,Bowling Green,1,2026-03-12,2026-03-12,139,,206.0,206.0,Marketplace Delivery,winback
+Norton Medical Group,norton-medical-group,4801 Olympia Park Plaza 3000,Louisville,KY,40241,Westport,1,2026-04-22,2026-04-22,98,,200.0,200.0,Marketplace Delivery,winback
+Ascension St. Vincent Breast Care,ascension-st-vincent-breast-care,13450 N Meridian St 135,Carmel,IN,46032,Carmel,1,2026-04-23,2026-04-23,97,,200.0,200.0,Marketplace Delivery,winback
+Panta family,panta-family,3209 Laclede Ave,New Albany,IN,47150,New Albany,1,2026-04-19,2026-04-19,101,,192.0,192.0,Marketplace Delivery,winback
+Newburgh dermatology,newburgh-dermatology,10788 Stahl Rd,Newburgh,IN,47630,Evansville,1,2026-04-20,2026-04-20,100,,190.0,190.0,Marketplace Delivery,winback
+Delv Design,delv-design,1411 Roosevelt Ave suite 302 302,Indianapolis,IN,46201,Pulliam,1,2026-02-19,2026-02-19,160,,181.0,181.0,Marketplace Delivery,winback
+"Southeast Christian Church, Prospect Campus",southeast-christian-church-prospect-campus,12650 W U.S. Hwy 42,Prospect,KY,40059,Westport,1,2026-03-29,2026-03-29,122,,180.0,180.0,Marketplace Delivery,winback
+Elevate Ventures,elevate-ventures,1 Virginia Ave Suite 200,Indianapolis,IN,46204,Pulliam,1,2026-03-24,2026-03-24,127,,179.0,179.0,Marketplace Delivery,winback
+Ernst & Young (EY),ernst-and-young-(ey),835 N. College Ave. Suite 1125 3rd floor 3rd floor,Indianapolis,IN,46202,Pulliam,1,2026-04-02,2026-04-02,118,,174.0,174.0,Marketplace Delivery,winback
+Allegion - Jessica Jachimecki,allegion---jessica-jachimecki,11819 N Pennsylvania St,Carmel,IN,46032,Carmel,1,2026-04-16,2026-04-16,104,,173.0,173.0,Marketplace Delivery,winback
+Dr. Allred EQUITY DERMATOLOGY,dr-allred-equity-dermatology,610 Cavemill Rd,Bowling Green,KY,42101,Bowling Green,1,2026-03-12,2026-03-12,139,,171.0,171.0,Marketplace Delivery,winback
+Cornell Install Home,cornell-install-home,554 Lacy Cir,Greenwood,IN,46142,Greenwood,1,2026-02-26,2026-02-26,153,,170.0,170.0,Marketplace Delivery,winback
+StudioAxis,studioaxis,618 E Market St,Indianapolis,IN,46202,Pulliam,1,2026-04-01,2026-04-01,119,,153.0,153.0,Marketplace Delivery,winback
+Family Allergy Asthma,family-allergy-asthma,8109 Bardstown Rd,Louisville,KY,40291,Landis,1,2026-02-19,2026-02-19,160,,146.0,146.0,Marketplace Delivery,winback
+Metro/Huntington Center,metro-huntington-center,525 Vine St 500,Cincinnati,OH,45201,Queen City Wild Eggs,1,2026-02-03,2026-02-03,176,,145.0,145.0,Marketplace Delivery,winback
+Community Health Internal Medicine,community-health-internal-medicine,11911 N Meridian St 100,Carmel,IN,46032,Carmel,1,2026-04-01,2026-04-01,119,,144.0,144.0,Marketplace Delivery,winback
+UofL Health Primary Care,uofl-health-primary-care,900 Fairdale Rd,Louisville,KY,40118,Mercantile,1,2026-02-18,2026-02-18,161,,140.0,140.0,Marketplace Delivery,winback
+Residence,residence,1278 Cherokee Rd,Louisville,KY,40204,Mercantile,1,2026-04-22,2026-04-22,98,,130.0,130.0,Marketplace Delivery,winback
+Confluent Health,confluent-health,1650 Lyndon Farm Ct Suite 300,Louisville,KY,40223,Westport,1,2026-04-22,2026-04-22,98,,130.0,130.0,Marketplace Delivery,winback
+Cooke Financial Group,cooke-financial-group,9340 Priority Way W Dr,Indianapolis,IN,46240,Carmel,1,2026-02-04,2026-02-04,175,,127.0,127.0,Marketplace Delivery,winback
+New Pathways Clinic,new-pathways-clinic,10547 Montgomery Rd Suite 400,Cincinnati,OH,45242,Oakley,1,2026-04-22,2026-04-22,98,,108.0,108.0,Marketplace Delivery,winback
+Bowling Green Ballpark,bowling-green-ballpark,300 E 8th Ave,Bowling Green,KY,42101,Bowling Green,3,2026-04-26,2026-05-10,80,10,1000.33,3001.0,Marketplace Delivery,warm
+Franciscan Oncology & Hematology - Emerson,franciscan-oncology-and-hematology---emerson,8111 S Emerson Ave Suite 101,Indianapolis,IN,46237,Greenwood,2,2026-01-07,2026-06-01,58,145,1454.0,2908.0,Marketplace Delivery,warm
+First Urology,first-urology,101 Hospital Blvd 2nd Floor,Jeffersonville,IN,47130,Mercantile,4,2025-03-19,2026-06-25,34,184,659.25,2637.0,Marketplace Delivery,warm
+Baptist Health Neurology,baptist-health-neurology,4003 Kresge Way 400,Louisville,KY,40207,Westport,3,2026-03-24,2026-06-23,36,62,656.0,1968.0,Marketplace Delivery,warm
+Graves Gilbert Gastroenterology,graves-gilbert-gastroenterology,484 Golden Autumn Way Suite 201,Bowling Green,KY,42103,Bowling Green,4,2025-01-16,2026-06-03,56,78,484.5,1938.0,Marketplace Delivery,warm
+Staffmark,staffmark,191 Rosa Parks St 10th Floor,Cincinnati,OH,45202,Queen City Wild Eggs,2,2025-11-11,2026-06-09,50,210,910.5,1821.0,Marketplace Delivery,warm
+Home,home,6590 Carriage Hill Ln,Cincinnati,OH,45243,Mercantile,4,2025-06-21,2026-06-14,45,56,363.25,1453.0,ezOrdering Delivery,warm
+UofL Brown Cancer Center - Breast Oncology,uofl-brown-cancer-center---breast-oncology,529 S Jackson St 3rd floor - breakroom (Dr. Brian Dong),Louisville,KY,40202,Mercantile,1,2026-06-04,2026-06-04,55,,1431.0,1431.0,Marketplace Delivery,warm
+Staffmark Group,staffmark-group,191 Rosa Parks St 10th Floor,Cincinnati,OH,45202,Queen City Wild Eggs,2,2026-01-13,2026-06-16,43,154,668.5,1337.0,Marketplace Delivery,warm
+MISO,miso,720 City Center Dr,Carmel,IN,46032,Carmel,3,2025-03-06,2026-06-04,55,380,414.67,1244.0,Marketplace Delivery,warm
+Eureka! Ranch/Dexter-Brain Brew Distillery,eureka!-ranch-dexter-brain-brew-distillery,3849 Edwards Rd,Newtown,OH,45244,Oakley,2,2026-04-22,2026-06-01,58,40,561.0,1122.0,Marketplace Delivery,warm
+Cook Medical,cook-medical,1102 Indiana Ave,Indianapolis,IN,46202,Pulliam,2,2026-04-29,2026-06-04,55,36,537.5,1075.0,Marketplace Delivery,warm
+"Graves Gilbert Clinic, Dr. Gass Brooks Mangold Stice Drexel",graves-gilbert-clinic-dr-gass-brooks-mangold-stice-drexel,201 Park St 2nd Floor,Bowling Green,KY,42101,Bowling Green,2,2025-02-13,2026-05-29,61,470,533.5,1067.0,Marketplace Delivery,warm
+BAE Systems,bae-systems,163 Rochester Dr,Louisville,KY,40214,Mercantile,4,2025-11-05,2026-06-09,50,69,263.5,1054.0,Marketplace Delivery,warm
+Redeemer Presbyterian Church Indianapolis,redeemer-presbyterian-church-indianapolis,1505 N Delaware St,Indianapolis,IN,46202,Pulliam,4,2025-09-14,2026-05-03,87,58,252.75,1011.0,Marketplace Delivery,warm
+Pivot,pivot,501 W Maryland St,Indianapolis,IN,46225,Pulliam,1,2026-05-31,2026-05-31,59,,998.0,998.0,Marketplace Delivery,warm
+Franciscan Health Oncology & Hematology Specialists,franciscan-health-oncology-and-hematology-specialists,8111 S Emerson Ave 101,Indianapolis,IN,46237,Pulliam,1,2026-05-27,2026-05-27,63,,953.0,953.0,Marketplace Delivery,warm
+MegaCorp Logistics,megacorp-logistics,200 W 3rd St Lobby,Newport,KY,41071,Queen City Wild Eggs,4,2025-05-16,2026-05-07,83,83,225.75,903.0,Marketplace Delivery,warm
+Dauenhauer Plumbing,dauenhauer-plumbing,3416 Robards Ct,Louisville,KY,40218,Dupont,1,2026-05-29,2026-05-29,61,,842.0,842.0,Marketplace Delivery,warm
+DMG,dmg,"50 West 5th St Lobby ""Foundry Lobby""",Cincinnati,OH,45202,Queen City Wild Eggs,4,2026-03-03,2026-05-01,89,1,208.25,833.0,Marketplace Delivery,warm
+Deaconess,deaconess,4949 Healthy Wy,Evansville,IN,47715,Evansville,2,2026-03-05,2026-05-21,69,77,413.5,827.0,Marketplace Delivery,warm
+cbc Kresge,cbc-kresge,4003 Kresge Way,Saint Matthews,KY,40207,Dupont,1,2026-05-29,2026-05-29,61,,826.0,826.0,Marketplace Delivery,warm
+Louisville Slugger Field,louisville-slugger-field,401 E Main St,Louisville,KY,40202,Mercantile,1,2026-05-13,2026-05-13,77,,819.0,819.0,Marketplace Delivery,warm
+Franciscan Oncology &Hematology,franciscan-oncology-andhematology,8111 S Emerson Ave,Indianapolis,IN,46237,Greenwood,1,2026-06-08,2026-06-08,51,,805.0,805.0,Marketplace Delivery,warm
+TriHealth Physicians Gastroenterology,trihealth-physicians-gastroenterology,10600 Montgomery Rd,Cincinnati,OH,45242,Oakley,2,2025-12-18,2026-05-15,75,148,394.0,788.0,Marketplace Delivery,warm
+Gastro Health Partners - OneGI,gastro-health-partners---onegi,1941 Bishop Ln 2nd floor,Louisville,KY,40218,Westport,2,2026-03-23,2026-05-27,63,65,391.5,783.0,Marketplace Takeout,warm
+KY Skin Cancer Center,ky-skin-cancer-center,1818 Wallace Ct Suite 301,Bowling Green,KY,42103,Bowling Green,1,2026-05-04,2026-05-04,86,,778.0,778.0,Marketplace Delivery,warm
+Baptist neurology,baptist-neurology,4003 Kresge Way 400,Louisville,KY,40207,Westport,1,2026-05-07,2026-05-07,83,,757.0,757.0,Marketplace Delivery,warm
+KMK Law,kmk-law,32 E Ogden Pl Suite 1400,Cincinnati,OH,45202,Queen City Wild Eggs,2,2025-05-06,2026-05-20,70,379,372.5,745.0,Marketplace Delivery,warm
+Brown Cancer RADIATION ONCOLOGY,brown-cancer-radiation-oncology,529 S Jackson St LOWER LEVEL,Louisville,KY,40202,Mercantile,2,2026-04-09,2026-06-18,41,70,369.0,738.0,Marketplace Delivery,warm
+Crossroads Church Oakley,crossroads-church-oakley,3500 Madison Rd,Cincinnati,OH,45209,Oakley,2,2025-05-25,2026-06-24,35,395,363.0,726.0,Marketplace Delivery,warm
+Trihealth Group Health,trihealth-group-health,8240 Northcreek Dr 4th floor conference room,Cincinnati,OH,45236,Oakley,1,2026-05-19,2026-05-19,71,,708.0,708.0,Marketplace Delivery,warm
+Racing Louisville,racing-louisville,801 Edith Rd,Louisville,KY,40206,Mercantile,2,2026-05-16,2026-05-30,60,14,338.0,676.0,Marketplace Delivery,warm
+Deaconess Clinic Primary Care - Downtown Fourth Street,deaconess-clinic-primary-care---downtown-fourth-street,120 SE 4th St,Evansville,IN,47713,Evansville,1,2026-06-12,2026-06-12,47,,650.0,650.0,Marketplace Takeout,warm
+Methodist Hospital Interventional Radiology,methodist-hospital-interventional-radiology,1701 N Senate Ave,Indianapolis,IN,46202,Pulliam,1,2026-06-03,2026-06-03,56,,649.0,649.0,Marketplace Delivery,warm
+Gastroenterology Office,gastroenterology-office,1941 Bishop Ln 2nd floor,Louisville,KY,40218,Dupont,2,2026-02-06,2026-06-10,49,124,324.0,648.0,Marketplace Delivery,warm
+OHC Blue Ash,ohc-blue-ash,4350 Malsbary Rd 1st Floor,Cincinnati,OH,45242,Oakley,1,2026-06-16,2026-06-16,43,,644.0,644.0,Marketplace Delivery,warm
+[REMOVED],[removed],1698458 Ezcater St,Ezcater,MA,47630,Evansville,2,2026-03-03,2026-05-11,79,69,315.0,630.0,Marketplace Delivery,warm
+CEI- Cincinnati Eye Instutite,cei--cincinnati-eye-instutite,222 Piedmont Ave STE 4000,Cincinnati,OH,45219,Queen City Wild Eggs,1,2026-05-12,2026-05-12,78,,626.0,626.0,Marketplace Delivery,warm
+Baptist Oncology,baptist-oncology,2210 Green Valley Rd,New Albany,IN,47150,New Albany,1,2026-06-19,2026-06-19,40,,624.0,624.0,Marketplace Delivery,warm
+Dermatologists of Central States,dermatologists-of-central-states,4243 Hunt Rd,Cincinnati,OH,45242,Oakley,1,2026-06-18,2026-06-18,41,,610.0,610.0,Marketplace Delivery,warm
+The Dermatology Center,the-dermatology-center,2857 Charlestown Rd,New Albany,IN,47150,New Albany,2,2026-03-10,2026-05-29,61,80,301.5,603.0,Marketplace Delivery,warm
+Holiday Inn.,holiday-inn,18975 Sunny Dr,Carmel,IN,46074,Carmel,1,2026-05-09,2026-05-09,81,,601.0,601.0,Marketplace Delivery,warm
+Cincinnati GI,cincinnati-gi,7661 Beechmont Ave,Cincinnati,OH,45255,Queen City Wild Eggs,1,2026-06-16,2026-06-16,43,,600.0,600.0,Marketplace Delivery,warm
+Southeast Christian church - Crestwood Campus,southeast-christian-church---crestwood-campus,6201 Crestwood Station,Crestwood,KY,40014,Landis,4,2025-11-09,2026-05-10,80,42,148.75,595.0,Marketplace Delivery,warm
+LC Rheumatology& Infusion,lc-rheumatologyand-infusion,3897 Charlestown Rd,New Albany,IN,47150,Jeffersonville,1,2026-06-18,2026-06-18,41,,595.0,595.0,Marketplace Delivery,warm
+Washington Family Medicine,washington-family-medicine,7910 E Washington St Ste 200,Indianapolis,IN,46219,Pulliam,1,2026-06-18,2026-06-18,41,,585.0,585.0,Marketplace Delivery,warm
+Methodist Hospital,methodist-hospital,1701 N Senate Ave,Indianapolis,IN,46202,Pulliam,1,2026-06-23,2026-06-23,36,,580.0,580.0,Marketplace Delivery,warm
+Brown cancer center downtown,brown-cancer-center-downtown,529 S Jackson St 3rd. Floor break room,Louisville,KY,40202,Westport,1,2026-06-11,2026-06-11,48,,566.0,566.0,Marketplace Delivery,warm
+Lennar Homes,lennar-homes,11555 N Meridian St Suite 190,Carmel,IN,46032,Carmel,2,2026-04-15,2026-05-06,84,21,263.0,526.0,Marketplace Delivery,warm
+Deaconess Felstead FP,deaconess-felstead-fp,801 Felstead Rd,Evansville,IN,47712,Evansville,1,2026-05-12,2026-05-12,78,,518.0,518.0,Marketplace Delivery,warm
+Grainger,grainger,8701 Minor Lane,Louisville,KY,40219,Mercantile,1,2026-06-17,2026-06-17,42,,518.0,518.0,Marketplace Delivery,warm
+Tri Health Endo,tri-health-endo,3660 Edgewood Dr,Cincinnati,OH,45211,Queen City Wild Eggs,1,2026-05-06,2026-05-06,84,,480.0,480.0,Marketplace Delivery,warm
+Associates in Dermatology,associates-in-dermatology,4912 US-42 Basement,Louisville,KY,40222,Westport,2,2026-04-23,2026-05-20,70,27,239.0,478.0,Marketplace Takeout,warm
+Charles H Braun Stadium,charles-h-braun-stadium,1800 Lincoln Ave,Evansville,IN,47722,Evansville,1,2026-05-15,2026-05-15,75,,476.0,476.0,Marketplace Delivery,warm
+Equity Medical Dermatology,equity-medical-dermatology,1802 Rockingham Ave,Bowling Green,KY,42104,Bowling Green,3,2025-10-14,2026-06-15,44,202,158.0,474.0,Marketplace Takeout,warm
+Lake Cumberland Rheumatology,lake-cumberland-rheumatology,3897 Charlestown Rd,New Albany,IN,47150,Jeffersonville,1,2026-06-01,2026-06-01,58,,466.0,466.0,Marketplace Delivery,warm
+PricewaterhouseCoopers,pricewaterhousecoopers,201 E 5th St Suite 2400,Cincinnati,OH,45202,Queen City Wild Eggs,1,2026-06-17,2026-06-17,42,,462.0,462.0,Marketplace Delivery,warm
+Rheumatology Associates,rheumatology-associates,3430 Newburg Rd Suite 250 Suite 250 250,Louisville,KY,40218,Dupont,2,2025-01-23,2026-05-07,83,469,220.5,441.0,Marketplace Delivery,warm
+Dr. Warren Neurology,dr-warren-neurology,4233 Gateway Blvd,Newburgh,IN,47630,Evansville,1,2026-05-07,2026-05-07,83,,437.0,437.0,Marketplace Delivery,warm
+Carpet Specialists,carpet-specialists,2101 Stanley Gault Pkwy,Louisville,KY,40223,Landis,1,2026-04-30,2026-04-30,90,,432.0,432.0,Marketplace Delivery,warm
+UofL Endocrinology,uofl-endocrinology,6400 Dutchmans Pkwy Suite 345,Louisville,KY,40205,Dupont,1,2026-06-04,2026-06-04,55,,425.0,425.0,Marketplace Delivery,warm
+Baptist Hospital ED Observation unit,baptist-hospital-ed-observation-unit,4000 Kresge Way,Saint Matthews,KY,40207,Dupont,1,2026-05-11,2026-05-11,79,,421.0,421.0,Marketplace Delivery,warm
+IU Health West Cath Lab,iu-health-west-cath-lab,1111 Ronald Reagan Pkwy Floor 4,Avon,IN,46123,Avon,1,2026-05-05,2026-05-05,85,,420.0,420.0,Marketplace Delivery,warm
+FPN Oncology & Hematology - Emerson,fpn-oncology-and-hematology---emerson,8111 S Emerson Ave 101,Indianapolis,IN,46237,Pulliam,1,2026-06-11,2026-06-11,48,,395.0,395.0,Marketplace Delivery,warm
+Deaconess infusion,deaconess-infusion,4219 Gateway Blvd 3rd,Newburgh,IN,47630,Evansville,1,2026-05-14,2026-05-14,76,,394.0,394.0,Marketplace Delivery,warm
+Northview Church,northview-church,12900 Hazel Dell Pkwy,Carmel,IN,46033,Fishers,2,2025-09-21,2026-05-10,80,231,192.5,385.0,Marketplace Takeout,warm
+MISO Energy,miso-energy,720 City Center Dr First Floor - Main Entrance,Carmel,IN,46032,Carmel,1,2026-06-01,2026-06-01,58,,364.0,364.0,Marketplace Delivery,warm
+Deloitte (Salesforce building),deloitte-(salesforce-building),1 East Ohio St Floor 42,Indianapolis,IN,46204,Pulliam,1,2026-05-06,2026-05-06,84,,362.0,362.0,Marketplace Delivery,warm
+Cummins Inc,cummins-inc,301 E Market St Lobby,Indianapolis,IN,46204,Pulliam,1,2026-06-10,2026-06-10,49,,358.0,358.0,Marketplace Delivery,warm
+Cincinnati- GI,cincinnati--gi,7661 Beechmont Ave,Cincinnati,OH,45255,Queen City Wild Eggs,1,2026-05-22,2026-05-22,68,,357.0,357.0,Marketplace Delivery,warm
+Indie Mane,indie-mane,531 Virginia Ave,Indianapolis,IN,46203,Pulliam,1,2026-05-09,2026-05-09,81,,349.0,349.0,Marketplace Delivery,warm
+Residence - Jessica Kohlmeyer,residence---jessica-kohlmeyer,20037 Prairie Baptist Rd,Noblesville,IN,46060,Fishers,1,2026-05-10,2026-05-10,80,,348.0,348.0,Marketplace Delivery,warm
+TriHealth Gastro Montgomery,trihealth-gastro-montgomery,10600 Montgomery Rd 300,Cincinnati,OH,45242,Oakley,1,2026-06-15,2026-06-15,44,,345.0,345.0,Marketplace Delivery,warm
+Launch Business Funding,launch-business-funding,1860 Williamson Ct suite 1,Louisville,KY,40223,Landis,1,2026-05-04,2026-05-04,86,,342.0,342.0,Marketplace Delivery,warm
+UC Endosocopy,uc-endosocopy,9275 Montgomery Rd 400,Cincinnati,OH,45242,Oakley,1,2026-05-08,2026-05-08,82,,342.0,342.0,Marketplace Delivery,warm
+HUB International,hub-international,8044 Montgomery Rd Suite 640,Cincinnati,OH,45236,Oakley,1,2026-05-15,2026-05-15,75,,335.0,335.0,Marketplace Delivery,warm
+Ameriprise Financial,ameriprise-financial,805 N Whittington Pkwy Suite 100,Louisville,KY,40222,Westport,1,2026-06-10,2026-06-10,49,,324.0,324.0,Marketplace Delivery,warm
+TriHealth Gastroenterology - Bethesda North,trihealth-gastroenterology---bethesda-north,10600 Montgomery Rd 3,Cincinnati,OH,45242,Oakley,1,2026-06-10,2026-06-10,49,,320.0,320.0,Marketplace Delivery,warm
+Kemper CPA Group LLP,kemper-cpa-group-llp,7200 Eagle Crest Blvd,Evansville,IN,47715,Evansville,1,2026-05-27,2026-05-27,63,,312.0,312.0,Marketplace Delivery,warm
+Associates in dermatology,associates-in-dermatology,4912 US-42 Basement,Louisville,KY,40222,Westport,2,2026-04-22,2026-06-17,42,56,155.5,311.0,Marketplace Delivery,warm
+Robert Stewart MD,robert-stewart-md,7906 New La Grange Rd,Louisville,KY,40222,Westport,1,2026-05-19,2026-05-19,71,,307.0,307.0,Marketplace Delivery,warm
+Clearpath/Harford,clearpath-harford,9960 Corporate Campus Dr suite 1400,Louisville,KY,40223,Westport,2,2026-05-27,2026-05-27,63,0,150.0,300.0,Marketplace Delivery,warm
+Trihealth Pulmonology,trihealth-pulmonology,7794 Five Mile Rd 220,Cincinnati,OH,45230,Queen City Wild Eggs,1,2026-05-06,2026-05-06,84,,298.0,298.0,Marketplace Delivery,warm
+Norton Cancer Insitute - Dr Park,norton-cancer-insitute---dr-park,676 S Floyd St,Louisville,KY,40202,Westport,1,2026-06-23,2026-06-23,36,,297.0,297.0,Marketplace Delivery,warm
+Deaconess West,deaconess-west,545 S Boehne Camp Rd,Evansville,IN,47712,Evansville,1,2026-05-20,2026-05-20,70,,288.0,288.0,Marketplace Delivery,warm
+Allure Medical,allure-medical,2522 Waterbridge Way,Evansville,IN,47710,Evansville,1,2026-05-21,2026-05-21,69,,288.0,288.0,Marketplace Delivery,warm
+Christy Paddock Advisors,christy-paddock-advisors,525 S Meridian St,Indianapolis,IN,46225,Pulliam,1,2026-06-19,2026-06-19,40,,286.0,286.0,Marketplace Delivery,warm
+hinkle fieldhouse,hinkle-fieldhouse,510 W 49th St,Indianapolis,IN,46208,Carmel,1,2026-06-16,2026-06-16,43,,285.0,285.0,Marketplace Delivery,warm
+Gastroenterology Health Partners,gastroenterology-health-partners,1941 Bishop Ln 200,Louisville,KY,40218,Dupont,1,2026-05-29,2026-05-29,61,,284.0,284.0,Marketplace Delivery,warm
+Indianapolis Gastroenterology,indianapolis-gastroenterology,8051 S Emerson Ave Suite 200,Indianapolis,IN,46237,Greenwood,1,2026-06-12,2026-06-12,47,,284.0,284.0,Marketplace Delivery,warm
+Sheraton Indianapolis City Centre,sheraton-indianapolis-city-centre,31 W Ohio St,Indianapolis,IN,46204,Pulliam,1,2026-05-28,2026-05-28,62,,282.0,282.0,Marketplace Delivery,warm
+Westside Gastroenterology,westside-gastroenterology,100 Hospital Ln (door W7 or W8) Suite 120,Danville,IN,46122,Avon,1,2026-06-23,2026-06-23,36,,277.0,277.0,Marketplace Delivery,warm
+Found Village,found-village,1215 William Howard Taft Rd,Cincinnati,OH,45206,Queen City Wild Eggs,1,2026-05-01,2026-05-01,89,,263.0,263.0,Marketplace Delivery,warm
+Evansville Primary Care,evansville-primary-care,4933 Plaza E Blvd,Evansville,IN,47715,Evansville,1,2026-05-20,2026-05-20,70,,262.0,262.0,Marketplace Delivery,warm
+Forefront Dermatology - Middletown,forefront-dermatology---middletown,159 S English Station Rd,Louisville,KY,40245,Westport,1,2026-05-07,2026-05-07,83,,245.0,245.0,Marketplace Delivery,warm
+First Urology Continence Center attention Rebecca Embury,first-urology-continence-center-attention-rebecca-embury,101 Hospital Blvd Continence Center,Jeffersonville,IN,47130,Mercantile,1,2026-06-16,2026-06-16,43,,245.0,245.0,Marketplace Delivery,warm
+Indiana neurology and pain,indiana-neurology-and-pain,7301 Shadeland Ave,Indianapolis,IN,46250,Carmel,1,2026-05-11,2026-05-11,79,,233.0,233.0,Marketplace Delivery,warm
+"Dr Michael Justin, Internal Medicine",dr-michael-justin-internal-medicine,1577 Goodman Ave A,Cincinnati,OH,45224,Queen City Wild Eggs,1,2026-06-18,2026-06-18,41,,224.0,224.0,Marketplace Delivery,warm
+The Medical Center Home Care Program,the-medical-center-home-care-program,1953 Scottsville Rd Suite 200,Bowling Green,KY,42104,Bowling Green,1,2026-06-19,2026-06-19,40,,214.0,214.0,Marketplace Delivery,warm
+ADP,adp,11405 Bluegrass Pkwy,Louisville,KY,40299,Jtown,1,2026-06-09,2026-06-09,50,,190.0,190.0,Marketplace Delivery,warm
+FLANDERS,flanders,8101 Baumgart Rd 8101 Baumgart Rd,Evansville,IN,47725,Evansville,1,2026-06-04,2026-06-04,55,,184.0,184.0,Marketplace Delivery,warm
+The Christ Hosptial Physicians- Primary Care,the-christ-hosptial-physicians--primary-care,4803 Montgomery Rd 120,Norwood,OH,45212,Oakley,1,2026-06-18,2026-06-18,41,,183.0,183.0,Marketplace Takeout,warm
+Family Allergy Goss Ave,family-allergy-goss-ave,1261 Goss Ave,Louisville,KY,40217,Mercantile,1,2026-05-12,2026-05-12,78,,179.0,179.0,Marketplace Delivery,warm
+"DMG - Divisions Maintenance Group ""Foundry Lobby""","dmg---divisions-maintenance-group-""foundry-lobby""","50 West 5th St Lobby ""Foundry Lobby""",Cincinnati,OH,45202,Queen City Wild Eggs,1,2026-06-23,2026-06-23,36,,171.0,171.0,Marketplace Delivery,warm
+GE Appliance Park,ge-appliance-park,4000 Buechel Bank Rd VISITOR CENTER,Louisville,KY,40225,Dupont,1,2026-05-13,2026-05-13,77,,151.0,151.0,Marketplace Delivery,warm
+CABA,caba,5694 Shepherdsville Rd,Louisville,KY,40218,Westport,1,2026-06-10,2026-06-10,49,,141.0,141.0,Marketplace Delivery,warm
+Dr. Palakodeti,dr-palakodeti,484 Golden Autumn Way 201,Bowling Green,KY,42103,Bowling Green,1,2026-06-09,2026-06-09,50,,131.0,131.0,Marketplace Delivery,warm
+"U Of L Primary Care, Dr. Carter",u-of-l-primary-care-dr-carter,225 Abraham Flexner Way 304,Louisville,KY,40202,Westport,1,2026-06-26,2026-06-26,33,,130.0,130.0,Marketplace Delivery,warm
+Hilton Downtown Indianapolis,hilton-downtown-indianapolis,120 W Market St,Indianapolis,IN,46204,Pulliam,1,2026-06-24,2026-06-24,35,,113.0,113.0,Marketplace Delivery,warm
+Hilton Indianapolis Downtown,hilton-indianapolis-downtown,120 W Market St,Indianapolis,IN,46204,Pulliam,1,2026-06-28,2026-06-28,31,,113.0,113.0,Marketplace Delivery,warm
+mastec,mastec,10401 N Meridian St suite 300,Indianapolis,IN,46290,Carmel,1,2026-05-22,2026-05-22,68,,105.0,105.0,Marketplace Delivery,warm
+Associates of Dermatology,associates-of-dermatology,3 Audubon Plaza Dr ste 630,Louisville,KY,40217,Westport,1,2026-05-08,2026-05-08,82,,104.0,104.0,Marketplace Delivery,warm
+Waystar,waystar,9901 Linn Station Rd 5th floor 5th,Louisville,KY,40223,Jtown,4,2025-11-17,2025-11-19,252,0,1801.5,7206.0,Marketplace Delivery,cold
+Crossroads,crossroads,3500 Madison Rd,Cincinnati,OH,45209,Oakley,3,2025-03-02,2025-04-20,465,42,1879.33,5638.0,Marketplace Delivery,cold
+Rosa Parks,rosa-parks,191 Rosa Parks St 6th floor,Cincinnati,OH,45202,Oakley,1,2025-02-28,2025-02-28,516,,3748.0,3748.0,Marketplace Delivery,cold
+"STACK Construction Technologies, Inc.",stack-construction-technologies-inc,9999 Carver Rd Suite 300 300,Cincinnati,OH,45242,Oakley,3,2025-03-19,2025-07-30,364,77,953.67,2861.0,Marketplace Delivery,cold
+DKY6 Amazon,dky6-amazon,1231 Durrett Ln,Louisville,KY,40213,Dupont,2,2025-12-08,2025-12-11,230,3,1270.0,2540.0,Marketplace Delivery,cold
+Musillo Unkenholt,musillo-unkenholt,302 McFarland St 710,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-06-23,2025-06-23,401,,2269.0,2269.0,Marketplace Delivery,cold
+Taft Law,taft-law,1 Indiana Sq # 3500 Suite 3500,Indianapolis,IN,46204,Pulliam,1,2025-11-18,2025-11-18,253,,2104.0,2104.0,Marketplace Delivery,cold
+The Annex Group,the-annex-group,8680 Edison Plz Dr,Fishers,IN,46038,Fishers,1,2025-11-15,2025-11-15,256,,2012.0,2012.0,Marketplace Delivery,cold
+Franciscan Oncology,franciscan-oncology,8111 S Emerson Ave,Indianapolis,IN,46237,Pulliam,2,2025-04-22,2025-06-02,422,41,988.5,1977.0,Marketplace Delivery,cold
+FPN cancer and hematology,fpn-cancer-and-hematology,8111 S Emerson Ave Suite 101,Indianapolis,IN,46237,Greenwood,1,2025-04-23,2025-04-23,462,,1966.0,1966.0,Marketplace Delivery,cold
+Louisville Bats,louisville-bats,401 E Main St,Louisville,KY,40202,Mercantile,2,2025-08-27,2025-09-21,311,25,935.5,1871.0,Marketplace Delivery,cold
+Tri Health Surgery Center West,tri-health-surgery-center-west,3660 Edgewood Dr,Cincinnati,OH,45211,Queen City Wild Eggs,3,2025-05-08,2025-12-31,210,153,580.33,1741.0,Marketplace Delivery,cold
+PPHS SCHWEITZER CENTER AT ENGLEWOOD,pphs-schweitzer-center-at-englewood,3029 E Washington St,Indianapolis,IN,46201,Pulliam,1,2025-04-29,2025-04-29,456,,1729.0,1729.0,Marketplace Delivery,cold
+Franciscan Alliance,franciscan-alliance,8111 S Emerson Ave 105,Indianapolis,IN,46237,Greenwood,1,2025-11-17,2025-11-17,254,,1671.0,1671.0,Marketplace Delivery,cold
+Iowa Cubs,iowa-cubs,401 E Main St,Louisville,KY,40202,Mercantile,1,2025-04-27,2025-04-27,458,,1574.0,1574.0,ezOrdering Delivery,cold
+LC Rheumatology and Infusion,lc-rheumatology-and-infusion,3897 Charlestown Rd,New Albany,IN,47150,Jeffersonville,3,2025-02-13,2025-05-12,443,46,491.67,1475.0,Marketplace Delivery,cold
+Nortons Neuroscience Institute,nortons-neuroscience-institute,3991 Dutchmans Ln Suite 310,Louisville,KY,40207,Dupont,1,2025-11-13,2025-11-13,258,,1448.0,1448.0,Marketplace Delivery,cold
+Kueber Center,kueber-center,2432 S Floyd St,Louisville,KY,40209,Mercantile,3,2025-02-01,2026-01-17,193,241,461.67,1385.0,Marketplace Delivery,cold
+Baptist Cancer Center,baptist-cancer-center,2210 Green Valley Rd,New Albany,IN,47150,New Albany,2,2025-01-31,2025-04-17,468,76,690.5,1381.0,Marketplace Delivery,cold
+Indianapolis Motor Speedway,indianapolis-motor-speedway,4790 W 16th St,Indianapolis,IN,46222,Avon,3,2025-08-16,2025-10-15,287,34,452.67,1358.0,Marketplace Delivery,cold
+Local 392 Joint Apprenticeship Training Committee,local-392-joint-apprenticeship-training-committee,1300 Century Cir N,Cincinnati,OH,45246,Oakley,1,2025-06-05,2025-06-05,419,,1320.0,1320.0,Marketplace Delivery,cold
+University of Louisville School of Dentistry,university-of-louisville-school-of-dentistry,501 S Preston St,Louisville,KY,40202,Mercantile,3,2025-01-02,2025-09-19,313,253,430.33,1291.0,Marketplace Delivery,cold
+Crossroads Oakley,crossroads-oakley,3500 Madison Rd,Cincinnati,OH,45209,Oakley,1,2025-06-29,2025-06-29,395,,1284.0,1284.0,ezOrdering Delivery,cold
+Indianapolis Colts,indianapolis-colts,7001 W 56th St,Indianapolis,IN,46254,Avon,1,2025-08-24,2025-08-24,339,,1254.0,1254.0,Marketplace Delivery,cold
+Adelante Schools,adelante-schools,1202 E Troy Ave,Indianapolis,IN,46203,Pulliam,1,2025-05-07,2025-05-07,448,,1248.0,1248.0,Marketplace Delivery,cold
+Baotist Cancer Center,baotist-cancer-center,4003 Kresge Way 500,Saint Matthews,KY,40207,Dupont,1,2025-05-13,2025-05-13,442,,1198.0,1198.0,Marketplace Delivery,cold
+Beech Grove High School,beech-grove-high-school,5330 Hornet Ave,Beech Grove,IN,46107,Greenwood,2,2025-04-26,2025-04-27,458,1,595.5,1191.0,Marketplace Delivery,cold
+Gainbridge Fieldhouse (EPSN TV Compound),gainbridge-fieldhouse-(epsn-tv-compound),110 South Delaware St,Indianapolis,IN,46204,Pulliam,1,2025-06-13,2025-06-13,411,,1187.0,1187.0,Marketplace Delivery,cold
+LINAK U.S.,linak-us,2200 Stanley Gault Pkwy,Louisville,KY,40223,Landis,2,2025-12-16,2026-01-28,182,43,584.0,1168.0,Marketplace Delivery,cold
+Parker Hannifin,parker-hannifin,100 River Ridge Cir,Jeffersonville,IN,47130,Jeffersonville,1,2026-01-21,2026-01-21,189,,1160.0,1160.0,Marketplace Delivery,cold
+Graves Gilbert,graves-gilbert,1065 Ashley St 2nd flr,Bowling Green,KY,42103,Bowling Green,2,2025-09-22,2025-10-28,274,36,576.0,1152.0,Marketplace Delivery,cold
+Lynn Family Stadium,lynn-family-stadium,1201 Franklin St,Louisville,KY,40206,Mercantile,3,2025-04-06,2025-04-13,472,5,379.0,1137.0,Marketplace Delivery,cold
+WKU Women's Basketball,wku-womens-basketball,1605 Ave of Champions Women's Basketball Locker Room,Bowling Green,KY,42101,Bowling Green,3,2025-01-23,2026-01-14,196,319,376.67,1130.0,Marketplace Delivery,cold
+UC College of Engineering,uc-college-of-engineering,"9555 Plainfield Rd Walters Hall, room 100",Cincinnati,OH,45236,Oakley,1,2025-07-15,2025-07-15,379,,1128.0,1128.0,Marketplace Delivery,cold
+The Christ Hospital Joint and Spine Center,the-christ-hospital-joint-and-spine-center,126 Mason St,Cincinnati,OH,45219,Oakley,1,2026-01-07,2026-01-07,203,,1122.0,1122.0,Marketplace Delivery,cold
+Indiana Mad Ants Basketball,indiana-mad-ants-basketball,125 S Pennsylvania St,Indianapolis,IN,46204,Pulliam,2,2025-01-07,2025-04-01,484,84,554.5,1109.0,Marketplace Delivery,cold
+Trihealth Ob/Gyn,trihealth-ob-gyn,8240 Northcreek Dr 4th floor conferece room,Cincinnati,OH,45236,Oakley,1,2025-05-20,2025-05-20,435,,1096.0,1096.0,Marketplace Delivery,cold
+WARE,ware,3401 Bashford Ave Ct,Louisville,KY,40218,Mercantile,2,2025-03-10,2025-06-09,415,91,547.5,1095.0,Marketplace Delivery,cold
+OneCause,onecause,11711 North Meridian St. Suite 310 310,Carmel,IN,46032,Carmel,1,2025-11-04,2025-11-04,267,,1091.0,1091.0,Marketplace Delivery,cold
+Hilton Garden Inn Louisville Downtown,hilton-garden-inn-louisville-downtown,350 W Chestnut St,Louisville,KY,40202,Mercantile,3,2025-11-01,2025-11-04,267,2,362.33,1087.0,Marketplace Delivery,cold
+Mayfield Surgical Innovation Center,mayfield-surgical-innovation-center,4020 Smith Rd 200,Cincinnati,OH,45209,Oakley,1,2025-06-07,2025-06-07,417,,1082.0,1082.0,Marketplace Delivery,cold
+Irsay Family YMCA,irsay-family-ymca,430 S Alabama St,Indianapolis,IN,46225,Pulliam,1,2025-08-20,2025-08-20,343,,1078.0,1078.0,Marketplace Delivery,cold
+Louisville Water Company,louisville-water-company,550 S 3rd St,Louisville,KY,40202,New Albany,1,2025-09-09,2025-09-09,323,,1075.0,1075.0,Marketplace Delivery,cold
+THE MOTZ GROUP,the-motz-group,1 Motz Way,Cincinnati,OH,45244,Oakley,1,2025-08-18,2025-08-18,345,,1071.0,1071.0,ezOrdering Delivery,cold
+Meeting Spot on Fifth,meeting-spot-on-fifth,337 W 5th St,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-08-28,2025-08-28,335,,1066.0,1066.0,Marketplace Delivery,cold
+Candlewood Suites,candlewood-suites,1039 Zorn Ave Virginia Tech Meeting Room,Louisville,KY,40207,Mercantile,1,2025-03-08,2025-03-08,508,,1035.0,1035.0,Marketplace Delivery,cold
+HDR INC,hdr-inc,9999 Carver Rd Suite 210,Cincinnati,OH,45242,Oakley,2,2025-03-07,2025-10-16,286,223,514.0,1028.0,Marketplace Delivery,cold
+IU Methodist Hospital,iu-methodist-hospital,1701 N Senate Ave Main Entrance,Indianapolis,IN,46202,Pulliam,2,2025-02-21,2025-09-24,308,215,513.5,1027.0,Marketplace Delivery,cold
+Tri Health,tri-health,10600 Montgomery Rd 300,Cincinnati,OH,45242,Oakley,2,2025-10-30,2025-12-29,212,60,504.0,1008.0,Marketplace Delivery,cold
+Healthtrackrx,healthtrackrx,706 E Lewis and Clark Pkwy,Clarksville,IN,47129,Jeffersonville,1,2025-12-24,2025-12-24,217,,1008.0,1008.0,Marketplace Delivery,cold
+Bowling Green Hot Rods,bowling-green-hot-rods,300 E 8th Ave Bowling Green Hot Rods Clubhouse,Bowling Green,KY,42101,Bowling Green,1,2025-04-27,2025-04-27,458,,1002.0,1002.0,Marketplace Delivery,cold
+Norton Pulmonary Associates,norton-pulmonary-associates,100 W Market St Please take to kitchen door in back parking lot.,Louisville,KY,40202,Mercantile,3,2025-10-31,2026-01-09,201,46,333.0,999.0,Marketplace Delivery,cold
+Franciscan Oncology and Hematology,franciscan-oncology-and-hematology,8111 S Emerson Ave Suite 101,Indianapolis,IN,46237,Greenwood,1,2025-05-21,2025-05-21,434,,996.0,996.0,Marketplace Delivery,cold
+LM Indianapolis Office,lm-indianapolis-office,350 E 96th St,Indianapolis,IN,46240,Carmel,1,2025-09-24,2025-09-24,308,,993.0,993.0,Marketplace Delivery,cold
+Franciscan Physician Network Cancer Center,franciscan-physician-network-cancer-center,8111 S Emerson Ave 101,Indianapolis,IN,46237,Greenwood,1,2025-12-08,2025-12-08,233,,992.0,992.0,Marketplace Delivery,cold
+St Elizabeth Behavioral Health,st-elizabeth-behavioral-health,334 Thomas More Pkwy Suite 120,Crestview Hills,KY,41017,Queen City Wild Eggs,2,2025-11-18,2026-01-22,188,65,490.5,981.0,Marketplace Delivery,cold
+Crossroads. Oakley,crossroads-oakley,3500 Madison Rd,Cincinnati,OH,45209,Oakley,1,2025-02-16,2025-02-16,528,,959.0,959.0,Marketplace Delivery,cold
+The Turn Vintage Warehouse,the-turn-vintage-warehouse,913 Monmouth St,Newport,KY,41071,Queen City Wild Eggs,1,2025-01-18,2025-01-18,557,,955.0,955.0,Marketplace Delivery,cold
+PNC Center,pnc-center,201 E 5th St First floor conference area,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-11-18,2025-11-18,253,,955.0,955.0,Marketplace Delivery,cold
+Louisville Pulmonary,louisville-pulmonary,4003 Kresge Way Suite 312,Louisville,KY,40207,Dupont,2,2025-04-23,2026-01-07,203,259,472.0,944.0,Marketplace Delivery,cold
+University of Louisville Oncology Department,university-of-louisville-oncology-department,1460 Bluegrass Ave,Louisville,KY,40215,Mercantile,1,2025-08-07,2025-08-07,356,,944.0,944.0,Marketplace Delivery,cold
+Hinkle Fieldhouse,hinkle-fieldhouse,510 W 49th St Gate 1,Indianapolis,IN,46208,Pulliam,3,2025-01-17,2025-06-26,398,137,312.67,938.0,Marketplace Delivery,cold
+Forefront Dermatology Downtown,forefront-dermatology-downtown,501 S 2nd St,Louisville,KY,40202,Mercantile,2,2025-03-04,2025-12-17,224,288,468.0,936.0,Marketplace Delivery,cold
+Truepoint Wealth Counsel,truepoint-wealth-counsel,9999 Carver Rd 200,Cincinnati,OH,45242,Oakley,2,2025-02-20,2025-08-07,356,168,466.0,932.0,Marketplace Delivery,cold
+Cincinnati GI Anderson,cincinnati-gi-anderson,7661 Beechmont Ave,Cincinnati,OH,45255,Queen City Wild Eggs,2,2025-10-28,2026-01-16,194,80,458.0,916.0,Marketplace Delivery,cold
+University of Louisville Dental School,university-of-louisville-dental-school,501 S Preston St lobby 1st floor,Louisville,KY,40202,Mercantile,2,2025-10-31,2026-01-05,205,66,444.5,889.0,Marketplace Delivery,cold
+PepsiCo,pepsico,9280 Montgomery Rd 100,Montgomery,OH,45242,Oakley,1,2025-11-18,2025-11-18,253,,885.0,885.0,Marketplace Delivery,cold
+Ascension St. Vincent Hospital - Indianapolis,ascension-st-vincent-hospital---indianapolis,2001 W 86th St Main Entrance,Indianapolis,IN,46260,Pulliam,1,2025-05-02,2025-05-02,453,,876.0,876.0,Marketplace Delivery,cold
+HCN1 - Amazon,hcn1---amazon,3521 Point Pleasant Rd,Hebron,KY,41048,Queen City Wild Eggs,3,2025-03-07,2025-07-09,385,63,289.33,868.0,Marketplace Delivery,cold
+Morgan Stanley,morgan-stanley,800 E 96th St 400,Indianapolis,IN,46240,Carmel,3,2025-08-13,2025-12-02,239,62,284.0,852.0,Marketplace Delivery,cold
+Bowling Green Hot Rods Clubhouse,bowling-green-hot-rods-clubhouse,300 E 8th Ave,Bowling Green,KY,42101,Bowling Green,1,2025-04-03,2025-04-03,482,,846.0,846.0,Marketplace Delivery,cold
+Medical Academic Center,medical-academic-center,13225 North Meridian St Third floor,Carmel,IN,46032,Carmel,1,2025-08-16,2025-08-16,347,,834.0,834.0,Marketplace Delivery,cold
+HUB Huran,hub-huran,8044 Montgomery Rd 640,Cincinnati,OH,45236,Oakley,1,2025-09-08,2025-09-08,324,,823.0,823.0,Marketplace Delivery,cold
+"Lindner College of Business, UC",lindner-college-of-business-uc,2906 Woodside Dr,Cincinnati,OH,45221,Queen City Wild Eggs,1,2025-09-12,2025-09-12,320,,820.0,820.0,Marketplace Delivery,cold
+Baptist Health Louisville Oncology / Hematology,baptist-health-louisville-oncology---hematology,4003 Kresge Way Suite 500,Saint Matthews,KY,40207,Dupont,1,2025-02-14,2025-02-14,530,,809.0,809.0,Marketplace Delivery,cold
+Springhilll Hill Suites Louisville Airport,springhilll-hill-suites-louisville-airport,820 Phillips Lane,Louisville,KY,40209,Mercantile,1,2025-11-16,2025-11-16,255,,761.0,761.0,Marketplace Delivery,cold
+The Dermatology center,the-dermatology-center,2857 Charlestown Rd 100,New Albany,IN,47150,New Albany,1,2025-07-30,2025-07-30,364,,756.0,756.0,Marketplace Delivery,cold
+Norton Neurosciences,norton-neurosciences,3991 Dutchmans Ln Ste 302,Saint Matthews,KY,40207,Dupont,1,2025-08-22,2025-08-22,341,,747.0,747.0,Marketplace Delivery,cold
+Louisville Slugger S,louisville-slugger-s,401 E Main St,Louisville,KY,40202,Mercantile,1,2025-09-03,2025-09-03,329,,745.0,745.0,Marketplace Delivery,cold
+Brown Cancer Centee Terra Crossing Blvd,brown-cancer-centee-terra-crossing-blvd,2401 Terra Crossing Blvd suite 206 Suite 206,Louisville,KY,40245,Landis,1,2025-08-29,2025-08-29,334,,744.0,744.0,Marketplace Delivery,cold
+Ford Motor Company,ford-motor-company,2000 Fern Valley Rd Flag Pole,Louisville,KY,40213,Mercantile,1,2025-11-13,2025-11-13,258,,738.0,738.0,Marketplace Delivery,cold
+Franciscan Health Indianapolis,franciscan-health-indianapolis,8111 S Emerson Ave Suite 101,Indianapolis,IN,46237,Greenwood,1,2025-09-03,2025-09-03,329,,731.0,731.0,Marketplace Delivery,cold
+Churchill Downs Incoprorated,churchill-downs-incoprorated,600 N Hurstbourne Pkwy 1st Floor,Louisville,KY,40222,Westport,1,2025-11-19,2025-11-19,252,,720.0,720.0,Marketplace Delivery,cold
+TriHealth Pharmacy Solutions,trihealth-pharmacy-solutions,4623 Wesley Ave,Cincinnati,OH,45212,Oakley,1,2025-10-20,2025-10-20,282,,716.0,716.0,Marketplace Delivery,cold
+University of Louisville Radiation Oncology clinic,university-of-louisville-radiation-oncology-clinic,529 S Jackson St Lower level,Louisville,KY,40202,Mercantile,1,2025-12-01,2025-12-01,240,,705.0,705.0,Marketplace Delivery,cold
+LifeSpring Health Systems-Turning Point,lifespring-health-systems-turning-point,1060 Sharon Dr,Jeffersonville,IN,47130,New Albany,1,2025-06-25,2025-06-25,399,,704.0,704.0,Marketplace Delivery,cold
+U of Louisville - Brown Cancer Center,u-of-louisville---brown-cancer-center,2401 Terra Crossing Blvd Suite 206,Louisville,KY,40245,Landis,1,2025-07-24,2025-07-24,370,,704.0,704.0,Marketplace Delivery,cold
+Asheville Tourists,asheville-tourists,300 East 8th Ave Visiting Team,Bowling Green,KY,42101,Bowling Green,1,2025-05-14,2025-05-14,441,,701.0,701.0,Marketplace Delivery,cold
+Tristate arthritis and rheumatology,tristate-arthritis-and-rheumatology,2616 Legends Way,Crestview Hills,KY,41017,Queen City Wild Eggs,1,2025-06-17,2025-06-17,407,,691.0,691.0,Marketplace Delivery,cold
+PatientPoint,patientpoint,5905 E Galbraith Rd Suite R1000,Cincinnati,OH,45236,Oakley,2,2025-07-23,2025-07-24,370,1,343.0,686.0,Marketplace Delivery,cold
+Dr fraser graves gilbert clinic rheumatology,dr-fraser-graves-gilbert-clinic-rheumatology,2724 Nashville Rd,Bowling Green,KY,42101,Bowling Green,3,2025-06-18,2025-11-18,253,125,228.33,685.0,Marketplace Delivery,cold
+DELOITTE,deloitte,1 E. OHIO St SUITE 4200,Indianapolis,IN,46204,Pulliam,1,2025-08-20,2025-08-20,343,,675.0,675.0,Marketplace Delivery,cold
+"Eureka! Ranch International, Ltd.",eureka!-ranch-international-ltd,3849 Edwards Rd Eureka Ranch,Newtown,OH,45244,Oakley,3,2025-01-23,2025-08-07,356,194,222.67,668.0,Marketplace Delivery,cold
+OHC Kenwood,ohc-kenwood,4777 E Galbraith Rd #320 320,Cincinnati,OH,45236,Oakley,1,2025-05-07,2025-05-07,448,,668.0,668.0,Marketplace Delivery,cold
+Franciscan Health Infusion Center - Cancer Center,franciscan-health-infusion-center---cancer-center,8111 S Emerson Ave Suite 101,Indianapolis,IN,46237,Greenwood,1,2025-10-13,2025-10-13,289,,666.0,666.0,Marketplace Delivery,cold
+Victory Field (Louisville Bats),victory-field-(louisville-bats),501 W Maryland St,Indianapolis,IN,46225,Pulliam,1,2025-05-15,2025-05-15,440,,663.0,663.0,Marketplace Delivery,cold
+Clark Schaefer,clark-schaefer,10856 Reed Hartman Hwy Suite 225,Cincinnati,OH,45242,Oakley,1,2025-09-10,2025-09-10,322,,662.0,662.0,Marketplace Delivery,cold
+Residence Inn Old Henry,residence-inn-old-henry,2510 Terra Crossing Blvd Conference Room,Louisville,KY,40245,Landis,1,2025-10-26,2025-10-26,276,,660.0,660.0,ezOrdering Delivery,cold
+Baptist Cancer Care,baptist-cancer-care,2210 Green Valley Rd,New Albany,IN,47150,New Albany,1,2025-08-21,2025-08-21,342,,651.0,651.0,Marketplace Delivery,cold
+JWM Neurology Ritter Ave.,jwm-neurology-ritter-ave,1400 N Ritter Ave 220,Indianapolis,IN,46219,Pulliam,3,2025-04-18,2025-12-16,225,158,216.0,648.0,Marketplace Delivery,cold
+entrance which is to the LEFT of the FEDEX office is the entrance to the condo,entrance-which-is-to-the-left-of-the-fedex-office-is-the-entrance-to-the-condo,315 W Market St,Louisville,KY,40202,New Albany,1,2025-09-30,2025-09-30,302,,648.0,648.0,Marketplace Delivery,cold
+Graeter's Headquarters,graeters-headquarters,2245 Gilbert Ave. 105,Cincinnati,OH,45206,Queen City Wild Eggs,1,2025-05-08,2025-05-08,447,,646.0,646.0,Marketplace Delivery,cold
+Eureka Ranch/Brain Brew Distillery,eureka-ranch-brain-brew-distillery,3849 Edwards Rd,Newtown,OH,45244,Oakley,1,2025-09-11,2025-09-11,321,,640.0,640.0,Marketplace Delivery,cold
+Metro Unite Way,metro-unite-way,Metro United Way Inc 334 E Broadway,Louisville,KY,40202,Mercantile,1,2025-10-23,2025-10-23,279,,638.0,638.0,Marketplace Delivery,cold
+SEI,sei,11500 Northlake Dr 450 450 450,Cincinnati,OH,45249,Oakley,1,2025-11-05,2025-11-05,266,,637.0,637.0,Marketplace Delivery,cold
+LGE BUILDING,lge-building,2701 Eastpoint Pkwy 3 rd floor,Louisville,KY,40223,Landis,1,2025-05-07,2025-05-07,448,,634.0,634.0,Marketplace Delivery,cold
+St Elizabeths Pulmonary,st-elizabeths-pulmonary,651 Centre View Blvd,Crestview Hills,KY,41017,Queen City Wild Eggs,2,2025-09-24,2025-10-10,292,16,316.0,632.0,Marketplace Delivery,cold
+Graves Gilbert Oncology,graves-gilbert-oncology,201 Park St 3rd Floor,Bowling Green,KY,42101,Bowling Green,2,2025-09-11,2026-01-29,181,140,310.0,620.0,Marketplace Delivery,cold
+University of Cincinnati College of Engineering and Applied Sciences,university-of-cincinnati-college-of-engineering-and-applied-sciences,2901 Woodside Dr PO box 210018,Cincinnati,OH,45219,Queen City Wild Eggs,1,2025-06-04,2025-06-04,420,,616.0,616.0,Marketplace Delivery,cold
+Endocrine and Diabetes Associates,endocrine-and-diabetes-associates,6400 Dutchmans Pkwy 345,Louisville,KY,40205,Dupont,1,2025-07-30,2025-07-30,364,,609.0,609.0,Marketplace Delivery,cold
+Renewal by Andersen,renewal-by-andersen,17455 Tiller Ct,Westfield,IN,46074,Carmel,2,2025-09-16,2026-01-13,197,119,298.0,596.0,Marketplace Delivery,cold
+JWM Neuro Clearvista,jwm-neuro-clearvista,7250 Clearvista Dr 225,Indianapolis,IN,46256,Carmel,2,2025-02-28,2025-03-26,490,26,297.5,595.0,Marketplace Delivery,cold
+Mercer,mercer,400 West Market St Suite 500,Louisville,KY,40202,Mercantile,1,2025-10-30,2025-10-30,272,,595.0,595.0,Marketplace Delivery,cold
+MAYFIELD EDUCATION RESEARCH FOUNDATION,mayfield-education-research-foundation,4020 Smith Rd 2ND FL,Cincinnati,OH,45209,Oakley,1,2025-07-25,2025-07-25,369,,591.0,591.0,Marketplace Delivery,cold
+Baptist Health Cancer Center New Albany,baptist-health-cancer-center-new-albany,2210 Green Valley Rd,New Albany,IN,47150,New Albany,1,2025-05-09,2025-05-09,446,,581.0,581.0,Marketplace Delivery,cold
+Protiviti,protiviti,135 N Pennsylvania St 7th Floor,Indianapolis,IN,46204,Pulliam,1,2025-07-23,2025-07-23,371,,581.0,581.0,Marketplace Delivery,cold
+Baptist health Neurology,baptist-health-neurology,4003 Kresge Way 400,Louisville,KY,40207,Dupont,1,2025-09-25,2025-09-25,307,,578.0,578.0,Marketplace Delivery,cold
+Raymond James & Associates,raymond-james-and-associates,4969 US-42 Suite 1600,Louisville,KY,40222,Westport,1,2025-05-21,2025-05-21,434,,577.0,577.0,Marketplace Delivery,cold
+Procter & Gamble,procter-and-gamble,100 June St,Saint Bernard,OH,45217,Oakley,3,2025-05-08,2025-11-06,265,126,191.33,574.0,Marketplace Delivery,cold
+"Borders & Borders, PLC",borders-and-borders-plc,920 Dupont Rd,Louisville,KY,40207,Dupont,1,2025-12-04,2025-12-04,237,,573.0,573.0,Marketplace Delivery,cold
+UC Clifton Court Hall,uc-clifton-court-hall,2800 Clifton Ave,Cincinnati,OH,45221,Queen City Wild Eggs,1,2026-01-06,2026-01-06,204,,568.0,568.0,ezOrdering Delivery,cold
+Baptist Floyd Orthopedics,baptist-floyd-orthopedics,2125 State St Suite 5,New Albany,IN,47150,New Albany,1,2025-04-22,2025-04-22,463,,566.0,566.0,Marketplace Delivery,cold
+Baptist Health Hem/Onc,baptist-health-hem-onc,2400 Eastpoint Pkwy 310,Louisville,KY,40223,Landis,1,2025-05-09,2025-05-09,446,,565.0,565.0,Marketplace Delivery,cold
+Mayfield Spine Surgery Center,mayfield-spine-surgery-center,4020 Smith Rd 2nd Floor - Attn: Angel Augst,Cincinnati,OH,45209,Oakley,1,2026-01-10,2026-01-10,200,,561.0,561.0,Marketplace Delivery,cold
+KCC R&D Center,kcc-randd-center,715 Innovation Way Suite 101,Simpsonville,KY,40067,Jtown,1,2025-04-08,2025-04-08,477,,560.0,560.0,Marketplace Delivery,cold
+Bethesda North Hospital,bethesda-north-hospital,10500 Montgomery Rd,Cincinnati,OH,45242,Oakley,1,2025-11-13,2025-11-13,258,,559.0,559.0,Marketplace Delivery,cold
+Brown U of L Cancer Center,brown-u-of-l-cancer-center,1460 Bluegrass Ave,Louisville,KY,40215,Mercantile,1,2025-04-25,2025-04-25,460,,558.0,558.0,Marketplace Delivery,cold
+Baptist Health Medical Group Gastroenterology,baptist-health-medical-group-gastroenterology,3950 Kresge Way Suite 207,Louisville,KY,40207,Dupont,1,2025-07-11,2025-07-11,383,,553.0,553.0,Marketplace Delivery,cold
+CICC (Central Indiana Cancer Center),cicc-(central-indiana-cancer-center),6845 Rama Dr,Indianapolis,IN,46219,Pulliam,1,2025-06-06,2025-06-06,418,,550.0,550.0,Marketplace Delivery,cold
+Formica Corporation,formica-corporation,10155 Reading Rd Sterling Building,Cincinnati,OH,45241,Oakley,2,2025-05-14,2025-07-22,372,69,274.0,548.0,Marketplace Delivery,cold
+Dr Olash,dr-olash,3900 Kresge Way 50,Louisville,KY,40207,Dupont,4,2025-04-23,2025-12-15,226,65,135.25,541.0,Marketplace Delivery,cold
+Mount St Joseph University,mount-st-joseph-university,5701 Delhi Rd Seton Center (located at the Neeb Road entrance),Cincinnati,OH,45233,Queen City Wild Eggs,1,2025-06-04,2025-06-04,420,,538.0,538.0,Marketplace Delivery,cold
+DHL Express CV3,dhl-express-cv3,2360 Airport North Dr,Hebron,KY,41048,Queen City Wild Eggs,2,2025-01-15,2025-06-24,400,160,266.0,532.0,Marketplace Delivery,cold
+Xavier Mens Soccer,xavier-mens-soccer,3725 Victory Pkwy,Cincinnati,OH,45207,Oakley,1,2025-03-29,2025-03-29,487,,530.0,530.0,Marketplace Delivery,cold
+Brown cancer center radiation oncology,brown-cancer-center-radiation-oncology,529 S Jackson St Basement radiation department radiation oncology,Louisville,KY,40202,Mercantile,1,2025-10-27,2025-10-27,275,,525.0,525.0,Marketplace Delivery,cold
+Med Center Health - Medical Arts Building -  Neurology,med-center-health---medical-arts-building----neurology,350 Park St ste 206,Bowling Green,KY,42101,Bowling Green,1,2025-06-27,2025-06-27,397,,521.0,521.0,Marketplace Delivery,cold
+Hendicks Oncology-Danville,hendicks-oncology-danville,100 Hospital Ln Suite 320,Danville,IN,46122,Avon,1,2025-05-07,2025-05-07,448,,519.0,519.0,Marketplace Delivery,cold
+Trane-Training Center,trane-training-center,8100 E 106th St 240,Fishers,IN,46038,Fishers,1,2025-12-18,2025-12-18,223,,519.0,519.0,Marketplace Delivery,cold
+Baptist Oncology Hematology,baptist-oncology-hematology,2400 Eastpoint Pkwy Suite 310,Louisville,KY,40223,Landis,1,2025-03-13,2025-03-13,503,,515.0,515.0,Marketplace Delivery,cold
+Baptist Health Neurology Dr Scott,baptist-health-neurology-dr-scott,4003 Kresge Way 400,Saint Matthews,KY,40207,Dupont,1,2025-01-21,2025-01-21,554,,514.0,514.0,Marketplace Delivery,cold
+Livano Springdale,livano-springdale,8220 Dickinson Dr Leasing office,Louisville,KY,40241,Westport,1,2025-05-03,2025-05-03,452,,514.0,514.0,Marketplace Delivery,cold
+Lifespring,lifespring,404 Spring St,Jeffersonville,IN,47130,Mercantile,1,2025-10-02,2025-10-02,300,,514.0,514.0,Marketplace Delivery,cold
+Southeast Christian Church - Crestwood Campus,southeast-christian-church---crestwood-campus,6201 Crestwood Station,Crestwood,KY,40014,Landis,3,2025-04-27,2025-07-27,367,49,169.0,507.0,Marketplace Delivery,cold
+Indianapolis Gastroenterology and hepatology,indianapolis-gastroenterology-and-hepatology,8051 S Emerson Ave 200,Indianapolis,IN,46237,Greenwood,1,2025-09-24,2025-09-24,308,,507.0,507.0,Marketplace Delivery,cold
+Mels Auto Glass,mels-auto-glass,11775 Reading Rd,Sharonville,OH,45241,Oakley,1,2025-04-30,2025-04-30,455,,505.0,505.0,Marketplace Delivery,cold
+UL Advanced Heart Failure Clinic,ul-advanced-heart-failure-clinic,201 Abraham Flexner Way 1001,Louisville,KY,40202,Mercantile,1,2025-10-01,2025-10-01,301,,499.0,499.0,Marketplace Delivery,cold
+KSM,ksm,800 E 96th St First Floor,Indianapolis,IN,46240,Carmel,1,2025-11-05,2025-11-05,266,,496.0,496.0,Marketplace Delivery,cold
+Tri Health Endoscopy,tri-health-endoscopy,10600 Montgomery Rd First floor,Cincinnati,OH,45242,Oakley,1,2025-07-07,2025-07-07,387,,494.0,494.0,Marketplace Delivery,cold
+VITAS Healthcare,vitas-healthcare,255 E 5th St 1050,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-07-22,2025-07-22,372,,493.0,493.0,Marketplace Delivery,cold
+Baptist Health Floyd Cancer Center,baptist-health-floyd-cancer-center,2210 Green Valley Rd #1,New Albany,IN,47150,New Albany,1,2025-10-01,2025-10-01,301,,493.0,493.0,Marketplace Delivery,cold
+IU Health Methodist Hospital - Interventional Radiology Lab,iu-health-methodist-hospital---interventional-radiology-lab,1701 N Senate Ave Interventional Radiology Lab - First Floor,Indianapolis,IN,46202,Pulliam,1,2025-07-21,2025-07-21,373,,492.0,492.0,Marketplace Delivery,cold
+CYM Living,cym-living,10475 Crosspoint Blvd,Indianapolis,IN,46256,Fishers,1,2025-07-29,2025-07-29,365,,492.0,492.0,Marketplace Delivery,cold
+Courtyard Louisville Downtown,courtyard-louisville-downtown,"100 S 2nd St Commonwealth Conference Room, 1st floor",Louisville,KY,40202,Mercantile,1,2025-04-09,2025-04-09,476,,487.0,487.0,Marketplace Delivery,cold
+Bengals Stadium - Main Offices,bengals-stadium---main-offices,1 Paycor Stadium,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-12-24,2025-12-24,217,,482.0,482.0,Marketplace Delivery,cold
+Queen City Physicians University Station Internal Medicine,queen-city-physicians-university-station-internal-medicine,1775 Lexington Ave #150,Cincinnati,OH,45212,Oakley,1,2025-06-25,2025-06-25,399,,479.0,479.0,Marketplace Delivery,cold
+Procter Gamble,procter-gamble,5289 Vine St Lobby,Cincinnati,OH,45217,Oakley,1,2025-10-24,2025-10-24,278,,476.0,476.0,ezOrdering Delivery,cold
+Graves gilbert oncology,graves-gilbert-oncology,201 Park St 301,Bowling Green,KY,42101,Bowling Green,1,2025-10-28,2025-10-28,274,,472.0,472.0,Marketplace Delivery,cold
+Norton Audubon Cath Lab,norton-audubon-cath-lab,1 Audubon Plaza Dr,Louisville,KY,40217,Mercantile,1,2025-07-17,2025-07-17,377,,471.0,471.0,Marketplace Delivery,cold
+New Albany Dermatology,new-albany-dermatology,2857 Charlestown Rd 100,New Albany,IN,47150,New Albany,1,2025-06-03,2025-06-03,421,,470.0,470.0,Marketplace Delivery,cold
+Fabletics,fabletics,8161 National Turnpike,Louisville,KY,40214,Mercantile,1,2026-01-08,2026-01-08,202,,468.0,468.0,Marketplace Delivery,cold
+Spring Grove Funeral Home,spring-grove-funeral-home,4389 Spring Grove Ave,Cincinnati,OH,45232,Queen City Wild Eggs,1,2025-10-07,2025-10-07,295,,465.0,465.0,Marketplace Delivery,cold
+THE UROLOGY GROUP,the-urology-group,2000 Joseph E Sanker Blvd 1ST,Cincinnati,OH,45212,Oakley,1,2025-12-31,2025-12-31,210,,465.0,465.0,Marketplace Delivery,cold
+Graves Gilbert Derm,graves-gilbert-derm,1065 Ashley St Ste 200 second floor,Bowling Green,KY,42103,Bowling Green,1,2025-10-16,2025-10-16,286,,464.0,464.0,Marketplace Delivery,cold
+Medical center health Hematology & Oncology,medical-center-health-hematology-and-oncology,350 Park St 106,Bowling Green,KY,42101,Bowling Green,1,2025-05-09,2025-05-09,446,,463.0,463.0,Marketplace Delivery,cold
+Gilbert Graves Cancer Center,gilbert-graves-cancer-center,201 Park St 3rd floor,Bowling Green,KY,42101,Bowling Green,1,2026-01-15,2026-01-15,195,,459.0,459.0,Marketplace Delivery,cold
+Mona Dermatology,mona-dermatology,7730 Montgomery Rd,Cincinnati,OH,45236,Oakley,1,2025-10-16,2025-10-16,286,,455.0,455.0,Marketplace Delivery,cold
+KMK LAW,kmk-law,32 E Ogden Pl Suite 1400,Cincinnati,OH,45202,Queen City Wild Eggs,2,2025-02-22,2025-06-04,420,102,227.0,454.0,Marketplace Delivery,cold
+LC Rheumatology and infuaion,lc-rheumatology-and-infuaion,3897 Charlestown Rd,New Albany,IN,47150,Jeffersonville,1,2025-04-17,2025-04-17,468,,449.0,449.0,Marketplace Delivery,cold
+Lochmueller Group,lochmueller-group,3502 Woodview Trace Suite 150,Indianapolis,IN,46268,Carmel,1,2025-11-03,2025-11-03,268,,448.0,448.0,Marketplace Delivery,cold
+Medical hematology oncology,medical-hematology-oncology,350 Park St 106,Bowling Green,KY,42101,Bowling Green,1,2025-01-10,2025-01-10,565,,438.0,438.0,Marketplace Delivery,cold
+Graves Gilbert Urology Department,graves-gilbert-urology-department,201 Park St,Bowling Green,KY,42101,Bowling Green,1,2025-10-01,2025-10-01,301,,436.0,436.0,Marketplace Delivery,cold
+Graves Gilbert Clinic  Oncology,graves-gilbert-clinic--oncology,201 Park St Dr. Seshadri,Bowling Green,KY,42101,Bowling Green,1,2025-06-12,2025-06-12,412,,434.0,434.0,Marketplace Delivery,cold
+The Christ Hospital,the-christ-hospital,4803 Montgomery Rd Ste 114,Norwood,OH,45212,Oakley,2,2025-04-02,2025-10-03,299,184,216.5,433.0,Marketplace Delivery,cold
+ESPN TV @ La Quinta Hotel,espn-tv-@-la-quinta-hotel,401 E Washington St,Indianapolis,IN,46204,Pulliam,1,2025-06-02,2025-06-02,422,,425.0,425.0,Marketplace Delivery,cold
+Monfort Heights Family Medicine,monfort-heights-family-medicine,3310 Mercy Health Blvd Suite 340,Cincinnati,OH,45211,Queen City Wild Eggs,1,2025-03-21,2025-03-21,495,,424.0,424.0,Marketplace Delivery,cold
+Baptist Floyd Cancer Center,baptist-floyd-cancer-center,2210 Green Valley Rd,New Albany,IN,47150,New Albany,1,2025-02-07,2025-02-07,537,,401.0,401.0,Marketplace Delivery,cold
+CMTA,cmta,10411 Meeting St,Prospect,KY,40059,Westport,1,2025-01-16,2025-01-16,559,,400.0,400.0,Marketplace Delivery,cold
+Signature Flight Support,signature-flight-support,6390 Turner Dr,Indianapolis,IN,46241,Avon,2,2025-05-25,2025-06-11,413,17,200.0,400.0,Marketplace Delivery,cold
+Trane,trane,12700 Plantside Dr,Louisville,KY,40299,Landis,1,2025-09-25,2025-09-25,307,,397.0,397.0,Marketplace Delivery,cold
+Indiana University Southeast c/o School of Education,indiana-university-southeast-c-o-school-of-education,4201 Grant Line Rd University Central 127,New Albany,IN,47150,New Albany,1,2025-06-06,2025-06-06,418,,388.0,388.0,Marketplace Delivery,cold
+Jwn neuro,jwn-neuro,7250 Clearvista Dr 265,Indianapolis,IN,46256,Carmel,1,2025-02-26,2025-02-26,518,,386.0,386.0,Marketplace Delivery,cold
+Cummins DHL,cummins-dhl,5635 Graham Rd,Whiteland,IN,46184,Greenwood,1,2025-10-20,2025-10-20,282,,380.0,380.0,Marketplace Delivery,cold
+Great American Insurance Group,great-american-insurance-group,301 E 4th St Music Hall A - 18th floor,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-02-27,2025-02-27,517,,376.0,376.0,Marketplace Delivery,cold
+Baptist Health Medical Group,baptist-health-medical-group,10216 Taylorsville Rd Suite 400,Jeffersontown,KY,40299,Landis,2,2025-03-18,2025-03-19,497,1,188.0,376.0,Marketplace Delivery,cold
+Derm specialist Of NKY,derm-specialist-of-nky,215 Thomas more pkwy suite A building #4,Crestview Hills,KY,41017,Queen City Wild Eggs,1,2025-06-11,2025-06-11,413,,375.0,375.0,Marketplace Delivery,cold
+SafeCare,safecare,1925 Shelby St,Indianapolis,IN,46203,Pulliam,1,2025-04-23,2025-04-23,462,,374.0,374.0,Marketplace Delivery,cold
+29th Street Property Management,29th-street-property-management,325 W Main St Floor 10,Louisville,KY,40202,Mercantile,1,2025-09-03,2025-09-03,329,,366.0,366.0,Marketplace Delivery,cold
+Baptist cancer care,baptist-cancer-care,2210 Green Valley Rd,New Albany,IN,47150,New Albany,1,2025-07-24,2025-07-24,370,,364.0,364.0,Marketplace Delivery,cold
+"Ogletree, Deakins, Nash, Smoak & Stewart, P.C.",ogletree-deakins-nash-smoak-and-stewart-pc,300 N Meridian St Suite 2700,Indianapolis,IN,46204,Pulliam,1,2025-05-01,2025-05-01,454,,362.0,362.0,Marketplace Delivery,cold
+University of Cincinnati,university-of-cincinnati,231 Albert Sabin Way MSB - Kresge Circle,Cincinnati,OH,45229,Queen City Wild Eggs,1,2025-06-17,2025-06-17,407,,360.0,360.0,Marketplace Delivery,cold
+"Munson Business Interiors, INC.",munson-business-interiors-inc,2307 River Rd Suite 100,Louisville,KY,40206,Mercantile,1,2025-07-22,2025-07-22,372,,358.0,358.0,Marketplace Delivery,cold
+IU School of Medicine,iu-school-of-medicine,702 Rotary Cir RO 022,Indianapolis,IN,46202,Pulliam,1,2025-08-19,2025-08-19,344,,357.0,357.0,Marketplace Delivery,cold
+Vision source,vision-source,335 New Towne Dr,Bowling Green,KY,42103,Bowling Green,1,2025-10-20,2025-10-20,282,,357.0,357.0,Marketplace Delivery,cold
+eureka ranch/dexter brain brew distillery,eureka-ranch-dexter-brain-brew-distillery,3849 Edwards Rd,Newtown,OH,45244,Oakley,1,2025-11-18,2025-11-18,253,,356.0,356.0,Marketplace Delivery,cold
+Cincinnati Music Hall,cincinnati-music-hall,1244 Central Pkwy 2nd Floor Ballroom,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-04-15,2025-04-15,470,,354.0,354.0,Marketplace Delivery,cold
+Pepsico,pepsico,9280 Montgomery Rd Suite 100,Montgomery,OH,45242,Oakley,1,2025-10-15,2025-10-15,287,,353.0,353.0,Marketplace Delivery,cold
+Forte Hosptial,forte-hosptial,10767 Illinois St Operating Room,Carmel,IN,46032,Carmel,1,2025-04-29,2025-04-29,456,,348.0,348.0,Marketplace Delivery,cold
+United Rentals,united-rentals,9155 Harrison Park Ct,Indianapolis,IN,46216,Pulliam,1,2025-07-30,2025-07-30,364,,346.0,346.0,Marketplace Delivery,cold
+"Preload, LLC",preload-llc,4000 Tower Rd,Louisville,KY,40219,Mercantile,1,2025-03-06,2025-03-06,510,,345.0,345.0,Marketplace Delivery,cold
+New Albany,new-albany,426 Bank St Suite 300,New Albany,IN,47150,New Albany,1,2025-05-09,2025-05-09,446,,345.0,345.0,Marketplace Delivery,cold
+Hendricks Oncology Danville,hendricks-oncology-danville,100 Hospital Ln Suite 320,Danville,IN,46122,Avon,1,2025-08-21,2025-08-21,342,,345.0,345.0,Marketplace Delivery,cold
+St. Elizabeth Family Medicine,st-elizabeth-family-medicine,413 S Loop Rd,Edgewood,KY,41017,Queen City Wild Eggs,1,2025-03-06,2025-03-06,510,,344.0,344.0,Marketplace Delivery,cold
+Dr. Vanina,dr-vanina,1919 State St 248,New Albany,IN,47150,New Albany,2,2025-03-27,2025-09-25,307,182,171.0,342.0,Marketplace Delivery,cold
+Kolar Design,kolar-design,807 Broadway Floor 5,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-10-02,2025-10-02,300,,342.0,342.0,Marketplace Delivery,cold
+Mercy Pulmonology,mercy-pulmonology,3301 Mercy Health Blvd STE 300,Cincinnati,OH,45211,Queen City Wild Eggs,1,2025-08-07,2025-08-07,356,,337.0,337.0,Marketplace Delivery,cold
+Louisville Paving and Construction,louisville-paving-and-construction,15415 Shelbyville Rd,Louisville,KY,40245,Landis,1,2025-04-15,2025-04-15,470,,335.0,335.0,Marketplace Delivery,cold
+KCC Manufacturing,kcc-manufacturing,2621 Technology Dr,Louisville,KY,40299,Jtown,1,2025-01-15,2025-01-15,560,,334.0,334.0,Marketplace Delivery,cold
+Monfort Heights Family Practice,monfort-heights-family-practice,3301 Mercy Health Blvd 340,Cincinnati,OH,45211,Queen City Wild Eggs,1,2025-09-15,2025-09-15,317,,334.0,334.0,Marketplace Delivery,cold
+Schaefer,schaefer,537 E Pete Rose Way Suite 400,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-12-09,2025-12-09,232,,332.0,332.0,Marketplace Delivery,cold
+All In Pediatrics,all-in-pediatrics,2305 Green Valley Rd,New Albany,IN,47150,New Albany,1,2025-05-30,2025-05-30,425,,330.0,330.0,Marketplace Delivery,cold
+Humana,humana,101 East Main St 5th Floor,Louisville,KY,40202,Mercantile,1,2025-08-05,2025-08-05,358,,329.0,329.0,Marketplace Delivery,cold
+Indiana Donor Network,indiana-donor-network,3750 Guion Rd 4th Floor,Indianapolis,IN,46222,Pulliam,1,2025-10-23,2025-10-23,279,,329.0,329.0,Marketplace Delivery,cold
+The Medical Center at Bowling Green Oncology,the-medical-center-at-bowling-green-oncology,350 Park St Suite 106,Bowling Green,KY,42101,Bowling Green,1,2026-01-09,2026-01-09,201,,329.0,329.0,Marketplace Delivery,cold
+University of Cincinnati Endoscopy,university-of-cincinnati-endoscopy,9275 Montgomery Rd 400,Cincinnati,OH,45242,Oakley,1,2025-03-06,2025-03-06,510,,326.0,326.0,Marketplace Delivery,cold
+Walker Mechanical,walker-mechanical,4500 Robards Lane,Louisville,KY,40218,Dupont,1,2025-09-09,2025-09-09,323,,326.0,326.0,Marketplace Delivery,cold
+Womens health specialist,womens-health-specialist,523 Park St 2nd floor conference room,Bowling Green,KY,42101,Bowling Green,1,2025-05-14,2025-05-14,441,,325.0,325.0,Marketplace Delivery,cold
+Child Focus,child-focus,4629 Aicholtz Rd Corporate Suite,Cincinnati,OH,45244,Oakley,1,2025-08-14,2025-08-14,349,,325.0,325.0,Marketplace Delivery,cold
+University of Louisville Kosair Clinical and Translational Research Building,university-of-louisville-kosair-clinical-and-translational-research-building,505 S Hancock St,Louisville,KY,40202,Mercantile,1,2025-05-20,2025-05-20,435,,322.0,322.0,Marketplace Delivery,cold
+Community Family Physicians,community-family-physicians,7910 E Washington St 200,Indianapolis,IN,46219,Pulliam,1,2025-06-26,2025-06-26,398,,321.0,321.0,Marketplace Delivery,cold
+St Elizabeth Physicians Primary Care,st-elizabeth-physicians-primary-care,2200 Conner Rd Primary Care office- Dr Haney,Hebron,KY,41048,Queen City Wild Eggs,1,2026-01-15,2026-01-15,195,,316.0,316.0,Marketplace Delivery,cold
+Innovative Hematology,innovative-hematology,8326 Naab Rd,Indianapolis,IN,46260,Carmel,1,2025-08-06,2025-08-06,357,,315.0,315.0,Marketplace Delivery,cold
+Med Center Health-Dr. Jamie Jarboe,med-center-health-dr-jamie-jarboe,350 Park St 106,Bowling Green,KY,42101,Bowling Green,1,2026-01-23,2026-01-23,187,,312.0,312.0,Marketplace Delivery,cold
+the urology group,the-urology-group,3301 Mercy Health Blvd 525,Cincinnati,OH,45211,Queen City Wild Eggs,1,2025-04-18,2025-04-18,467,,311.0,311.0,Marketplace Delivery,cold
+"Baptist medical associates- Floyd’s knobs - Dr Johnson, upton ect",baptist-medical-associates--floyd’s-knobs---dr-johnson-upton-ect,800 Highlander Point Dr Suite 200,Floyds Knobs,IN,47119,New Albany,1,2025-01-10,2025-01-10,565,,310.0,310.0,Marketplace Delivery,cold
+St. Elizabeth Conference Center,st-elizabeth-conference-center,1360 Dolwick Dr Conference Room 2105,Erlanger,KY,41018,Queen City Wild Eggs,1,2025-05-08,2025-05-08,447,,309.0,309.0,Marketplace Delivery,cold
+DHL Express (CV3),dhl-express-(cv3),2360 Airport North Dr,Hebron,KY,41048,Queen City Wild Eggs,1,2025-05-30,2025-05-30,425,,307.0,307.0,Marketplace Delivery,cold
+Plasmidsaurus,plasmidsaurus,4743 Poplar Level Rd,Louisville,KY,40213,Dupont,1,2026-01-06,2026-01-06,204,,307.0,307.0,Marketplace Delivery,cold
+Duke Energy,duke-energy,139 E 4th St,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-02-13,2025-02-13,531,,305.0,305.0,Marketplace Delivery,cold
+Hillvue Heights Church,hillvue-heights-church,3219 Nashville Rd,Bowling Green,KY,42101,Bowling Green,1,2025-03-27,2025-03-27,489,,305.0,305.0,Marketplace Delivery,cold
+913 The Turn,913-the-turn,913 Monmouth St,Newport,KY,41071,Queen City Wild Eggs,1,2025-03-08,2025-03-08,508,,303.0,303.0,Marketplace Delivery,cold
+MQJ5,mqj5,1750 Smith Rd,Plainfield,IN,46168,Avon,1,2026-01-12,2026-01-12,198,,302.0,302.0,Marketplace Delivery,cold
+Interact for Health,interact-for-health,8230 Montgomery Rd suite 300 suite 300,Cincinnati,OH,45236,Oakley,1,2025-09-18,2025-09-18,314,,300.0,300.0,Marketplace Delivery,cold
+Eureka Ranch/Dexter Distillery,eureka-ranch-dexter-distillery,3849 Edwards Rd,Newtown,OH,45244,Oakley,1,2025-10-23,2025-10-23,279,,300.0,300.0,Marketplace Delivery,cold
+Lovers Lane KinderCare,lovers-lane-kindercare,646 Lovers Ln,Bowling Green,KY,42103,Bowling Green,1,2025-03-01,2025-03-01,515,,298.0,298.0,Marketplace Delivery,cold
+CoBank,cobank,2000 High Wickham Pl Ste 101 - first floor,Louisville,KY,40245,Landis,1,2025-11-05,2025-11-05,266,,298.0,298.0,Marketplace Delivery,cold
+Endocrinology 2nd floor - Dr Chaudhari,endocrinology-2nd-floor---dr-chaudhari,201 Park St 2nd floor,Bowling Green,KY,42101,Bowling Green,2,2025-10-14,2025-12-05,236,52,148.5,297.0,Marketplace Delivery,cold
+Milhaus,milhaus,550 E Washington St,Indianapolis,IN,46204,Pulliam,1,2025-06-25,2025-06-25,399,,295.0,295.0,Marketplace Delivery,cold
+E.W. Scripps,ew-scripps,312 Walnut St,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-09-10,2025-09-10,322,,294.0,294.0,Marketplace Delivery,cold
+LC rheumatology,lc-rheumatology,3897 Charlestown Rd,New Albany,IN,47150,Jeffersonville,1,2025-11-06,2025-11-06,265,,292.0,292.0,Marketplace Delivery,cold
+TriHealth Queen City Physicians - Hyde Park,trihealth-queen-city-physicians---hyde-park,2753 Erie Ave,Cincinnati,OH,45208,Oakley,1,2025-05-12,2025-05-12,443,,291.0,291.0,Marketplace Delivery,cold
+TPCC Fishers - Production,tpcc-fishers---production,12648 E 116th St,Fishers,IN,46037,Fishers,1,2025-04-20,2025-04-20,465,,290.0,290.0,Marketplace Delivery,cold
+Oswald Companies,oswald-companies,221 E 4th St Suite 2650 (26th Floor) Suite 2650/26th Floor,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-11-11,2025-11-11,260,,288.0,288.0,Marketplace Delivery,cold
+ICHINEN USA Corporation,ichinen-usa-corporation,735 St Paul St,Indianapolis,IN,46203,Pulliam,1,2025-12-23,2025-12-23,218,,288.0,288.0,Marketplace Delivery,cold
+University of Cincinnati Athletics,university-of-cincinnati-athletics,2751 O'Varsity Way,Cincinnati,OH,45221,Queen City Wild Eggs,1,2026-01-08,2026-01-08,202,,286.0,286.0,Marketplace Takeout,cold
+"radiation oncology, cancer center. medical center",radiation-oncology-cancer-center-medical-center,250 Park St cancer center,Bowling Green,KY,42101,Bowling Green,1,2025-04-23,2025-04-23,462,,283.0,283.0,Marketplace Delivery,cold
+IHEART MEDIA,iheart-media,428 S 4th St suite 252,Louisville,KY,40202,Mercantile,1,2025-08-05,2025-08-05,358,,280.0,280.0,Marketplace Delivery,cold
+The Dermatology ctr,the-dermatology-ctr,2857 Charlestown Rd,New Albany,IN,47150,New Albany,1,2025-11-21,2025-11-21,250,,280.0,280.0,Marketplace Delivery,cold
+JQOL,jqol,8440 Allison Pointe Blvd Suite 425,Indianapolis,IN,46250,Fishers,1,2025-07-14,2025-07-14,380,,278.0,278.0,Marketplace Delivery,cold
+New City Presbyterian Church,new-city-presbyterian-church,4400 Floral Ave,Cincinnati,OH,45212,Oakley,1,2025-03-21,2025-03-21,495,,277.0,277.0,Marketplace Delivery,cold
+Riverhills Neurology,riverhills-neurology,320 Thomas More Parkway Building 7,Crestview Hills,KY,41017,Queen City Wild Eggs,1,2025-09-17,2025-09-17,315,,274.0,274.0,Marketplace Delivery,cold
+Johnson & Johnson Ethicon,johnson-and-johnson-ethicon,4545 Creek Rd,Blue Ash,OH,45242,Oakley,1,2025-11-12,2025-11-12,259,,274.0,274.0,Marketplace Delivery,cold
+EW Scripps,ew-scripps,312 Walnut St 28th floor,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-05-14,2025-05-14,441,,273.0,273.0,Marketplace Delivery,cold
+UC Medical Center Pathology,uc-medical-center-pathology,3188 Bellevue Ave,Cincinnati,OH,45219,Queen City Wild Eggs,1,2025-02-26,2025-02-26,518,,270.0,270.0,Marketplace Delivery,cold
+Kresge Circle,kresge-circle,231 Albert Sabin Way,Cincinnati,OH,45267,Queen City Wild Eggs,1,2025-10-23,2025-10-23,279,,270.0,270.0,Marketplace Delivery,cold
+Indiana Bone Marrow Transplant,indiana-bone-marrow-transplant,8111 South Emerson Ave Suite 105,Indianapolis,IN,46237,Greenwood,1,2025-02-18,2025-02-18,526,,269.0,269.0,Marketplace Delivery,cold
+Franciscan Education Center,franciscan-education-center,421 N. Emerson Ave.,Greenwood,IN,46143,Pulliam,1,2025-09-15,2025-09-15,317,,268.0,268.0,Marketplace Delivery,cold
+Charter Senior Living at Hobbs Station,charter-senior-living-at-hobbs-station,2749 Pearson Pkwy,Plainfield,IN,46168,Avon,1,2025-11-13,2025-11-13,258,,268.0,268.0,Marketplace Delivery,cold
+Indiana Neurology & Pain Ctr,indiana-neurology-and-pain-ctr,7301 Shadeland Ave 1A,Indianapolis,IN,46250,Fishers,2,2025-06-27,2025-07-24,370,27,133.5,267.0,Marketplace Delivery,cold
+Telix Pharmaceuticals,telix-pharmaceuticals,11700 Exit 5 Pkwy Suite 200,Fishers,IN,46037,Fishers,1,2025-10-02,2025-10-02,300,,267.0,267.0,Marketplace Delivery,cold
+CAI,cai,1060 N Capitol Ave 3-101,Indianapolis,IN,46204,Pulliam,1,2025-04-30,2025-04-30,455,,266.0,266.0,Marketplace Delivery,cold
+B&G Foods,bandg-foods,Allivet 9894 E 121st St,Fishers,IN,46037,Fishers,1,2025-10-07,2025-10-07,295,,264.0,264.0,Marketplace Delivery,cold
+Business Furniture + Co.,business-furniture-+-co,8421 Bearing Dr #200,Indianapolis,IN,46268,Carmel,1,2025-10-08,2025-10-08,294,,260.0,260.0,Marketplace Delivery,cold
+Dr Eberwine,dr-eberwine,1159 W Jefferson St 102,Franklin,IN,46131,Greenwood,1,2025-09-22,2025-09-22,310,,257.0,257.0,Marketplace Delivery,cold
+IU CICC,iu-cicc,6845 Rama Dr,Indianapolis,IN,46219,Pulliam,1,2025-01-10,2025-01-10,565,,253.0,253.0,Marketplace Delivery,cold
+Vericast / Harland Clarke,vericast---harland-clarke,1910 Campus Pl,Louisville,KY,40299,Jtown,1,2025-09-10,2025-09-10,322,,253.0,253.0,Marketplace Delivery,cold
+Cincinnati,cincinnati,600 Vine St Suite 1000,Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-05-09,2025-05-09,446,,252.0,252.0,Marketplace Delivery,cold
+Dr. Pretorius,dr-pretorius,4743 Cornell Rd,Blue Ash,OH,45242,Oakley,1,2025-06-19,2025-06-19,405,,252.0,252.0,Marketplace Delivery,cold
+Greater Louisville Association of REALTORS®,greater-louisville-association-of-realtors®,12300 Sycamore Station Pl,Louisville,KY,40299,Landis,1,2025-01-30,2025-01-30,545,,251.0,251.0,ezOrdering Delivery,cold
+Regus Building,regus-building,10200 Forest Green Blvd Suite 112,Louisville,KY,40223,Westport,1,2025-01-24,2025-01-24,551,,250.0,250.0,Marketplace Delivery,cold
+Med Center Health Hematology and Oncology,med-center-health-hematology-and-oncology,350 Park St 106,Bowling Green,KY,42101,Bowling Green,1,2025-03-14,2025-03-14,502,,249.0,249.0,Marketplace Delivery,cold
+Riverview Hospital,riverview-hospital,395 Westfield Rd #2987,Noblesville,IN,46060,Fishers,1,2026-01-09,2026-01-09,201,,249.0,249.0,Marketplace Delivery,cold
+VETERINARY EMERGENCY GROUP,veterinary-emergency-group,3702 Madison Rd,Cincinnati,OH,45209,Oakley,1,2025-02-17,2025-02-17,527,,244.0,244.0,Marketplace Delivery,cold
+Meridian Health Services (Psychiatry Services),meridian-health-services-(psychiatry-services),5230 E Stop 11 Rd 350,Indianapolis,IN,46237,Pulliam,1,2025-07-08,2025-07-08,386,,244.0,244.0,Marketplace Delivery,cold
+Advanced Regional Surgery Center,advanced-regional-surgery-center,360 Missouri Ave Suite 102,Jeffersonville,IN,47129,Mercantile,1,2025-12-24,2025-12-24,217,,244.0,244.0,Marketplace Delivery,cold
+Brown Cancer Center /(Dr Metzinger),brown-cancer-center--(dr-metzinger),529 S Jackson St 3rd floor -gynecological oncology,Louisville,KY,40202,Mercantile,1,2025-05-29,2025-05-29,426,,241.0,241.0,Marketplace Delivery,cold
+Sol Center,sol-center,708 East Michigan St,Indianapolis,IN,46202,Pulliam,1,2025-09-18,2025-09-18,314,,240.0,240.0,ezOrdering Delivery,cold
+St. Elizabeth Spine Center,st-elizabeth-spine-center,4900 Houston Rd Suite 401,Florence,KY,41042,Queen City Wild Eggs,1,2025-02-25,2025-02-25,519,,239.0,239.0,Marketplace Delivery,cold
+Bellarmine University - Knights Hall,bellarmine-university---knights-hall,2001 Norris Pl,Louisville,KY,40205,Dupont,1,2025-11-28,2025-11-28,243,,239.0,239.0,Marketplace Delivery,cold
+Courtyard Hotel,courtyard-hotel,601 W Washington St,Indianapolis,IN,46204,Pulliam,1,2025-02-03,2025-02-03,541,,238.0,238.0,Marketplace Delivery,cold
+"Lakeview Farms, LLC",lakeview-farms-llc,11500 Northlake Dr Suite 200,Cincinnati,OH,45249,Oakley,1,2025-04-01,2025-04-01,484,,238.0,238.0,Marketplace Delivery,cold
+QSR Automations,qsr-automations,2700 Buddeke Dr,Louisville,KY,40206,Mercantile,1,2025-06-26,2025-06-26,398,,237.0,237.0,Marketplace Delivery,cold
+Garda World,garda-world,68 North Gale St,Indianapolis,IN,46201,Pulliam,1,2025-11-21,2025-11-21,250,,237.0,237.0,Marketplace Delivery,cold
+Barnes Dennig,barnes-dennig,150 E 4th St 3rd Floor,Cincinnati,OH,45202,Queen City Wild Eggs,2,2025-06-04,2026-01-08,202,218,118.0,236.0,Marketplace Delivery,cold
+The Presley Post,the-presley-post,734 W Main St suite 106,Louisville,KY,40202,Mercantile,1,2025-04-28,2025-04-28,457,,235.0,235.0,Marketplace Delivery,cold
+Genesys Beyond,genesys-beyond,880 West Monon Green Blvd. Suite 101,Carmel,IN,46032,Carmel,1,2025-02-11,2025-02-11,533,,232.0,232.0,Marketplace Delivery,cold
+UC Endoscopy Center,uc-endoscopy-center,9275 Montgomery Rd 400,Cincinnati,OH,45242,Oakley,1,2026-01-21,2026-01-21,189,,232.0,232.0,Marketplace Delivery,cold
+Baptist Health Primary Care,baptist-health-primary-care,3605 Northgate Ct 209,New Albany,IN,47150,New Albany,1,2025-01-29,2025-01-29,546,,229.0,229.0,Marketplace Delivery,cold
+Private residence,private-residence,225 Surrey Hill Rd,Noblesville,IN,46062,Fishers,1,2025-10-21,2025-10-21,281,,228.0,228.0,Marketplace Delivery,cold
+LG&E,lgande,820 W Broadway Cawthon Street Security Gate,Louisville,KY,40202,Mercantile,1,2025-12-22,2025-12-22,219,,227.0,227.0,Marketplace Delivery,cold
+3DR Labs LLC,3dr-labs-llc,1941 Bishop Ln 9th Floor,Louisville,KY,40218,Dupont,1,2025-01-30,2025-01-30,545,,221.0,221.0,Marketplace Delivery,cold
+"The Phia Group, LLC",the-phia-group-llc,10200 Forest Green Blvd Suite 400,Louisville,KY,40223,Westport,1,2025-11-26,2025-11-26,245,,219.0,219.0,ezOrdering Delivery,cold
+Tri health OB/GYN wonens health  services,tri-health-ob-gyn-wonens-health--services,10550 Montgomery Rd 22,Montgomery,OH,45242,Oakley,1,2025-01-29,2025-01-29,546,,218.0,218.0,Marketplace Delivery,cold
+Personal,personal,6256 DeerField Dr,Greenwood,IN,46143,Greenwood,1,2025-06-26,2025-06-26,398,,213.0,213.0,Marketplace Delivery,cold
+UKG,ukg,101 W Washington St Suite 900,Indianapolis,IN,46204,Pulliam,1,2025-12-01,2025-12-01,240,,213.0,213.0,Marketplace Delivery,cold
+Baptist health,baptist-health,2400 Eastpoint Pkwy Ste 550,Louisville,KY,40223,Landis,1,2026-01-23,2026-01-23,187,,209.0,209.0,Marketplace Delivery,cold
+kentuckiana Radiotherapy,kentuckiana-radiotherapy,1322 Spring St,Jeffersonville,IN,47130,Jeffersonville,1,2025-12-08,2025-12-08,233,,199.0,199.0,Marketplace Delivery,cold
+University of Louisville/Brown Cancer Center,university-of-louisville-brown-cancer-center,529 S Jackson St 4th Floor,Louisville,KY,40202,Mercantile,1,2025-09-26,2025-09-26,306,,193.0,193.0,Marketplace Delivery,cold
+Traders Point Christian Church | Fishers,traders-point-christian-church-|-fishers,12648 E 116th St,Fishers,IN,46037,Fishers,1,2025-01-26,2025-01-26,549,,191.0,191.0,Marketplace Delivery,cold
+Hyatt Place Bowling Green,hyatt-place-bowling-green,1347 Center St,Bowling Green,KY,42101,Bowling Green,1,2025-03-08,2025-03-08,508,,190.0,190.0,Marketplace Delivery,cold
+GE Aerospace - Erlanger Warehouse,ge-aerospace---erlanger-warehouse,1800 Donaldson Highway,Erlanger,KY,41018,Queen City Wild Eggs,1,2025-11-07,2025-11-07,264,,190.0,190.0,Marketplace Delivery,cold
+UL Primary Care,ul-primary-care,5100 Outer Loop,Louisville,KY,40219,Mercantile,1,2025-05-14,2025-05-14,441,,185.0,185.0,Marketplace Delivery,cold
+HOI breast center,hoi-breast-center,8550 Naab Rd suite 205,Indianapolis,IN,46260,Carmel,1,2025-09-18,2025-09-18,314,,185.0,185.0,Marketplace Delivery,cold
+Community South Pulmonary,community-south-pulmonary,1550 E County Line Rd suite 325,Indianapolis,IN,46227,Greenwood,1,2025-04-15,2025-04-15,470,,184.0,184.0,Marketplace Delivery,cold
+Bogart's,bogarts,2621 Vine St,Cincinnati,OH,45219,Queen City Wild Eggs,1,2025-03-26,2025-03-26,490,,181.0,181.0,Marketplace Delivery,cold
+Tri Health OB/GYN,tri-health-ob-gyn,3715 Montgomery Rd,Cincinnati,OH,45207,Oakley,1,2025-03-20,2025-03-20,496,,179.0,179.0,Marketplace Delivery,cold
+Stoll Keenon Ogden PLLC,stoll-keenon-ogden-pllc,400 W Market St Suite 2700,Louisville,KY,40202,Mercantile,1,2025-07-02,2025-07-02,392,,178.0,178.0,Marketplace Delivery,cold
+IU Pulmonology and Allergy,iu-pulmonology-and-allergy,11725 Illinois St 465,Carmel,IN,46032,Carmel,1,2025-12-22,2025-12-22,219,,177.0,177.0,Marketplace Delivery,cold
+Family Dermatology,family-dermatology,2307 Greene Way Back Door,Louisville,KY,40220,Jtown,1,2025-03-14,2025-03-14,502,,176.0,176.0,Marketplace Delivery,cold
+Holiday Inn Express & Suites Cincinnati Riverfront,holiday-inn-express-and-suites-cincinnati-riverfront,200 Crescent Ave,Covington,KY,41011,Queen City Wild Eggs,1,2025-10-26,2025-10-26,276,,176.0,176.0,Marketplace Delivery,cold
+Allworth Financial,allworth-financial,9987 Carver Rd Suite 100,Blue Ash,OH,45242,Oakley,1,2025-06-18,2025-06-18,406,,175.0,175.0,Marketplace Delivery,cold
+Riverview Sleep and Respiratory,riverview-sleep-and-respiratory,355 Westfield Rd ste 114 Suite 114,Noblesville,IN,46060,Fishers,1,2025-12-11,2025-12-11,230,,175.0,175.0,Marketplace Takeout,cold
+Byerly Ford Inc,byerly-ford-inc,4041 Dixie Hwy,Louisville,KY,40216,New Albany,1,2025-01-25,2025-01-25,550,,174.0,174.0,Marketplace Delivery,cold
+Med Center Health - Riverside Professional Center,med-center-health---riverside-professional-center,825 E 2nd Ave C3,Bowling Green,KY,42101,Bowling Green,1,2025-05-28,2025-05-28,427,,173.0,173.0,Marketplace Delivery,cold
+UC Heath,uc-heath,9275 Montgomery Rd ste 400,Cincinnati,OH,45242,Oakley,1,2025-09-22,2025-09-22,310,,173.0,173.0,ezOrdering Delivery,cold
+UC Endo,uc-endo,9275 Montgomery Rd ste 400,Cincinnati,OH,45242,Oakley,1,2025-10-27,2025-10-27,275,,173.0,173.0,Marketplace Delivery,cold
+Luxeve Media,luxeve-media,6360 La Pas Trail,Indianapolis,IN,46268,Pulliam,1,2025-12-03,2025-12-03,238,,171.0,171.0,Marketplace Delivery,cold
+DMG - Divisions Maintenance Group :Foundry Lobby,dmg---divisions-maintenance-group-:foundry-lobby,"50 West 5th St Lobby ""Foundry Lobby""",Cincinnati,OH,45202,Queen City Wild Eggs,1,2025-12-09,2025-12-09,232,,171.0,171.0,Marketplace Delivery,cold
+Dr. Allred DERMATOLOGY,dr-allred-dermatology,1802 Rockingham Ave,Bowling Green,KY,42104,Bowling Green,1,2026-01-08,2026-01-08,202,,171.0,171.0,Marketplace Delivery,cold
+Progress Park,progress-park,4501 Progress Blvd,Louisville,KY,40218,Dupont,1,2025-07-10,2025-07-10,384,,169.0,169.0,Marketplace Delivery,cold
+Amazon IND4,amazon-ind4,710 S Girls School Rd,Indianapolis,IN,46231,Avon,1,2025-08-21,2025-08-21,342,,168.0,168.0,Marketplace Delivery,cold
+Dr Sinicrope,dr-sinicrope,4955 Norton Healthcare Blvd suite 300,Louisville,KY,40241,Westport,1,2025-11-05,2025-11-05,266,,168.0,168.0,Marketplace Delivery,cold
+16-Bit Bar + Arcade,16-bit-bar-+-arcade,110 E New York St,Indianapolis,IN,46204,Pulliam,1,2025-09-17,2025-09-17,315,,162.0,162.0,Marketplace Delivery,cold
+Dr. Forest Kuhn,dr-forest-kuhn,3900 Dupont Square N A,Louisville,KY,40207,Dupont,1,2025-03-18,2025-03-18,498,,160.0,160.0,Marketplace Delivery,cold
+Community Endocrinology,community-endocrinology,8435 Clearvista Pl Suite 101,Indianapolis,IN,46256,Fishers,1,2025-03-03,2025-03-03,513,,159.0,159.0,Marketplace Delivery,cold
+St. Elizabeth,st-elizabeth,85 N Grand Ave,Fort Thomas,KY,41075,Queen City Wild Eggs,1,2025-05-01,2025-05-01,454,,154.0,154.0,Marketplace Delivery,cold
+Fisher and Paykel Healthcare,fisher-and-paykel-healthcare,3201 S Park Rd,Louisville,KY,40219,Dupont,1,2025-05-15,2025-05-15,440,,151.0,151.0,Marketplace Delivery,cold
+Veterinary Specialist Partners,veterinary-specialist-partners,11600 Main St,Louisville,KY,40243,Landis,1,2025-09-07,2025-09-07,325,,150.0,150.0,Marketplace Delivery,cold
+OnBoard,onboard,333 N. Alabama St. Ste. 300 Ste 300,Indianapolis,IN,46204,Greenwood,1,2025-06-17,2025-06-17,407,,148.0,148.0,Marketplace Delivery,cold
+"Hotel Covington, OMS Photo",hotel-covington-oms-photo,638 Madison Ave,Covington,KY,41011,Queen City Wild Eggs,1,2025-10-28,2025-10-28,274,,148.0,148.0,Marketplace Delivery,cold
+TRIMEDX,trimedx,5451 Lakeview Pkwy Dr S,Indianapolis,IN,46268,Carmel,1,2025-12-03,2025-12-03,238,,148.0,148.0,Marketplace Delivery,cold
+Grandin Road,grandin-road,7 Larking Dr,Cincinnati,OH,45242,Oakley,1,2025-05-05,2025-05-05,450,,145.0,145.0,Marketplace Delivery,cold
+The David K. Karem office building at Waterfront Park,the-david-k-karem-office-building-at-waterfront-park,129 River Rd 2nd Floor Boardroom,Louisville,KY,40202,Mercantile,1,2025-07-01,2025-07-01,393,,145.0,145.0,Marketplace Delivery,cold
+Matthews Home,matthews-home,15654 Gateshead Dr,Westfield,IN,46074,Carmel,1,2025-08-03,2025-08-03,360,,145.0,145.0,Marketplace Delivery,cold
+Tri-Health Heart Institute - Mariemont,tri-health-heart-institute---mariemont,7225 Wooster Pike,Cincinnati,OH,45227,Oakley,1,2025-02-07,2025-02-07,537,,144.0,144.0,Marketplace Delivery,cold
+AMEND,amend,538 Reading Rd,Cincinnati,OH,45202,Queen City Wild Eggs,1,2026-01-06,2026-01-06,204,,144.0,144.0,Marketplace Delivery,cold
+Melvin S Gale & Associates,melvin-s-gale-and-associates,4229 Malsbary Rd 102,Blue Ash,OH,45242,Oakley,1,2025-10-28,2025-10-28,274,,140.0,140.0,Marketplace Delivery,cold
+Louisville Lung Care,louisville-lung-care,1015 Dupont Rd,Louisville,KY,40207,Dupont,1,2025-11-18,2025-11-18,253,,138.0,138.0,Marketplace Delivery,cold
+Louisville Dermatology,louisville-dermatology,13802 Lake Point Way 100,Louisville,KY,40223,Landis,1,2025-12-29,2025-12-29,212,,136.0,136.0,Marketplace Delivery,cold
+Aetna Better Health of Kentucky,aetna-better-health-of-kentucky,9900 Corporate Campus Dr,Louisville,KY,40223,Westport,1,2025-11-13,2025-11-13,258,,131.0,131.0,Marketplace Delivery,cold
+Corsocare,corsocare,12315 Hancock St Suite 28,Carmel,IN,46032,Carmel,1,2025-12-17,2025-12-17,224,,131.0,131.0,Marketplace Delivery,cold
+Dr Paradowski,dr-paradowski,225 Abraham Flexner Way suite 304,Louisville,KY,40202,Mercantile,1,2025-07-17,2025-07-17,377,,130.0,130.0,Marketplace Delivery,cold
+Dr Nolan,dr-nolan,4119 Browns Ln Suite 1,Louisville,KY,40220,Dupont,1,2025-10-16,2025-10-16,286,,130.0,130.0,Marketplace Delivery,cold
+Indianopolis Motor Speedway,indianopolis-motor-speedway,4790 W 16th St,Indianapolis,IN,46222,Avon,1,2025-10-16,2025-10-16,286,,130.0,130.0,Marketplace Delivery,cold
+Luminaut,luminaut,702 N Capitol Ave,Indianapolis,IN,46204,Pulliam,1,2025-03-20,2025-03-20,496,,128.0,128.0,Marketplace Delivery,cold
+Traders Point Christian Church Plainfield,traders-point-christian-church-plainfield,2002 Stafford Rd,Plainfield,IN,46168,Avon,1,2025-02-02,2025-02-02,542,,126.0,126.0,Marketplace Delivery,cold
+St Elizabeth  Regional diabetes center,st-elizabeth--regional-diabetes-center,7388 Turfway Rd,Florence,KY,41042,Queen City Wild Eggs,1,2025-04-16,2025-04-16,469,,126.0,126.0,Marketplace Delivery,cold
+Allied Automation,allied-automation,1540 Ormsby Station Ct,Louisville,KY,40223,Westport,1,2025-05-22,2025-05-22,433,,119.0,119.0,Marketplace Delivery,cold
+Dermatology Associates,dermatology-associates,931 E 86th St 104,Indianapolis,IN,46240,Carmel,1,2025-04-25,2025-04-25,460,,111.0,111.0,Marketplace Delivery,cold
+Mercer Elementary,mercer-elementary,2600 Bartels Rd,Cincinnati,OH,45244,Oakley,1,2025-02-21,2025-02-21,523,,110.0,110.0,Marketplace Delivery,cold
+Houchens Insurance Group,houchens-insurance-group,1750 Scottsville Rd suite 4 Suite 4,Bowling Green,KY,42104,Bowling Green,1,2025-04-15,2025-04-15,470,,110.0,110.0,Marketplace Delivery,cold
+Republic Bank Plaza Sunday Snack Coffee,republic-bank-plaza-sunday-snack-coffee,200 S 7th St,Louisville,KY,40202,Mercantile,1,2025-08-24,2025-08-24,339,,106.0,106.0,Marketplace Delivery,cold
+Gap,gap,1360 Dolwick Dr Suite 100,Erlanger,KY,41018,Queen City Wild Eggs,1,2025-01-10,2025-01-10,565,,104.0,104.0,Marketplace Delivery,cold
+Norton Infectious Disease Speciatlists,norton-infectious-disease-speciatlists,4950 Norton Healthcare Blvd ste 303 Suite 303,Louisville,KY,40241,Westport,1,2025-05-12,2025-05-12,443,,101.0,101.0,Marketplace Delivery,cold
+"Baptist Health - Dr. crone, spanova, lohano -suite 209",baptist-health---dr-crone-spanova-lohano--suite-209,3605 Northgate Ct Suite 209,New Albany,IN,47150,New Albany,1,2026-01-29,2026-01-29,181,,101.0,101.0,Marketplace Delivery,cold
+Mercy Health Anderson,mercy-health-anderson,8000 Five Mile Rd Suite 105,Cincinnati,OH,45230,Oakley,1,2025-07-07,2025-07-07,387,,96.0,96.0,Marketplace Delivery,cold
+Fifth Third Bank,fifth-third-bank,38 Fountain Sq Plz,Cincinnati,OH,45202,Queen City Wild Eggs,2,2025-04-07,2026-07-27,2,476,3634.0,7268.0,Marketplace Delivery,active
+Franciscan Health Cancer Center,franciscan-health-cancer-center,8111 Emerson Ave Floor 1,Indianapolis,IN,46237,Greenwood,2,2026-05-11,2026-07-22,7,72,1413.5,2827.0,Marketplace Delivery,active
+UC Cardiology,uc-cardiology,222 Piedmont Ave Ste 1000,Cincinnati,OH,45219,Queen City Wild Eggs,2,2026-04-14,2026-07-07,22,84,1131.5,2263.0,Marketplace Delivery,active
+University of Louisville,university-of-louisville,505 S Hancock St 1st floor room 101,Louisville,KY,40202,Mercantile,4,2025-04-09,2026-07-10,19,182,475.0,1900.0,Marketplace Delivery,active
+FPN Oncology and Hematology,fpn-oncology-and-hematology,8111 S Emerson Ave 101,Indianapolis,IN,46237,Greenwood,2,2026-03-11,2026-07-20,9,131,891.5,1783.0,Marketplace Delivery,active
+Neurology,neurology,4233 Gateway Blvd Floor 1,Newburgh,IN,47630,Evansville,3,2026-01-23,2026-07-16,13,142,551.67,1655.0,Marketplace Delivery,active
+Trihealth Thomas Center,trihealth-thomas-center,10506A Montgomery Rd Suite 301 (3rd floor),Cincinnati,OH,45242,Oakley,3,2026-02-24,2026-07-06,23,69,541.0,1623.0,Marketplace Delivery,active
+Greenwood Innovation Center,greenwood-innovation-center,2441 E Main St,Greenwood,IN,46143,Greenwood,2,2025-05-16,2026-07-21,8,431,760.5,1521.0,Marketplace Delivery,active
+The Pat McAfee Show,the-pat-mcafee-show,651 E 191st St,Westfield,IN,46074,Carmel,2,2026-07-23,2026-07-24,5,1,705.0,1410.0,Marketplace Delivery,active
+Knights Hall,knights-hall,Knights Hall Knights Way,Louisville,KY,40205,Mercantile,3,2026-06-08,2026-07-08,21,22,454.33,1363.0,Marketplace Delivery,active
+Dermatology,dermatology,7691 Five Mile Rd 312,Cincinnati,OH,45230,Queen City Wild Eggs,4,2025-02-25,2026-07-20,9,180,300.25,1201.0,Marketplace Delivery,active
+Forefront Dermatology,forefront-dermatology,159 S English Station Rd,Louisville,KY,40245,Westport,3,2025-12-04,2026-07-23,6,167,347.0,1041.0,Marketplace Delivery,active
+Horizon League,horizon-league,129 E Market St Ste. 900,Indianapolis,IN,46204,Pulliam,4,2026-05-05,2026-06-30,29,16,248.5,994.0,Marketplace Delivery,active
+Kentucky Skin Cancer Center,kentucky-skin-cancer-center,1818 Wallace Ct Unit 301,Bowling Green,KY,42103,Bowling Green,2,2026-04-30,2026-06-30,29,61,449.0,898.0,Marketplace Delivery,active
+University Endo Center,university-endo-center,9275 Montgomery Rd 400,Cincinnati,OH,45242,Oakley,3,2026-06-08,2026-07-14,15,21,286.33,859.0,Marketplace Delivery,active
+Baptist Health Endocrinology,baptist-health-endocrinology,2800 Breckenridge Ln 320,Meadowview Estates,KY,40220,Westport,3,2026-05-12,2026-07-07,22,30,267.0,801.0,Marketplace Delivery,active
+Tri Health Gastro,tri-health-gastro,10600 Montgomery Rd suite 101,Cincinnati,OH,45242,Oakley,1,2026-07-08,2026-07-08,21,,732.0,732.0,Marketplace Delivery,active
+Hazel Dell Family Practice,hazel-dell-family-practice,14535 Hazel Dell Pkwy Bldg A,Carmel,IN,46033,Carmel,3,2026-05-05,2026-06-30,29,41,242.67,728.0,Marketplace Delivery,active
+Bennett & Bloom Eye,bennett-and-bloom-eye,9200 Leesgate Rd 100 first,Louisville,KY,40222,Westport,1,2026-07-14,2026-07-14,15,,676.0,676.0,Marketplace Delivery,active
+Christ Dr. Perrino Dr Office,christ-dr-perrino-dr-office,4803 Montgomery Rd 114,Norwood,OH,45212,Oakley,2,2026-03-03,2026-07-21,8,140,330.5,661.0,Marketplace Delivery,active
+Franciscan Indiana Blood & Marrow Transplant,franciscan-indiana-blood-and-marrow-transplant,8111 S Emerson Ave Suite 105,Indianapolis,IN,46237,Pulliam,2,2026-03-24,2026-07-21,8,119,316.0,632.0,Marketplace Delivery,active
+The Couch Immediate Mental Health Care,the-couch-immediate-mental-health-care,2327 Lime Kiln Ln,Northfield,KY,40222,Westport,3,2026-05-05,2026-07-20,9,50,200.0,600.0,Marketplace Delivery,active
+Tri health Bethesda north Endo,tri-health-bethesda-north-endo,10500 Montgomery Rd,Cincinnati,OH,45242,Oakley,1,2026-07-10,2026-07-10,19,,600.0,600.0,Marketplace Delivery,active
+Newburgh Dermatology & Skin Cancer and Laser Surgery Center,newburgh-dermatology-and-skin-cancer-and-laser-surgery-center,10788 Stahl Rd,Newburgh,IN,47630,Evansville,2,2026-03-12,2026-06-30,29,110,275.5,551.0,Marketplace Delivery,active
+Endocrinology,endocrinology,2800 Breckenridge Ln 320,Meadowview Estates,KY,40220,Dupont,2,2026-03-19,2026-07-16,13,119,264.5,529.0,Marketplace Delivery,active
+Baptist Endocrinology,baptist-endocrinology,2800 Breckenridge Ln 3rd floor,Meadowview Estates,KY,40220,Dupont,2,2026-06-10,2026-07-24,5,44,263.0,526.0,Marketplace Delivery,active
+Deaconess Gateway Infusion Center,deaconess-gateway-infusion-center,"4219 Gateway Blvd 3rd Floor, GI Specialty Center, MOB 6",Newburgh,IN,47630,Evansville,1,2026-07-24,2026-07-24,5,,507.0,507.0,Marketplace Delivery,active
+Fueled Collective,fueled-collective,3825 Edwards Rd ste 103,Cincinnati,OH,45209,Oakley,3,2025-01-09,2026-07-14,15,460,161.33,484.0,Marketplace Delivery,active
+BioLife Solutions at Cook,biolife-solutions-at-cook,1102 Indiana Ave,Indianapolis,IN,46202,Pulliam,1,2026-07-24,2026-07-24,5,,436.0,436.0,Marketplace Delivery,active
+Axia Noblesville,axia-noblesville,18051 River Rd 202,Noblesville,IN,46062,Carmel,2,2026-03-25,2026-07-15,14,112,215.0,430.0,Marketplace Delivery,active
+Miller Care Group,miller-care-group,3850 Shore Dr 315,Indianapolis,IN,46254,Pulliam,1,2026-07-06,2026-07-06,23,,425.0,425.0,Marketplace Delivery,active
+Hagan Health,hagan-health,4010 Dupont Cir 202,Louisville,KY,40207,Westport,2,2026-06-22,2026-07-06,23,14,210.5,421.0,Marketplace Delivery,active
+Medical Center Health Neurology,medical-center-health-neurology,350 Park St Suite 206a,Bowling Green,KY,42101,Bowling Green,2,2026-05-13,2026-07-07,22,55,204.5,409.0,Marketplace Delivery,active
+Cincinnati Children's Hospital Medical Center,cincinnati-childrens-hospital-medical-center,"240 Albert Sabin Way Location T half circle - Clinical Sciences Pavilion - blue awnings, orange poles",Cincinnati,OH,45220,Oakley,2,2025-10-24,2026-07-13,16,262,194.5,389.0,Marketplace Delivery,active
+Deaconess  MOB 6 Cancer Services,deaconess--mob-6-cancer-services,4219 Gateway Blvd floor 2,Newburgh,IN,47630,Evansville,1,2026-07-16,2026-07-16,13,,378.0,378.0,Marketplace Delivery,active
+KSM HQ,ksm-hq,600 E. 96th St,Indianapolis,IN,46240,Carmel,1,2026-07-21,2026-07-21,8,,378.0,378.0,Marketplace Delivery,active
+Cancer Center,cancer-center,395 Westfield Rd Suite #2987,Noblesville,IN,46060,Carmel,1,2026-07-07,2026-07-07,22,,368.0,368.0,Marketplace Delivery,active
+Bengals Offices,bengals-offices,1 Paycor Stadium,Cincinnati,OH,45202,Queen City Wild Eggs,1,2026-07-09,2026-07-09,20,,363.0,363.0,Marketplace Delivery,active
+All in pediatrics,all-in-pediatrics,2305 Green Valley Rd,New Albany,IN,47150,New Albany,1,2026-07-17,2026-07-17,12,,360.0,360.0,Marketplace Delivery,active
+"DMG - Divisions Maintenance Group  ""Foundry Lobby""","dmg---divisions-maintenance-group--""foundry-lobby""","50 West 5th St Lobby ""Foundry Lobby""",Cincinnati,OH,45202,Queen City Wild Eggs,2,2026-06-25,2026-07-21,8,26,171.0,342.0,Marketplace Delivery,active
+Eureka Ranch/Brain Brew-Dexter Distillery,eureka-ranch-brain-brew-dexter-distillery,3849 Edwards Rd,Newtown,OH,45244,Oakley,1,2026-07-27,2026-07-27,2,,326.0,326.0,Marketplace Delivery,active
+Trihealth Queen City- Western Hills,trihealth-queen-city--western-hills,6350 Glenway Ave 3rd floor,Cincinnati,OH,45211,Queen City Wild Eggs,1,2026-07-09,2026-07-09,20,,320.0,320.0,Marketplace Delivery,active
+Complete In Christ Ministries,complete-in-christ-ministries,933 Alston Ln,Avon,IN,46123,Avon,1,2026-07-25,2026-07-25,4,,320.0,320.0,Marketplace Takeout,active
+Coke Consolidated,coke-consolidated,5100 Duck Creek Rd,Cincinnati,OH,45227,Oakley,1,2026-07-23,2026-07-23,6,,304.0,304.0,Marketplace Delivery,active
+Progress Park Air Stream Campground,progress-park-air-stream-campground,4503 Progress Blvd,Louisville,KY,40218,Dupont,1,2026-07-07,2026-07-07,22,,280.0,280.0,Marketplace Delivery,active
+Westport Road Baptist Church,westport-road-baptist-church,"9705 Westport Rd Louisville, KY 40241",Louisville,KY,40241,Westport,1,2026-07-15,2026-07-15,14,,280.0,280.0,Marketplace Delivery,active
+Dr. Olash,dr-olash,3900 Kresge Way 50,Louisville,KY,40207,Westport,2,2026-05-14,2026-07-22,7,69,130.0,260.0,Marketplace Delivery,active
+Behavioral health group,behavioral-health-group,1990 Louisville Rd 110,Bowling Green,KY,42101,Bowling Green,1,2026-07-24,2026-07-24,5,,258.0,258.0,Marketplace Delivery,active
+Hematology Oncology of Indiana,hematology-oncology-of-indiana,395 Westfield Rd Suite 2987,Noblesville,IN,46060,Fishers,1,2026-07-17,2026-07-17,12,,244.0,244.0,Marketplace Delivery,active
+Zaahi Studios,zaahi-studios,3950 Culligan Ave g #G,Indianapolis,IN,46218,Pulliam,1,2026-07-14,2026-07-14,15,,242.0,242.0,Marketplace Delivery,active
+JWM Neurology East,jwm-neurology-east,1400 N Ritter Ave Suite 220,Indianapolis,IN,46219,Pulliam,1,2026-07-16,2026-07-16,13,,225.0,225.0,Marketplace Delivery,active
+Sheraton Indianapolis City Centre Hotel,sheraton-indianapolis-city-centre-hotel,31 W Ohio St,Indianapolis,IN,46204,Pulliam,1,2026-06-30,2026-06-30,29,,223.0,223.0,Marketplace Delivery,active
+CVR / CDK Global,cvr---cdk-global,9225 Priority Way W Dr 120,Indianapolis,IN,46240,Carmel,1,2026-06-29,2026-06-29,30,,194.0,194.0,Marketplace Delivery,active
+Matthew 25 AIDS Services,matthew-25-aids-services,101 NW 1st St #215,Evansville,IN,47713,Evansville,1,2026-07-14,2026-07-14,15,,183.0,183.0,Marketplace Delivery,active
+Proximo meeting at Fueled Collective,proximo-meeting-at-fueled-collective,3825 Edwards Rd,Cincinnati,OH,45209,Oakley,1,2026-07-15,2026-07-15,14,,176.0,176.0,Marketplace Delivery,active
+Dr. Markert,dr-markert,1169 H Eastern Pkwy 2265,Louisville,KY,40217,Westport,1,2026-07-20,2026-07-20,9,,130.0,130.0,Marketplace Delivery,active
+Forte Orthopedics,forte-orthopedics,10767 Illinois St 2nd floor,Carmel,IN,46032,Pulliam,1,2026-07-10,2026-07-10,19,,96.0,96.0,Marketplace Delivery,active
+Mercy Health GME,mercy-health-gme,8000 Five Mile Rd - Medical Arts Bldg (MOB) 1 - GME Office Suite 105,Cincinnati,OH,45230,Oakley,1,2026-07-13,2026-07-13,16,,96.0,96.0,Marketplace Delivery,active
