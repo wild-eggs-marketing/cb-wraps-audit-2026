@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Fruit & Feta Salad",
+    "slug": "fruit-feta-salad",
+    "draft": true,
+    "active": false,
+    "why": "contains cheese",
+    "dietNote": null,
+    "fieldData": {
+      "fIwxSF70L": {
+        "type": "string",
+        "value": "Fruit & Feta Salad"
+      },
+      "Du4yxFxRV": {
+        "type": "string",
+        "value": "260"
+      },
+      "mD5e0_FmL": {
+        "type": "string",
+        "value": "11"
+      },
+      "RxAestyVQ": {
+        "type": "string",
+        "value": "20"
+      },
+      "pSTF6eHFu": {
+        "type": "string",
+        "value": "Salads"
+      },
+      "i9pbPSUve": {
+        "type": "string",
+        "value": "Salad Mix: Romaine Lettuce, Spring Mix, Strawberries, Blueberries, Feta Cheese, Spinach, Sunflower Seeds: Sunflower Kernels, Cottonseed Oil, Salt"
+      },
+      "IFoMCHzs_": {
+        "type": "string",
+        "value": "Romaine, spring mix, strawberries, blueberries, feta, sunflower seeds"
+      },
+      "ivojcMHVr": {
+        "type": "string",
+        "value": "Milk, Tree Nuts, Peanuts"
+      },
+      "lentTZd7e": {
+        "type": "string",
+        "value": "vegetarian, gluten-free"
+      },
+      "GZnmQpwkD": {
+        "type": "string",
+        "value": "Romaine and spring mix with strawberries, blueberries, spinach, feta and sunflower seeds."
+      },
+      "zG08650jR": {
+        "type": "string",
+        "value": "Does the Fruit & Feta Salad contain nuts?"
+      },
+      "loB8_cYxl": {
+        "type": "string",
+        "value": "Yes — it contains tree nuts and peanuts as well as milk. Please ask our staff before ordering if you have a nut allergy."
+      },
+      "im_35WFB0": {
+        "type": "string",
+        "value": "Is it vegetarian?"
+      },
+      "lrC33foKY": {
+        "type": "string",
+        "value": "Yes, though the feta means it isn't vegan or dairy-free."
+      }
+    }
+  },
+  {
+    "name": "Grilled Veggie Salad",
+    "slug": "grilled-veggie-salad",
+    "draft": true,
+    "active": false,
+    "why": "contains cheese, milk",
+    "dietNote": null,
+    "fieldData": {
+      "fIwxSF70L": {
+        "type": "string",
+        "value": "Grilled Veggie Salad"
+      },
+      "Du4yxFxRV": {
+        "type": "string",
+        "value": "280"
+      },
+      "mD5e0_FmL": {
+        "type": "string",
+        "value": "8"
+      },
+      "RxAestyVQ": {
+        "type": "string",
+        "value": "23"
+      },
+      "pSTF6eHFu": {
+        "type": "string",
+        "value": "Salads"
+      },
+      "i9pbPSUve": {
+        "type": "string",
+        "value": "Grilled Veggies: Zucchini, Roma Tomatoes, Carrots: Carrots, Red Bell Pepper, Red Onions, Canola Olive Oil: Canola Oil and Extra Virgin Olive Oil, Salad Mix: Romaine Lettuce, Spring Mix, Asiago Cheese: Asiago (Pasteurized Cow's Milk, Cheese Culture, Salt, Enzymes), Powdered Cellulose (Anti-Caking Agent), And Calcium Propionate (Preservative)., Gomo Shio: Sesame Seeds: Sesame Seeds, Kosher Salt: Salt"
+      },
+      "IFoMCHzs_": {
+        "type": "string",
+        "value": "Grilled veggies, romaine, spring mix, asiago, sesame"
+      },
+      "ivojcMHVr": {
+        "type": "string",
+        "value": "Milk, Sesame"
+      },
+      "lentTZd7e": {
+        "type": "string",
+        "value": "vegetarian, gluten-free"
+      },
+      "GZnmQpwkD": {
+        "type": "string",
+        "value": "Grilled zucchini, tomato, carrot, red pepper and onion over romaine and spring mix with asiago and sesame gomashio."
+      },
+      "zG08650jR": {
+        "type": "string",
+        "value": "Is the Grilled Veggie Salad vegan?"
+      },
+      "loB8_cYxl": {
+        "type": "string",
+        "value": "No. The asiago makes it vegetarian rather than vegan. It also contains sesame from the gomashio."
+      },
+      "im_35WFB0": {
+        "type": "string",
+        "value": "What vegetables are in it?"
+      },
+      "lrC33foKY": {
+        "type": "string",
+        "value": "Grilled zucchini, roma tomato, carrot, red bell pepper and red onion, over romaine and spring mix."
+      }
+    }
+  },
+  {
+    "name": "Multigrain Quinoa Salad",
+    "slug": "multigrain-quinoa-salad",
+    "draft": false,
+    "active": true,
+    "why": "contains yogurt, milk, cheese",
+    "dietNote": null,
+    "fieldData": {
+      "fIwxSF70L": {
+        "type": "string",
+        "value": "Multigrain Quinoa Salad"
+      },
+      "Du4yxFxRV": {
+        "type": "string",
+        "value": "870"
+      },
+      "mD5e0_FmL": {
+        "type": "string",
+        "value": "19"
+      },
+      "RxAestyVQ": {
+        "type": "string",
+        "value": "65"
+      },
+      "pSTF6eHFu": {
+        "type": "string",
+        "value": "Salads"
+      },
+      "i9pbPSUve": {
+        "type": "string",
+        "value": "Salad Mix: Romaine Lettuce, Spring Mix, Brown Rice, Quinoa, Tahini Vinaigrette: Canola Olive Oil: Canola Oil and Extra Virgin Olive Oil, Lime Juice: Water, Juice Lime: Lime Juice Concentrate, Plain Yogurt: Cultured Grade A Reduced Fat Milk, Tapioca Starch. Contains Active Yogurt Cultures Including L. Acidophilus., Water, Red Onions, Tahini Paste, Garlic: Garlic, Water, Soy Oil, Phosphoric Acid, Sodium Benzoate and Potassium Sorbate Added as Preservatives, Herb Salt: Kosher Salt: Salt, Oregano, Garbanzo Beans: Prepared Chick Peas, Water, Salt, Calcium Chloride Added As A Firming Agent, and Disodium EDTA Added To Preserve Color., Roma Tomatoes, Avocados, Feta Cheese, Red Onions, Gomo Shio: Sesame Seeds: Sesame Seeds, Kosher Salt: Salt"
+      },
+      "IFoMCHzs_": {
+        "type": "string",
+        "value": "Romaine, spring mix, brown rice, quinoa, garbanzo, avocado, feta"
+      },
+      "ivojcMHVr": {
+        "type": "string",
+        "value": "Milk, Soy, Sesame"
+      },
+      "lentTZd7e": {
+        "type": "string",
+        "value": "vegetarian, gluten-free"
+      },
+      "GZnmQpwkD": {
+        "type": "string",
+        "value": "Romaine and spring mix over brown rice and quinoa with garbanzo beans, avocado, tomato, feta and a tahini vinaigrette."
+      },
+      "zG08650jR": {
+        "type": "string",
+        "value": "Is the Multigrain Quinoa Salad vegetarian?"
+      },
+      "loB8_cYxl": {
+        "type": "string",
+        "value": "Yes. The feta and the yogurt in the tahini vinaigrette make it vegetarian rather than vegan. It's also made without gluten-containing ingredients."
+      },
+      "im_35WFB0": {
+        "type": "string",
+        "value": "Why is this salad higher in calories than the others?"
+      },
+      "lrC33foKY": {
+        "type": "string",
+        "value": "It's built on brown rice and quinoa with avocado and a tahini vinaigrette, which is where most of the 870 calories come from. The Santa Fe Salad is 260 if you're after something lighter."
+      }
+    }
+  },
+  {
+    "name": "Santa Fe Salad",
+    "slug": "santa-fe-salad",
+    "draft": false,
+    "active": true,
+    "why": "contains yogurt, cheese",
+    "dietNote": null,
+    "fieldData": {
+      "fIwxSF70L": {
+        "type": "string",
+        "value": "Santa Fe Salad"
+      },
+      "Du4yxFxRV": {
+        "type": "string",
+        "value": "260"
+      },
+      "mD5e0_FmL": {
+        "type": "string",
+        "value": "9"
+      },
+      "RxAestyVQ": {
+        "type": "string",
+        "value": "27"
+      },
+      "pSTF6eHFu": {
+        "type": "string",
+        "value": "Salads"
+      },
+      "i9pbPSUve": {
+        "type": "string",
+        "value": "Salad Mix: Romaine Lettuce, Spring Mix, Corn Salsa: Red Bell Pepper, Corn: Corn, Jalapeno Cilantro (old): Fresh Tomatillos, Jalapenos, Kosher Salt: Salt, Garlic, Cilantro: Cilantro, Canola Olive Oil: Canola Oil and Extra Virgin Olive Oil, Kosher Salt: Salt, Cilantro: Cilantro, Lime Juice: Water, Juice Lime: Lime Juice Concentrate, Tomato Ranch: Yogurt Ranch Dressing, Tomato Sundried: Water, Sundried Tomato: Sun Dried Tomatoes, Glucose, Citric Acid, So2, Salt, Pico De Gallo: Roma Tomatoes, Red Onions, Jalapeno Cilantro (old): Fresh Tomatillos, Jalapenos, Kosher Salt: Salt, Garlic, Cilantro: Cilantro, Cilantro: Cilantro, Jalapenos, Garlic: Garlic, Water, Soy Oil, Phosphoric Acid, Sodium Benzoate and Potassium Sorbate Added as Preservatives, Lime Juice: Water, Juice Lime: Lime Juice Concentrate, Kosher Salt: Salt, Tortilla Strips: Tortilla Chips, Soybean Oil: Soybean Oil; Food Grade Antioxidant [Propylene Glycol, Tertiary Butyl Hydroquinone, and Citric Acid], Cheddar Cheese"
+      },
+      "IFoMCHzs_": {
+        "type": "string",
+        "value": "Romaine, spring mix, corn salsa, pico, cheddar, tortilla strips"
+      },
+      "ivojcMHVr": {
+        "type": "string",
+        "value": "Milk, Eggs, Wheat, Soy"
+      },
+      "lentTZd7e": {
+        "type": "string",
+        "value": "vegetarian"
+      },
+      "GZnmQpwkD": {
+        "type": "string",
+        "value": "Romaine and spring mix with corn salsa, pico de gallo, cheddar, tortilla strips and a sundried tomato ranch."
+      },
+      "zG08650jR": {
+        "type": "string",
+        "value": "Is the Santa Fe Salad gluten-free?"
+      },
+      "loB8_cYxl": {
+        "type": "string",
+        "value": "Not as it comes — the tortilla strips contain wheat. Ask for it without the strips and everything else in it is made without gluten-containing ingredients. We cook in a shared kitchen, so we can't guarantee any item is free from gluten cross-contact."
+      },
+      "im_35WFB0": {
+        "type": "string",
+        "value": "Is the Santa Fe Salad vegetarian?"
+      },
+      "lrC33foKY": {
+        "type": "string",
+        "value": "Yes. It contains cheddar and a yogurt-based ranch, so it's vegetarian but not vegan or dairy-free."
+      }
+    }
+  },
+  {
+    "name": "Tossed Kale & Quinoa Salad",
+    "slug": "kale-quinoa-salad",
+    "draft": false,
+    "active": true,
+    "why": "contains yogurt, milk, cheese",
+    "dietNote": null,
+    "fieldData": {
+      "fIwxSF70L": {
+        "type": "string",
+        "value": "Tossed Kale & Quinoa Salad"
+      },
+      "Du4yxFxRV": {
+        "type": "string",
+        "value": "730"
+      },
+      "mD5e0_FmL": {
+        "type": "string",
+        "value": "15"
+      },
+      "RxAestyVQ": {
+        "type": "string",
+        "value": "50"
+      },
+      "pSTF6eHFu": {
+        "type": "string",
+        "value": "Salads"
+      },
+      "i9pbPSUve": {
+        "type": "string",
+        "value": "Quinoa, Tahini Vinaigrette: Canola Olive Oil: Canola Oil and Extra Virgin Olive Oil, Lime Juice: Water, Juice Lime: Lime Juice Concentrate, Plain Yogurt: Cultured Grade A Reduced Fat Milk, Tapioca Starch. Contains Active Yogurt Cultures Including L. Acidophilus., Water, Red Onions, Tahini Paste, Garlic: Garlic, Water, Soy Oil, Phosphoric Acid, Sodium Benzoate and Potassium Sorbate Added as Preservatives, Herb Salt: Kosher Salt: Salt, Oregano, Garbanzo Beans: Prepared Chick Peas, Water, Salt, Calcium Chloride Added As A Firming Agent, and Disodium EDTA Added To Preserve Color., Red Onions, Pepperoncinis: Pepperoncini Pepper, Water, Salt, Acetic Acid, Citric Acid, Sodium Benzoate, Calcium Chloride, Sodium Metabisulfite, Fd&C Yellow #5, Organic Kale, Feta Cheese, Kalamata Style Olive: Olives, Water, Salt, Vinegar,Olive Oil, Sundried Tomato: Sun Dried Tomatoes, Glucose, Citric Acid, So2, Salt"
+      },
+      "IFoMCHzs_": {
+        "type": "string",
+        "value": "Kale, quinoa, garbanzo, pepperoncini, olives, feta"
+      },
+      "ivojcMHVr": {
+        "type": "string",
+        "value": "Milk, Soy, Sesame"
+      },
+      "lentTZd7e": {
+        "type": "string",
+        "value": "vegetarian, gluten-free"
+      },
+      "GZnmQpwkD": {
+        "type": "string",
+        "value": "Kale and quinoa tossed with garbanzo beans, pepperoncini, kalamata olives, sundried tomato, feta and a tahini vinaigrette."
+      },
+      "zG08650jR": {
+        "type": "string",
+        "value": "Is the Tossed Kale & Quinoa Salad gluten-free?"
+      },
+      "loB8_cYxl": {
+        "type": "string",
+        "value": "It's made without gluten-containing ingredients — there's no wheat in it. We cook in a shared kitchen, so we can't guarantee any item is free from gluten cross-contact."
+      },
+      "im_35WFB0": {
+        "type": "string",
+        "value": "Is it vegan?"
+      },
+      "lrC33foKY": {
+        "type": "string",
+        "value": "No. The feta and the yogurt in the tahini vinaigrette make it vegetarian rather than vegan."
+      }
+    }
+  }
+]

@@ -1,0 +1,97 @@
+[
+ {
+  "name": "Fruit & Feta Salad",
+  "active": false,
+  "calories": 260,
+  "protein": 11,
+  "carbs": 20,
+  "fat": 17,
+  "sodium": 490,
+  "fiber": 6,
+  "sugars": 10,
+  "satFat": 6,
+  "servingGrams": 276.8,
+  "allergens": [
+   "Milk",
+   "Tree Nuts",
+   "Peanuts"
+  ],
+  "ingr": "Salad Mix: Romaine Lettuce, Spring Mix, Strawberries, Blueberries, Feta Cheese, Spinach, Sunflower Seeds: Sunflower Kernels, Cottonseed Oil, Salt"
+ },
+ {
+  "name": "Grilled Veggie Salad",
+  "active": false,
+  "calories": 280,
+  "protein": 8,
+  "carbs": 23,
+  "fat": 19,
+  "sodium": 230,
+  "fiber": 8,
+  "sugars": 13,
+  "satFat": 3.5,
+  "servingGrams": 471.9,
+  "allergens": [
+   "Milk",
+   "Sesame"
+  ],
+  "ingr": "Grilled Veggies: Zucchini, Roma Tomatoes, Carrots: Carrots, Red Bell Pepper, Red Onions, Canola Olive Oil: Canola Oil and Extra Virgin Olive Oil, Salad Mix: Romaine Lettuce, Spring Mix, Asiago Cheese: Asiago (Pasteurized Cow's Milk, Cheese Culture, Salt, Enzymes), Powdered Cellulose (Anti-Caking Agent), And Calcium Propionate (Preservative)., Gomo Shio: Sesame Seeds: Sesame Seeds, Kosher Salt: Salt"
+ },
+ {
+  "name": "Multigrain Quinoa Salad",
+  "active": true,
+  "calories": 870,
+  "protein": 19,
+  "carbs": 65,
+  "fat": 60,
+  "sodium": 730,
+  "fiber": 12,
+  "sugars": 7,
+  "satFat": 10,
+  "servingGrams": 608.5,
+  "allergens": [
+   "Milk",
+   "Soy",
+   "Sesame"
+  ],
+  "ingr": "Salad Mix: Romaine Lettuce, Spring Mix, Brown Rice, Quinoa, Tahini Vinaigrette: Canola Olive Oil: Canola Oil and Extra Virgin Olive Oil, Lime Juice: Water, Juice Lime: Lime Juice Concentrate, Plain Yogurt: Cultured Grade A Reduced Fat Milk, Tapioca Starch. Contains Active Yogurt Cultures Including L. Acidophilus., Water, Red Onions, Tahini Paste, Garlic: Garlic, Water, Soy Oil, Phosphoric Acid, Sodium Benzoate and Potassium Sorbate Added as Preservatives, Herb Salt: Kosher Salt: Salt, Oregano, Garbanzo Beans: Prepared Chick Peas, Water, Salt, Calcium Chloride Added As A Firming Agent, and Disodium EDTA Added To Preserve Color., Roma Tomatoes, Avocados, Feta Cheese, Red Onions, Gomo Shio: Sesame Seeds: Sesame Seeds, Kosher Salt: Salt"
+ },
+ {
+  "name": "Santa Fe Salad",
+  "active": true,
+  "calories": 260,
+  "protein": 9,
+  "carbs": 27,
+  "fat": 15,
+  "sodium": 430,
+  "fiber": 7,
+  "sugars": 9,
+  "satFat": 1.5,
+  "servingGrams": 354.5,
+  "allergens": [
+   "Milk",
+   "Eggs",
+   "Wheat",
+   "Soy"
+  ],
+  "ingr": "Salad Mix: Romaine Lettuce, Spring Mix, Corn Salsa: Red Bell Pepper, Corn: Corn, Jalapeno Cilantro (old): Fresh Tomatillos, Jalapenos, Kosher Salt: Salt, Garlic, Cilantro: Cilantro, Canola Olive Oil: Canola Oil and Extra Virgin Olive Oil, Kosher Salt: Salt, Cilantro: Cilantro, Lime Juice: Water, Juice Lime: Lime Juice Concentrate, Tomato Ranch: Yogurt Ranch Dressing, Tomato Sundried: Water, Sundried Tomato: Sun Dried Tomatoes, Glucose, Citric Acid, So2, Salt, Pico De Gallo: Roma Tomatoes, Red Onions, Jalapeno Cilantro (old): Fresh Tomatillos, Jalapenos, Kosher Salt: Salt, Garlic, Cilantro: Cilantro, Cilantro: Cilantro, Jalapenos, Garlic: Garlic, Water, Soy Oil, Phosphoric Acid, Sodium Benzoate and Potassium Sorbate Added as Preservatives, Lime Juice: Water, Juice Lime: Lime Juice Concentrate, Kosher Salt: Salt, Tortilla Strips: Tortilla Chips, Soybean Oil: Soybean Oil; Food Grade Antioxidant [Propylene Glycol, Tertiary Butyl Hydroquinone, and Citric Acid], Cheddar Cheese"
+ },
+ {
+  "name": "Tossed Kale & Quinoa Salad",
+  "active": true,
+  "calories": 730,
+  "protein": 15,
+  "carbs": 50,
+  "fat": 52,
+  "sodium": 1410,
+  "fiber": 10,
+  "sugars": 13,
+  "satFat": 7,
+  "servingGrams": 424.1,
+  "allergens": [
+   "Milk",
+   "Soy",
+   "Sesame"
+  ],
+  "ingr": "Quinoa, Tahini Vinaigrette: Canola Olive Oil: Canola Oil and Extra Virgin Olive Oil, Lime Juice: Water, Juice Lime: Lime Juice Concentrate, Plain Yogurt: Cultured Grade A Reduced Fat Milk, Tapioca Starch. Contains Active Yogurt Cultures Including L. Acidophilus., Water, Red Onions, Tahini Paste, Garlic: Garlic, Water, Soy Oil, Phosphoric Acid, Sodium Benzoate and Potassium Sorbate Added as Preservatives, Herb Salt: Kosher Salt: Salt, Oregano, Garbanzo Beans: Prepared Chick Peas, Water, Salt, Calcium Chloride Added As A Firming Agent, and Disodium EDTA Added To Preserve Color., Red Onions, Pepperoncinis: Pepperoncini Pepper, Water, Salt, Acetic Acid, Citric Acid, Sodium Benzoate, Calcium Chloride, Sodium Metabisulfite, Fd&C Yellow #5, Organic Kale, Feta Cheese, Kalamata Style Olive: Olives, Water, Salt, Vinegar,Olive Oil, Sundried Tomato: Sun Dried Tomatoes, Glucose, Citric Acid, So2, Salt"
+ }
+]
