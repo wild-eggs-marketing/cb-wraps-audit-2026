@@ -1,3 +1,6 @@
+// APPLIED 28 Jul 2026 and verified by read-back. Retained as the record of what
+// changed and why.
+//
 // Corrections to the five salad CMS records, reconciled against the in-store menu
 // board photographed 28 Jul 2026.
 //
