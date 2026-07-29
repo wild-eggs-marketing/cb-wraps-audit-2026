@@ -13,7 +13,7 @@
 const fs = require("fs")
 const path = require("path")
 
-const WORKER = path.join(__dirname, "..", "worker", "worker_v5.js")
+const WORKER = path.join(__dirname, "..", "worker", "worker_v6.js")
 const OUT = path.join(__dirname, "..", "framer", "head-jsonld-snippet.txt")
 const FAQ_IN = "/tmp/faq_v4.json"
 
@@ -42,6 +42,21 @@ const eligible = items.filter(it =>
     !String(it.calories).includes("-")   // variable-macro items have no single figure to publish
 )
 
+// One clause, matched to why the number is provisional. Keyed off the same feed
+// fields the on-page note is built from, so the two can't say different things.
+const schemaCaveat = it => {
+    if (!it.nutritionNote) return ""
+    if (it.category === "Salads")
+        return "Nutrition is for the salad only; the warm tortilla or tortilla chips it is served with are counted separately."
+    if (/-without-chicken/.test(it.dietaryTags || ""))
+        return "Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
+    if (it.dataConfidence === "phantom-unconfirmed")
+        return "These figures have not been reconciled against our current nutrition analysis."
+    if (it.dataConfidence === "unverified-legacy")
+        return "These figures pre-date our current nutrition analysis and are approximate."
+    return "Measured with one grain, protein and sauce option; other combinations differ."
+}
+
 const menuItems = eligible.map(it => {
     const t = tagsOf(it)
     const diets = []
@@ -60,7 +75,14 @@ const menuItems = eligible.map(it => {
             carbohydrateContent: `${it.carbs} g`,
         },
     }
-    if (it.description) entry.description = it.description
+    // The customization caveat travels with the number rather than being dropped:
+    // schema.org has no field for "this figure covers one build of several", and an
+    // answer engine quoting a bare calorie count as definitive is the same failure
+    // as an unqualified vegan claim. Compressed to one clause here — the page
+    // carries the full wording, and the payload has to stay pasteable into
+    // Framer's custom-code box.
+    const desc = [it.description, schemaCaveat(it)].filter(Boolean).join(" ")
+    if (desc) entry.description = desc
     if (diets.length) entry.suitableForDiet = diets
     return entry
 })
@@ -101,6 +123,19 @@ setAnswer("Can I make a Crazy Bowls & Wraps bowl vegan?",
     `because they still contain dairy or honey — the Fajita and Power Bowls have cheese, the Thai Bowl has honey, ` +
     `and the Mediterranean, Pesto and Jerk Bowls have dairy in their sauces. ` +
     `Nutrition shown for all of these is measured with the chicken included.`)
+
+// Regenerated from the feed rather than left hand-written: the previous answer
+// predated the salads and would have gone stale silently, which is how a page
+// starts contradicting its own filters.
+const glutenFree = named(i => tagsOf(i).has("gluten-free"))
+const gfSalads = glutenFree.filter(t => /Salad$/.test(t))
+setAnswer("Does Crazy Bowls & Wraps have gluten-free options?",
+    `Yes — ${glutenFree.length} items on our menu are made without gluten-containing ingredients according to our official allergen analysis: ${list(glutenFree)}. ` +
+    (gfSalads.length
+        ? `The ${list(gfSalads)} come with a gluten-free tahini vinaigrette, but they are served with a warm tortilla or tortilla chips, which contain wheat — ask for yours without. `
+        : "") +
+    `8 of our 9 wrap flavors (BBQ, Buffalo, Caesar, Jerk, Mediterranean, Pesto, Power and Thai) can also be ordered as a Lettuce Wrap instead of a tortilla; Teriyaki is the one exception, because its teriyaki sauce contains wheat even without the tortilla. ` +
+    `Because we cook in a shared kitchen we can't guarantee any item is free from gluten cross-contact, so we don't label items certified gluten-free — if you have celiac disease, please talk to our staff before ordering.`)
 
 setAnswer("What dairy-free options does Crazy Bowls & Wraps have?",
     `${dairyFree.length} items on our menu contain no milk according to our official allergen analysis: ${list(dairyFree)}. ` +

@@ -7,8 +7,15 @@ import { addPropertyControls, ControlType } from "framer"
  * /nutrition-calculator. The calculator itself fetches its data client-side
  * (useEffect + fetch), so its item list, dietary tags, and macros never appear
  * in the page's initial HTML — this component exists specifically so Google and
- * AI answer engines have real, crawlable text to index on first paint, matching
- * the item data curated in NutritionCalculatorSchema.tsx (keep the two in sync).
+ * AI answer engines have real, crawlable text to index on first paint.
+ *
+ * ANSWERS_DEFAULT IS GENERATED. Run `node data/build_quickanswers.cjs` to rebuild
+ * it from the Worker feed; do not hand-edit it. It was hand-maintained until
+ * 28 Jul 2026 and had drifted into claiming the Thai Bowl was vegan (it contains
+ * honey) and that any flavor works as a gluten-free Lettuce Wrap (Teriyaki's sauce
+ * contains wheat) — both already fixed in the calculator's filters at the time.
+ * Text that restates data has to be generated from that data or it goes stale
+ * silently, and this block is the only version of it a crawler ever sees.
  *
  * @framerSupportedLayoutWidth any
  * @framerSupportedLayoutHeight auto
@@ -23,23 +30,23 @@ interface Answer {
 const ANSWERS_DEFAULT: Answer[] = [
     {
         heading: "Gluten-Free",
-        body: "Several bowls are confirmed gluten-free, including the Stir Fry Bowl, Sweet & Sour Bowl, Poke Bowl, Fajita Bowl, Power Bowl, Mediterranean Bowl, Pesto Bowl, and High-Protein Bowl, plus the GF Quinoa Falafel and Garlic Ginger Edamame starters. Any flavor can be ordered as a Lettuce Wrap instead of a flour tortilla for a gluten-free wrap.",
-        examples: "Stir Fry Bowl, Sweet & Sour Bowl, Poke Bowl, High-Protein Bowl, GF Quinoa Falafel",
+        body: "23 items on our menu are made without gluten-containing ingredients, according to our official allergen analysis: Banana, Beans & Rice, Breakfast Bowl, Broccoli with Olive Oil & Herb, Carrots, Fajita Bowl, GF Quinoa Falafel, Garlic Ginger Edamame, High-Protein Bowl, Jerk Bowl, Kale & Quinoa Salad, Mediterranean Bowl, Mixed Veggies, Multigrain Quinoa Salad, Pesto Bowl, Power Bowl, Roasted Cauliflower, Salt & Lime Edamame, Spicy Edamame, Spicy Slaw, Stir Fry Bowl, Sweet & Sour Bowl and Thai Bowl. Eight of our nine wrap flavors — BBQ, Buffalo, Caesar, Jerk, Mediterranean, Pesto, Power and Thai — can be ordered as a Lettuce Wrap on romaine instead of a flour tortilla. Teriyaki is the one exception, because its teriyaki sauce contains wheat even without the tortilla. Our salads come with a gluten-free tahini vinaigrette but are served with a warm tortilla or tortilla chips, which contain wheat, so ask for yours without. We cook in a shared kitchen, so we can't guarantee any item is free from gluten cross-contact and we don't label anything certified gluten-free. If you have celiac disease, please talk to our staff before ordering.",
+        examples: "Fajita Bowl, High-Protein Bowl, Jerk Bowl, Mediterranean Bowl, Pesto Bowl",
     },
     {
         heading: "Dairy-Free",
-        body: "Confirmed dairy-free bowls include the Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Poke Bowl, and Thai Bowl, along with dairy-free edamame starters and vegetable sides.",
-        examples: "Stir Fry Bowl, Teriyaki Bowl, Poke Bowl, Thai Bowl, Garlic Ginger Edamame",
+        body: "19 items contain no milk according to our official allergen analysis: Banana, Broccoli with Olive Oil & Herb, Carrots, Chips, Garlic Ginger Edamame, Healthy Burrito, High-Protein Bowl, Mixed Veggies, Salt & Lime Edamame, Spicy Edamame, Spicy Slaw, Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Teriyaki Edamame, Teriyaki Wrap, Thai Bowl, Thai Wrap and Vegetable Wontons. We cook in a shared kitchen, so we can't guarantee any item is free from dairy cross-contact — ask our staff if it matters for you.",
+        examples: "High-Protein Bowl, Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Thai Bowl",
     },
     {
-        heading: "Vegan",
-        body: "Vegan bowls include the Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, and Thai Bowl, plus vegan sides like Carrots, Broccoli with Olive Oil & Herb, and Mixed Veggies.",
-        examples: "Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Thai Bowl, Mixed Veggies",
+        heading: "Vegan & Vegetarian",
+        body: "Vegan as it comes: Banana, Broccoli with Olive Oil & Herb, Carrots, Chips, Garlic Ginger Edamame, Mixed Veggies, Salt & Lime Edamame, Spicy Edamame, Teriyaki Edamame and Vegetable Wontons. Every item on our menu can also be ordered without the grilled chicken it's built with by default, and ordered that way High-Protein Bowl, Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl and Teriyaki Wrap contain no animal ingredients at all — the calories and protein shown for those are measured with the chicken in, so they'll be lower without it. 11 further items are vegetarian as served rather than vegan, including all three of our salads. Bowls with cheese, dairy sauces or honey — the Fajita and Power Bowls, the Mediterranean, Pesto and Jerk Bowls, and the Thai Bowl — are vegetarian without the chicken rather than vegan.",
+        examples: "High-Protein Bowl (without chicken), Stir Fry Bowl (without chicken), Sweet & Sour Bowl (without chicken), Banana, Garlic Ginger Edamame",
     },
     {
         heading: "High-Protein & GLP-1-Friendly",
-        body: "The High-Protein Bowl leads the menu at 62g of protein for 380 calories. Other protein-forward, portion-conscious picks under 650 calories include the Buffalo Bowl, Caesar Bowl, BBQ Bowl, and most Wraps. These are macro-based picks, not medical advice — check with your doctor or dietitian about what fits a GLP-1 or weight-management plan.",
-        examples: "High-Protein Bowl, Buffalo Bowl, Caesar Bowl, BBQ Bowl, Crispy Chicken Bites",
+        body: "The High-Protein Bowl leads the menu at 62g of protein for 380 calories. 24 items pair at least 25g of protein with 650 calories or fewer, which suits a protein-forward, portion-conscious way of eating: High-Protein Bowl (62g protein, 380 cal), Crispy Chicken Bites (44g protein, 440 cal), Jerk Wrap (42g protein, 560 cal), Teriyaki Bowl (41g protein, 650 cal) and Stir Fry Bowl (40g protein, 530 cal) among them. Where an item is built with grilled chicken by default, that protein figure includes it. These are macro-based picks, not medical advice — check with your doctor or dietitian about what fits a GLP-1 or weight-management plan.",
+        examples: "High-Protein Bowl, Crispy Chicken Bites, Jerk Wrap, Teriyaki Bowl, Stir Fry Bowl",
     },
 ]
 

@@ -1,4 +1,4 @@
-# Exact steps — build `2026-07-27-07`
+# Exact steps — build `2026-07-28-08`
 
 Five steps. Do them in this order. Step 3 is the only place you can tell whether
 it worked, so don't skip it.
@@ -8,24 +8,30 @@ it worked, so don't skip it.
 ## Step 1 — Deploy the Cloudflare Worker
 
 1. Cloudflare dashboard → Workers & Pages → your nutrition worker → **Edit code**
-2. Select all, delete, paste the contents of **`worker/worker_v5.js`**
+2. Select all, delete, paste the contents of **`worker/worker_v6.js`**
 3. **Save and deploy**
 4. Open the worker URL in a browser. You should get JSON starting `[{"id":`.
    If you get a `ReferenceError` page, you have the first build of v5 — get the
    current file and repaste.
 
-What changed: 76 items → **67**. Ten records that were not in your Framer Menu CMS
-are gone (nine `<Flavour> Lettuce Wrap` entries and `Bag of Chips`), replaced by
-the single **Lettuce Wraps** item your CMS actually has. Thirty-seven items now
-carry vegan/vegetarian tags, nineteen of them with a chicken caveat.
+What changed since v5: **67 items → 70**. The three live salads are back —
+Santa Fe, Multigrain Quinoa and Kale & Quinoa. Fruit & Feta and Grilled Veggie
+are `Active=0` in your export and absent from the menu board, so they stay CMS
+drafts and out of the feed.
 
-> **Repaste note.** If you already deployed a v5 earlier today, deploy this one
-> again — the file changed after you confirmed that anything can be ordered
-> without chicken, which added BBQ Quesadilla as vegetarian.
+Also new: **51 of the 70 items now carry a `nutritionNote`** — a plain statement
+of what the published figure does and doesn't include, wherever an ordinary
+customer choice moves the number and we have no measured value for the
+alternative. Salads say the tortilla or chips are counted separately;
+chicken-default items say the figure includes the chicken; items with a grain or
+sauce choice say one option was measured.
+
+> **Repaste note.** Deploy this even if you deployed a v5 today — the salads and
+> every nutritionNote are new.
 
 ## Step 2 — Publish Framer
 
-The calculator component is already updated (build `2026-07-27-07`). Just hit
+The calculator component is already updated (build `2026-07-28-08`). Just hit
 **Publish**.
 
 ## Step 3 — Verify, before you touch anything else
@@ -35,20 +41,20 @@ Open `https://www.crazybowlsandwraps.com/nutrition-calculator`.
 **3a.** Bottom of the page, under the disclaimer, must read:
 
 ```
-build 2026-07-27-07 · 67 items loaded
+build 2026-07-28-08 · 70 items loaded
 ```
 
-If it says `06` or earlier, or `76 items`, one of the first two steps didn't land. Stop and
+If it says `07` or earlier, or `76 items`, one of the first two steps didn't land. Stop and
 redo it. Everything below is meaningless until this line is right.
 
 **3b.** Filter pill counts:
 
 | Filter | Cards |
 |---|---|
-| No filter | **57** |
+| No filter | **60** |
 | Vegan | **14** |
-| Vegetarian | **30** |
-| Gluten-Free | **22** |
+| Vegetarian | **33** |
+| Gluten-Free | **24** |
 | Dairy-Free | **22** |
 | High Protein | 23 |
 | Low Carb | 11 |
@@ -66,6 +72,17 @@ bowl appears with no such line, stop and tell me.
 
 **3e.** Search for **Lettuce Wrap**. You should get **one** card called
 **Lettuce Wraps**, reading `150+ cal`, not nine cards with the same photo.
+
+**3g.** Filter to the **Salads** category — three cards, each with its own photo:
+Santa Fe $9.50, Multigrain Quinoa $9.50, Kale & Quinoa $9.95. Open any of them and
+you should see a **"What this covers"** box under the macro ring explaining that
+the warm tortilla or tortilla chips are counted separately. Open **Santa Fe Salad**
+and that box should also say 260 is a floor, because the menu lists avocado and the
+lab analysis doesn't include it.
+
+**3h.** The four **Quick Answers** cards above the calculator should no longer say
+the Thai Bowl is vegan, and the Vegan card's chips should read "Stir Fry Bowl
+(without chicken)" rather than a bare item name.
 
 **3f.** Dietary filters now appear in the URL. Click **GLP-1 Friendly**, then
 **Gluten-Free**. The address bar should read:
@@ -90,7 +107,7 @@ and it's ~25% smaller than the indented form, which matters if Framer's custom-c
 box has a size ceiling. `head-jsonld-snippet-readable.txt` is the same payload
 indented, for reading and diffing only. Don't paste that one.
 
-It now has 44 menu items (up from 28) and the vegan, dairy-free and
+It now has 47 menu items (up from 44) and the vegan, dairy-free and
 "can I make it vegan" answers are regenerated from the same data the filters use,
 so the two can't drift.
 
@@ -103,10 +120,10 @@ Any item on our menu can also be ordered without the grilled chicken
 
 That sentence exists only in the new payload. If it isn't there, you're still
 serving the old snippet — the paste didn't save, or the publish didn't include it.
-A second check: search `"MenuItem"` and count. New is **44**, old was 28.
+A second check: search `"MenuItem"` and count. New is **47**.
 
 Validate at **validator.schema.org** — paste the page URL. Expect `Menu`,
-44 `MenuItem`, `FAQPage`, 7 `Question`, 0 errors.
+47 `MenuItem`, `FAQPage`, 7 `Question`, 0 errors.
 
 Do **not** use Google's Rich Results Test. `Menu` isn't a rich-result type and
 `FAQPage` rich results have been restricted to government and health sites since
@@ -155,3 +172,8 @@ See `REMAINING.md` for the full list in priority order. The one that still needs
 person rather than a deploy: the vegan/vegetarian tagging on 37 items is derived
 from ingredient statements by rule, not confirmed by your kitchen. The reasoning
 for every item is in `data/v5-tagging-report.tsv` — have someone sign it off.
+
+Four data questions are still open and two of them affect published numbers: the
+Santa Fe avocado, whether your tortilla chips really contain wheat, whether Caesar
+Salad still exists, and whether Fruit & Feta is discontinued. All four are in
+`data/salads-corrections.cjs` under DISCREPANCIES.

@@ -15,7 +15,7 @@
           "proteinContent": "47 g",
           "carbohydrateContent": "96 g"
         },
-        "description": "Caribbean-inspired jerk seasoned chicken over a base of your choice, topped with fresh vegetables and house sauces.",
+        "description": "Caribbean-inspired jerk seasoned chicken over a base of your choice, topped with fresh vegetables and house sauces. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet"
         ]
@@ -29,7 +29,7 @@
           "proteinContent": "43 g",
           "carbohydrateContent": "98 g"
         },
-        "description": "Red pepper, zucchini, pico de gallo, roasted jalapeño, cheddar, avocado, and beans with jalapeño-cilantro sauce. Served with a warm tortilla or chips. Small $8.55 / Regular $9.55.",
+        "description": "Red pepper, zucchini, pico de gallo, roasted jalapeño, cheddar, avocado, and beans with jalapeño-cilantro sauce. Served with a warm tortilla or chips. Small $8.55 / Regular $9.55. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet"
         ]
@@ -43,7 +43,7 @@
           "proteinContent": "62 g",
           "carbohydrateContent": "23 g"
         },
-        "description": "Steamed mixed veggies with double protein, no grain. Choose from regular teriyaki, spicy teriyaki, basil pesto, Thai peanut, olive oil and herb, or garlic ginger sauce. $9.50.",
+        "description": "Steamed mixed veggies with double protein, no grain. Choose from regular teriyaki, spicy teriyaki, basil pesto, Thai peanut, olive oil and herb, or garlic ginger sauce. $9.50. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
@@ -58,7 +58,7 @@
           "proteinContent": "46 g",
           "carbohydrateContent": "71 g"
         },
-        "description": "Spinach, red pepper, zucchini, and asiago stir-fried in house made creamy nut-free basil pesto sauce. Small $7.25 / Regular $8.25.",
+        "description": "Spinach, red pepper, zucchini, and asiago stir-fried in house made creamy nut-free basil pesto sauce. Small $7.25 / Regular $8.25. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet"
         ]
@@ -72,7 +72,7 @@
           "proteinContent": "34 g",
           "carbohydrateContent": "38 g"
         },
-        "description": "Fresh tuna mixed with gluten-free garlic ginger sauce, onion, tomato, and cucumber, topped with avocado and gomo shio on shredded romaine. Served with choice of grain, house made spicy slaw, chips, and sriracha."
+        "description": "Fresh tuna mixed with gluten-free garlic ginger sauce, onion, tomato, and cucumber, topped with avocado and gomo shio on shredded romaine. Served with choice of grain, house made spicy slaw, chips, and sriracha. Measured with one grain, protein and sauce option; other combinations differ."
       },
       {
         "@type": "MenuItem",
@@ -83,7 +83,7 @@
           "proteinContent": "42 g",
           "carbohydrateContent": "92 g"
         },
-        "description": "Romaine, beans, cheddar, avocado, pico de gallo, and corn salsa. Small $7.35 / Regular $8.55.",
+        "description": "Romaine, beans, cheddar, avocado, pico de gallo, and corn salsa. Small $7.35 / Regular $8.55. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet"
         ]
@@ -97,7 +97,7 @@
           "proteinContent": "40 g",
           "carbohydrateContent": "83 g"
         },
-        "description": "Steamed mixed veggies stir-fried in your choice of regular teriyaki, spicy teriyaki, Thai peanut sauce, or olive oil and herb. Small $6.95 / Regular $8.15.",
+        "description": "Steamed mixed veggies stir-fried in your choice of regular teriyaki, spicy teriyaki, Thai peanut sauce, or olive oil and herb. Small $6.95 / Regular $8.15. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
@@ -112,7 +112,7 @@
           "proteinContent": "35 g",
           "carbohydrateContent": "85 g"
         },
-        "description": "Red pepper and onion stir-fried in sweet and sour sauce. Small $7.65 / Regular $8.85.",
+        "description": "Red pepper and onion stir-fried in sweet and sour sauce. Small $7.65 / Regular $8.85. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
@@ -127,7 +127,7 @@
           "proteinContent": "41 g",
           "carbohydrateContent": "110 g"
         },
-        "description": "Steamed mixed veggies with your choice of regular or spicy teriyaki. Small $6.95 / Regular $8.15.",
+        "description": "Steamed mixed veggies with your choice of regular or spicy teriyaki. Small $6.95 / Regular $8.15. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/LowLactoseDiet"
         ]
@@ -141,7 +141,7 @@
           "proteinContent": "45 g",
           "carbohydrateContent": "97 g"
         },
-        "description": "Steamed mixed veggies with house made gluten-free Thai peanut sauce. Small $6.95 / Regular $8.15.",
+        "description": "Steamed mixed veggies with house made gluten-free Thai peanut sauce. Small $6.95 / Regular $8.15. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet",
           "https://schema.org/LowLactoseDiet"
@@ -156,7 +156,7 @@
           "proteinContent": "44 g",
           "carbohydrateContent": "81 g"
         },
-        "description": "Sun-drenched Mediterranean flavors — falafel or grilled chicken, hummus, tabbouleh, olives, and tzatziki.",
+        "description": "Sun-drenched Mediterranean flavors — falafel or grilled chicken, hummus, tabbouleh, olives, and tzatziki. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/GlutenFreeDiet"
         ]
@@ -170,7 +170,7 @@
           "proteinContent": "42 g",
           "carbohydrateContent": "50 g"
         },
-        "description": "Our Caribbean jerk chicken wrapped tight with fresh veggies and pineapple salsa in a warm flour tortilla."
+        "description": "Our Caribbean jerk chicken wrapped tight with fresh veggies and pineapple salsa in a warm flour tortilla. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
       },
       {
         "@type": "MenuItem",
@@ -181,7 +181,7 @@
           "proteinContent": "33 g",
           "carbohydrateContent": "50 g"
         },
-        "description": "Romaine, spicy slaw, and cheddar with BBQ sauce. Choose whole wheat, tomato, or flour tortilla."
+        "description": "Romaine, spicy slaw, and cheddar with BBQ sauce. Choose whole wheat, tomato, or flour tortilla. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
       },
       {
         "@type": "MenuItem",
@@ -192,7 +192,7 @@
           "proteinContent": "34 g",
           "carbohydrateContent": "24 g"
         },
-        "description": "Romaine, cheddar cheese, and house made creamy buffalo sauce. Choose whole wheat, tomato, or flour tortilla. $8.95."
+        "description": "Romaine, cheddar cheese, and house made creamy buffalo sauce. Choose whole wheat, tomato, or flour tortilla. $8.95. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
       },
       {
         "@type": "MenuItem",
@@ -214,7 +214,7 @@
           "proteinContent": "38 g",
           "carbohydrateContent": "38 g"
         },
-        "description": "House made hummus, romaine, sun-dried tomatoes, Kalamata olives, feta, and tzatziki. Choose whole wheat, tomato, or flour tortilla. $8.95."
+        "description": "House made hummus, romaine, sun-dried tomatoes, Kalamata olives, feta, and tzatziki. Choose whole wheat, tomato, or flour tortilla. $8.95. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
       },
       {
         "@type": "MenuItem",
@@ -225,7 +225,7 @@
           "proteinContent": "37 g",
           "carbohydrateContent": "27 g"
         },
-        "description": "Spinach, asiago, red pepper, and zucchini stir-fried in a creamy nut-free basil pesto sauce. Choose whole wheat, tomato, or flour tortilla."
+        "description": "Spinach, asiago, red pepper, and zucchini stir-fried in a creamy nut-free basil pesto sauce. Choose whole wheat, tomato, or flour tortilla. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
       },
       {
         "@type": "MenuItem",
@@ -236,7 +236,7 @@
           "proteinContent": "34 g",
           "carbohydrateContent": "56 g"
         },
-        "description": "Steamed mixed veggies with house made teriyaki sauce. Choose whole wheat, tomato, or flour tortilla. $8.95.",
+        "description": "Steamed mixed veggies with house made teriyaki sauce. Choose whole wheat, tomato, or flour tortilla. $8.95. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/LowLactoseDiet"
         ]
@@ -250,7 +250,7 @@
           "proteinContent": "38 g",
           "carbohydrateContent": "43 g"
         },
-        "description": "Spicy slaw and spinach with house made gluten-free Thai peanut sauce. Choose whole wheat, tomato, or flour tortilla. $8.95.",
+        "description": "Spicy slaw and spinach with house made gluten-free Thai peanut sauce. Choose whole wheat, tomato, or flour tortilla. $8.95. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower.",
         "suitableForDiet": [
           "https://schema.org/LowLactoseDiet"
         ]
@@ -264,7 +264,7 @@
           "proteinContent": "23 g",
           "carbohydrateContent": "1 g"
         },
-        "description": "Fresh cracked eggs topped with cheddar cheese and your choice of grain, protein, and salsa. Tortilla on the side.",
+        "description": "Fresh cracked eggs topped with cheddar cheese and your choice of grain, protein, and salsa. Tortilla on the side. Measured with one grain, protein and sauce option; other combinations differ.",
         "suitableForDiet": [
           "https://schema.org/VegetarianDiet",
           "https://schema.org/GlutenFreeDiet"
@@ -279,7 +279,7 @@
           "proteinContent": "23 g",
           "carbohydrateContent": "1 g"
         },
-        "description": "Fresh cracked eggs and cheddar cheese wrapped with your choice of grain, protein, and salsa.",
+        "description": "Fresh cracked eggs and cheddar cheese wrapped with your choice of grain, protein, and salsa. Measured with one grain, protein and sauce option; other combinations differ.",
         "suitableForDiet": [
           "https://schema.org/VegetarianDiet"
         ]
@@ -341,7 +341,7 @@
           "proteinContent": "36 g",
           "carbohydrateContent": "39 g"
         },
-        "description": "Beans, romaine, cheddar, corn salsa, avocado, and pico de gallo. Choose whole wheat, tomato, or flour tortilla."
+        "description": "Beans, romaine, cheddar, corn salsa, avocado, and pico de gallo. Choose whole wheat, tomato, or flour tortilla. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
       },
       {
         "@type": "MenuItem",
@@ -363,7 +363,7 @@
           "proteinContent": "50 g",
           "carbohydrateContent": "70 g"
         },
-        "description": "Grilled chicken, cheddar, and BBQ sauce in a crispy quesadilla."
+        "description": "Grilled chicken, cheddar, and BBQ sauce in a crispy quesadilla. Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
       },
       {
         "@type": "MenuItem",
@@ -389,7 +389,7 @@
           "proteinContent": "12 g",
           "carbohydrateContent": "37 g"
         },
-        "description": "Gluten-free quinoa falafel served with hummus and tzatziki for dipping.",
+        "description": "Gluten-free quinoa falafel served with hummus and tzatziki for dipping. Measured with one grain, protein and sauce option; other combinations differ.",
         "suitableForDiet": [
           "https://schema.org/VegetarianDiet",
           "https://schema.org/GlutenFreeDiet"
@@ -569,7 +569,7 @@
           "proteinContent": "21 g",
           "carbohydrateContent": "11 g"
         },
-        "description": "Fresh cracked eggs with onion, red pepper, and roasted salsa wrapped with your choice of grain, protein, and tortilla.",
+        "description": "Fresh cracked eggs with onion, red pepper, and roasted salsa wrapped with your choice of grain, protein, and tortilla. Measured with one grain, protein and sauce option; other combinations differ.",
         "suitableForDiet": [
           "https://schema.org/VegetarianDiet",
           "https://schema.org/LowLactoseDiet"
@@ -584,7 +584,7 @@
           "proteinContent": "34 g",
           "carbohydrateContent": "67 g"
         },
-        "description": "Grilled chicken and steamed broccoli over brown rice with teriyaki sauce — a wholesome kid-sized bowl. $8.95."
+        "description": "Grilled chicken and steamed broccoli over brown rice with teriyaki sauce — a wholesome kid-sized bowl. $8.95. Measured with one grain, protein and sauce option; other combinations differ."
       },
       {
         "@type": "MenuItem",
@@ -595,7 +595,7 @@
           "proteinContent": "39 g",
           "carbohydrateContent": "89 g"
         },
-        "description": "Teriyaki chicken and brown rice wrapped in a flour tortilla with teriyaki sauce — a kid-sized wrap they'll ask for again. $8.95."
+        "description": "Teriyaki chicken and brown rice wrapped in a flour tortilla with teriyaki sauce — a kid-sized wrap they'll ask for again. $8.95. Measured with one grain, protein and sauce option; other combinations differ."
       },
       {
         "@type": "MenuItem",
@@ -607,6 +607,50 @@
           "carbohydrateContent": "73 g"
         },
         "description": "Crispy wontons stuffed with creamy lobster and cream cheese filling, served with sweet chili sauce."
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Multigrain Quinoa Salad",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "870 calories",
+          "proteinContent": "19 g",
+          "carbohydrateContent": "65 g"
+        },
+        "description": "Quinoa and brown rice over mixed greens with tomato, garbanzo beans, avocado, red onion, feta and goma shio, in a gluten-free tahini vinaigrette. Served with a warm tortilla or tortilla chips. Nutrition is for the salad only; the warm tortilla or tortilla chips it is served with are counted separately.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Santa Fe Salad",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "260 calories",
+          "proteinContent": "9 g",
+          "carbohydrateContent": "27 g"
+        },
+        "description": "Mixed greens with corn salsa, pico de gallo, tortilla strips, cheddar and avocado, in a tomato ranch dressing. Served with a warm tortilla or tortilla chips. Nutrition is for the salad only; the warm tortilla or tortilla chips it is served with are counted separately.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet"
+        ]
+      },
+      {
+        "@type": "MenuItem",
+        "name": "Kale & Quinoa Salad",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "730 calories",
+          "proteinContent": "15 g",
+          "carbohydrateContent": "50 g"
+        },
+        "description": "Chopped kale and quinoa with feta, sundried tomato, garbanzo beans, pepperoncini, red onion and kalamata olives, in a gluten-free tahini vinaigrette. Served with a warm tortilla or tortilla chips. Nutrition is for the salad only; the warm tortilla or tortilla chips it is served with are counted separately.",
+        "suitableForDiet": [
+          "https://schema.org/VegetarianDiet",
+          "https://schema.org/GlutenFreeDiet"
+        ]
       }
     ]
   },
@@ -619,7 +663,7 @@
         "name": "Does Crazy Bowls & Wraps have gluten-free options?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Several bowls are made without gluten-containing ingredients — the Stir Fry Bowl, Sweet & Sour Bowl, Thai Bowl, Poke Bowl, Fajita Bowl, Power Bowl, Mediterranean Bowl, Pesto Bowl, Jerk Bowl and High-Protein Bowl — along with our GF Quinoa Falafel and all four edamame starters. 8 of our 9 flavors (BBQ, Buffalo, Caesar, Jerk, Mediterranean, Pesto, Power and Thai) can also be ordered as a Lettuce Wrap instead of a tortilla; Teriyaki is the one exception, because its teriyaki sauce contains wheat even without the tortilla. Because we cook in a shared kitchen we can't guarantee any item is free from gluten cross-contact, so we don't label items certified gluten-free — if you have celiac disease, please talk to our staff before ordering."
+          "text": "Yes — 23 items on our menu are made without gluten-containing ingredients according to our official allergen analysis: Banana, Beans & Rice, Breakfast Bowl, Broccoli with Olive Oil & Herb, Carrots, Fajita Bowl, GF Quinoa Falafel, Garlic Ginger Edamame, High-Protein Bowl, Jerk Bowl, Kale & Quinoa Salad, Mediterranean Bowl, Mixed Veggies, Multigrain Quinoa Salad, Pesto Bowl, Power Bowl, Roasted Cauliflower, Salt & Lime Edamame, Spicy Edamame, Spicy Slaw, Stir Fry Bowl, Sweet & Sour Bowl and Thai Bowl. The Kale & Quinoa Salad and Multigrain Quinoa Salad come with a gluten-free tahini vinaigrette, but they are served with a warm tortilla or tortilla chips, which contain wheat — ask for yours without. 8 of our 9 wrap flavors (BBQ, Buffalo, Caesar, Jerk, Mediterranean, Pesto, Power and Thai) can also be ordered as a Lettuce Wrap instead of a tortilla; Teriyaki is the one exception, because its teriyaki sauce contains wheat even without the tortilla. Because we cook in a shared kitchen we can't guarantee any item is free from gluten cross-contact, so we don't label items certified gluten-free — if you have celiac disease, please talk to our staff before ordering."
         }
       },
       {

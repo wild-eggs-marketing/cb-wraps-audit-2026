@@ -1,5 +1,5 @@
 const fs=require('fs')
-const src=fs.readFileSync(require('path').join(__dirname,'..','worker','worker_v5.js'),'utf8')
+const src=fs.readFileSync(require('path').join(__dirname,'..','worker','worker_v6.js'),'utf8')
 const i=src.indexOf('const MENU_DATA = ')
 const start=src.indexOf('[', i)
 // find matching close bracket
