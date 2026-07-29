@@ -7,11 +7,11 @@
   "cta_destination": "per-store Toast catering URL from wildeggs-catering-growth/data/store-urls.csv, never EZ Cater",
   "sender_email_account_id": "LINK elle@wildeggs.com IN APOLLO, THEN PASTE ITS ACCOUNT ID",
   "sequences": {
-    "champion-recoverable": "CREATE WITH WILD EGGS VOICE (3 touches / 10 days)",
-    "champion-lost-cause": "CREATE (single touch, 30-day response window, then archive)",
-    "winback": "",
-    "warm-nudge": "",
-    "cold-reintro": ""
+    "champion-recoverable": "6a6a3fb62cfca9001424cf07",
+    "champion-lost-cause": "6a6a3fbe856b9400107fba19",
+    "winback": "6a6a3fc02cfca9000ce6c783",
+    "warm-nudge": "6a6a3fc94f036a0010d9666d",
+    "cold-reintro": "6a6a3fce1dfd6f0018cb9ec6"
   },
   "custom_fields": {
     "note": "Contact custom fields for per-store routing; merge tags {{we_store_name}} etc. Values writable via PUT /contacts/{id} typed_custom_fields (works now that fields are typed 'string').",
