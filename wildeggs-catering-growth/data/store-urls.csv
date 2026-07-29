@@ -1,18 +1,18 @@
 ez_cater_store_name,toast_catering_url,toast_slug,notes
-Dupont,https://www.toasttab.com/catering/wild-eggs-dupont/?mode=fulfillment,wild-eggs-dupont,Confirmed
+Avon,https://www.toasttab.com/catering/wild-eggs-avon/?mode=fulfillment,wild-eggs-avon,Confirmed from wildeggs.com location page 2026-07-29
 Bowling Green,https://www.toasttab.com/catering/wild-eggs-bowling-green/?mode=fulfillment,wild-eggs-bowling-green,Confirmed
-Westport,https://www.toasttab.com/catering/wildeggs-westport/?mode=fulfillment,wildeggs-westport,Slug is wildeggs-westport (no hyphen between eggs and westport) - verify against live Toast
-Mercantile,https://www.toasttab.com/catering/wild-eggs-mercantile/?mode=fulfillment,wild-eggs-mercantile,Downtown Louisville. Verify slug is mercantile not downtown-louisville
-Jtown,https://www.toasttab.com/catering/wild-eggs-j-town/?mode=fulfillment,wild-eggs-j-town,Slug hyphenation: j-town not jtown
-Landis,https://www.toasttab.com/catering/wild-eggs-landis-lakes/?mode=fulfillment,wild-eggs-landis-lakes,Slug is landis-lakes not middletown
-New Albany,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Jeffersonville,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Evansville,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Carmel,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Pulliam,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Fishers,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Avon,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Greenwood,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Oakley,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-Queen City Wild Eggs,https://wildeggs.com/catering,,FALLBACK - Toast catering slug not confirmed
-_fallback,https://wildeggs.com/catering,,General Wild Eggs catering URL - use whenever a store's specific Toast catering URL is not confidently mapped
+Carmel,https://www.toasttab.com/catering/wild-eggs-carmel/?mode=fulfillment,wild-eggs-carmel,Confirmed from wildeggs.com location page 2026-07-29
+Dupont,https://www.toasttab.com/catering/wild-eggs-dupont/?mode=fulfillment,wild-eggs-dupont,Confirmed
+Evansville,https://www.toasttab.com/catering/wild-eggs-evansville/?mode=fulfillment,wild-eggs-evansville,Confirmed 2026-07-29 (site link lacked mode=fulfillment; param added for consistency)
+Fishers,https://www.toasttab.com/catering/wild-eggs-fishers/?mode=fulfillment,wild-eggs-fishers,Confirmed from wildeggs.com location page 2026-07-29
+Greenwood,https://www.toasttab.com/catering/wild-eggs-greenwood/?mode=fulfillment,wild-eggs-greenwood,Confirmed from wildeggs.com location page 2026-07-29
+Jtown,https://www.toasttab.com/catering/wild-eggs-j-town/?mode=fulfillment,wild-eggs-j-town,Confirmed (Jeffersontown page)
+Jeffersonville,https://www.toasttab.com/catering/wild-eggs-jeffersonville/?mode=fulfillment,wild-eggs-jeffersonville,Confirmed from wildeggs.com location page 2026-07-29
+Landis,https://www.toasttab.com/catering/wild-eggs-landis-lakes/?mode=fulfillment,wild-eggs-landis-lakes,Confirmed (Middletown page)
+Mercantile,https://www.toasttab.com/catering/wild-eggs-mercantile/?mode=fulfillment,wild-eggs-mercantile,Confirmed (downtown Louisville page)
+New Albany,https://www.toasttab.com/catering/wild-eggs-new-albany/?mode=fulfillment,wild-eggs-new-albany,Confirmed from wildeggs.com location page 2026-07-29
+Oakley,https://www.toasttab.com/catering/wild-eggs-oakley/?mode=fulfillment,wild-eggs-oakley,Confirmed from wildeggs.com location page 2026-07-29
+Pulliam,https://www.toasttab.com/catering/wild-eggs-pulliam/?mode=fulfillment,wild-eggs-pulliam,Confirmed (downtown Indianapolis page)
+Queen City Wild Eggs,https://www.toasttab.com/catering/wild-eggs-queen-city/?mode=fulfillment,wild-eggs-queen-city,Confirmed (downtown Cincinnati page)
+Westport,https://www.toasttab.com/catering/wildeggs-westport/?mode=fulfillment,wildeggs-westport,Confirmed - slug really is wildeggs-westport (no hyphen)
+_fallback,https://wildeggs.com/catering,,General catering page - only if a store ever fails to map
