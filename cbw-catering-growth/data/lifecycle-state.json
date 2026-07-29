@@ -1,0 +1,3434 @@
+{
+ "#1365-mccauley-animal-clinic": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "12303-depaul-drive": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "4565-mckinley-ave": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "65-prime-plus-by-mercy": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "[removed]": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "aaim-employers-association": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "ac-central-west-hotel": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "accent-group-solutions": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "accenture-federal-services": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "acera-surgical": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "adapthealth---mercy-clinic-primary-care---water-tower-place": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "advanced-heart-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "advantage-solutions": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "afb": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "afb-international": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "affinia-healthcare": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "alberici": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "alberici---st-louis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "alberici-constructors": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "alltru-cu": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "amazon-stl8": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "amdocs": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "ameren": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "ameren---north-metro-operating-center": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "american-family-insurance": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "americas-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "americas-center-convention-complex": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "americas-center-convention-complex-loading-dock": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "anderson-med-group---dr-dean-schueler": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "anderson-medical-group": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "anderson-medical-group--gastroenterology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "anderson-medical-group-gastroenterology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "anheuser-busch": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "ansira---attn:-heather-reed": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "apg": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "api-innovation-center": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "arch-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "archbridge-family-office": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "arco-business-services": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "arcturis": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "arnold-eyecare": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "ascension": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "ashley-homestore": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ashley-homstore-dsg": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "aspire-software": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "associated-couriers": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "associated-physicians-group": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "atandt": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "atb-technologies": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "ati-restoration": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "axiom-administration-services": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "azimuth-renewables": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "ballas-dental-care": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "baram-psychiatry": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "barnes-jewish": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "barnes-jewish-hospital-main-campus": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "barnes-jewish-hospital-main-campus-meet-in-main-lobby": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "barnes-jewish-hospital-pod-5": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "bauer-hall-bauer-leaders-academy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "becker-library": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "becker-library----washu-medical-school": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "behavioral-health-urgent-care": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "benefit-finance-partners": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "active"
+ },
+ "benefit-finance-partners-llc": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "best-western-plus": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "best-western-plus---drury-womens-basketball": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjc-coe-building": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "bjc-edwardsville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjc-home-care": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "bjc-medical-group": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "bjc-medical-group-at-st-peters": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjc-medical-group-of-illinois": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjc-medical-group-orthopedics-and-sports-medicine-at-belleville": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "bjc-o-fallon-family": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjc-ob-gyn": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjc-outpatient-center-at-edwardsville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjc-primary-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjc-wentzville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bjcmg-cardiology-wentzville---metro-heart-group": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "boeing-institute-of-ib-at-slu": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "boys-and-girls-clubs-of-greater-st-louis": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "building-b-suite-40--urology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "burns-and-mcdonnell": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "busch-stadium---visiting-clubhouse": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "busey-bank": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "butcherjoseph-and-co-llc": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "caduceus-corporation-pulmonary-and-sleep-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "caleres": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "caleres-headquarters": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "cambridge-air-solutions": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "cancer-care-specialists": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cancer-care-specialists-of-illinois": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cancer-center-2nd-floor": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cancercare-specialist": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cannon-design": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cantor-injury-law-llc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "capybio": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "caravus": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "carboline-global-inc": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "cardiac-cath-lab": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cardiac-cath-lab--first-floor": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cardinal-glennon-childrens-hospital": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "cardio-pulmonary": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "cardio-pulmonary-consultants": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "carmody-macdonald": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "cass": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "castle-contracting": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "cath-lab": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cca-global": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "cedarhurst-senior-living": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "centene": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "center-for-advanced-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "center-for-career-engagement": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "center-for-gastrointestinal-health": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "centerpointe-out-patient": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "central-bank:-leanne-wright": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "cerro-flow-products": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "chaifetz": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "chaifetz-arena": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "champions-center--chaifeitz-arena": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "champions-center-chaifetz-arena": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "chase-park-plaza-saint-louis-chess-club": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "chesnut-health-systems": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "chesterfield-cardiology-dr-baig": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "chesterfield-counseling-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "chestnut-health": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29",
+   "winback": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "chestnut-health-systems": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "chicago-fire-fc---st-louis-city": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "christina-white-salon": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "christner-architects": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cic": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "cic-@-cet": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "city-academy": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "city-of-sunset-hills": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "clayton-police-department": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "clementines-ice-cream": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "cloud5": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "club-fitness": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "colibri-group": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "color-art-integrated-interiors": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "commerce-connect": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "community-and-long-term-care-psychiatry-(dr-graypel-office)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "community-and-long-term-care-psychiatry-llc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "community-and-lt-care-psychiatry": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "compass-retirement-solutions": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "concordia-seminary-st-louis": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "confluence-academies": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "contemporary-art-museum-st-louis": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "core-and-main": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29",
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "corporate-hill---training-room---diningrd": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "counselors-associates-ltc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "counsilman-hunsaker": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "courtyard-marriot-st-louis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cpm-urology-(3rd-floor)-suite-330": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "crb-group": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "creve-couer-soccer-complex": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "crossroads-veterinary-hospital": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "csg-solutions": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "curium": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "cusd-187": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "danforth-university-center": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "deaconess-foundation": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "dedicated-senior-medical-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "delmar-divine": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "deloitte": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "deluxe-dermatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "derm-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dermcare": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "diabetes-and-endocrinology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "diploma-in-climate-medicine---univ-of-colorado": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "distinctive-dermatology": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "distribution-management": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "distribution-management-(dm)": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "distribution-management-inc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dowd-bennett-law-firm": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-ahmed": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "dr-alonso---neurology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-baram": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dr-capps-office": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-coyne": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-ettinger": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "dr-hill": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-joshua-binek": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-keller-suite-222": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dr-lottes-and-houser": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-melvin": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "dr-michael-snyder": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "dr-pai": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dr-pais-office": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dr-panjeton---pain-management-office": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "dr-salama": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-sills-powell-podiatry": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-terkonda": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-usry-suite-142": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "dr-wade-sihf": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-wang": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dr-wood-md-endocrine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "drummond-hall": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "drury-hotel-brentwood": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "drury-hotels-corporate-office": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "drury-inn-and-suites": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "drury-inn-arnold": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "easterseals-midwest": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "eden-theological-seminary": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "education-plus": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "edward-jones": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "embody-her-health": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "enterprise-mobilit": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "enterprise-mobility": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "enterprise-rent-a-car": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "epiphany-dermatology": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "equifax": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "erin-hogg-@-washington-university-school-of-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ernst-and-young": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "ess-health-urology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "esse-health": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "esse-primary-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "esse-richmond-heights": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "esse-south": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "eurofins-st-louis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "evernorth---cigna": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "experitec": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "eyecare-partners": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "fabick-cat": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "faith-oakville": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "family-eye-care-of-ofallon": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "family-health-care-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "family-practice-belleville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "farnsworth-group": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "fgm-architects": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "fit-flavors": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "fm": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "focus-partners-wealth": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "forefront-dermatology": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29",
+   "winback": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "forest-park-dialysis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "forvis-mazars": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "ftl-finance": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "garmin": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "gateway-region-ymca": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "gateway-region-ymca---association-resource-office": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "gatewood-wealth-solutions": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "geneoscopy": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "gephardt-institute": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "getixco": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "golding-inc": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "goodwill-outlet": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "grace-design-studios": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "grant-medical-and-diabetes-associates": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "guarantee-electrical-construction-compa": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "gulfstream": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "gulfstream--alicia-beals": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "habitat-for-humanity-saint-louis": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "harness-dickey-pierce": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "hartwig": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "heart-care-institute": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "heartland-dental": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "heartland-women\u2019s-healthcare": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hermann-statdium": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hidden-arches": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hilton-at-the-ballpark": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hilton-frontenac": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "hilton-st-louis-at-the-ballpark": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "his-and-hers": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "hntb": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "hok-st-louis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hope-clinic": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "horner-shifrin": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "houston-dynamo-2---energizer-stadium": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hshs---fairview-heights---family-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hshs-family-and-sports-medicine": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "hshs-family-medicine": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "hshs-maryville-primary-care": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "hshs-med-group---ofallon-family-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hshs-medical-group": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "hshs-medical-group-wound-clinic---ofallon": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hshs-st-elizabeths-neurology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "hshs-st-elizabeth\u2019s-hospital-(o\u2019fallon-il)": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "hshs-st-elizabeth\u2019s-neurology": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "hte-technologies": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "hub": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "hunter-engineering": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "hunter-engineering---c-o-jim-t": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "active"
+ },
+ "hunter-engineering---c-o-jim-tworek": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "hunter-engineering---c-o-joy-s": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "icl": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "icl-group": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "icl-specialty-products": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "ideal-eye-surgery": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "ignacio-hall": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "impact-group": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "indiana-state-softball": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "insperity": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "introba": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "isc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "jacobs": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "jema": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "jewish-community-center": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "jim-butler-chevrolet": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "jmanda-group": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "jp-morgan-chase": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "juniper-pharmacy": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "kci-construction-company": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "keg1-missouri": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "kelly-baseball-field": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "kennedy-capital-management": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "kilkowski": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "kindbody-st-louis": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "kindeva": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "kipp-high-school": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "kipp-st-louis": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "kipp-st-louis-high": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "kipp-wonder-academy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "kirkwood-childrens-house": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "kirkwood-high-school": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "korte-stadium": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ladue-fifth-grade-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ladue-horton-watkins-high-school": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "ladue-school-district": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "lafayette-preparatory-academy": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "larson-financial-group": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "lashly-and-baer-pc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "legal-concierge": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "lemonaid-pharmacy": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "leonardo-drs": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "less-annoying-crm": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "lexicon": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "liberty-middle-school": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "lift-for-life-academy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "loading-dock-of-enterprise-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "long-term-psych": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "lou-fusz-soccer-complex": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "lou-fusz-soccer-complex--field-#6": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "mackey-mitchell-architects": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "marriott-st-louis-west": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "martone-legal-llc": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "maryville-lacrosse-field-(uah-womens-lacrosse)": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "maryville-womens-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mastercard": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "maxfi-surgical-simulations": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "mccarthy-@-courtyard-hotel": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "mccarthy-building-companies-inc": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "medical-specialists-of-st-lukes": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "memorial-hospital": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "memorial-hospital-belleville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "meramac-dermatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "meramec-dermatology": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "mercy": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "mercy--dr-christopher-abercrombie": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "mercy-cancer-center-radiation-oncology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-clinic--dr-moore--dr-doerr": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-clinic-internal-medicine---dr-yang": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "mercy-clinic-oncology-and-hematology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-clinic-oncology-and-hematology-\u2013-pratt": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "mercy-clinic-pediatrics": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-clinic-primary-care---des-peres---dr-hilgeman": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-clinic-primary-care---suite-214": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-clinic-primary-care-\u2013-jungermann": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-creve-coeur": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-david-c-pratt-cancer-center-hematology-and-oncology-deptartment": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "mercy-dr-levey": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "mercy-endocrinology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-gastroenterology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "mercy-hospital-south": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-hyperbaric-and-wound-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-ibd-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-im": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-internal-med": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-kids-clinic": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "mercy-neurology": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "mercy-ob-gyn": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "mercy-oncology-suite-120": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "mercy-primary-care": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "mercy-primary-care-2nd-fl": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "mercy-sindelar-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-south": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-south-gastroenterology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-south-hospital---hospitalist-office": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "mercy-south-oncology-and-hematology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "mercy-south-wound-care-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-sunset-obgyn": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercy-urology": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "metro-east-dermatology": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "mg+m-the-law-firm": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "microsoft": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "microsoft-cortex": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mid-america-transplant": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "mid-america-transplant-avis-causey": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "midwest-chest": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "midwest-ent-centre": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "midwest-sinus-sleep": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "midwest-sleep-sinus-and-allergy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "milliporesigma---dekalb": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "milliporesigma---ewing": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "milliporesigma-_-broadway": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "missouri-baptist-cancer-center": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "missouri-baptist-hospital": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "missouri-baptist-hospital-(building-d)": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "missouri-baptist-medical-center": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "missouri-baptist-neurology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "missouri-veterinary-dermatology-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mitek": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mlb-network-apple-tv---st-louis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "modern-litho": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "momentum-tower-grove-south": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "moneta": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "mrhfm--st-louis": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "mu-extension-center-on-the-umsl-campus-(regional-center-for-education-and-work)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "musick-dermatology": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "nashville-sc": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "nephrology-and-hypertension-specialist": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "nestle-it": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "nestle-purina": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "nestle-purina-pet-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "nestle-purina-petcare": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "nestle-purina-petcare---e-bldg": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "nestle-purina-petcare---tower-building": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "nestle-purina-petcare-co": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "nestle-purina-petcare-company": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "neurology-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "nicki-powell": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "nortek-global-hvac---rheem": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "north-kirkwood-middle-school": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "novus-health": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "nutriformance": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "oakville-dental-care": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "obgyn-office-dr-frank-patrick": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "octarine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ofallon-dermatology-specialists": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "office-buliding-2": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "office-of-dr-ahmad": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "olin-business-school": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "onyx-spine-and-orthopedic": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "optimist-international": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "pandg": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "paric-llc": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "parkcrest-plastic-surgery": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "patient-pick-up-cardiac-cath-lab": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "peabody-plaza-\u2014\u00a0mercer": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "pear-tree-inn": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "peoples-behavioral-health": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "peoples-national-bank": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "perimeter-solutions": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "perschbacher-dermatology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "phoenix-creative": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "phx-creative": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "physicians-pain-services": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "pink": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "plancorp": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "plancorp-llc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "plancorp-wealth-management": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "political-science-department-at-washu": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "potter-global-technologies": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "powers-group-inc": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "practicelink": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "preferred-family-healthcare": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "preferred-family-helthcare": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "pricewaterhousecoopers": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "procter-and-gamble-mfg": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "provident-behavioral-health": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "pulmonary-consultants": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "purina": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "pwc": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "quantum-vision-center-dr-wigton": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "rabo-agrifinance": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "radiation-oncology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "ranken-jordan-pediatric-bridge-hospital": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "rdg-design-and-planning": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "rdg-planning-and-design": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "regional-eyecare": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "remiger-design": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "renaissance-financial": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "renaissance-plastic-surgery": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "rga": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "rga---attn-kelly-hessler-rm-718": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "ritz-carlton:-guest-jed-tuminaro": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "rnaissance-ag": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "robert-r-hermann-stadium": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "roeslein-and-associates-": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "rosemann-and-associates": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "rosenblum-goldenhersh-pc": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29",
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "rottler-pest-solutions": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "royal-canin": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "rung-for-women": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "rural-family-medical-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "saint-louis-chess-club": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "saint-louis-mhb": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "saint-louis-rheumatology": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "saint-louis-university": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "saint-louis-university-hospital": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "saint-louis-university-school-of-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "saint-louis-university-school-of-medicine---center-for-educator-development-advancement-and-research": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "saint-louis-zoo---the-living-world": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "saint-peters-pharmacy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "school-of-social-work": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "schweiger-derm": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "scott-air-force-base": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "scott-morrison": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "sensient-colors": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "sensient-colors-llc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "serenity-health": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "service-metal": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "sevens-building-maryville-consulting-group": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "siemens": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "signature-ortho-dr-olson": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "sihf": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "sihf-belleville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "sihf-bellivelle-circle-ii": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "sihf-cardiology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "sihf-healthcare": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "silverback-brentwood-studios": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "simon-law-firm": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "slu": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "slu-baseball-field": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "slu-care-plastic-and-reconstructive-surgery": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "slu-doisy-college-of-health-sciences": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "slucare-orthopedic-surgery": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "slucare-physician-group": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "slucare-surgery---hannah": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "slucare-surgery---laura": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "solvay": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "somers-hall;-danforth-campus-washington-univ-st-louis": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "sound-health-services": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "southampton-healthcare": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "southern-illinois-associates": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "southern-illinois-behavioral-health": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "southside-family-practice": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "spark-coworking---st-louis": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "special-school-district-of-st-louis-county": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "specialists-in-dermatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "specialists-in-gastroenterology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "spectrum-brands": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "spectrum-charter-communications": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "spencer-fane-llp": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "springhill-suites-earth-city": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "springhill-suites-st-louis-airport-earth-city": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "ssm-cardinal-glennon-childrens-hospital": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "ssm-health-saint-louis-university-school-of-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ssm-slucare-academic-pavilion": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ssm-st-joseph-hospital": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ssm-st-marys": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "st-clare-hospital": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeths-cath-lab-and-ep-lab-in-hospital": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "st-louis-ballet": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-louis-behavioral-medicine-institute": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "st-louis-childrens-hospital": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "st-louis-city-training-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-louis-city-training-facility": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "st-louis-cosmetic-surgery": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "st-louis-healthcare-(dr-muckermann-office)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-louis-heart-and-vascular": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "st-louis-lambert-international-airport": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-louis-medical-clinic": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "st-louis-music": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "active"
+ },
+ "st-louis-rheumatology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "st-louis-skin-solutions": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "st-louis-trust-and-family-office": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-louis-urology---st-peters": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "st-lous-gastroenterology-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-lukes-chesterfield-cardiology-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-lukes-multispecialty": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "st-lukes-neurology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-lukes-urology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-lukes-urology-suite-24b": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-luke\u2019s-clinic-of-internal-medicine": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "st-luke\u2019s-endocrinology-ste109b": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "st-luke\u2019s-hospital--east-medical-building": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "st-luke\u2019s-internal-medicine-504a": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-mary\u2019s-hospital": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "steffenauer-home": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "steffenauer-residence": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "stifel": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "stl-athletic-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "stl-city-sc": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "stl-fertility": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "stl-zoo-living-world": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "stlcc-and-silverback-brentwood-studios": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "strive-pharmacy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "subtext": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "swansea-internal-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "swt-design": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "synergi-medspa": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "sysco-foods": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "t-rex": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "t-rex-hotel": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "talisen-technologies-inc": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "active"
+ },
+ "tanoli": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "target": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "target-ofallon": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tarlton-corporation": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "tarlton-corportation": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "teach-for-america-st-louis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "techartista": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "techartista-foundation": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "the-bud-dome": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-chase-park-plaza-hotel": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "the-city-of-st-charles-school-district": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "the-clayton-engineering-company-inc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-crossing-at-fenton": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "the-crossing-at-grants-trail": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "the-crossing-church": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "the-crossing-church-at-fenton": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-dover-companies": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "the-hub": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "the-lawrence-group": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "the-living-world-entrance": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "the-purser-center-@-logan-university": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "the-rehabilitation-institute-of-southern-illinois": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-residence-inn-downtown-st-louis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-retina-institue": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "the-retina-institute": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "the-sheldon": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "the-sheldon-(stl)": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "the-spa-at-mid-america-plastic-surgery": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-ultimate-bride": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "thermo-fisher": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "thermofisher": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "thompson-coburn-llp": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "thompson-street-capital-partners": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tiffanys": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tony-meoli-studio---repheads": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tonya-bosaw\u2019s-office": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "touhill-performing-arts-center": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "townplace-suites-(uindy-wbb)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "track-stadium": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "trask---saint-louis-chess-club": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "trex": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tri-county": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "tri-county-family-practice---chesterfield-(slh)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tri-rinse-inc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "trivers-assoc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "true-fitness": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "tscp": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tvs-supply-chain-solutions": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "twain-financial-partners": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "uhy-advisors": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "umsl-recreation-and-wellness-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "undivided-creative": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "unger-eye-wellness": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "unigroup-inc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "union-station": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "united-access": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "united-way-building-downtown-st-louis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-club-medical": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-eye-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-tower---silverback-studios": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-tower-and-silverback-studios": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-tower-stlcc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "urology-of-st-louis": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "urology-of-st-louis-fairview-heights": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "urology-of-st-louis-maryville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "urology-of-stl": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "urology-specialists-dr-berni-and-glaser": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "utah-hockey-club": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "vasantha-pai": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "veterans-community-project": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "veterans-united": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "visiting-clubhouse---houston-astros": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "vista-dermatology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "vituity": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "vituity--ssm-st-charles-emergency-department": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "vivo-dermatology-suite-597a": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "vodaland": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "wash-u-chemistry": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "wash-u-pain-management": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "wash-u-school-of-medicine": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "wash-u-urology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "washington-university-(washu)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university---college-office": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university---danforth-university-center": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "washington-university---dian-tu": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "washington-university---pediatric-residency": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "washington-university---south-40": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university--pediatric-neurology": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "washington-university-brauer-dock": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "washington-university-cupples-ii-hall": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "washington-university-field-house": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university-in-st-louis": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "washington-university-medical-campus---uhsp": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university-north-campus": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "washington-university-orthopedics": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university-political-science-dept": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university-school-of-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-university-school-of-medicine-mid-campus-center-(mcc)": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "washington-university-school-of-medicinne": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "washington-university-school-of-public-health": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "washington-unviersity": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "washu-(weil-hall)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu---center-for-experiential-learning": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "washu--school-of-medicine-pathology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu-advancement": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu-anest": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "washu-bernard-becker-medical-library": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "washu-biology-department-danforth-campus": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "washu-center-for-experiential-learning": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu-child-psychiatry": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "washu-mckelvey-engineering": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu-medicine-anesthesiology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu-oncology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "washu-ovcsa": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "washu-pmandr": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu-sam-fox-school": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washu-school-of-medicine:-couch-medical-research-building": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "weber-chevrolet": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "weil-hall-(sam-fox-school-at-washu)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "weissman": {
+  "enrolled": {
+   "winback": "2026-07-29"
+  },
+  "segment": "winback"
+ },
+ "weissman-photo-studio": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "weissman-theatrical": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "west-county-plastic-surgeons": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "westside-pediatrics": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "whitebridge-pet-brands": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "wiegmann-associates": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "wiese": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "wiese---cat-meeting": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "wiese-usa": {
+  "enrolled": {
+   "warm-nudge": "2026-07-29"
+  },
+  "segment": "warm"
+ },
+ "willis-towers-watson-(wtw)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "winland-foods": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "woodard-and-curran": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "world-chess-hall-of-fame": {
+  "enrolled": {
+   "cold-reintro": "2026-07-29"
+  },
+  "segment": "cold"
+ },
+ "world-chess-hall-of-fame---chester": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "world-chess-hall-of-fame---trask": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "world-chess-hall-of-fame-and-galleries": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "world-wide-technology": {
+  "enrolled": {
+   "champion-reactivation": "2026-07-29"
+  },
+  "segment": "champion"
+ },
+ "world-wide-technology-inc": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "world-wide-technology-office": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "worldwide-technology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "yoon-dermatology": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "zbmidark": {
+  "enrolled": {},
+  "segment": "cold"
+ }
+}
