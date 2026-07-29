@@ -109,12 +109,19 @@ def cached_post(slug, kind, url, body):
     if os.path.exists(path):
         with open(path) as f:
             return json.load(f), True
-    for attempt in range(4):
-        r = requests.post(url, headers=HEADERS, json=body, timeout=30)
+    r = None
+    for attempt in range(6):
+        try:
+            r = requests.post(url, headers=HEADERS, json=body, timeout=30)
+        except requests.exceptions.RequestException:
+            time.sleep(3 * (attempt + 1))
+            continue
         if r.status_code == 429:
             time.sleep(2 * (attempt + 1))
             continue
         break
+    if r is None:
+        return {"_error": "network failure after retries"}, False
     if r.status_code != 200:
         return {"_error": f"{r.status_code}: {r.text[:200]}"}, False
     data = r.json()
@@ -201,13 +208,20 @@ def search_candidate(slug, clean_name, city, state):
 
 def match_batch(candidates):
     details = [{"id": c["id"], "organization_name": c["org_name"]} for c in candidates]
-    for attempt in range(4):
-        r = requests.post(MATCH_URL, headers=HEADERS,
-                          json={"details": details, "reveal_personal_emails": False}, timeout=60)
+    r = None
+    for attempt in range(6):
+        try:
+            r = requests.post(MATCH_URL, headers=HEADERS,
+                              json={"details": details, "reveal_personal_emails": False}, timeout=60)
+        except requests.exceptions.RequestException:
+            time.sleep(3 * (attempt + 1))
+            continue
         if r.status_code == 429:
             time.sleep(2 * (attempt + 1))
             continue
         break
+    if r is None:
+        return None, "network failure after retries"
     if r.status_code != 200:
         return None, f"Match API error {r.status_code}: {r.text[:200]}"
     return r.json().get("matches", []), None
