@@ -12,5 +12,11 @@
     "winback": "",
     "warm-nudge": "",
     "cold-reintro": ""
+  },
+  "custom_fields": {
+    "note": "Contact custom fields for per-store routing; merge tags {{we_store_name}} etc. Values writable via PUT /contacts/{id} typed_custom_fields (works now that fields are typed 'string').",
+    "we_store_name": "6a6a30e70618ba0018f4cce7",
+    "we_store_reply_email": "6a6a30e7a24677000c36ff4e",
+    "we_store_url": "6a6a30e8a24677000c36ff51"
   }
 }
