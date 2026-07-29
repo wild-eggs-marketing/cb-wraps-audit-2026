@@ -1,0 +1,12 @@
+{
+  "brand": "cbw",
+  "caterer_filter": "CBW",
+  "data_dir": "data",
+  "sender_email_account_id": "6a67c6456fab0c0020dec04d",
+  "sequences": {
+    "champion-reactivation": "6a69d431d23c72000cf96aa1",
+    "winback": "6a69d52294372e000cdf82e0",
+    "warm-nudge": "6a69d52af1d199000c924f60",
+    "cold-reintro": "6a69d5305214390010407a8d"
+  }
+}

@@ -36,21 +36,23 @@ import requests
 API_KEY = os.environ["APOLLO_API_KEY"]
 H = {"x-api-key": API_KEY, "Content-Type": "application/json"}
 BASE = "https://api.apollo.io/api/v1"
-SENDER_ACCOUNT_ID = "6a67c6456fab0c0020dec04d"  # elle@crazybowlsandwraps.com
 
-SEQ = {
-    "champion-reactivation": "6a69d431d23c72000cf96aa1",
-    "winback": "6a69d52294372e000cdf82e0",
-    "warm-nudge": "6a69d52af1d199000c924f60",
-    "cold-reintro": "6a69d5305214390010407a8d",
-}
+ROOT_ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_cfg_path = os.path.join(ROOT_, "config", "cbw.json")
+if "--config" in sys.argv:
+    _cfg_path = sys.argv[sys.argv.index("--config") + 1]
+with open(_cfg_path) as _f:
+    CONFIG = json.load(_f)
+SENDER_ACCOUNT_ID = CONFIG["sender_email_account_id"]
+SEQ = CONFIG["sequences"]
+CATERER_FILTER = CONFIG.get("caterer_filter", "CBW")
 COOLDOWN_DAYS = 90
 CHAMPION_MIN_ORDERS = 5
 GRACE_DAYS = 7
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(ROOT, "data")
-STATE_PATH = os.path.join(DATA, "lifecycle-state.json")
+DATA = os.path.join(ROOT, CONFIG.get("data_dir", "data"))
+STATE_PATH = os.path.join(DATA, "lifecycle-state.json")  # per-brand: lives in the brand data_dir
 
 
 def post(path, body):
@@ -89,7 +91,7 @@ def rebuild_accounts(orders_path, today):
         for r in csv.DictReader(f):
             if r.get("Status") not in ("Completed", "Food Delivered"):
                 continue
-            if "CBW" not in (r.get("Caterer Name") or ""):
+            if CATERER_FILTER not in (r.get("Caterer Name") or ""):
                 continue
             loc = r.get("Location") or ""
             if loc.startswith("Takeout from"):
@@ -162,7 +164,17 @@ def decide_sequence(prev_seg, acc):
         return None
     if seg == "champion":
         gap = acc["median_gap"]
-        if gap and acc["days_since"] > gap + GRACE_DAYS:
+        if not gap:
+            return None
+        overdue = acc["days_since"] - gap
+        if CONFIG.get("champion_mode") == "occasion":
+            # occasion buyers (Wild Eggs): recoverable window, then one lost-cause touch
+            if 30 <= overdue <= 180:
+                return "champion-recoverable"
+            if overdue > 180:
+                return "champion-lost-cause"  # single-touch; cooldown state prevents repeats
+            return None
+        if overdue > GRACE_DAYS:
             return "champion-reactivation"
         return None
     if seg == "warm":
@@ -214,7 +226,8 @@ def main():
             report["replied-suppressed"] += 1
             continue
         last = new_st["enrolled"].get(target)
-        if last and (today - date.fromisoformat(last)).days < COOLDOWN_DAYS:
+        if last and (target == "champion-lost-cause"  # lost-cause fires once, ever
+                     or (today - date.fromisoformat(last)).days < COOLDOWN_DAYS):
             report["cooldown-skipped"] += 1
             continue
         enrollments[target].append((slug, ap["id"]))

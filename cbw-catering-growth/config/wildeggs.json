@@ -1,0 +1,16 @@
+{
+  "brand": "wildeggs",
+  "caterer_filter": "Wild Eggs",
+  "data_dir": "../wildeggs-catering-growth/data",
+  "champion_mode": "occasion",
+  "utm_campaign_convention": "we_[segment]_[YYYY]_[MM] (see wildeggs-catering-growth/data/utm-conventions.md)",
+  "cta_destination": "per-store Toast catering URL from wildeggs-catering-growth/data/store-urls.csv, never EZ Cater",
+  "sender_email_account_id": "LINK elle@wildeggs.com IN APOLLO, THEN PASTE ITS ACCOUNT ID",
+  "sequences": {
+    "champion-recoverable": "CREATE WITH WILD EGGS VOICE (3 touches / 10 days)",
+    "champion-lost-cause": "CREATE (single touch, 30-day response window, then archive)",
+    "winback": "",
+    "warm-nudge": "",
+    "cold-reintro": ""
+  }
+}
