@@ -1,0 +1,3 @@
+# Prospect/contact data syncs to Apollo directly - local files are engine dedupe memory only
+wildeggs-catering-growth/data/lookalikes-*.csv
+wildeggs-catering-growth/data/signals-*.csv
