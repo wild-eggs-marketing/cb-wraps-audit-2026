@@ -58,3 +58,21 @@ warmed Exchange mailbox, then drops to lifecycle-trigger volume.
   platform for a $150+ order BEFORE day 2 (Winback launch depends on it).
 - Replies pile into the inbox faster than expected → good problem; wire the
   reply-triage prompt (speed-to-lead desk) that week.
+
+---
+
+## LAUNCH RECORD — 2026-07-30
+
+Advisory council (5-seat multi-agent review, 32 agents, adversarially verified)
+ran pre-launch. Confirmed and fixed before activation: CAN-SPAM address/opt-out
+added to all 22 steps both brands ({{cbw_store_address}} on CBW, Louisville HQ on
+WE); CBW Cold rebuilt after a UI-editor save overwrote the API content (promo
+restored to S1, spacing re-fixed); WE caps cut to warmup levels (5/5/10/10/10)
+for the just-linked elle@wildeggs.com mailbox. Refuted with live data: the WE
+URL-join blocker (all 272 stamped URLs contain ?mode=fulfillment) and missing
+first names (zero).
+
+CBW Champion Reactivation ACTIVATED via the approve endpoint: 23 contacts
+active, 10/day cap, business-hours schedule per contact timezone. All other
+sequences verified paused. Operational rule going forward: no Apollo UI template
+edits without coordination - UI saves silently overwrite API-managed content.
