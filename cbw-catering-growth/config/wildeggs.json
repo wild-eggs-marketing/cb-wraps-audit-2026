@@ -5,7 +5,7 @@
   "champion_mode": "occasion",
   "utm_campaign_convention": "we_[segment]_[YYYY]_[MM] (see wildeggs-catering-growth/data/utm-conventions.md)",
   "cta_destination": "per-store Toast catering URL from wildeggs-catering-growth/data/store-urls.csv, never EZ Cater",
-  "sender_email_account_id": "LINK elle@wildeggs.com IN APOLLO, THEN PASTE ITS ACCOUNT ID",
+  "sender_email_account_id": "6a6a51a90618ba001ca84350",
   "sequences": {
     "champion-recoverable": "6a6a3fb62cfca9001424cf07",
     "champion-lost-cause": "6a6a3fbe856b9400107fba19",
