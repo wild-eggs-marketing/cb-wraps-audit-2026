@@ -3,3 +3,7 @@ wildeggs-catering-growth/data/lookalikes-*.csv
 wildeggs-catering-growth/data/signals-*.csv
 cbw-catering-growth/data/signals-*.csv
 cbw-catering-growth/data/lookalikes-*.csv
+# Contact/prospect data lives in Apollo only (per policy) - never in the repo
+*/data/daily-*.csv
+*/data/lookalikes-*.csv
+*/data/signals-*.csv
