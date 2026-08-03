@@ -1,9 +1,9 @@
 # What remains — as of 28 July 2026
 
-Worker **v5** is deployed and serving. **v7 is built, tested and handed over but
-NOT yet pasted into Cloudflare** — it adds the three salads and 192 modifier rows.
-The Framer component is verified at build **`2026-07-28-08`** in the project but
-needs a publish. Everything below is what's left.
+**Worker v7 is deployed** — 70 items including the three salads, plus 192 modifier
+rows. **Build `2026-07-28-09` is in the Framer project but NOT yet published**: the
+28 Jul publish shipped build 07, and 09 landed after it. One more Publish is needed.
+Everything below is what's left.
 
 I can't reach crazybowlsandwraps.com from this environment (the network policy
 blocks it), so anything marked **verify** needs your eyes, not mine.
@@ -25,14 +25,14 @@ blocks it), so anything marked **verify** needs your eyes, not mine.
   claim than a filter pill, and 22g isn't low carb. Add `!i.variable` to that
   predicate to make the two agree.
 
-- **Worker v5 is live.** All nine on-screen counts from the 27 Jul screenshot
-  reproduce exactly against `worker_v5.js` (Keep It Light 36, 15 results,
-  Vegetarian 8, Vegan 3, Gluten-Free 3, Dairy-Free 8, High Protein 15,
-  Low Carb 2, All 57 — these are scented counts under an active
-  Keep It Light + GLP-1 filter, not totals).
-- **Dietary filters now sync to the URL** as `?diet=glp-1-friendly,gluten-free`.
-  Needs the build `2026-07-27-07` publish to go live. Read the caveat in item 3
-  before treating this as an SEO fix — it is a sharing and analytics fix.
+- **Dietary filters sync to the URL** as `?diet=glp-1-friendly,gluten-free`. Live
+  since build 07. Treat as a sharing and analytics feature, NOT an SEO one — two
+  independent advisors flagged it as overrated, and they're right: the filters are
+  `<button>` + `history.replaceState`, so no crawlable `href` to any param URL
+  exists and none is discoverable. The heading of item 3 below still oversells it.
+- **JSON-LD host corrected** to non-www. All 126 crawled URLs and 98 canonicals are
+  non-www with no host redirect observed, so the previous `www.` was a self-inflicted
+  mismatch. Requires repasting the head snippet.
 
 ## 1. Publish Framer and verify — 5 minutes, blocks everything else
 
@@ -40,7 +40,7 @@ The component is pushed but a publish is what makes it public. Then check the
 bottom of `/nutrition-calculator`:
 
 ```
-build 2026-07-28-08 · 70 items loaded
+build 2026-07-28-09 · 70 items loaded
 ```
 
 Then three spot-checks:

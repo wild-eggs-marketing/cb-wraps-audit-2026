@@ -1,18 +1,16 @@
-# Exact steps — build `2026-07-28-08`
+# Exact steps — build `2026-07-28-09`
 
 Five steps. Do them in this order. Step 3 is the only place you can tell whether
 it worked, so don't skip it.
 
 ---
 
-## Step 1 — Deploy the Cloudflare Worker
+## Step 1 — Cloudflare Worker: DONE
 
-1. Cloudflare dashboard → Workers & Pages → your nutrition worker → **Edit code**
-2. Select all, delete, paste the contents of **`worker/worker_v6.js`**
-3. **Save and deploy**
-4. Open the worker URL in a browser. You should get JSON starting `[{"id":`.
-   If you get a `ReferenceError` page, you have the first build of v5 — get the
-   current file and repaste.
+**`worker_v7.js` is deployed** (confirmed by the client, 28 Jul). Nothing to do
+here. If you ever need to redeploy: paste `worker/worker_v7.js`, save, then open
+the worker URL and confirm you get JSON starting `[{"id":` — a `ReferenceError`
+page means a bad paste.
 
 What changed since v5: **67 items → 70**. The three live salads are back —
 Santa Fe, Multigrain Quinoa and Kale & Quinoa. Fruit & Feta and Grilled Veggie
@@ -29,23 +27,29 @@ sauce choice say one option was measured.
 > **Repaste note.** Deploy this even if you deployed a v5 today — the salads and
 > every nutritionNote are new.
 
-## Step 2 — Publish Framer
+## Step 2 — Publish Framer AGAIN
 
-The calculator component is already updated (build `2026-07-28-08`). Just hit
-**Publish**.
+You already published once today, but that publish shipped build **07**: build
+`2026-07-28-09` landed in the Framer project *after* it. So the site is currently
+serving 07 — Worker v7's 70 items, but without the "What this covers" box, the
+accessibility fix, or the order-tracking fix.
+
+Hit **Publish** once more. Build 09 is verified present in the project (md5
+`9f983a65…`, 119,715 bytes) — I read it back rather than trusting the push.
 
 ## Step 3 — Verify, before you touch anything else
 
-Open `https://www.crazybowlsandwraps.com/nutrition-calculator`.
+Open `https://crazybowlsandwraps.com/nutrition-calculator` (non-www — every
+canonical on the site is non-www).
 
 **3a.** Bottom of the page, under the disclaimer, must read:
 
 ```
-build 2026-07-28-08 · 70 items loaded
+build 2026-07-28-09 · 70 items loaded
 ```
 
-If it says `07` or earlier, or `76 items`, one of the first two steps didn't land. Stop and
-redo it. Everything below is meaningless until this line is right.
+If it says `07` or earlier, the Framer publish didn't land. If it says `67 items`
+or fewer, the Worker didn't. Stop and fix whichever it is. Everything below is meaningless until this line is right.
 
 **3b.** Filter pill counts:
 
@@ -102,12 +106,12 @@ Framer → the nutrition-calculator page → Page Settings → **SEO** → Custo
 **End of `<head>`**. Delete the existing snippet, paste
 **`framer/head-jsonld-snippet.txt`**, publish again.
 
-That file is one long line — 20 KB minified. Crawlers don't care about whitespace,
+That file is one long line — 25 KB minified. Crawlers don't care about whitespace,
 and it's ~25% smaller than the indented form, which matters if Framer's custom-code
 box has a size ceiling. `head-jsonld-snippet-readable.txt` is the same payload
 indented, for reading and diffing only. Don't paste that one.
 
-It now has 47 menu items (up from 44) and the vegan, dairy-free and
+It now has 47 menu items, a corrected non-www host in the `Menu` node, and the vegan, dairy-free and
 "can I make it vegan" answers are regenerated from the same data the filters use,
 so the two can't drift.
 
@@ -134,7 +138,7 @@ is. That is not a failure.
 
 Once step 3 passes:
 
-1. URL Inspection → `https://www.crazybowlsandwraps.com/nutrition-calculator` →
+1. URL Inspection → `https://crazybowlsandwraps.com/nutrition-calculator` →
    **Request Indexing**
 2. Sitemaps → confirm the sitemap is submitted and the page is in it
 3. Still outstanding, and worth more than anything above: the **URL question** —

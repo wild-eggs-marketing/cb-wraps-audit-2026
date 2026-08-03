@@ -7,7 +7,7 @@ import { useState, useMemo, useEffect, useRef, useDeferredValue, useReducer, use
 // BUMP THIS ON EVERY PUSH. It exists so "did the change go live?" is answered by
 // reading one string off the page, instead of counting filter results and inferring
 // which code path produced them — two pushes were published stale before this existed.
-const BUILD = "2026-07-27-07"
+const BUILD = "2026-07-28-09"
 
 const MOBILE_BP   = 680
 const MAX_TRAY    = 3
@@ -110,6 +110,12 @@ interface MenuItem {
     // Caveat about the allergen list itself, for items where one CMS record covers
     // several builds and the list is a union across them.
     allergenNote?: string
+    // What the published figures do and don't include, for items where a normal
+    // customer choice moves the number and no measured value exists for the
+    // alternative — a default protein that can be left out, an accompaniment
+    // counted separately, a grain that can be swapped. Shown next to the macros,
+    // because a single figure presented alone reads as the only possible answer.
+    nutritionNote?: string
     // True when the CMS stores floor values ("from 150", "150+") for a variant
     // family — macros display as minimums ("150+ cal") and the item is excluded
     // from calorie-ceiling filters, combined totals, and budget math.
@@ -269,6 +275,22 @@ const dietCaveat = (i: MenuItem): string | null =>
         ? (i.dietNote || "Vegan/vegetarian only when ordered without the default grilled chicken. The nutrition shown is measured with chicken.")
         : null
 
+// Builds a card's accessible name so a screen reader hears everything the card
+// shows: name, calories, protein, the allergen state, and the order-without-chicken
+// caveat when it applies. Spoken in the order a sighted user reads it.
+const cardAriaLabel = (i: MenuItem): string => {
+    const bits = [i.title]
+    if (i.calories > 0) bits.push(`${i.calories}${i.variable ? " or more" : ""} calories`)
+    if (i.protein > 0) bits.push(`${i.protein}${i.variable ? " or more" : ""} grams protein`)
+    const al = readAllergens(i)
+    if (al.state === "list") bits.push(`contains ${al.list.join(", ")}`)
+    else if (al.state === "none") bits.push("no major allergens")
+    else bits.push("allergens not confirmed, ask staff")
+    if (isConditionalDiet(i)) bits.push("vegan or vegetarian only without the default chicken")
+    bits.push("view details")
+    return bits.join(". ")
+}
+
 const DIETARY_TAGS: Record<string, (i: MenuItem) => boolean> = {
     // Vegan/Vegetarian NEVER fall back to the keyword heuristic — they require an
     // explicit CMS/feed tag, and an untagged item is treated as NOT vegan.
@@ -394,6 +416,7 @@ function mapCmsItem(raw: Record<string, unknown>, index: number): MenuItem {
         dataConfidence: str("dataConfidence", "data_confidence") || undefined,
         dietNote:       str("dietNote", "diet_note") || undefined,
         allergenNote:   str("allergenNote", "allergen_note") || undefined,
+        nutritionNote:  str("nutritionNote", "nutrition_note") || undefined,
         wheatFromTortilla: Boolean(pick("wheatFromTortilla", "wheat_from_tortilla")),
     }
 }
@@ -1092,6 +1115,15 @@ function NutritionCalculator({
                             </div>
                         </div>
                         {sel.variable && <div style={{ fontSize: 11, color: C.inkSoft, textAlign: "center", marginTop: 4 }}>Values start from the lightest flavor — shown as minimums.</div>}
+                        {/* What the figure covers. Sits directly under the macro ring rather
+                            than further down the panel: a single number shown alone reads as
+                            the only possible answer, and for most items here it is one build
+                            out of several. Deliberately not styled as fine print. */}
+                        {sel.nutritionNote && (
+                            <div style={{ fontSize: 11.5, color: C.ink, background: C.tint, borderRadius: 12, padding: "10px 12px", lineHeight: 1.55, marginTop: 8 }}>
+                                <span style={{ fontWeight: 700 }}>What this covers. </span>{sel.nutritionNote}
+                            </div>
+                        )}
                         <a href="#nutrition-disclaimer" style={{ display: "block", fontSize: 11, color: C.inkSoft, textDecoration: "underline", textAlign: "center", marginTop: 8, fontFamily: "inherit" }}>
                             Values are estimates (±10%) — see nutrition disclaimer
                         </a>
@@ -1203,7 +1235,12 @@ function NutritionCalculator({
                     </div>
                 )}
                 <div style={{ display: "flex", flexDirection: "column", gap: 8, marginTop: "auto" }}>
-                    <a href={orderUrl} target="_blank" rel="noopener noreferrer" style={{ display: "flex", padding: 5, borderRadius: 16, border: `2px solid ${C.orangeDark}`, textDecoration: "none", boxSizing: "border-box" }}>
+                    {/* orderHref, not orderUrl: this is the primary conversion path on the
+                        whole page and it was the one link missing its UTM stamp and its
+                        dataLayer event, while the Compare tray's secondary CTA had both.
+                        The effect was that the main order path was invisible in GA4 — you
+                        could not tell whether any of this work led to an order. */}
+                    <a href={orderHref} target="_blank" rel="noopener noreferrer" onClick={() => dataLayerPush("order", [sel.id])} style={{ display: "flex", padding: 5, borderRadius: 16, border: `2px solid ${C.orangeDark}`, textDecoration: "none", boxSizing: "border-box" }}>
                         <span style={{ display: "flex", flex: 1, alignItems: "center", justifyContent: "center", background: C.orangeDark, color: C.white, borderRadius: 12, padding: "13px 20px", fontWeight: 700, fontSize: 15, lineHeight: 1, fontFamily: "inherit", letterSpacing: "0.01em" }}>{sel.price > 0 ? `Order Now — $${sel.price.toFixed(2)}` : "Order Now"}</span>
                     </a>
                     <button onClick={() => { try { if (typeof window !== "undefined") { const url = new URL(window.location.href); url.searchParams.set("item", sel.id); navigator.clipboard?.writeText(url.toString()); setCopied(true) } } catch { /* noop */ } }} aria-live="polite" style={{ padding: "12px", borderRadius: 16, border: `2px solid ${copied ? C.greenDark : C.tint}`, background: copied ? C.greenLight : C.white, color: copied ? C.greenDark : C.teal, fontWeight: 700, fontSize: 13, cursor: "pointer", fontFamily: "inherit", transition: "all 0.15s" }}>{copied ? "✓ Link copied!" : "Copy shareable link"}</button>
@@ -1330,7 +1367,13 @@ function NutritionCalculator({
                                     aria-pressed={inTray}
                                     style={{ position: "absolute", top: isTopMatch && !isSelected ? 28 : 10, right: 10, zIndex: 3, minWidth: 88, minHeight: 36, padding: "0 12px", borderRadius: 999, background: inTray ? C.teal : trayFull ? C.inkGhost : "rgba(255,255,255,0.92)", border: `2px solid ${inTray ? C.teal : trayFull ? "transparent" : C.tint}`, color: inTray ? C.white : C.teal, fontSize: 11, fontWeight: 800, letterSpacing: "0.02em", cursor: trayFull ? "not-allowed" : "pointer", opacity: trayFull ? 0.4 : 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 4, fontFamily: "inherit" }}
                                 >{inTray ? "✓ Comparing" : "⇄ Compare"}</button>
-                                <div role="button" tabIndex={0} data-cbw-open={item.id} aria-expanded={isSelected} aria-label={`${item.title} — view details`}
+                                {/* The accessible name has to CARRY the allergen line, not just
+                                    the title. An aria-label overrides every descendant's text, so
+                                    the previous `${item.title} — view details` silently suppressed
+                                    "Contains Milk, Wheat", the calories and the "Order without
+                                    chicken" caveat for anyone using a screen reader. Allergen
+                                    information is safety information; it cannot be visual-only. */}
+                                <div role="button" tabIndex={0} data-cbw-open={item.id} aria-expanded={isSelected} aria-label={cardAriaLabel(item)}
                                     onClick={() => setSelected(isSelected ? null : item.id)}
                                     onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setSelected(isSelected ? null : item.id) } }}
                                     style={{ cursor: "pointer", outlineOffset: -2 }}>
