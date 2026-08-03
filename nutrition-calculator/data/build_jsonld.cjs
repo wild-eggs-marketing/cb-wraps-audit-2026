@@ -1,4 +1,4 @@
-// Rebuilds the page-head JSON-LD from worker_v5.js so the structured data and the
+// Rebuilds the page-head JSON-LD from the current worker (v7) so the structured data and the
 // runtime filters can never drift apart.
 //
 // One deliberate asymmetry: suitableForDiet carries ONLY unconditional claims.
@@ -13,7 +13,7 @@
 const fs = require("fs")
 const path = require("path")
 
-const WORKER = path.join(__dirname, "..", "worker", "worker_v6.js")
+const WORKER = path.join(__dirname, "..", "worker", "worker_v7.js")
 const OUT = path.join(__dirname, "..", "framer", "head-jsonld-snippet.txt")
 const FAQ_IN = "/tmp/faq_v4.json"
 
@@ -147,7 +147,12 @@ const payload = [
         "@context": "https://schema.org",
         "@type": "Menu",
         name: "Crazy Bowls & Wraps Nutrition Calculator",
-        url: "https://www.crazybowlsandwraps.com/nutrition-calculator",
+        // NON-www. Every one of the 126 URLs in the June crawl is non-www, all 98
+        // canonicals are non-www, and no host redirect was observed (url == final_url
+        // throughout). A schema `url` pointing at a host the site doesn't canonicalise
+        // to is a self-inflicted mismatch. Confirm against the live Framer site if its
+        // canonical host ever changes.
+        url: "https://crazybowlsandwraps.com/nutrition-calculator",
         hasMenuItem: menuItems,
     },
     faq,
