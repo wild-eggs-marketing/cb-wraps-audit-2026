@@ -14,7 +14,7 @@ import { copyFile } from "node:fs/promises"
 import { tmpdir } from "node:os"
 
 const here = dirname(fileURLToPath(import.meta.url))
-const target = resolve(process.argv[2] ?? join(here, "..", "worker", "worker_v6.js"))
+const target = resolve(process.argv[2] ?? join(here, "..", "worker", "worker_v7.js"))
 
 // Imported through a .mjs copy so Node treats it as ESM regardless of extension.
 const staged = join(tmpdir(), `worker-smoke-${process.pid}.mjs`)
