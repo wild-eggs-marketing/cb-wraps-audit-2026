@@ -1,7 +1,9 @@
-# What remains — as of 27 July 2026
+# What remains — as of 28 July 2026
 
-Cloudflare Worker v5 is deployed and serving. The Framer component is live and
-verified at build `2026-07-27-06`. Everything below is what's left.
+Worker **v5** is deployed and serving. **v7 is built, tested and handed over but
+NOT yet pasted into Cloudflare** — it adds the three salads and 192 modifier rows.
+The Framer component is verified at build **`2026-07-28-08`** in the project but
+needs a publish. Everything below is what's left.
 
 I can't reach crazybowlsandwraps.com from this environment (the network policy
 blocks it), so anything marked **verify** needs your eyes, not mine.
@@ -9,6 +11,19 @@ blocks it), so anything marked **verify** needs your eyes, not mine.
 ---
 
 ## 0. Done and confirmed
+
+- **Dietary Tags is now a Multi-Reference** to a 7-item `Dietary Tags` collection
+  (`Ki8kYeV7y`), replacing the single-select enum that had defaulted every item in
+  the collection to "Gluten Free". All seven tag items carry page copy in their
+  `Content` field, including the vegan/vegetarian "order without chicken" caveat
+  and the plant-protein swaps. 58 Menu items reference their tags; verified against
+  the calculator's own filter counts, all seven matching exactly.
+- **One divergence to close on the next component push.** The calculator's
+  `Low Carb` predicate is `carbs > 0 && carbs <= 20` with no variable-macro guard,
+  so it includes **Lettuce Wraps** (carbs `8-22`) on the strength of its floor. The
+  CMS tag deliberately excludes it — a page asserting "Low Carb" is a stronger
+  claim than a filter pill, and 22g isn't low carb. Add `!i.variable` to that
+  predicate to make the two agree.
 
 - **Worker v5 is live.** All nine on-screen counts from the 27 Jul screenshot
   reproduce exactly against `worker_v5.js` (Keep It Light 36, 15 results,
@@ -25,18 +40,21 @@ The component is pushed but a publish is what makes it public. Then check the
 bottom of `/nutrition-calculator`:
 
 ```
-build 2026-07-27-06 · 67 items loaded
+build 2026-07-28-08 · 70 items loaded
 ```
 
 Then three spot-checks:
 
 | Check | Expected |
 |---|---|
-| No filter | 57 cards |
+| No filter | 60 cards |
 | **Vegan** | **14 cards**, four of them bowls with a teal "Order without chicken" line |
+| **Salads** | **3 cards**, each with its own photo |
 | Search "Lettuce Wrap" | **one** card, `150+ cal` — not nine with the same photo |
 
-If the build line says `05` or `76 items`, the publish didn't land. Stop there.
+If the build line says `07` or earlier, or `67 items`, the publish didn't land.
+Stop there. Full checklist including the salad and Quick Answers checks is in
+`DEPLOY-STEPS.md`.
 
 ## 2. Replace the page's JSON-LD — 5 minutes
 
@@ -45,7 +63,7 @@ Framer → nutrition-calculator page → Page Settings → SEO → Custom Code �
 publish, then validate at **validator.schema.org** (not Google's Rich Results
 Test — see the changelog for why "no items detected" there is expected).
 
-Expect: `Menu`, 44 `MenuItem`, `FAQPage`, 7 `Question`, 0 errors.
+Expect: `Menu`, 47 `MenuItem`, `FAQPage`, 7 `Question`, 0 errors.
 
 ## 3. The URL question — the highest-value item left, and I got it wrong before
 
@@ -64,8 +82,11 @@ and JSON-LD subset, calculator pre-filtered underneath:
 /nutrition-calculator/high-protein
 ```
 
-The copy already exists — the four `NutritionQuickAnswers` cards map one-to-one
-onto those four pages. Also confirm the page emits a self-referencing canonical to
+The copy already exists twice over: the four `NutritionQuickAnswers` cards, and
+now the `Content` field on each of the seven `Dietary Tags` items — which is the
+better source, since it's editable in the CMS and already carries each diet's
+caveat. With the Multi-Reference in place these can be Framer collection pages
+rather than hand-built ones. Also confirm the page emits a self-referencing canonical to
 the clean path, since `?goal=` and `?diet=` are now both in circulation.
 
 ### And the redirect half of the question

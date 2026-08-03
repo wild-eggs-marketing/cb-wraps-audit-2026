@@ -83,14 +83,50 @@ const updates = []
 const skipped = []
 let conditionalCount = 0
 
-for (const r of cms) {
-    // Prefer the CMS string field: it is the reconciled, verified state written on
-    // 28 Jul and already checked against the feed's filter counts.
-    const tagString = String(r.DietaryTags || feed[r.Title]?.dietaryTags || "").trim()
-    if (!tagString) { skipped.push(r.Title); continue }
+// The CMS string field `lentTZd7e` was deleted along with the enum, so the 58 tag
+// strings written on 28 Jul are gone. Tags are recomputed here from the same two
+// sources and the same rules that produced them: diet status from the Worker feed
+// (or, for the two Active=0 salads that are deliberately absent from it, from
+// DRAFT_SALAD_DIETS), plus allergen-derived and macro-derived tags off the live CMS
+// values. Verified below against the calculator's own filter counts.
+const DRAFT_SALAD_DIETS = { "Fruit & Feta Salad": "vegetarian", "Grilled Veggie Salad": "vegetarian" }
+const num = v => { const n = Number(String(v).match(/-?\d+(\.\d+)?/)?.[0]); return Number.isFinite(n) ? n : 0 }
+// Mirrors the component's numLoose(): variable when the value is not purely
+// numeric. Checking only for -/+ missed the CMS's "from 8" wording, which is the
+// same range expressed differently from the feed's "8-22".
+const isVariable = v => { const s = String(v ?? "").trim(); return s !== "" && !/^-?\d+(\.\d+)?$/.test(s) }
 
-    const slugs = tagString.split(",").map(s => s.trim().toLowerCase()).filter(Boolean)
+for (const r of cms) {
+    const f = feed[r.Title]
+    // Feed allergens first — the CMS was stale on 11 wheat items before the 28 Jul
+    // correction, and the feed is the reconciled source either way.
+    const allergens = String(f?.allergens || r.Allergens || "").trim()
+    const hasAllergenData = allergens !== "" && allergens.toLowerCase() !== "unconfirmed"
+    const low = allergens.toLowerCase()
+
+    const set = new Set()
+    for (const t of String(f?.dietaryTags || DRAFT_SALAD_DIETS[r.Title] || "").split(",").map(s => s.trim()).filter(Boolean)) set.add(t)
+    if (hasAllergenData && !low.includes("wheat")) set.add("gluten-free")
+    if (hasAllergenData && !low.includes("milk")) set.add("dairy-free")
+    const cal = num(r.Calories || f?.calories || 0), pro = num(r.Protein || f?.protein || 0), carb = num(r.Carbs || f?.carbs || 0)
+    const variable = isVariable(r.Calories || f?.calories || "")
+    if (pro >= 25) set.add("high-protein")
+    // Variable-macro items are excluded, as they already are from GLP-1. Lettuce
+    // Wraps carries carbs "8-22": reading the floor tags it Low Carb, but a build
+    // at 22g is not low carb, and a range's best case is not a claim. NOTE: the
+    // calculator's own "Low Carb" predicate lacks this guard and so does include
+    // Lettuce Wraps -- one line to fix on the next component push, tracked in
+    // REMAINING.md. Diverging here is deliberate: the CMS tag drives menu pages,
+    // and a page asserting "Low Carb" is a stronger claim than a filter pill.
+    if (!variable && carb > 0 && carb <= 20) set.add("low-carb")
+    if (!variable && cal > 0 && pro >= 25 && cal <= 650) set.add("glp-1-friendly")
+
+    if (!set.size) { skipped.push(r.Title); continue }
+    const slugs = [...set]
     const names = [...new Set(slugs.map(s => MAP[s]).filter(Boolean))]
+    // Safety assertion, not a comment: a wheat item must never reference Gluten Free.
+    if (names.includes("Gluten Free") && /wheat/i.test(allergens))
+        throw new Error(`REFUSING: ${r.Title} has wheat (${allergens}) but resolved to Gluten Free`)
     const unmapped = slugs.filter(s => !MAP[s])
     if (unmapped.length) throw new Error(`unmapped tag on ${r.Title}: ${unmapped.join(", ")}`)
 
