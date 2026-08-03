@@ -858,31 +858,5 @@
     "value": "high-protein"
    }
   }
- },
- {
-  "id": "vyvJI9wI0",
-  "slug": "fruit-feta-salad",
-  "title": "Fruit & Feta Salad",
-  "tags": "gluten-free, low-carb",
-  "allergenFix": null,
-  "fields": {
-   "lentTZd7e": {
-    "type": "string",
-    "value": "gluten-free, low-carb"
-   }
-  }
- },
- {
-  "id": "FIxCWQeOD",
-  "slug": "grilled-veggie-salad",
-  "title": "Grilled Veggie Salad",
-  "tags": "gluten-free",
-  "allergenFix": null,
-  "fields": {
-   "lentTZd7e": {
-    "type": "string",
-    "value": "gluten-free"
-   }
-  }
  }
 ]

@@ -15,7 +15,12 @@
 //      Gluten-Free and Dairy-Free, which it currently passes on allergens. Every
 //      item that gets any tag gets all of its true tags.
 //
-//   2. NO TAGS WITHOUT DATA. An item with no allergen analysis gets no
+//   2. DRAFT STATUS IS NOT OURS TO CHANGE. upsertCMSItem defaults `draft` to false,
+//      so an update that omits it PUBLISHES a draft. That silently published two
+//      discontinued salads on the first run of this payload. Any applier of this
+//      payload must pass the item's existing draft value explicitly.
+//
+//   3. NO TAGS WITHOUT DATA. An item with no allergen analysis gets no
 //      gluten-free/dairy-free tag — absence of data is not evidence of absence.
 //      Macro tags (high-protein, low-carb, glp-1-friendly) are still safe there
 //      only if macros exist, so they are gated on calories > 0.
@@ -74,7 +79,17 @@ for (const r of cms) {
 
     // Diet tags come from the feed, which is the reconciled source. They are never
     // re-derived here — one derivation, in build_v5/build_salads, not two.
-    for (const t of String(f?.dietaryTags || "").split(",").map(s => s.trim()).filter(Boolean)) tags.add(t)
+    //
+    // Fall back to the CMS's own diet tags when an item ISN'T in the feed. Two items
+    // are deliberately absent from it — Fruit & Feta and Grilled Veggie Salad are
+    // Active=0 and excluded so drafts don't ship — and the first run of this script
+    // therefore wiped their existing "vegetarian" tag, because feed[title] was
+    // undefined and only the allergen and macro rules ran. Never let "no feed row"
+    // read as "no diet claim".
+    const DIETS = new Set(["vegan", "vegetarian", "vegan-without-chicken", "vegetarian-without-chicken"])
+    const dietSource = f?.dietaryTags || r.DietaryTags || ""
+    for (const t of String(dietSource).split(",").map(s => s.trim()).filter(Boolean))
+        if (DIETS.has(t)) tags.add(t)
 
     // Complete the allergen-derived pair for any item that has allergen data, even
     // if it has no vegan/vegetarian status. This is rule 1 above.
