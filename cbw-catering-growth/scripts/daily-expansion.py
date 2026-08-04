@@ -90,7 +90,10 @@ STATE_PATH = os.path.join(HERE, "expansion-state.json")
 
 DAILY_CONTACT_QUOTA = 60
 CONTACTS_PER_ORG = 2  # e.g. office manager AND HR lead at the same site
-CREDITS_BUDGET_START = 1700   # trued up manually; ledger counts down from here
+# The ledger is a local estimate, not Apollo's balance - Apollo exposes no credit endpoint on
+# this plan (usage_stats/credit_usage_stats 404s). After a container recycle the local state
+# is gone and this number is a guess, so it is overridable: EXPANSION_CREDITS=1200 python3 ...
+CREDITS_BUDGET_START = int(os.environ.get("EXPANSION_CREDITS", "1200"))
 RESERVE_FLOOR = 400
 
 CBW_DATA = "/home/user/cb-wraps-audit-2026/cbw-catering-growth/data"
@@ -127,6 +130,12 @@ TIERS_SMALL = [
 ]
 SENIOR_EXCLUDE = ["vice president", " vp ", "vp,", "chief ", " svp", " evp", "president",
                   " ceo", " cfo", " coo", "founder", "executive director"]
+# "admin" in TIERS_COMMON tier 2 also matches "System Administrator" / "Network
+# Administrator" / "Database Administrator", which pulled IT staff into a catering list.
+TITLE_EXCLUDE = ["system administrator", "systems administrator", "network administrator",
+                 "database administrator", "sysadmin", "salesforce administrator",
+                 "server administrator", "security administrator", "linux", "devops",
+                 "software engineer", "developer"]
 
 
 def post(path, body):
@@ -152,6 +161,8 @@ def title_score(title, small):
     if not title:
         return 0
     t = f" {title.lower()} "
+    if any(k in t for k in TITLE_EXCLUDE):
+        return 0
     if not small and any(k in t for k in SENIOR_EXCLUDE):
         return 0
     tiers = TIERS_COMMON + (TIERS_SMALL if small else [])
@@ -191,7 +202,79 @@ def store_geofences(data_dir, static=None):
     return fences
 
 
-def run_brand(brand, state, ledger, quota_left):
+GENERIC_MAIL_DOMAINS = {"gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com",
+                        "icloud.com", "comcast.net", "sbcglobal.net", "me.com", "msn.com"}
+
+
+def email_matches_org(email, org):
+    """Guard against people/bulk_match returning a person who works somewhere else.
+
+    Apollo returned vcrosswhite@fergusoncity.com as an employee of "City of Chesterfield".
+    A revealed email whose domain shares nothing with either the org's own domain or its
+    name is a mis-join: reject it rather than mail a stranger a neighbouring city's offer.
+    Unknown-domain cases pass, so this only removes positive contradictions.
+    """
+    dom = (email or "").split("@")[-1].strip().lower()
+    if not dom or dom in GENERIC_MAIL_DOMAINS:
+        return True
+    for cand in (org.get("primary_domain"), org.get("website_url"), org.get("domain")):
+        if cand and dom in str(cand).lower():
+            return True
+    stem = re.split(r"\.", dom)[0]
+    dtoks = {w for w in re.findall(r"[a-z]{3,}", stem)}
+    ntoks = tokens(org.get("name") or "")
+    if not ntoks:
+        return True
+    # abbreviations: fergusoncity vs {city, chesterfield} shares "city" only - not enough,
+    # so require a match on a token that is not a generic corporate/geographic filler.
+    FILLER = {"city", "county", "the", "usa", "inc", "llc", "group", "company", "national",
+              "american", "international", "services", "center", "centre", "association"}
+    strong = {t for t in ntoks if t not in FILLER}
+    if not strong:
+        return True
+    if any(t in stem for t in strong) or any(t in " ".join(dtoks) for t in strong):
+        return True
+    # also accept initialisms: "Society of St Vincent de Paul" -> svdpusa.org
+    initials = "".join(sorted(t[0] for t in strong))
+    if len(strong) >= 2 and all(c in stem for c in initials):
+        return True
+    return False
+
+
+def apollo_contact_base():
+    """Every contact already in Apollo: emails, and org-name token sets.
+
+    Apollo is the only store that survives a container recycle, so it - not the local
+    state file - is the authority on "have we already prospected this company". Without
+    this the page cursors reset to 1 after a recycle and the engine re-reveals (and
+    re-charges for) the exact people it created on the previous run.
+    """
+    emails, orgs = set(), []
+    page = 1
+    while page <= 12:
+        try:
+            d = post("contacts/search", {"per_page": 100, "page": page})
+        except RuntimeError:
+            break
+        got = d.get("contacts") or []
+        if not got:
+            break
+        for c in got:
+            e = (c.get("email") or "").strip().lower()
+            if e:
+                emails.add(e)
+            on = ((c.get("organization") or {}).get("name")
+                  or c.get("organization_name") or "")
+            t = tokens(on)
+            if t:
+                orgs.append(t)
+        if len(got) < 100:
+            break
+        page += 1
+    return emails, orgs
+
+
+def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
     if brand == "cbw":
         data_dir, naics_list, cold, sender = CBW_DATA, CBW_NAICS, CBW_COLD, CBW_SENDER
         fences = store_geofences(data_dir)
@@ -205,7 +288,7 @@ def run_brand(brand, state, ledger, quota_left):
         urls_map = {r["ez_cater_store_name"]: r["toast_catering_url"]
                     for r in csv.DictReader(open(f"{WE_DATA}/store-urls.csv"))}
 
-    known = load_known(data_dir)
+    known = load_known(data_dir) + list(seen_orgs)   # customers + everyone already prospected
     allowed = allowed_states_for(data_dir)
     created_total = 0
     rows_out = []
@@ -218,8 +301,14 @@ def run_brand(brand, state, ledger, quota_left):
             break
         store = stores[(start + si) % len(stores)]
         key0 = f"{store}"
+        # Spread the day's quota geographically. Without a per-store cap the first store in
+        # the rotation absorbs the whole quota (2026-08-04: all 30 CBW leads were West Oak),
+        # so a store only gets fresh prospects once every five days.
+        store_cap = max(4, quota_left // 4)
+        store_created = created_total
         for naics in naics_list:
-            if created_total >= quota_left or ledger["remaining"] <= RESERVE_FLOOR:
+            if (created_total >= quota_left or ledger["remaining"] <= RESERVE_FLOOR
+                    or created_total - store_created >= store_cap):
                 break
             nkey = ",".join(naics) if naics else "general"
             page = cursor.get(f"{key0}|{nkey}", 1)
@@ -239,7 +328,10 @@ def run_brand(brand, state, ledger, quota_left):
             for o in orgs:
                 name_l = (o.get("name") or "").lower()
                 if any(k in name_l for k in ("staffing", "recruit", "talent solutions",
-                                             "employment agency", "interim physicians")):
+                                             "employment agency", "interim physicians",
+                                             "workforce connection", "workforce solutions",
+                                             "personnel", "search group", "search partners",
+                                             "temp agency", "hr solutions", "peo ")):
                     continue  # agencies: high hiring signal, low catering intent
                 t = tokens(o.get("name") or "")
                 if t and any(ks <= t or len(t & ks) / len(ks) >= 0.6 for ks in known):
@@ -275,7 +367,9 @@ def run_brand(brand, state, ledger, quota_left):
                     continue
                 matches = [m for m in (md.get("matches") or [])
                            if m and m.get("email") and m.get("email_status") == "verified"
-                           and person_in_market(m, allowed)]
+                           and person_in_market(m, allowed)
+                           and m["email"].strip().lower() not in seen_emails
+                           and email_matches_org(m["email"], o)]
                 if not matches:
                     continue
                 ledger["remaining"] -= len(matches)
@@ -301,6 +395,7 @@ def run_brand(brand, state, ledger, quota_left):
                           "send_email_from_email_account_id": sender,
                           "sequence_active_in_other_campaigns": True})
                     created_total += 1
+                    seen_emails.add(m["email"].strip().lower())
                     rows_out.append({"org_name": o.get("name"), "vertical": nkey, "city": o.get("city"),
                                      "contact": f"{m.get('first_name')} {m.get('last_name')}",
                                      "title": m.get("title"), "email": m["email"], "store": store})
@@ -335,8 +430,11 @@ def main():
         print(f"credit ledger at reserve floor ({ledger['remaining']}); not expanding")
         return
 
-    n_cbw = run_brand("cbw", state, ledger, DAILY_CONTACT_QUOTA // 2)
-    n_we = run_brand("we", state, ledger, DAILY_CONTACT_QUOTA - n_cbw)
+    seen_emails, seen_orgs = apollo_contact_base()
+    print(f"dedupe base from Apollo: {len(seen_emails)} emails, {len(seen_orgs)} org names")
+
+    n_cbw = run_brand("cbw", state, ledger, DAILY_CONTACT_QUOTA // 2, seen_emails, seen_orgs)
+    n_we = run_brand("we", state, ledger, DAILY_CONTACT_QUOTA - n_cbw, seen_emails, seen_orgs)
     state["last_run"] = today
     totals = state.setdefault("totals", {"cbw": 0, "we": 0})
     totals["cbw"] += n_cbw
