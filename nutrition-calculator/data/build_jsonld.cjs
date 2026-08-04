@@ -13,7 +13,7 @@
 const fs = require("fs")
 const path = require("path")
 
-const WORKER = path.join(__dirname, "..", "worker", "worker_v9.js")
+const WORKER = path.join(__dirname, "..", "worker", "worker_v10.js")
 const OUT = path.join(__dirname, "..", "framer", "head-jsonld-snippet.txt")
 // In-repo, not /tmp: the container gets recycled and /tmp with it. This file is
 // the question set; answers are regenerated from the feed on every build.
@@ -134,9 +134,8 @@ setAnswer("Can I make a Crazy Bowls & Wraps bowl vegan?",
     `You can also swap in Tofu or Plant Based Chicken instead of leaving the protein out. ` +
     `Ordered that way, ${list(veganWithout.filter(t => /Bowl$/.test(t)))} contain no animal ingredients — on the Stir Fry and High-Protein Bowls, pick a plant-based sauce too (teriyaki or sweet & sour; the Thai sauce contains honey and the pesto contains milk and eggs). ` +
     `${list(vegetarianWithout.filter(t => /Bowl$/.test(t)))} become vegetarian rather than vegan without the chicken, ` +
-    `because they still contain dairy or honey — the Fajita Bowl has cheese, the Thai Bowl has honey, ` +
+    `because they still contain dairy or honey — the Fajita and Power Bowls have cheese, the Thai Bowl has honey, ` +
     `and the Mediterranean, Pesto and Jerk Bowls have dairy in their sauces. ` +
-    `The Power Bowl is vegetarian just as it comes — built with beans and cheddar, no meat — but the cheddar keeps it from being vegan. ` +
     `Nutrition shown for all of these is measured with the chicken included.`)
 
 // Regenerated from the feed rather than left hand-written: the previous answer

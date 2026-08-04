@@ -78,3 +78,33 @@ Data** tab.
 
 Your export contains 36 items the site does not list — including **9 Tacos** and
 **5 Salads**. Should these be added to the menu CMS and the calculator?
+
+## 8. Power Bowl: does it come with chicken? (added 4 Aug 2026)
+
+Your menu copy for the Power Bowl lists "romaine, beans, cheddar, avocado, pico
+de gallo, corn salsa" — no meat — and the legacy site FAQ called it "vegetarian
+as built." But the lab analysis row for **Power Bowl - Regular** (and Small,
+Wrap, Taco, Lettuce Wrap) includes **Grilled Chicken** in its ingredient
+statement, and the 42g protein figure is consistent with chicken being in the
+measured build.
+
+Until you confirm, every surface treats the Power Bowl like the other composed
+bowls: **vegetarian only when ordered without the default grilled chicken**
+(the cheddar keeps it from being vegan either way). If the restaurant genuinely
+serves it meatless by default, tell us and we will restore the unconditional
+vegetarian claim — and the lab row should then be re-measured without chicken,
+because the published 680 cal / 42g protein would be overstating a meatless bowl.
+
+## 9. Craziologist chatbot infers diet claims from allergen panels (added 4 Aug 2026)
+
+Live test of the chat widget: asked "Is the Thai Bowl vegan?" it answered that
+the bowl is "plant based as served" and that tofu makes it "fully vegan." Both
+wrong — the bowl is built with grilled chicken by default, and the Thai peanut
+sauce contains **honey**, so no protein swap makes it vegan. The bot reasoned
+from the allergen panel ("no milk or egg listed") — but meat and honey are not
+allergens, so allergen absence can never establish vegan/vegetarian. The feed's
+`dietaryTags` / `dietNote` fields now carry the correct per-item facts (worker
+v10); the chat Worker's system prompt should be updated to (a) answer diet
+questions ONLY from those two fields, never from allergen absence, and (b) treat
+composed items as containing chicken by default. We don't have the chat Worker's
+source in this repo — send it over (or point us at it) and we'll patch it.

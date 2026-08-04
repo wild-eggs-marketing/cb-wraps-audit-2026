@@ -18,16 +18,17 @@ import { addPropertyControls, ControlType } from "framer"
  *   1. The canvas instance must carry NO prop overrides — defaults render.
  *   2. The Page Settings → SEO → Custom Code head snippet must be DELETED,
  *      not re-pasted, or the page emits two Menu graphs.
- *   3. These defaults are GENERATED from the Worker feed (currently v9) by
+ *   3. These defaults are GENERATED from the Worker feed (currently v10) by
  *      data/build_jsonld.cjs — regenerate and updateCodeFile on data changes;
  *      do not hand-edit, and do not edit props on the canvas instance.
  *
  * ── PHASE 0 CORRECTION, 2026-07-27 ────────────────────────────────────────────
  * Every composed item in the official FDA/INM export is measured AS SHOWN WITH
- * GRILLED CHICKEN — with one measured exception found 2026-08-04: the Power
- * Bowl's recipe contains no meat (beans and cheddar are its protein), so it
- * carries VegetarianDiet unconditionally. All other vegan/vegetarian claims on
- * composed items remain removed: the export's "Contains Meat" and "Contains
+ * GRILLED CHICKEN — no exceptions. (A 2026-08-04 claim that the Power Bowl was
+ * meatless was retracted the same day: the Regular row's ingredient statement
+ * DOES include grilled chicken, mid-statement. Its CMS description omits
+ * chicken — discrepancy flagged to CBW in OPEN-QUESTIONS.) Vegan/vegetarian
+ * claims on composed items remain removed: the export's "Contains Meat" and "Contains
  * Animal Products" columns are 100% empty, so vegan/vegetarian is only claimed
  * where the full ingredient statement was individually screened for meat,
  * dairy, egg and honey and came back clean. "Can be made vegan by swapping the
@@ -45,7 +46,7 @@ import { addPropertyControls, ControlType } from "framer"
  * Serving-context caveats (salad/Fajita/Breakfast tortilla-on-the-side, whole
  * wheat linguine base, wheat-breaded proteins) live in the FAQ text.
  *
- * Source: Worker feed v9 (2026-08-04) ← FDA_Rounded_Export_for_INM
+ * Source: Worker feed v10 (2026-08-04) ← FDA_Rounded_Export_for_INM
  * (89 items / 222 modifiers, dated 2026-07-27). Refresh when either changes.
  *
  * @framerSupportedLayoutWidth auto
@@ -76,7 +77,7 @@ const DIET_MAP: Record<string, string> = {
     "dairy free": "https://schema.org/LowLactoseDiet",
 }
 
-// GENERATED from the Worker v9 feed by data/build_jsonld.cjs — the JSON-LD
+// GENERATED from the Worker v10 feed by data/build_jsonld.cjs — the JSON-LD
 // eligibility rules live there. Every diet claim is backed by a confirmed
 // allergen row (see file header). Regenerate + updateCodeFile to change;
 // never hand-edit here and never override on the canvas instance.
@@ -86,7 +87,7 @@ const DINERS_DEFAULT: DietItem[] = [
     { name: "High-Protein Bowl", category: "Bowls", calories: 380, protein: 62, carbs: 23, diets: "", glp1: true },
     { name: "Pesto Bowl", category: "Bowls", calories: 670, protein: 46, carbs: 71, diets: "gluten-free" },
     { name: "Poke Bowl", category: "Bowls", calories: 410, protein: 34, carbs: 38, diets: "", glp1: true },
-    { name: "Power Bowl", category: "Bowls", calories: 680, protein: 42, carbs: 92, diets: "vegetarian, gluten-free" },
+    { name: "Power Bowl", category: "Bowls", calories: 680, protein: 42, carbs: 92, diets: "gluten-free" },
     { name: "Stir Fry Bowl", category: "Bowls", calories: 530, protein: 40, carbs: 83, diets: "", glp1: true },
     { name: "Sweet & Sour Bowl", category: "Bowls", calories: 560, protein: 35, carbs: 85, diets: "gluten-free, dairy-free", glp1: true },
     { name: "Teriyaki Bowl", category: "Bowls", calories: 650, protein: 41, carbs: 110, diets: "dairy-free", glp1: true },
@@ -171,7 +172,7 @@ const FAQ_DEFAULTS: FaqItem[] = [
     },
     {
         question: "Can I make a Crazy Bowls & Wraps bowl vegan?",
-        answer: "Yes. Every composed bowl is built with grilled chicken by default, and you can ask for it without. You can also swap in Tofu or Plant Based Chicken instead of leaving the protein out. Ordered that way, High-Protein Bowl, Stir Fry Bowl, Sweet & Sour Bowl and Teriyaki Bowl contain no animal ingredients — on the Stir Fry and High-Protein Bowls, pick a plant-based sauce too (teriyaki or sweet & sour; the Thai sauce contains honey and the pesto contains milk and eggs). Fajita Bowl, Jerk Bowl, Mediterranean Bowl, Pesto Bowl and Thai Bowl become vegetarian rather than vegan without the chicken, because they still contain dairy or honey — the Fajita Bowl has cheese, the Thai Bowl has honey, and the Mediterranean, Pesto and Jerk Bowls have dairy in their sauces. The Power Bowl is vegetarian just as it comes — built with beans and cheddar, no meat — but the cheddar keeps it from being vegan. Nutrition shown for all of these is measured with the chicken included.",
+        answer: "Yes. Every composed bowl is built with grilled chicken by default, and you can ask for it without. You can also swap in Tofu or Plant Based Chicken instead of leaving the protein out. Ordered that way, High-Protein Bowl, Stir Fry Bowl, Sweet & Sour Bowl and Teriyaki Bowl contain no animal ingredients — on the Stir Fry and High-Protein Bowls, pick a plant-based sauce too (teriyaki or sweet & sour; the Thai sauce contains honey and the pesto contains milk and eggs). Fajita Bowl, Jerk Bowl, Mediterranean Bowl, Pesto Bowl, Power Bowl and Thai Bowl become vegetarian rather than vegan without the chicken, because they still contain dairy or honey — the Fajita and Power Bowls have cheese, the Thai Bowl has honey, and the Mediterranean, Pesto and Jerk Bowls have dairy in their sauces. Nutrition shown for all of these is measured with the chicken included.",
     },
     {
         question: "What are the best high-protein, lower-calorie options at Crazy Bowls & Wraps — good for GLP-1 or weight-management diets?",
