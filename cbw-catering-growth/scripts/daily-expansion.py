@@ -202,6 +202,30 @@ def store_geofences(data_dir, static=None):
     return fences
 
 
+def put_fields(contact_id, fields, tries=5):
+    """PUT custom fields and confirm they landed. Returns True on success.
+
+    contacts/update is capped at 400 calls/hour and 429s in bursts, so this backs off and
+    verifies the value came back rather than trusting the status code.
+    """
+    for a in range(tries):
+        try:
+            r = requests.put(f"{BASE}/contacts/{contact_id}", headers=H, timeout=30,
+                             json={"typed_custom_fields": fields})
+        except requests.exceptions.RequestException:
+            time.sleep(3 * (a + 1))
+            continue
+        if r.status_code == 429:
+            time.sleep(20 * (a + 1))
+            continue
+        if r.status_code == 200:
+            got = ((r.json().get("contact") or {}).get("typed_custom_fields") or {})
+            if all(got.get(k) for k in fields):
+                return True
+        time.sleep(2 * (a + 1))
+    return False
+
+
 GENERIC_MAIL_DOMAINS = {"gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com",
                         "icloud.com", "comcast.net", "sbcglobal.net", "me.com", "msn.com"}
 
@@ -292,6 +316,7 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
     allowed = allowed_states_for(data_dir)
     created_total = 0
     rows_out = []
+    unstamped = []   # created but not enrolled: their store merge fields never landed
     cursor = state.setdefault("cursors", {}).setdefault(brand, {})
     stores = list(fences.keys())
     start = state.setdefault("store_offset", {}).setdefault(brand, 0)
@@ -388,8 +413,15 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
                         fields = {F_NAME: store, F_URL: urls_map.get(store, "https://wildeggs.com/catering")}
                         if emails_map.get(store):
                             fields[F_EMAIL] = emails_map[store]
-                        requests.put(f"{BASE}/contacts/{cid}", headers=H, timeout=30,
-                                     json={"typed_custom_fields": fields})
+                        # These fields ARE the Wild Eggs email: store name, that store's
+                        # ordering link, that store's reply inbox. An unstamped contact makes
+                        # Apollo refuse the send outright (failure_reason snippets_missing), so
+                        # a silently-swallowed 429 here costs the whole lead. Enrol only if the
+                        # stamp actually landed.
+                        if not put_fields(cid, fields):
+                            print(f"    ! stamp failed, not enrolling {m['email']}")
+                            unstamped.append({"id": cid, "email": m["email"], "store": store})
+                            continue
                     post(f"emailer_campaigns/{cold}/add_contact_ids",
                          {"contact_ids": [cid], "emailer_campaign_id": cold,
                           "send_email_from_email_account_id": sender,
@@ -402,6 +434,16 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
                     time.sleep(0.3)
                 known.append(tokens(o.get("name") or ""))
             time.sleep(0.4)
+
+    if unstamped:
+        p = os.path.join(data_dir, "unstamped-contacts.csv")
+        new = not os.path.exists(p)
+        with open(p, "a", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=["id", "email", "store"])
+            if new:
+                w.writeheader()
+            w.writerows(unstamped)
+        print(f"  {len(unstamped)} contacts created but NOT enrolled (stamp failed) -> {p}")
 
     state["store_offset"][brand] = (start + 3) % max(len(stores), 1)
     if rows_out:
