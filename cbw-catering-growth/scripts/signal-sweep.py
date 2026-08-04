@@ -21,6 +21,8 @@ from datetime import date, timedelta
 
 import requests
 
+from apollo_dedupe import existing_emails
+
 # --- person-location guard -------------------------------------------------
 # Apollo's organization_ids filter matches the EMPLOYER's location, which can be a
 # global HQ or a different office than the person. That let a Portland church and a
@@ -218,6 +220,14 @@ def main():
 
     if do_enroll and enriched:
         ids = []
+        # Apollo's POST /contacts does not upsert on email, and neighbouring stores
+        # share cities, so without this the same person is re-created (and re-charged
+        # for) on every run that reaches them. See apollo_dedupe for the incident.
+        already = existing_emails()
+        skipped = [e for e in enriched if e["email"].strip().lower() in already]
+        enriched = [e for e in enriched if e["email"].strip().lower() not in already]
+        if skipped:
+            print(f"skipping {len(skipped)} contacts that already exist in Apollo")
         for e in enriched:
             d = post("contacts", {"first_name": e["first_name"], "last_name": e["last_name"],
                                   "title": e["title"], "email": e["email"],
