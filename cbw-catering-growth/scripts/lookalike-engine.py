@@ -20,6 +20,62 @@ from collections import Counter
 
 import requests
 
+# --- person-location guard -------------------------------------------------
+# Apollo's organization_ids filter matches the EMPLOYER's location, which can be a
+# global HQ or a different office than the person. That let a Portland church and a
+# Johannesburg office into a Kentucky/Indiana sequence. Two layers now:
+#   1. person_locations is passed to the people search (ANDed with organization_ids)
+#   2. the revealed person's own state is validated before a contact is created
+STATE_NAMES = {"alabama":"AL","alaska":"AK","arizona":"AZ","arkansas":"AR","california":"CA",
+ "colorado":"CO","connecticut":"CT","delaware":"DE","florida":"FL","georgia":"GA","hawaii":"HI",
+ "idaho":"ID","illinois":"IL","indiana":"IN","iowa":"IA","kansas":"KS","kentucky":"KY",
+ "louisiana":"LA","maine":"ME","maryland":"MD","massachusetts":"MA","michigan":"MI",
+ "minnesota":"MN","mississippi":"MS","missouri":"MO","montana":"MT","nebraska":"NE",
+ "nevada":"NV","new hampshire":"NH","new jersey":"NJ","new mexico":"NM","new york":"NY",
+ "north carolina":"NC","north dakota":"ND","ohio":"OH","oklahoma":"OK","oregon":"OR",
+ "pennsylvania":"PA","rhode island":"RI","south carolina":"SC","south dakota":"SD",
+ "tennessee":"TN","texas":"TX","utah":"UT","vermont":"VT","virginia":"VA","washington":"WA",
+ "west virginia":"WV","wisconsin":"WI","wyoming":"WY","district of columbia":"DC"}
+
+
+def norm_state(s):
+    s = (s or "").strip()
+    if not s:
+        return ""
+    return STATE_NAMES.get(s.lower(), s.upper()[:2])
+
+
+def allowed_states_for(data_dir, extra=()):
+    """States this brand actually serves, derived from its own order history.
+
+    Skips ezCater's own marketplace record, which appears in the export as
+    Location='[REMOVED]' / City='Ezcater' / State='MA' and would otherwise admit
+    Massachusetts as a served state for both brands.
+    """
+    import csv as _csv, os as _os
+    states = set(norm_state(x) for x in extra)
+    p = _os.path.join(data_dir, "accounts-master.csv")
+    if _os.path.exists(p):
+        for r in _csv.DictReader(open(p, encoding="utf-8")):
+            loc = (r.get("Location") or "").strip().lower()
+            city = (r.get("City") or "").strip().lower()
+            if loc in ("[removed]", "") or "ezcater" in city or "ezcater" in loc:
+                continue
+            st = norm_state(r.get("State"))
+            if st:
+                states.add(st)
+    return states
+
+
+def person_in_market(match, allowed):
+    """False only when we positively know the person is outside the served states."""
+    st = norm_state(match.get("state"))
+    if not st or not allowed:
+        return True          # unknown location: let the geofenced search stand
+    return st in allowed
+# --------------------------------------------------------------------------
+
+
 API_KEY = os.environ["APOLLO_API_KEY"]
 H = {"x-api-key": API_KEY, "Content-Type": "application/json"}
 BASE = "https://api.apollo.io/api/v1"
@@ -98,7 +154,8 @@ def main():
             if r["Assigned Store"] == store and r["City"]:
                 cities[f"{r['City']}, {r['State']}"] += 1
     geofence = [c for c, _ in cities.most_common(8)]
-    print(f"store {store!r} geofence: {geofence}")
+    allowed = allowed_states_for(DATA)
+    print(f"store {store!r} geofence: {geofence} | allowed states: {sorted(allowed)}")
 
     # discover orgs
     prospects = {}
@@ -128,7 +185,7 @@ def main():
     for org_id, meta in prospects.items():
         small = (meta["emp"] or 999) <= 100
         d = post("mixed_people/api_search",
-                 {"organization_ids": [org_id], "per_page": 10})
+                 {"organization_ids": [org_id], "person_locations": geofence, "per_page": 10})
         best, score = None, 0
         for p in d.get("people", []) or []:
             s = title_score(p.get("title"), small)
@@ -151,7 +208,8 @@ def main():
         by_id = {m["id"]: m for m in d.get("matches", [])}
         for c in batch:
             m = by_id.get(c["person_id"])
-            if m and m.get("email") and m.get("email_status") == "verified":
+            if (m and m.get("email") and m.get("email_status") == "verified"
+                    and person_in_market(m, allowed)):
                 enriched.append({**c, "first_name": m.get("first_name"),
                                  "last_name": m.get("last_name"), "email": m["email"]})
         time.sleep(0.5)
