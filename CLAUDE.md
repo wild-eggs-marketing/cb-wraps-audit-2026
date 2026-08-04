@@ -70,8 +70,13 @@ correct. Argue the mechanism through, don't defend the conclusion.
   size; it is not knowable at scoring time.
 - No credit-balance endpoint (`usage_stats/credit_usage_stats` 404s). Local ledgers are
   estimates and must reset on the billing cycle or expansion stops for good.
-- Rate limits: **400/hour** on `contacts/update` and on account creates. Space writes ~3s
-  apart; bursts at 0.5s trip 429 even well under the hourly count.
+- Rate limits: **400/hour** on `contacts/update`, on account creates, **and on
+  `contacts/search`**. Space writes ~3s apart; bursts at 0.5s trip 429 even well under the
+  hourly count. A full contact read costs one call per page (~11), so repeated union passes
+  from several readers will exhaust the search window and then return nothing — which a naive
+  reader reports as "0 contacts". `all_contacts` retries 429 on the same page and caches to
+  `.contact-cache.json` for 15 min so readers share one read. **Never let a 429 look like a
+  completed read.**
 - `dig` does not resolve in this sandbox. Use DNS-over-HTTPS
   (`https://cloudflare-dns.com/dns-query?name=…&type=…`). Empty `dig` output is a tool failure,
   not a missing record.

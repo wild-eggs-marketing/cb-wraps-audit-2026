@@ -103,6 +103,7 @@ WE_DATA = "/home/user/cb-wraps-audit-2026/wildeggs-catering-growth/data"
 CBW_COLD, CBW_SENDER = "6a69d5305214390010407a8d", "6a67c6456fab0c0020dec04d"
 WE_COLD, WE_SENDER = "6a6a3fce1dfd6f0018cb9ec6", "6a6a51a90618ba001ca84350"
 F_NAME, F_EMAIL, F_URL = "6a6a30e70618ba0018f4cce7", "6a6a30e7a24677000c36ff4e", "6a6a30e8a24677000c36ff51"
+F_ADDR = "6a6a637c00ae0700204cf7f6"   # CBW contact field: cbw_store_address (CAN-SPAM footer)
 
 CBW_NAICS = [["62"], ["61"], ["54"], ["52"], ["31", "32", "33"], ["8131"], ["92"], ["71"], ["23"], None]
 WE_NAICS = [["8131"], ["62"], ["52"], ["61"], ["54"], ["92"], ["71"], None]
@@ -308,6 +309,8 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
         data_dir, naics_list, cold, sender = CBW_DATA, CBW_NAICS, CBW_COLD, CBW_SENDER
         fences = store_geofences(data_dir)
         labels_base = ["brand:cbw", "source:daily-expansion"]
+        addr_map = {r["ez_cater_store_name"]: r["address"]
+                    for r in csv.DictReader(open(f"{CBW_DATA}/store-addresses.csv"))}
     else:
         data_dir, naics_list, cold, sender = WE_DATA, WE_NAICS, WE_COLD, WE_SENDER
         fences = store_geofences(data_dir, WE_STATIC_GEOFENCE)
@@ -420,19 +423,28 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
                     post("labels/add_entity_ids_to_label_names",
                          {"entity_ids": [cid], "modality": "contacts",
                           "label_names": labels_base + [f"store:{slug}"]})
+                    # Every brand has at least one merge field its templates cannot render
+                    # without. An unstamped contact makes Apollo refuse the send outright
+                    # (failure_reason snippets_missing), so a silently-swallowed 429 here costs
+                    # the whole lead. Enrol only if the stamp actually landed.
                     if brand == "we":
                         fields = {F_NAME: store, F_URL: urls_map.get(store, "https://wildeggs.com/catering")}
                         if emails_map.get(store):
                             fields[F_EMAIL] = emails_map[store]
-                        # These fields ARE the Wild Eggs email: store name, that store's
-                        # ordering link, that store's reply inbox. An unstamped contact makes
-                        # Apollo refuse the send outright (failure_reason snippets_missing), so
-                        # a silently-swallowed 429 here costs the whole lead. Enrol only if the
-                        # stamp actually landed.
-                        if not put_fields(cid, fields):
-                            print(f"    ! stamp failed, not enrolling {m['email']}")
+                    else:
+                        # CBW's CAN-SPAM footer is {{cbw_store_address}}. This branch stamped
+                        # nothing at all, so all 26 CBW leads created on 2026-08-04 were
+                        # enrolled unsendable.
+                        a = addr_map.get(store)
+                        if not a:
+                            print(f"    ! no address for store {store!r}, not enrolling {m['email']}")
                             unstamped.append({"id": cid, "email": m["email"], "store": store})
                             continue
+                        fields = {F_ADDR: a}
+                    if not put_fields(cid, fields):
+                        print(f"    ! stamp failed, not enrolling {m['email']}")
+                        unstamped.append({"id": cid, "email": m["email"], "store": store})
+                        continue
                     post(f"emailer_campaigns/{cold}/add_contact_ids",
                          {"contact_ids": [cid], "emailer_campaign_id": cold,
                           "send_email_from_email_account_id": sender,

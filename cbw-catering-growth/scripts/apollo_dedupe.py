@@ -17,6 +17,7 @@ truncated the known-email set, and let a contact created on 07-31 be created aga
 all_contacts() therefore repeats full passes and unions the results until it has as many
 unique ids as pagination.total_entries claims, rather than trusting any single pass.
 """
+import json
 import os
 import time
 
@@ -30,8 +31,27 @@ def _headers():
     return {"x-api-key": os.environ["APOLLO_API_KEY"], "Content-Type": "application/json"}
 
 
-def all_contacts(max_passes=6, hard_page_cap=200):
-    """Every contact in the account, keyed by id. Union of repeated passes until complete."""
+CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".contact-cache.json")
+CACHE_TTL = int(os.environ.get("CONTACT_CACHE_TTL", "900"))   # seconds
+
+
+def all_contacts(max_passes=4, hard_page_cap=200, use_cache=True):
+    """Every contact in the account, keyed by id. Union of repeated passes until complete.
+
+    contacts/search is ALSO capped at 400 calls/hour, and a full read costs one call per page
+    (~11 today). Several readers each doing their own full read will exhaust the window and
+    then return nothing, so results are cached briefly on disk and shared. A 429 is retried
+    with backoff, never treated as a completed read - returning a short set silently is what
+    creates duplicates.
+    """
+    if use_cache and os.path.exists(CACHE_PATH):
+        try:
+            blob = json.load(open(CACHE_PATH))
+            if time.time() - blob["at"] < CACHE_TTL:
+                return {c["id"]: c for c in blob["contacts"]}, blob["expected"]
+        except (ValueError, KeyError, OSError):
+            pass
+
     union, expected = {}, None
     for _ in range(max_passes):
         page = 1
@@ -42,6 +62,9 @@ def all_contacts(max_passes=6, hard_page_cap=200):
             except requests.exceptions.RequestException:
                 time.sleep(3)
                 continue
+            if r.status_code == 429:
+                time.sleep(60)
+                continue                      # retry the SAME page; do not advance or bail
             if r.status_code != 200:
                 break
             body = r.json()
@@ -58,15 +81,32 @@ def all_contacts(max_passes=6, hard_page_cap=200):
         if expected and len(union) >= expected:
             break
         time.sleep(1)
+
+    if expected and len(union) >= expected:
+        try:
+            json.dump({"at": time.time(), "expected": expected,
+                       "contacts": list(union.values())}, open(CACHE_PATH, "w"))
+        except OSError:
+            pass
     return union, expected
 
 
+class IncompleteContactRead(RuntimeError):
+    """Raised when the contact base could not be read in full."""
+
+
 def existing_emails():
-    """Lower-cased set of every email already attached to a contact in this Apollo account."""
+    """Lower-cased set of every email already attached to a contact in this Apollo account.
+
+    FAILS CLOSED. A warning is not enough: the previous version printed a warning nobody read
+    and the run carried on to create duplicates. If the account cannot be read in full, the
+    caller must not create contacts, because it cannot know what already exists.
+    """
     union, expected = all_contacts()
     if expected and len(union) < expected:
-        # Loud, because a silent shortfall is exactly how duplicates get created.
-        print(f"WARNING: read {len(union)} of {expected} contacts; dedupe may be incomplete")
+        raise IncompleteContactRead(
+            f"read {len(union)} of {expected} contacts - refusing to create contacts against an "
+            f"incomplete dedupe base (this is how the 07-31/08-04 duplicate happened)")
     return {(c.get("email") or "").strip().lower()
             for c in union.values() if c.get("email")}
 

@@ -9,3 +9,4 @@ cbw-catering-growth/data/lookalikes-*.csv
 */data/signals-*.csv
 __pycache__/
 *.pyc
+.contact-cache.json
