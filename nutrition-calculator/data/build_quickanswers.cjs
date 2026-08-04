@@ -22,7 +22,7 @@ const path = require("path")
 // NOTE: this path has now been left pinned to a stale worker twice (v6 while v7
 // shipped, caught 4 Aug). If you bump the worker version, grep data/*.cjs for
 // worker_v — every builder must move together.
-const WORKER = path.join(__dirname, "..", "worker", "worker_v8.js")
+const WORKER = path.join(__dirname, "..", "worker", "worker_v9.js")
 const TSX = path.join(__dirname, "..", "framer", "NutritionQuickAnswers.tsx")
 
 const src = fs.readFileSync(WORKER, "utf8")
@@ -73,7 +73,8 @@ const ANSWERS = [
         body:
             `${num(gf.length)} items on our menu are made without gluten-containing ingredients, according to our official allergen analysis: ${list(gf)}. ` +
             `Eight of our nine wrap flavors — BBQ, Buffalo, Caesar, Jerk, Mediterranean, Pesto, Power and Thai — can be ordered as a Lettuce Wrap on romaine instead of a flour tortilla. Teriyaki is the one exception, because its teriyaki sauce contains wheat even without the tortilla. ` +
-            `Our salads come with a gluten-free tahini vinaigrette but are served with a warm tortilla or tortilla chips, which contain wheat, so ask for yours without. ` +
+            `Our salads — and the Fajita Bowl — are served with a warm tortilla or tortilla chips, which contain wheat, so ask for yours without; the Breakfast Bowl's side tortilla is the same story. ` +
+            `Bowls come on your choice of base, and every base is made without gluten-containing ingredients except the whole wheat linguine (wheat, eggs). If you're avoiding gluten, also skip crispy chicken and breaded plant based chicken — both are breaded with wheat; every other protein is wheat-free. ` +
             `We cook in a shared kitchen, so we can't guarantee any item is free from gluten cross-contact and we don't label anything certified gluten-free. If you have celiac disease, please talk to our staff before ordering.`,
         examples: examplesFor(i => has(i, "gluten-free")),
     },
@@ -91,8 +92,8 @@ const ANSWERS = [
             `Every item on our menu can also be ordered without the grilled chicken it's built with by default — or with a plant protein instead: Tofu (200 cal, 17g protein) or Plant Based Chicken (130 cal, 20g protein). ` +
             `Ordered that way ${list(veganWithout)} contain no animal ingredients — on the Stir Fry and High-Protein Bowls, also pick a plant-based sauce, since the Thai peanut sauce contains honey and the pesto contains milk and eggs. ` +
             `The calories and protein shown are measured with the grilled chicken in, so they'll be lower without it. ` +
-            `${num(vegetarianOnly.length)} further items are vegetarian as served rather than vegan, including all three of our salads. ` +
-            `Bowls with cheese, dairy sauces or honey — the Fajita and Power Bowls, the Mediterranean, Pesto and Jerk Bowls, and the Thai Bowl — are vegetarian without the chicken rather than vegan.`,
+            `${num(vegetarianOnly.length)} further items are vegetarian as served rather than vegan, including all three of our salads and the Power Bowl — it's built with beans and cheddar, no meat at all. ` +
+            `Bowls with cheese, dairy sauces or honey — the Fajita Bowl, the Mediterranean, Pesto and Jerk Bowls, and the Thai Bowl — are vegetarian without the chicken rather than vegan.`,
         // Mains first so the list doesn't read as sides-only, but every conditional
         // one is labelled. An unlabelled "Teriyaki Bowl" in a Vegan examples list is
         // the same false claim the filter was fixed to stop making.

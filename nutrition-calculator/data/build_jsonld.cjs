@@ -13,7 +13,7 @@
 const fs = require("fs")
 const path = require("path")
 
-const WORKER = path.join(__dirname, "..", "worker", "worker_v8.js")
+const WORKER = path.join(__dirname, "..", "worker", "worker_v9.js")
 const OUT = path.join(__dirname, "..", "framer", "head-jsonld-snippet.txt")
 // In-repo, not /tmp: the container gets recycled and /tmp with it. This file is
 // the question set; answers are regenerated from the feed on every build.
@@ -50,6 +50,10 @@ const schemaCaveat = it => {
     if (!it.nutritionNote) return ""
     if (it.category === "Salads")
         return "Nutrition is for the salad only; the warm tortilla or tortilla chips it is served with are counted separately."
+    // Fajita and Breakfast Bowls: same served-with-tortilla pattern as the salads,
+    // keyed off the v9 allergenNote so the two surfaces can't disagree.
+    if (/tortilla (served on the side|or tortilla chips)/.test(it.allergenNote || ""))
+        return "Served with a tortilla or tortilla chips that contain wheat and are not included in these figures; the dish itself is made without gluten-containing ingredients."
     if (it.saucesVary || it.allergens === "unconfirmed" && /-without-chicken/.test(it.dietaryTags || ""))
         return "Nutrition is measured with the default grilled chicken and without sauce; allergens depend on the sauce chosen."
     if (/-without-chicken/.test(it.dietaryTags || ""))
@@ -130,8 +134,9 @@ setAnswer("Can I make a Crazy Bowls & Wraps bowl vegan?",
     `You can also swap in Tofu or Plant Based Chicken instead of leaving the protein out. ` +
     `Ordered that way, ${list(veganWithout.filter(t => /Bowl$/.test(t)))} contain no animal ingredients — on the Stir Fry and High-Protein Bowls, pick a plant-based sauce too (teriyaki or sweet & sour; the Thai sauce contains honey and the pesto contains milk and eggs). ` +
     `${list(vegetarianWithout.filter(t => /Bowl$/.test(t)))} become vegetarian rather than vegan without the chicken, ` +
-    `because they still contain dairy or honey — the Fajita and Power Bowls have cheese, the Thai Bowl has honey, ` +
+    `because they still contain dairy or honey — the Fajita Bowl has cheese, the Thai Bowl has honey, ` +
     `and the Mediterranean, Pesto and Jerk Bowls have dairy in their sauces. ` +
+    `The Power Bowl is vegetarian just as it comes — built with beans and cheddar, no meat — but the cheddar keeps it from being vegan. ` +
     `Nutrition shown for all of these is measured with the chicken included.`)
 
 // Regenerated from the feed rather than left hand-written: the previous answer
@@ -145,6 +150,7 @@ setAnswer("Does Crazy Bowls & Wraps have gluten-free options?",
         ? `The ${list(gfSalads)} come with a gluten-free tahini vinaigrette, but they are served with a warm tortilla or tortilla chips, which contain wheat — ask for yours without. `
         : "") +
     `8 of our 9 wrap flavors (BBQ, Buffalo, Caesar, Jerk, Mediterranean, Pesto, Power and Thai) can also be ordered as a Lettuce Wrap instead of a tortilla; Teriyaki is the one exception, because its teriyaki sauce contains wheat even without the tortilla. ` +
+    `Bowls come on your choice of base, and every base is made without gluten-containing ingredients except the whole wheat linguine (wheat, eggs) — and if you're avoiding gluten, skip crispy chicken and breaded plant based chicken, which are breaded with wheat. The Fajita Bowl's warm tortilla or chips and the Breakfast Bowl's side tortilla contain wheat, so ask for those without. ` +
     `Because we cook in a shared kitchen we can't guarantee any item is free from gluten cross-contact, so we don't label items certified gluten-free — if you have celiac disease, please talk to our staff before ordering.`)
 
 setAnswer("What dairy-free options does Crazy Bowls & Wraps have?",

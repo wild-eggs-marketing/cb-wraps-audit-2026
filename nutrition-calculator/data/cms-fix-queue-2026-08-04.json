@@ -1,0 +1,98 @@
+{
+  "_readme": [
+    "CMS fixes verified against data/fda-full-2026-07-28.json on 4 Aug 2026 but NOT YET WRITTEN — the Framer plugin was disconnected.",
+    "Execution rules (learned the hard way this session):",
+    "1. collection fEfKTjIH1; pass draft:false explicitly on every call.",
+    "2. Where refs is null below: getCMSItems the item first, map its returned ref SLUGS to item IDs via data/diet-tag-ids.json (+ macro tags high-protein=GXhwlNe6a, low-carb=KRkFuSkGa, glp-1-friendly=gqeMXoOs9), and resend them in the same fieldData — a partial upsert revalidates the existing multi-ref and slugs fail validation.",
+    "3. Where refs is an array: write exactly that array (it is an intentional change).",
+    "4. Verify each write by read-back. CMS content goes live on the next Framer site publish.",
+    "Field IDs: allergens=ivojcMHVr, FaqQ1=zG08650jR, FaqA1=loB8_cYxl, FaqQ2=im_35WFB0, FaqA2=lrC33foKY, DietaryTags=IzMEvuZ8B."
+  ],
+  "fixes": [
+    {
+      "title": "Power Bowl", "itemId": "Npd9mkWwr",
+      "why": "Measured recipe (Power Bowl - Regular row) contains NO chicken — vegetarian as served, worker v8's chicken dietNote was wrong. 680 cal > 650 so not GLP-1; 42g protein so High Protein stands.",
+      "refs": ["ZDspoDbvH", "h4bsYR3Tm", "GXhwlNe6a"],
+      "fields": {
+        "loB8_cYxl": "Yes — as served it's vegetarian: beans, cheddar, avocado, romaine and salsas, no meat in the build. The 680-calorie figure is measured that way, with a brown rice base. Add grilled chicken or another protein if you'd like — that raises the numbers from there."
+      }
+    },
+    {
+      "title": "Spicy Slaw", "itemId": "APnqI2QxI",
+      "why": "FAQ said dressing 'may contain dairy'; the analysis says Soy only — no milk. Honey is why it's vegetarian, not vegan.",
+      "refs": null,
+      "fields": {
+        "lrC33foKY": "No dairy in it — per our official allergen analysis the jalapeño-cilantro vinaigrette contains no milk, and the slaw is gluten-free too. It is made with honey, though, so we list it as vegetarian rather than vegan."
+      }
+    },
+    {
+      "title": "Caesar Wrap", "itemId": "oQL8kDmE9",
+      "why": "Allergens field missing Wheat (flour tortilla; worker v8 carries it). 'Made fresh in-house daily' is the same unverifiable claim removed from Caesar Bowl; the dressing's fish matters in a wrap.",
+      "refs": null,
+      "fields": {
+        "ivojcMHVr": "Milk, Eggs, Fish, Wheat, Soy",
+        "zG08650jR": "What's in the caesar dressing?",
+        "loB8_cYxl": "Our Caesar is a traditional-style dressing — it contains milk, eggs, fish (anchovy) and soy. With the flour tortilla this wrap also contains wheat; the Caesar Lettuce Wrap on romaine skips the tortilla."
+      }
+    },
+    {
+      "title": "Chicken Tex Mex Egg Roll", "itemId": "g5zSugxsr",
+      "why": "'House-made' unverifiable; buffalo sauce is yogurt-ranch based (Milk, Eggs per the modifier rows) and that belongs in the answer.",
+      "refs": null,
+      "fields": {
+        "loB8_cYxl": "Served with our creamy buffalo sauce — it's yogurt-ranch based, so it contains milk and eggs. Ask for it without if you're avoiding dairy."
+      }
+    },
+    {
+      "title": "Breakfast Bowl", "itemId": "CIWyZY0Zq",
+      "why": "Gluten-free-tagged while served with a wheat tortilla on the side and offering wheat-breaded proteins; neither FAQ carried a caveat.",
+      "refs": null,
+      "fields": {
+        "loB8_cYxl": "Yes — choose from our full protein lineup to top your eggs. If you're avoiding gluten, note that crispy chicken and breaded plant based chicken are breaded with wheat; every other protein is wheat-free.",
+        "lrC33foKY": "Yes, a tortilla is served on the side if you'd like to wrap it up. It contains wheat — the bowl itself is made without gluten-containing ingredients, so set the tortilla aside if gluten matters for you."
+      }
+    },
+    {
+      "title": "Fajita Bowl", "itemId": "RIQyLP2Bl",
+      "why": "My own 4 Aug fix listed 4 bases; the export's Bases - Regular Bowls group has 6, one of which (whole wheat linguine) contains wheat + eggs. And the bowl is served with a warm tortilla or chips (wheat) its lab row doesn't include.",
+      "refs": ["ZDspoDbvH", "h4bsYR3Tm", "GXhwlNe6a"],
+      "fields": {
+        "loB8_cYxl": "Your choice of base: brown rice, jasmine rice, quinoa, cauliflower rice, spiraled veggies, or whole wheat linguine. All are made without gluten-containing ingredients except the linguine (wheat, eggs). The bowl is served with a warm tortilla or chips, which contain wheat — ask for yours without if you're avoiding gluten. Nutrition shown is measured with one standard build, so calories shift with your picks."
+      }
+    },
+    {
+      "title": "Original Crispy Treat", "itemId": "f8Yztzn1o",
+      "why": "FAQ said only 'made with common allergens on-site' while the data names milk, barley-malt gluten, and gelatin (not vegetarian).",
+      "refs": [],
+      "fields": {
+        "loB8_cYxl": "Yes — it contains milk, and its cereal contains malt extract made from barley, so it isn't gluten-free even though it has no wheat. The marshmallow also contains gelatin, so it isn't vegetarian. Please tell a manager about any food allergy before ordering."
+      }
+    },
+    {
+      "title": "Chocolate Crispy Treat", "itemId": "wZzSqEqwi",
+      "why": "Same disclosure, plus soy from the chocolate.",
+      "refs": [],
+      "fields": {
+        "loB8_cYxl": "Same crispy rice and marshmallow base, topped with chocolate chips. Like the Original it contains milk and barley-malt gluten, plus soy in the chocolate — and the marshmallow contains gelatin, so it isn't vegetarian."
+      }
+    },
+    {
+      "title": "Kid's Crunchy Chicken Meal", "itemId": "hXJk1KOId",
+      "why": "Item allergens (Soy, Wheat) cover the chicken only; the carrots & ranch side it 'comes with' adds Milk + Eggs (yogurt ranch).",
+      "refs": null,
+      "fields": {
+        "ivojcMHVr": "Soy, Wheat (carrots & ranch side adds Milk, Eggs)",
+        "loB8_cYxl": "Crispy crunchy chicken served with a side of carrots and ranch. The ranch is yogurt-based, so the side adds milk and eggs — steamed carrots or steamed broccoli are the allergen-free side swaps."
+      }
+    },
+    {
+      "title": "Kid's Cheese Quesadilla", "itemId": "Lb6fbIgu7",
+      "why": "Same side gap: quesadilla row is Milk/Wheat/Soy; the ranch side adds Eggs.",
+      "refs": null,
+      "fields": {
+        "ivojcMHVr": "Milk, Wheat, Soy (carrots & ranch side adds Eggs)",
+        "loB8_cYxl": "A cheese quesadilla served with a side of carrots and ranch. The ranch is yogurt-based and adds eggs — steamed carrots or steamed broccoli are the allergen-free side swaps."
+      }
+    }
+  ]
+}
