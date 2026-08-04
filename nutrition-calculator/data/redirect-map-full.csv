@@ -1,0 +1,108 @@
+from,to,ga4_sessions_jun2026,note
+/bowls/mediterranean-bowl/,/menu/mediterranean-bowl,179,item match
+/wraps/caesar-wrap/,/menu/caesar-wrap,173,item match
+/wraps/buffalo-wrap/,/menu/buffalo-wrap,164,item match
+/bowl_categories/gluten-free/,/nutrition-calculator,143,RE-POINT to /menu/gluten-free when diet pages ship
+/bowls/pesto-bowl-7-50-8-50/,/menu/pesto-bowl,136,item match
+/bowls/fajita-bowl-8-55-9-55/,/menu/fajita-bowl,111,item match
+/bowls/teriyaki-bowl-7-35-8-55/,/menu/teriyaki-bowl,108,item match
+/bowls/high-protein-bowl-grain-free-9-50/,/menu/high-protein-bowl,104,item match
+/salads/santa-fe-salad/,/menu/santa-fe-salad,,item match
+/Hours/lunch-dinner-monday-saturday-1030am-9pm/,/locations,,hours page
+/bowl_categories/vegan/,/nutrition-calculator,,RE-POINT to /menu/vegan when diet pages ship
+/breakfast/breakfast-wrap/,/menu/breakfast-wrap,,item match
+/starters/crispy-chicken-bites/,/menu/crispy-chicken-bites,,item match
+/sides/queso/,/menu/queso,,item match
+/bowls/bbq-bowl/,/menu/bbq-bowl,,item match
+/bowls/thai-bowl-7-35-8-55/,/menu/thai-bowl,,item match
+/breakfast/huevos-rancheros/,/menu/huevos-rancheros,,item match
+/louisville_starters/cheese-quesadilla/,/menu/kids-cheese-quesadilla,,item match
+/sides/beans-rice/,/menu/beans,,item match
+/breakfast/banana-chocolate-chip-bowl/,/menu/banana-chocolate-chip-bowl,,item match
+/bowl_categories/popular/,/menu,,taxonomy
+/wraps/jerk-wrap/,/menu/jerk-wrap,,item match
+/dessert/crazy-crispy-treat-chocolate/,/menu/crazy-crispy-treat,,item match
+/breakfast/veggie-scrambler/,/menu/veggie-scrambler,,item match
+/events/family-night/,/,,event page
+/breakfast/mixed-berry-bowl/,/menu/mixed-berry-bowl,,item match
+/kids_menu/cheese-quesadilla/,/menu/kids-cheese-quesadilla,,item match
+/louisville_starters/chicken-tex-mex-egg-roll/,/menu/chicken-tex-mex-egg-roll,,item match
+/cbw_menu_categories/kid-favorite/,/menu,,taxonomy
+/salad_categories/popular/,/menu,,taxonomy
+/bowls/power-bowl-7-55-8-80/,/menu/power-bowl,,item match
+/louisville_starters/beans-rice/,/menu/beans,,item match
+/sides/banana/,/menu/banana,,item match
+/breakfast/banana/,/menu/banana,,item match
+/salad_categories/vegetarian/,/nutrition-calculator,,RE-POINT to /menu/vegetarian when diet pages ship
+/bowls/poke-bowl-10-25/,/menu/poke-bowl,,item match
+/wrap_categories/popular/,/menu,,taxonomy
+/breakfast/breakfast-crunch/,/menu/breakfast-crunch,,item match
+/dessert/crazy-crispy-treat-original/,/menu/crazy-crispy-treat,,item match
+/breakfast/breakfast-bowl/,/menu/breakfast-bowl,,item match
+/starters/black-bean-egg-roll/,/menu/catering-black-bean-egg-roll-dozen,,item match
+/starters/teriyaki-edamame/,/menu/teriyaki-edamame,,item match
+/sides/chips/,/menu/chips,,item match
+/Hours/breakfast-sunday-8am-1100am/,/locations,,hours page
+/cbw_menu_categories/bowls/,/menu,,taxonomy
+/starters/spicy-edamame/,/menu/spicy-edamame,,item match
+/starters/lobster-rangoon/,/menu/lobster-rangoon,,item match
+/bowl_categories/low-carb/,/nutrition-calculator,,RE-POINT to /menu/low-carb when diet pages ship
+/author/priceweber/,/,,author archive
+/wraps/thai-wrap/,/menu/thai-wrap,,item match
+/breakfast/breakfast-tacos/,/menu/breakfast-tacos,,item match
+/starters/garlic-ginger-edamame/,/menu/garlic-ginger-edamame,,item match
+/author/kelsey/,/,,author archive
+/salads/multigrain-quinoa-salad/,/menu/multigrain-quinoa-salad,,item match
+/breakfast/fruit-cup/,/menu/fruit-cup,,item match
+/Hours/breakfast-monday-friday-7am-1030am/,/locations,,hours page
+/starters/vegetable-wontons/,/menu/vegetable-wontons,,item match
+/wraps/mediterranean-wrap/,/menu/mediterranean-wrap,,item match
+/wraps/bbq-wrap/,/menu/bbq-wrap,,item match
+/louisville_starters/crispy-chicken-bites/,/menu/crispy-chicken-bites,,item match
+/louisville_starters/lobster-rangoon/,/menu/lobster-rangoon,,item match
+/Hours/lunch-dinner-monday-sunday-1030-am-900-pm/,/locations,,hours page
+/sides/carrots/,/menu/carrots,,item match
+/wraps/pesto-wrap/,/menu/pesto-wrap,,item match
+/bowls/jerk-bowl/,/menu/jerk-bowl,,item match
+/breakfast/healthy-burrito/,/menu/healthy-burrito,,item match
+/Hours/breakfast-monday-saturday-8am-1030am/,/locations,,hours page
+/cbw_menu_categories/vegetarian/,/nutrition-calculator,,RE-POINT to /menu/vegetarian when diet pages ship
+/cbw_menu_categories/vegan/,/nutrition-calculator,,RE-POINT to /menu/vegan when diet pages ship
+/bowls/buffalo-bowl/,/menu/buffalo-bowl,,item match
+/starters/chicken-tex-mex-egg-roll/,/menu/chicken-tex-mex-egg-roll,,item match
+/breakfast/spinach-breakfast-bowl/,/menu/spinach-breakfast-bowl,,item match
+/sides/fruit-bowl/,/menu/fruit-bowl,,item match
+/bowl_categories/paleo/,/nutrition-calculator,,taxonomy
+/bowls/caesar-bowl/,/menu/caesar-bowl,,item match
+/salads/kale-quinoa-salad/,/menu/kale-quinoa-salad,,item match
+/starters/roasted-cauliflower/,/menu/roasted-cauliflower,,item match
+/wraps/teriyaki-wrap/,/menu/teriyaki-wrap,,item match
+/breakfast/protein-scrambler/,/menu/protein-scrambler,,item match
+/Hours/breakfast-saturday-8am-1030am/,/locations,,hours page
+/cbw_menu_categories/best-seller/,/menu,,taxonomy
+/Hours/sunday-closed/,/locations,,hours page
+/cbw_menu_categories/wraps/,/menu,,taxonomy
+/salad_categories/gluten-free/,/nutrition-calculator,,RE-POINT to /menu/gluten-free when diet pages ship
+/author/tchristianapriceweber-com/,/,,author archive
+/cbw_menu_categories/gluten-free/,/nutrition-calculator,,RE-POINT to /menu/gluten-free when diet pages ship
+/sides/slaw/,/menu/spicy-slaw,,item match
+/bowls/stir-fry-bowl-7-35-8-55/,/menu/stir-fry-bowl,,item match
+/starters/tostada/,/menu/tostada-starter,,manual match
+/lto-menu-items/hot-spicy-bowl/,/menu,,LTO/discontinued — no matching item; send to menu hub
+/kids_menu/kids-teriyaki-chicken-wrap/,/menu/kids-chicken-teriyaki-wrap,,manual match
+/starters/gluten-free-falafel/,/menu/gf-quinoa-falafel,,manual match
+/wraps/traditional-wrap/,/menu,,LTO/discontinued — no matching item; send to menu hub
+/lto-menu-items/jalapeno-cilantro-wrap/,/menu,,LTO/discontinued — no matching item; send to menu hub
+/starters/bbq-chicken-quesadilla/,/menu/bbq-quesadilla,,manual match
+/lto-menu-items/feta-veggie-wrap/,/menu,,LTO/discontinued — no matching item; send to menu hub
+/kids_menu/kids-broccoli-and-chicken-bowl/,/menu/kids-broccoli-chicken-bowl,,manual match
+/sides/quinoa/,/menu/side-of-quinoa,,manual match
+/lto-menu-items/tostada-salad/,/menu,,LTO/discontinued — no matching item; send to menu hub
+/kids_menu/crispy-chicken/,/menu/kids-crunchy-chicken-meal,,manual match
+/bowls/sweet-sour-bowl-7-90-9-15/,/menu/sweet-and-sour-bowl,,manual match
+/starters/chips-queso/,/menu/chips-and-queso,,manual match
+/sides/broccoli/,/menu/broccoli-with-olive-oil-herb,,manual match
+/louisville_starters/black-bean-and-green-chile-egg-roll/,/menu/catering-black-bean-egg-roll-dozen,,manual match
+/starters/salt-lime-edamame/,/menu/salt-and-lime-edamame,,manual match
+/bowls/bean-veggie-bowl-7-35-8-55/,/menu,,Bean & Veggie Bowl has no CMS item — send to hub; add item if it still exists
+/louisville_starters/chips-queso/,/menu/chips-and-queso,,manual match

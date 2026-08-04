@@ -7,7 +7,7 @@ import { useState, useMemo, useEffect, useRef, useDeferredValue, useReducer, use
 // BUMP THIS ON EVERY PUSH. It exists so "did the change go live?" is answered by
 // reading one string off the page, instead of counting filter results and inferring
 // which code path produced them — two pushes were published stale before this existed.
-const BUILD = "2026-07-28-09"
+const BUILD = "2026-08-04-10"
 
 const MOBILE_BP   = 680
 const MAX_TRAY    = 3
@@ -116,6 +116,12 @@ interface MenuItem {
     // counted separately, a grain that can be swapped. Shown next to the macros,
     // because a single figure presented alone reads as the only possible answer.
     nutritionNote?: string
+    // Set by the feed when an item's figures are provably wrong rather than merely
+    // unverified — e.g. the three phantom bowls whose numbers are byte-identical to
+    // their WRAP rows (they include a tortilla a bowl doesn't have) and claim 0g
+    // fat. Such items must not pass any macro-based filter: a wrong number shown
+    // under "High Protein" is a wrong claim, not a hedge.
+    macrosSuspect?: boolean
     // True when the CMS stores floor values ("from 150", "150+") for a variant
     // family — macros display as minimums ("150+ cal") and the item is excluded
     // from calorie-ceiling filters, combined totals, and budget math.
@@ -318,12 +324,16 @@ const DIETARY_TAGS: Record<string, (i: MenuItem) => boolean> = {
     // "made without gluten-containing ingredients" rather than "gluten-free".
     "Gluten-Free":  i => dietFromCms(i, "gluten-free", "gluten free") ?? (hasAllergenData(i) && !hasAllergen(i, ["wheat"])),
     "Dairy-Free":   i => dietFromCms(i, "dairy-free", "dairy free", "low-lactose", "low lactose", "vegan") ?? (hasAllergenData(i) && !hasAllergen(i, ["milk"])),
-    "High Protein": i => i.protein >= 25,
-    "Low Carb":     i => i.carbs > 0 && i.carbs <= 20,
+    // !macrosSuspect: items whose figures are provably wrong (see MenuItem) are
+    // excluded from every macro filter. !variable on Low Carb: Lettuce Wraps spans
+    // 8-22g carbs, and a range's floor is not a claim — 22g isn't low carb. GLP-1
+    // already had the variable guard; Low Carb was the one place it was missing.
+    "High Protein": i => !i.macrosSuspect && i.protein >= 25,
+    "Low Carb":     i => !i.macrosSuspect && !i.variable && i.carbs > 0 && i.carbs <= 20,
     // Macro-based label only (protein-forward, portion-conscious) — never a medical
     // claim. Thresholds picked to surface meals that pair well with a reduced-appetite,
     // high-protein-priority eating pattern; see the on-page disclaimer for the caveat.
-    "GLP-1 Friendly": i => !i.variable && i.calories > 0 && i.protein >= 25 && i.calories <= 650,
+    "GLP-1 Friendly": i => !i.macrosSuspect && !i.variable && i.calories > 0 && i.protein >= 25 && i.calories <= 650,
 }
 
 const DIETARY: string[] = Object.keys(DIETARY_TAGS)
@@ -418,6 +428,7 @@ function mapCmsItem(raw: Record<string, unknown>, index: number): MenuItem {
         allergenNote:   str("allergenNote", "allergen_note") || undefined,
         nutritionNote:  str("nutritionNote", "nutrition_note") || undefined,
         wheatFromTortilla: Boolean(pick("wheatFromTortilla", "wheat_from_tortilla")),
+        macrosSuspect: Boolean(pick("macrosSuspect", "macros_suspect")),
     }
 }
 
@@ -1417,6 +1428,15 @@ function NutritionCalculator({
                                             if (al.state === "list") return (
                                                 <div style={{ fontSize: 10, color: C.orangeDark, fontWeight: 700, marginBottom: 6, lineHeight: 1.4 }}>
                                                     Contains {al.list.join(", ")}
+                                                </div>
+                                            )
+                                            // A green all-clear next to an allergenNote is a
+                                            // contradiction: the note exists precisely because the
+                                            // list doesn't cover the dish as ordered. Show the
+                                            // conditional state instead of the absolute one.
+                                            if (al.state === "none" && item.allergenNote) return (
+                                                <div style={{ fontSize: 10, color: C.amber, fontWeight: 700, marginBottom: 6, lineHeight: 1.4 }}>
+                                                    Allergens vary — see details
                                                 </div>
                                             )
                                             if (al.state === "none") return (

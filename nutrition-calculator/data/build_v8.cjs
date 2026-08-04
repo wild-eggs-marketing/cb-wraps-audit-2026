@@ -92,8 +92,14 @@ for (const it of items) {
     if (!m) continue
     const before = it.allergens
     it.allergens = m.allergens
-    if (it.dataConfidence === "no-data") it.dataConfidence = "verified-alias"
-    changes.push([it.title, `allergens ${JSON.stringify(before)} -> "${m.allergens}" from ${m.src}`])
+    // All three carried "unverified-legacy", and their legacy macros turn out to
+    // MATCH the modifier rows exactly (100/370/380 cal) — so the figures are now
+    // confirmed, not merely inherited. Upgrade the confidence and drop the stale
+    // "figures pre-date our analysis" note, which contradicted the fresh data.
+    if (it.dataConfidence === "no-data" || it.dataConfidence === "unverified-legacy")
+        it.dataConfidence = "verified-alias"
+    delete it.nutritionNote
+    changes.push([it.title, `allergens ${JSON.stringify(before)} -> "${m.allergens}" from ${m.src}; confidence -> verified-alias`])
 }
 
 // Banana had allergens null while claiming gluten-free, dairy-free, vegan and
@@ -135,6 +141,21 @@ for (const it of items) {
     it.dietaryTags = "contains-gluten"
     it.allergenNote = "Contains malt extract, made from barley, so this is not gluten-free even though it contains no wheat. Please tell our staff if you are avoiding gluten."
     changes.push([it.title, 'tagged "contains-gluten" to exclude it from Gluten-Free — filling its allergens had made the wheat-based proxy pass it'])
+}
+
+// ── 4. phantom bowls: macros are provably wrong, not merely unverified ───────
+// BBQ/Buffalo/Caesar Bowl figures are byte-identical to their WRAP rows — they
+// include a flour tortilla (~260 cal) a bowl does not have — and all three claim
+// fat: 0, which is arithmetically impossible. macrosSuspect lets the component
+// exclude them from macro-based filters (High Protein / Low Carb / GLP-1), where
+// a wrong number is a wrong claim; the figures stay visible under the existing
+// phantom banner so the page does not silently lose three items.
+for (const t of ["BBQ Bowl", "Buffalo Bowl", "Caesar Bowl"]) {
+    const it = items.find(i => i.title === t)
+    if (!it) continue
+    it.macrosSuspect = true
+    it.nutritionNote = "These figures could not be confirmed and appear to describe the wrap version of this dish — they include a tortilla a bowl doesn't have. Treat them as unreliable; this item is pending re-analysis."
+    changes.push([t, "macrosSuspect: true (figures identical to the wrap row incl. tortilla; fat: 0 impossible)"])
 }
 
 const newHead = head.replace(/v7\b/g, "v8").replace(/generated [\d-]+/, "generated 2026-07-28")

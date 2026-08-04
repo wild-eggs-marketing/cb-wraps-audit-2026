@@ -1,0 +1,37 @@
+## Live risks — ranked by severity
+
+**1. `Stir Fry Bowl` and `High-Protein Bowl` publish "None of the 9 major allergens" (green badge, card + detail) plus `gluten-free` + `dairy-free` — and their lab rows contain no sauce at all.**
+Export `Stir-Fry Bowl - Regular` statement is *"Veggie Mix… Brown Rice, Grilled Chicken"*. `High Protein Bowl` is *"Veggie Mix… Grilled Chicken"* — no base, no sauce. But the worker's own `ingredients` for these items reads "your choice of regular teriyaki, spicy teriyaki, house made gluten-free Thai peanut sauce…" / "…basil pesto, Thai peanut…". Modifier rows: `Teriyaki`/`Spicy Teriyaki` = **Wheat, Soy** (+Sesame), `Gluten Free Thai` = **Peanuts, Soy, Sesame**, `Pesto Sauce` = **Milk, Eggs**. So a peanut-allergic guest sees an affirmative green "no major allergens" on a dish whose own copy offers peanut sauce; a dairy-free-tagged bowl offers a dairy pesto. This is the identical defect class fixed for tortillas (decision 3) and missed for sauces. **Fix: force `allergens: "unconfirmed"` on both until sauce-inclusive rows exist, or hard-code the union of default-sauce allergens. Do this first.**
+
+**2. Three items publish "Allergen information isn't confirmed — ask staff" when the export supplies Milk.** Reconciliation matched only `Item` rows, not `Modifier` rows. `Carrots & Ranch` → Modifier *Carrots and Ranch* = **Milk, Eggs**, 100 cal. `Original Crispy Treat` → **Milk**, 370 cal. `Chocolate Crispy Treat` → **Milk, Soy**, 380 cal. All three are kids'/dessert items. "Unknown" reads as "probably fine" to a parent; "contains milk" does not.
+
+**3. The malt audit behind the gluten proxy is factually wrong.** CHANGELOG Part 5.3 and the code comment at `NutritionCalculator.tsx:294` both claim "the only 4 items that mention any (malt) are already flagged Wheat." `Original Crispy Treat` and `Chocolate Crispy Treat` both contain **"Malt Extract"** and are **Wheat = blank**. Barley malt is already in the dataset, unflagged. Neither is currently GF-tagged, so no live false positive — but the proxy's stated evidence base is falsified today, not "if a barley item is ever added."
+
+**4. Phantom bowls are provably wrong, not merely unverified.** `BBQ Bowl` 410/33, `Buffalo Bowl` 320/34, `Caesar Bowl` 480/34 are byte-identical to the *Wrap* rows — i.e. they include ~260 cal / 8 g protein of `Flour Tortilla` a bowl does not have. All three have `fat: 0`, arithmetically impossible (Caesar Bowl: 480 cal claimed vs 240 implied, −50%). All three sit in the GLP-1 filter and carry CMS `High Protein` + `GLP-1 Friendly` tag references, so they will populate a future /glp-1 page. Same `fat: 0` defect on `Kids Bowl` (−21%) and `Tacos` (−33%).
+
+**5. The conditional-tag approach is defensible in the calculator and broken in the CMS.** `build_diet_refs.cjs` computes `conditional` for 19 items but writes only field `IzMEvuZ8B` (the multi-reference) — the condition is never persisted. Nothing at the CMS data layer distinguishes `Vegan` on `Mixed Veggies` from `Vegan` on `Stir Fry Bowl`. Diet landing pages built off these tags will assert unconditional Vegan for 5 items and Vegetarian for 19. **Add a boolean field before those pages ship, or the approach must be reversed.**
+
+**6. The condition is also wrong — it isn't only chicken.** `dietNote` says "only when ordered without the default grilled chicken." But `Gluten Free Thai` contains **Honey** and `Pesto Sauce` contains **Milk, Eggs** — both offered on `Stir Fry Bowl` / `High-Protein Bowl`. Chicken-free ≠ vegan there.
+
+**7. JSON-LD asserts `schema.org/GlutenFreeDiet` on 22 items** while §3.3 deliberately avoids the regulated term in prose. The machine-readable claim AI engines consume is the absolute one. `LowLactoseDiet` is also a weaker claim than "dairy-free" for a milk-allergic reader.
+
+**8. Quinoa salads: CMS prose is correct, calculator is not.** The CMS FAQ says the tortilla/chips "contain wheat — ask for it without them." The worker's `nutritionNote` only says they're "counted separately." Add an `allergenNote`; then decision 4 is sound.
+
+**9. Fail-closed is a fallback, not a guard.** `dietFromCms(i,…) ?? (hasAllergenData(i) && …)` — a tag always wins. `Banana` (allergens `null`, `unverified-legacy`) passes Gluten-Free and Dairy-Free. Harmless in fact; the mechanism is not.
+
+## Latent failure modes
+- **New sauce or protein**: 192 modifier rows ship with no `dataConfidence` and no `ingredientStatement`; blank allergens serialise to `""`, which the item-side logic treats as *unknown* but the modifier block treats as *none*. Wiring the swap UI re-creates the §1.3 bug wholesale. `Pan Seared Steak` and `Pork Carnitas` are already `allergens: ""`.
+- **Flavor bar is self-serve**: `Add Tahini Vinaigrette` (**Milk**, Soy, Sesame) and `Add Hummus` (Soy, Sesame) break every dairy-free/sesame-free claim post-lab, invisibly.
+- **Barley/rye**: already live (item 3). Replace the proxy with a statement-level gluten scan.
+- **Item 8 (chips = Wheat) cuts both ways**: over-flagging is the fail-safe direction for GF, but it is the *sole* source of `Santa Fe Salad`'s Wheat flag. If it's a data error, Santa Fe is wrongly excluded; if it's real, the quinoa salads' accompaniment is worse than assumed. Resolve at source.
+- **`Lettuce Wraps`** holds string macros (`"150-200"`, `"8-22"`); it's the only `variable` item, so `!i.variable` in GLP-1 is near-dead code and Low Carb includes it on its 8 g floor (already logged in REMAINING.md §0).
+
+## Verified sound
+- **Sesame is handled correctly and consistently.** Zero rows mention sesame/tahini/hummus/goma shio without a `Sesame` flag; it's in `BIG9` and rendered as a chip. Only gap: absent from JSON-LD (schema.org has no allergen property) and no sesame-free filter — acceptable given display.
+- **Soy sauce is not a gluten hole.** Every soy-sauce row reads *"Gluten Free Soy Sauce: Water, Soybeans, Salt, Sugar"*. `Thai Bowl`, `Garlic Ginger Edamame`, `Poke Bowl` are genuinely wheat-free from that vector. The `Gluten Free Thai`/`Garlic Ginger`/`Hiyashi` modifier names are recipe names, not alternate SKUs.
+- **`Sweet & Sour Bowl`'s "None" is real** — its lab row *does* include `Sweet and Sour Sauce`, which is allergen-free. Distinguish it from items 1.
+- **`Santa Fe Salad` is handled honestly.** Its statement bundles `Tortilla Strips` (so Wheat=Y is right, GF correctly withheld) and genuinely omits avocado — while `Multigrain Quinoa Salad`'s statement *does* list `Avocados`, proving the export records avocado where present. "260 is a floor" is the right call.
+- **No vegan/vegetarian-tagged item contains a hidden animal ingredient.** Full statement scan (chicken/steak/pork/fish/gelatin/honey/whey/casein) across all 89 item rows: only `Spicy Slaw` (honey), which is vegetarian-only. Conditional tags are correctly excluded from JSON-LD.
+- **Withholding the `Active=0` Gluten Free Tortilla and the egg-white `Plant Based Chicken`** is the correct call, as is the enumerated `PLANT_PROTEINS` allow-list over a keyword scan.
+
+**Premise check:** `REMAINING.md:3-6` states worker **v5** is serving and **v7 is not pasted into Cloudflare**, with the Framer component "verified in the project but needs a publish." If that is still true, several findings above are not yet live — confirm the build stamp before triaging.

@@ -83,6 +83,9 @@ if (itemCount !== null) {
     const bad = items.filter(i => {
         if (!i.dietaryTags) return false
         const tags = new Set(i.dietaryTags.split(",").map(s => s.trim()))
+        // contains-gluten marks non-wheat gluten (barley malt); such an item is
+        // CORRECT to lack gluten-free, so the wheat-substring rule must not flag it.
+        if (tags.has("contains-gluten")) return false
         const a = (i.allergens || "").trim().toLowerCase()
         if (a === "" || a === "unconfirmed") return false
         return (!a.includes("wheat") && !tags.has("gluten-free")) ||

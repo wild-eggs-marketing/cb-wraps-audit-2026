@@ -19,7 +19,10 @@
 const fs = require("fs")
 const path = require("path")
 
-const WORKER = path.join(__dirname, "..", "worker", "worker_v6.js")
+// NOTE: this path has now been left pinned to a stale worker twice (v6 while v7
+// shipped, caught 4 Aug). If you bump the worker version, grep data/*.cjs for
+// worker_v — every builder must move together.
+const WORKER = path.join(__dirname, "..", "worker", "worker_v8.js")
 const TSX = path.join(__dirname, "..", "framer", "NutritionQuickAnswers.tsx")
 
 const src = fs.readFileSync(WORKER, "utf8")
@@ -85,7 +88,9 @@ const ANSWERS = [
         heading: "Vegan & Vegetarian",
         body:
             `Vegan as it comes: ${list(veganAsServed)}. ` +
-            `Every item on our menu can also be ordered without the grilled chicken it's built with by default, and ordered that way ${list(veganWithout)} contain no animal ingredients at all — the calories and protein shown for those are measured with the chicken in, so they'll be lower without it. ` +
+            `Every item on our menu can also be ordered without the grilled chicken it's built with by default — or with a plant protein instead: Tofu (200 cal, 17g protein) or Plant Based Chicken (130 cal, 20g protein). ` +
+            `Ordered that way ${list(veganWithout)} contain no animal ingredients — on the Stir Fry and High-Protein Bowls, also pick a plant-based sauce, since the Thai peanut sauce contains honey and the pesto contains milk and eggs. ` +
+            `The calories and protein shown are measured with the grilled chicken in, so they'll be lower without it. ` +
             `${num(vegetarianOnly.length)} further items are vegetarian as served rather than vegan, including all three of our salads. ` +
             `Bowls with cheese, dairy sauces or honey — the Fajita and Power Bowls, the Mediterranean, Pesto and Jerk Bowls, and the Thai Bowl — are vegetarian without the chicken rather than vegan.`,
         // Mains first so the list doesn't read as sides-only, but every conditional

@@ -13,9 +13,11 @@
 const fs = require("fs")
 const path = require("path")
 
-const WORKER = path.join(__dirname, "..", "worker", "worker_v7.js")
+const WORKER = path.join(__dirname, "..", "worker", "worker_v8.js")
 const OUT = path.join(__dirname, "..", "framer", "head-jsonld-snippet.txt")
-const FAQ_IN = "/tmp/faq_v4.json"
+// In-repo, not /tmp: the container gets recycled and /tmp with it. This file is
+// the question set; answers are regenerated from the feed on every build.
+const FAQ_IN = path.join(__dirname, "faq-source.json")
 
 const src = fs.readFileSync(WORKER, "utf8")
 const anchor = src.indexOf("const MENU_DATA = ")
@@ -48,6 +50,8 @@ const schemaCaveat = it => {
     if (!it.nutritionNote) return ""
     if (it.category === "Salads")
         return "Nutrition is for the salad only; the warm tortilla or tortilla chips it is served with are counted separately."
+    if (it.saucesVary || it.allergens === "unconfirmed" && /-without-chicken/.test(it.dietaryTags || ""))
+        return "Nutrition is measured with the default grilled chicken and without sauce; allergens depend on the sauce chosen."
     if (/-without-chicken/.test(it.dietaryTags || ""))
         return "Nutrition is measured with the default grilled chicken; ordered without it, calories and protein are lower."
     if (it.dataConfidence === "phantom-unconfirmed")
@@ -108,17 +112,23 @@ const setAnswer = (question, text) => {
     q.acceptedAnswer.text = text
 }
 
+// Plant proteins are stated by name. Until now every answer said only "order it
+// without the chicken", which leaves a vegan with a protein-less bowl and hides
+// that Tofu and Plant Based Chicken are real, orderable menu proteins — the AEO
+// advisor's finding, verified against the modifier rows.
 setAnswer("Is there a vegan menu at Crazy Bowls & Wraps?",
     `We don't have a separate vegan menu, but there is plenty that is vegan as it comes: ${list(veganAsServed)}. ` +
-    `Any item on our menu can also be ordered without the grilled chicken it is built with by default. ` +
-    `Ordered that way these contain no animal ingredients at all: ${list(veganWithout)}. ` +
-    `That applies to the kids' bowls and wraps too, even where the name mentions chicken. ` +
-    `The calorie and protein figures shown are measured with the chicken in, so they will be lower without it. ` +
+    `Any item on our menu can also be ordered without the grilled chicken it is built with by default — or with a plant protein instead: ` +
+    `we offer Tofu (200 cal, 17g protein) and Plant Based Chicken (130 cal, 20g protein) as swaps for the grilled chicken (140 cal, 28g protein). ` +
+    `Ordered that way these contain no animal ingredients: ${list(veganWithout)}. ` +
+    `On the Stir Fry and High-Protein Bowls, also choose your sauce with care — the Thai peanut sauce contains honey and the pesto contains milk and eggs; teriyaki and sweet & sour are plant-based. ` +
+    `The calorie and protein figures shown are measured with the grilled chicken in. ` +
     `Because we cook in a shared kitchen we can't guarantee any item is free from cross-contact with animal products.`)
 
 setAnswer("Can I make a Crazy Bowls & Wraps bowl vegan?",
     `Yes. Every composed bowl is built with grilled chicken by default, and you can ask for it without. ` +
-    `Ordered that way, ${list(veganWithout.filter(t => /Bowl$/.test(t)))} contain no animal ingredients at all. ` +
+    `You can also swap in Tofu or Plant Based Chicken instead of leaving the protein out. ` +
+    `Ordered that way, ${list(veganWithout.filter(t => /Bowl$/.test(t)))} contain no animal ingredients — on the Stir Fry and High-Protein Bowls, pick a plant-based sauce too (teriyaki or sweet & sour; the Thai sauce contains honey and the pesto contains milk and eggs). ` +
     `${list(vegetarianWithout.filter(t => /Bowl$/.test(t)))} become vegetarian rather than vegan without the chicken, ` +
     `because they still contain dairy or honey — the Fajita and Power Bowls have cheese, the Thai Bowl has honey, ` +
     `and the Mediterranean, Pesto and Jerk Bowls have dairy in their sauces. ` +

@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Crazy Bowls & Wraps have gluten-free options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Several bowls are made without gluten-containing ingredients \u2014 the Stir Fry Bowl, Sweet & Sour Bowl, Thai Bowl, Poke Bowl, Fajita Bowl, Power Bowl, Mediterranean Bowl, Pesto Bowl, Jerk Bowl and High-Protein Bowl \u2014 along with our GF Quinoa Falafel and all four edamame starters. 8 of our 9 flavors (BBQ, Buffalo, Caesar, Jerk, Mediterranean, Pesto, Power and Thai) can also be ordered as a Lettuce Wrap instead of a tortilla; Teriyaki is the one exception, because its teriyaki sauce contains wheat even without the tortilla. Because we cook in a shared kitchen we can't guarantee any item is free from gluten cross-contact, so we don't label items certified gluten-free \u2014 if you have celiac disease, please talk to our staff before ordering."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Crazy Bowls & Wraps have a gluten-free tortilla or wrap?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No \u2014 our Flour, Tomato and Whole Wheat tortillas all contain wheat, so there is no gluten-free tortilla. For a wrap without gluten-containing ingredients, order any flavor except Teriyaki as a Lettuce Wrap, which uses romaine leaves instead of a tortilla."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What dairy-free options does Crazy Bowls & Wraps have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Confirmed dairy-free bowls include the Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Thai Bowl, High-Protein Bowl and Poke Bowl. All four edamame starters \u2014 Garlic Ginger, Salt & Lime, Spicy and Teriyaki \u2014 are dairy-free, as are the Carrots, Broccoli with Olive Oil & Herb and Mixed Veggies sides. Use the Dairy-Free filter in our Nutrition Calculator to check any specific item, and tell our staff if you have a dairy allergy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a vegan menu at Crazy Bowls & Wraps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every bowl and wrap is built to order and comes with grilled chicken as the default protein, so our bowls are not vegan as listed \u2014 they become vegan when you swap the protein to Tofu or Plant Based Chicken. Items that are fully plant-based exactly as served: Garlic Ginger Edamame, Salt & Lime Edamame, Spicy Edamame, Carrots with Olive Oil & Herb, Broccoli with Olive Oil & Herb, Mixed Veggies and a Banana."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make a Crazy Bowls & Wraps bowl vegan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Ask for Tofu or Plant Based Chicken instead of the default grilled chicken. The Stir Fry Bowl, Sweet & Sour Bowl, Teriyaki Bowl, Bean & Veggie Bowl and High-Protein Bowl contain no dairy, egg or honey in their other ingredients, so swapping the protein makes them fully plant-based. A few bowls can't be made vegan by a protein swap alone: the Fajita Bowl and Power Bowl include cheese, and the Thai Bowl's peanut sauce contains honey \u2014 ask us to leave those out."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best high-protein, lower-calorie options at Crazy Bowls & Wraps \u2014 good for GLP-1 or weight-management diets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our High-Protein Bowl has 62g of protein at 380 calories, the highest protein-to-calorie ratio on the menu. Other protein-forward, portion-conscious picks under 650 calories include the Buffalo Bowl, Caesar Bowl, Poke Bowl and BBQ Bowl (all 33g+ protein), most of our Wraps, the Crispy Chicken Bites starter, and Garlic Ginger Edamame at 25g protein. These are macro-based picks, not medical advice \u2014 if you're managing your diet around a GLP-1 medication or another weight-management plan, check with your doctor or dietitian about what fits your needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the nutrition values in the Crazy Bowls & Wraps Nutrition Calculator accurate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Values come from our official nutrition analysis and are estimated on our standard serving portions, so expect about 10% variance depending on how an item is prepared that day. Every bowl and wrap is shown as served with brown rice and grilled chicken \u2014 changing the protein, base, sauce or tortilla changes the numbers. Allergen information reflects ingredients on file; because we prepare food in a shared kitchen we can't guarantee any item is completely free of a given allergen. Please tell our staff about any allergy before ordering."
+      }
+    }
+  ]
+}
