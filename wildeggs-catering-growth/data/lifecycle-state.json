@@ -1,0 +1,2932 @@
+{
+ "": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "16-bit-bar-+-arcade": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "1st-urology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "29th-street-property-management": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "3dr-labs-llc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "913-the-turn": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "[removed]": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "adelante-schools": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "adp": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "advanced-ent-and-allergy": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "advanced-regional-surgery-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "aetna-better-health-of-kentucky": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "all-in-pediatrics": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "allegion---jessica-jachimecki": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "allied-automation": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "allure-medical": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "allworth-financial": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "amazon-ind4": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "amcor": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "amend": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ameriprise-financial": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "arbor-homes": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "ascension-st-vincent-breast-care": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "ascension-st-vincent-hospital---indianapolis": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "asg-indianapolis": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "asheville-tourists": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "associates-in-dermatology": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "associates-of-dermatology": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "audubon-hosptial": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "axia-noblesville": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "bae-systems": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "ball-state-university-|-cap-indy": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "bandg-foods": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baotist-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-cancer-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-cancer-center---cancer-and-blood-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "baptist-endocrinology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "baptist-floyd-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-floyd-orthopedics": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-gastroenterology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "baptist-health---dr-crone-spanova-lohano--suite-209": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health-cancer-center": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "baptist-health-cancer-center-new-albany": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health-endocrinology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "baptist-health-floyd-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health-hem-onc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health-louisville-oncology---hematology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health-medical-group": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health-medical-group-gastroenterology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health-neurology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "baptist-health-neurology-dr-scott": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-health-primary-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-hospital-ed-observation-unit": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "baptist-medical-associates--floyd\u2019s-knobs---dr-johnson-upton-ect": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "baptist-neurology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "baptist-oncology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "baptist-oncology-hematology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "barnes-dennig": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "beech-grove-high-school": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "behavioral-health-group": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "bellarmine-university---knights-hall": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "benefits-all-in": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "bengals-offices": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "bengals-stadium---main-offices": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "bennett-and-bloom-eye": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "bennett-and-bloom-eye-centers": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "bethesda-north-hospital": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "biolife-solutions-at-cook": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "bogarts": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "borders-and-borders-plc": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "bowling-green-ballpark": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "bowling-green-hot-rods": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "bowling-green-hot-rods-clubhouse": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "brown-cancer-centee-terra-crossing-blvd": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "brown-cancer-center": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "brown-cancer-center--(dr-metzinger)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "brown-cancer-center---gynonc-(metzinger-todd)": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "brown-cancer-center---terra-crossing": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "brown-cancer-center---terra-crossing-blvd": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "brown-cancer-center--terra-crossing": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "brown-cancer-center-downtown": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "brown-cancer-center-fellows": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "brown-cancer-center-radiation-oncology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "brown-cancer-center-terra-crossing": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "brown-cancer-radiation-oncology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "brown-u-of-l-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "building": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "business-furniture-+-co": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "byerly-ford-inc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "caba": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "cai": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "cancer-center": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "candlewood-suites": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "carpet-specialists": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "carrier": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "cbc-kresge": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "cbre-inc-(ormsby-iii)": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "cei--cincinnati-eye-instutite": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "charles-h-braun-stadium": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "charter-senior-living-at-hobbs-station": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "child-focus": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "christ-dr-perrino-dr-office": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "christ-hospital-physicians": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "christy-paddock-advisors": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "churchill-downs-incoprorated": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cicc-(central-indiana-cancer-center)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cincinnati": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cincinnati--gi": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "cincinnati-childrens-hospital-medical-center": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "cincinnati-gi": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "cincinnati-gi-anderson": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cincinnati-music-hall": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "clark-schaefer": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "clark-schaefer-hackett": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "clearpath-harford": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "cmta": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cobank": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "coke-consolidated": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "community-endocrinology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "community-family-physicians": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "community-health-internal-medicine": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "community-south-pulmonary": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "complete-in-christ-ministries": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "confluent-health": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "cook-medical": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "cooke-financial-group": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "cornell-install-home": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "corsocare": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "courtyard-hotel": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "courtyard-louisville-downtown": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "covington-by-the-lake-apartments": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "crossroads": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "crossroads-church": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "crossroads-church-oakley": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "crossroads-oakley": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "cummins": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "cummins-dhl": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "cummins-inc": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "cvr---cdk-global": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "cym-living": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "dauenhauer-plumbing": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "davita": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "dawes-fretzin": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "deaconess": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "deaconess--mob-6-cancer-services": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "deaconess-allergy-clinic": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "deaconess-cancer-services-medical-office-building-4": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "deaconess-clinic-primary-care---downtown-fourth-street": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "deaconess-dermatology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "deaconess-downtown-primary-care-2nd-floor": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "deaconess-felstead-fp": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "deaconess-gateway-infusion-center": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "deaconess-infusion": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "deaconess-mob-4-cancer-services": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "deaconess-west": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dean-dorton": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "deloitte": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "deloitte-(salesforce-building)": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "delv-design": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "derm-specialist-of-nky": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dermatologists-of-central-states": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dermatology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "dermatology-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dhl": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "dhl-express-(cv3)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dhl-express-cv3": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "divisions-maintenance-group": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "dky6-amazon": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dmg": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "dmg---divisions-maintenance-group": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "dmg---divisions-maintenance-group-\"foundry-lobby\"": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dmg---divisions-maintenance-group--\"foundry-lobby\"": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "dmg---divisions-maintenance-group-:foundry-lobby": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-allred-dermatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-allred-equity-dermatology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "dr-eberwine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-forest-kuhn": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-fraser-graves-gilbert-clinic-rheumatology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "dr-markert": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "dr-michael-justin-internal-medicine": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dr-nolan": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-olash": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "dr-palakodeti": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "dr-paradowski": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-pretorius": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-seshadri-oncology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "dr-sinicrope": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-vanina": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "dr-warren-neurology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "duke-energy": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "egc-construction": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "elevance-health": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "elevate-ventures": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "elite-built-homes": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "endocrine-and-diabetes-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "endocrinology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "endocrinology-2nd-floor---dr-chaudhari": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "entrance-which-is-to-the-left-of-the-fedex-office-is-the-entrance-to-the-condo": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "equity-medical-dermatology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "ernst-and-young-(ey)": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "espn-tv-@-la-quinta-hotel": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "eureka!-ranch-dexter-brain-brew-distillery": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "eureka!-ranch-international-ltd": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "eureka-ranch-brain-brew-dexter-distillery": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "eureka-ranch-brain-brew-distillery": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "eureka-ranch-dexter-brain-brew-distillery": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "eureka-ranch-dexter-distillery": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "evansville-primary-care": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "ew-scripps": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "ey": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "fabletics": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "family-allergy-asthma": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "family-allergy-goss-ave": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "family-dermatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "family-health-center-portland--adult-primary-care": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "fedex": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "fifth-third-bank": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "first-urology": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "first-urology-continence-center-attention-rebecca-embury": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "fisher-and-paykel-healthcare": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "flanders": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "ford-motor-company": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "forefront-dermatology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "forefront-dermatology---middletown": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "forefront-dermatology-downtown": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "formica-corporation": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "forte-hosptial": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "forte-orthopedics": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "found-village": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "fpn-cancer-and-hematology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "fpn-oncology-and-hematology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "fpn-oncology-and-hematology---emerson": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "franciscan-alliance": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "franciscan-education-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "franciscan-health-cancer-center": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "franciscan-health-indianapolis": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "franciscan-health-infusion-center---cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "franciscan-health-oncology-and-hematology-specialists": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "franciscan-indiana-blood-and-marrow-transplant": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "franciscan-oncology": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "franciscan-oncology-and-hematology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "franciscan-oncology-and-hematology---emerson": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "franciscan-oncology-andhematology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "franciscan-physician-network-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "fueled-collective": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "gainbridge-fieldhouse-(epsn-tv-compound)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "gap": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "garda-world": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "gastro-health-partners---onegi": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "gastro-health-west-side": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "gastroenterology-health-partners": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "gastroenterology-office": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "ge-aerospace": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "ge-aerospace---erlanger-warehouse": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ge-appliance-park": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "genesys-beyond": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "gilbert-graves-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "graeters-headquarters": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "grainger": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "grandin-road": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "graves-gilbert": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "graves-gilbert-clinic": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "graves-gilbert-clinic--oncology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "graves-gilbert-clinic-dr-gass-brooks-mangold-stice-drexel": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "graves-gilbert-derm": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "graves-gilbert-dermatology": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "graves-gilbert-gastro": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "graves-gilbert-gastroenterology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "graves-gilbert-oncology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "graves-gilbert-urology-department": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "great-american-insurance-group": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "greater-louisville-association-of-realtors\u00ae": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "greenwood-innovation-center": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "hagan-health": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "hampton-inn-and-suites-south-greenwood---vanderbilt-university-volleyball": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "harding-shymanski-and-company": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "hazel-dell-family-practice": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "hcn1---amazon": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hdr-inc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "healthtrackrx": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hematology-oncology-of-indiana": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "hendicks-oncology-danville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hendricks-oncology-danville": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hillvue-heights-church": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hilton-downtown-indianapolis": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "hilton-garden-inn-louisville-downtown": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hilton-indianapolis-downtown": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "hinkle-contracting---at-the-hampton-inn-louisville-east-conference-room": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "hinkle-fieldhouse": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "hirons": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "hoi-breast-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "holiday-inn": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "holiday-inn-express-and-suites-cincinnati-riverfront": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "home": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "horizon-league": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "hotel-covington-oms-photo": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "houchens-insurance-group": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "hub-huran": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "hub-international": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "humana": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "hyatt-place-bowling-green": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ibmt": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "ichinen-usa-corporation": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "iheart-media": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "indiana-bone-marrow-transplant": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "indiana-donor-network": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "indiana-mad-ants-basketball": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "indiana-neurology-and-pain": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "indiana-neurology-and-pain-ctr": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "indiana-university-southeast-c-o-school-of-education": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "indianapolis-colts": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "indianapolis-gastroenterology": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "indianapolis-gastroenterology-and-hepatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "indianapolis-motor-speedway": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "indianopolis-motor-speedway": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "indie-mane": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "innovative-hematology": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "interact-for-health": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "iowa-cubs": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "irsay-family-ymca": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "iu-cicc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "iu-health-methodist-hospital---interventional-radiology-lab": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "iu-health-west-cath-lab": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "iu-methodist-hospital": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "iu-pulmonology-and-allergy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "iu-school-of-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "jane-and-jewell-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "johnson-and-johnson-ethicon": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "jqol": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "jwm-neuro-clearvista": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "jwm-neurology": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "jwm-neurology-east": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "jwm-neurology-ritter-ave": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "jwn-neuro": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "kaiser-aluminum-warrick": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "kcc-manufacturing": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "kcc-randd-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "kemper-cpa-group-llp": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "kentuckiana-comfort-center-(kcc)": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "kentuckiana-radiotherapy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "kentucky-skin-cancer-center": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "kidney-and-hypertension-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "kmk-law": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "knights-hall": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "kolar-design": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "kresge-circle": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ksm": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "ksm-hq": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "kueber-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ky-skin-cancer-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "lake-cumberland-rheumatology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "lakeview-farms-llc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "launch-business-funding": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "lc-rheumatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "lc-rheumatology-and-infuaion": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "lc-rheumatology-and-infusion": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "lc-rheumatologyand-infusion": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "lennar-homes": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "lgande": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "lge-building": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "lifespring": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "lifespring-health-systems-turning-point": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "linak-us": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "lindner-college-of-business-uc": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "livano-springdale": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "lm-indianapolis-office": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "local-392-joint-apprenticeship-training-committee": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "lochmueller-group": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "louisville-bats": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "louisville-dermatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "louisville-endoscopy-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "louisville-gas-and-electric": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "louisville-lung-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "louisville-paving-and-construction": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "louisville-pulmonary": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "louisville-pulmonary-care": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "louisville-slugger-field": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "louisville-slugger-field---toledo-mudhens": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "louisville-slugger-s": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "louisville-urban-league": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "louisville-water-company": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "lovers-lane-kindercare": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "luminaut": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "luxeve-media": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "lynn-family-stadium": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "marathon-health": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "mastec": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "matthew-25": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "matthew-25-aids-services": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "matthews-home": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mayfield-education-research-foundation": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mayfield-spine-surgery-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mayfield-surgical-innovation-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "med-center-health---medical-arts-building----neurology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "med-center-health---riverside-professional-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "med-center-health-dr-jamie-jarboe": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "med-center-health-hematology-and-oncology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "med-center-health-neurology": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "med-center-psychiatry": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "medical-academic-center": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "medical-center-health-hematology-and-oncology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "medical-center-health-neurology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "medical-hematology-oncology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "medimorph-medspa": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "meeting-spot-on-fifth": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "megacorp-logistics": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "mels-auto-glass": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "melvin-s-gale-and-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mercer": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "mercer-elementary": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "merchants-bank": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "mercy-health-anderson": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "mercy-health-gme": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "mercy-pulmonology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "meridian-health-services-(psychiatry-services)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "methodist-hospital": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "methodist-hospital-interventional-radiology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "metro-huntington-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "metro-unite-way": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "microsoft": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "milhaus": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "miller-care-group": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "miso": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "miso-energy": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "mona-dermatology": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "monfort-heights-family-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "monfort-heights-family-practice": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "montgomery-animal-hospital": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "montgomery-community-church": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "morgan-stanley": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "mount-st-joseph-university": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mqj5": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "mt-auburn-nephrology": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "munson-business-interiors-inc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "musillo-unkenholt": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "neurology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "new-albany": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "new-albany-dermatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "new-city-presbyterian-church": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "new-pathways-clinic": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "newburgh-dermatology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "newburgh-dermatology-and-skin-cancer-and-laser-surgery-center": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "northview-church": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "norton-audubon-cath-lab": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "norton-cancer-insitute---dr-park": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "norton-healthcare-sleep-center": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "norton-infectious-disease-speciatlists": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "norton-medical-group": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "norton-neurosciences": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "norton-pulmonary-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "nortons-neuroscience-institute": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ogletree-deakins-nash-smoak-and-stewart-pc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ohc-blue-ash": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "ohc-kenwood": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "oms-photo": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "onboard": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "oncology-hematology-care": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "onecause": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "ont": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "ontarget-cpa": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "oswald-companies": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "pandg": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "panta-family": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "parker-hannifin": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "patientpoint": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "pepsico": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "personal": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "pivot": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "planet-fitness-kueber-center": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "plasmidsaurus": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "pnc-center": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "portland-family-health-center-dr-fineman-et-al": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "pphs-schweitzer-center-at-englewood": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "preload-llc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "pricewaterhousecoopers": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "priority-physicians": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "private-residence": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "procter-and-gamble": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "procter-gamble": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "progress-park": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "progress-park-air-stream-campground": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "protiviti": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "proximo-meeting-at-fueled-collective": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "qsr-automations": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "queen-city-physicians-university-station-internal-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "racing-louisville": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "racing-louisville-fc": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "radiation-oncology-cancer-center-medical-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "raymond-james": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "raymond-james-and-associates": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "redeemer-presbyterian-church-indianapolis": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "regus-building": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "renewal-by-andersen": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "republic-bank-plaza-sunday-snack-coffee": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "residence": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "residence---jessica-kohlmeyer": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "residence-inn-old-henry": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "retina-associates-of-kentucky": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "rheumatology-associates": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "riverhills-neurology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "riverview-hospital": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "riverview-sleep-and-respiratory": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "rls": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "robert-stewart-md": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "roehr-insurance": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "rosa-parks": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "safecare": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "salesforce": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "schaefer": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "sei": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "sheraton-indianapolis-city-centre": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "sheraton-indianapolis-city-centre-hotel": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "signature-flight-support": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "sol-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "southeast-christian-church": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "southeast-christian-church---crestwood-campus": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "southeast-christian-church-prospect-campus": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "spring-grove-funeral-home": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "springhilll-hill-suites-louisville-airport": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeth": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "st-elizabeth--regional-diabetes-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeth-behavioral-health": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeth-conference-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeth-family-medicine": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeth-physicians-primary-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeth-spine-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeths-pulmonary": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "st-elizabeths-pulmonology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "st-francis-cancer-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "stack-construction-technologies-inc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "staffmark": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "staffmark-group": {
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
+ },
+ "stoll-keenon-ogden": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "stoll-keenon-ogden-pllc": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "strivetogether": {
+  "enrolled": {
+   "champion-lost-cause": "2026-08-04"
+  },
+  "segment": "champion"
+ },
+ "studioaxis": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "synergistic-designs": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "taft-law": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "telix-pharmaceuticals": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ten-different-looks": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "the-annex-group": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-blankenbaker": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "the-christ-hospital": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "the-christ-hospital-joint-and-spine-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-christ-hosptial-physicians--primary-care": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "the-couch-immediate-mental-health-care": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "the-david-k-karem-office-building-at-waterfront-park": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-dermatology-center": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "the-dermatology-center-of-indiana": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "the-dermatology-ctr": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-medical-center-at-bowling-green-oncology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-medical-center-home-care-program": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "the-motz-group": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-nature-conservancy": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "the-pat-mcafee-show": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "the-phia-group-llc": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-presley-post": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-turn-vintage-warehouse": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "the-urology-group": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "tpcc-fishers---production": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "traders-point-christian-church": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "traders-point-christian-church---carmel": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "traders-point-christian-church---production": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "traders-point-christian-church-plainfield": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "traders-point-christian-church-|-fishers": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "trane": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "trane-training-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tri-health": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tri-health-bethesda-north-endo": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "tri-health-endo": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "tri-health-endoscopy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tri-health-gastro": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "tri-health-heart-institute---mariemont": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tri-health-ob-gyn": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tri-health-ob-gyn-wonens-health--services": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "tri-health-surgery-center-west": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "trihealth-gastro-montgomery": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "trihealth-gastroenterology---bethesda-north": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "trihealth-group-health": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "trihealth-ob-gyn": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "trihealth-pharmacy-solutions": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "trihealth-physicians-gastroenterology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "trihealth-pulmonology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "trihealth-queen-city--western-hills": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "trihealth-queen-city-physicians---hyde-park": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "trihealth-thomas-center": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "trimedx": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "tristate-arthritis-and-rheumatology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "truepoint-wealth-counsel": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "u-of-l-oncology": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "u-of-l-primary-care-dr-carter": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "u-of-louisville---brown-cancer-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "uc-cardiology": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "uc-clifton-court-hall": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "uc-college-of-engineering": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "uc-endo": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "uc-endoscopy-center": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "uc-endosocopy": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "uc-heath": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "uc-medical-center-pathology": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ukg": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "ul-advanced-heart-failure-clinic": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "ul-brown-cancer-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "ul-primary-care": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "united-rentals": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "univ-of-louisville-cancer-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "university-endo-center": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "university-of-cincinnati": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-of-cincinnati-athletics": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "university-of-cincinnati-college-of-engineering-and-applied-sciences": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-of-cincinnati-endoscopy": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-of-cincinnati-kresge-circle": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "university-of-evansville---carson-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "university-of-louisville": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "university-of-louisville-brown-cancer-center": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "university-of-louisville-clinical-translational-research-building-(ctr)": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "university-of-louisville-dental-school": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-of-louisville-kosair-clinical-and-translational-research-building": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-of-louisville-oncology-department": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-of-louisville-radiation-oncology-clinic": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "university-of-louisville-school-of-dentistry": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "uofl-brown-cancer-center": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "uofl-brown-cancer-center---breast-oncology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "uofl-endocrinology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "uofl-ent": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "uofl-field-hockey": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "uofl-health-primary-care": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "vericast---harland-clarke": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "veterinary-emergency-group": {
+  "enrolled": {},
+  "segment": "winback"
+ },
+ "veterinary-specialist-partners": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "victory-field": {
+  "enrolled": {},
+  "segment": "champion"
+ },
+ "victory-field-(louisville-bats)": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "vineyard-cincinnati-church": {
+  "enrolled": {
+   "winback": "2026-08-04"
+  },
+  "segment": "winback"
+ },
+ "vision-source": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "vitas-healthcare": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "walker-mechanical": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "ware": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "washington-family-medicine": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "waystar": {
+  "enrolled": {
+   "cold-reintro": "2026-08-04"
+  },
+  "segment": "cold"
+ },
+ "western-kentucky-heart-and-lung": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "westport-road-baptist-church": {
+  "enrolled": {},
+  "segment": "active"
+ },
+ "westside-gastroenterology": {
+  "enrolled": {},
+  "segment": "warm"
+ },
+ "wirecrafters": {
+  "enrolled": {
+   "champion-recoverable": "2026-08-04"
+  },
+  "segment": "champion"
+ },
+ "wku-womens-basketball": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "womens-health-specialist": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "xavier-mens-soccer": {
+  "enrolled": {},
+  "segment": "cold"
+ },
+ "zaahi-studios": {
+  "enrolled": {},
+  "segment": "active"
+ }
+}

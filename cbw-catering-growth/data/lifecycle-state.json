@@ -1,4 +1,8 @@
 {
+ "": {
+  "enrolled": {},
+  "segment": "champion"
+ },
  "#1365-mccauley-animal-clinic": {
   "enrolled": {},
   "segment": "cold"
@@ -289,7 +293,7 @@
   "enrolled": {
    "cold-reintro": "2026-07-29"
   },
-  "segment": "active"
+  "segment": "cold"
  },
  "benefit-finance-partners-llc": {
   "enrolled": {
@@ -443,9 +447,10 @@
  },
  "caravus": {
   "enrolled": {
-   "warm-nudge": "2026-07-29"
+   "warm-nudge": "2026-07-29",
+   "winback": "2026-08-04"
   },
-  "segment": "warm"
+  "segment": "winback"
  },
  "carboline-global-inc": {
   "enrolled": {
@@ -455,7 +460,7 @@
  },
  "cardiac-cath-lab": {
   "enrolled": {},
-  "segment": "cold"
+  "segment": "warm"
  },
  "cardiac-cath-lab--first-floor": {
   "enrolled": {},
@@ -533,9 +538,10 @@
  },
  "central-bank:-leanne-wright": {
   "enrolled": {
+   "cold-reintro": "2026-08-04",
    "winback": "2026-07-29"
   },
-  "segment": "winback"
+  "segment": "cold"
  },
  "cerro-flow-products": {
   "enrolled": {
@@ -582,7 +588,7 @@
    "champion-reactivation": "2026-07-29",
    "winback": "2026-07-29"
   },
-  "segment": "champion"
+  "segment": "winback"
  },
  "chestnut-health-systems": {
   "enrolled": {},
@@ -680,7 +686,7 @@
  },
  "confluence-academies": {
   "enrolled": {},
-  "segment": "active"
+  "segment": "warm"
  },
  "contemporary-art-museum-st-louis": {
   "enrolled": {
@@ -723,7 +729,7 @@
  },
  "creve-couer-soccer-complex": {
   "enrolled": {},
-  "segment": "active"
+  "segment": "warm"
  },
  "crossroads-veterinary-hospital": {
   "enrolled": {},
@@ -827,7 +833,7 @@
  },
  "dr-baram": {
   "enrolled": {},
-  "segment": "warm"
+  "segment": "winback"
  },
  "dr-capps-office": {
   "enrolled": {},
@@ -991,7 +997,7 @@
   "enrolled": {
    "champion-reactivation": "2026-07-29"
   },
-  "segment": "champion"
+  "segment": "active"
  },
  "ess-health-urology": {
   "enrolled": {},
@@ -1084,7 +1090,7 @@
    "champion-reactivation": "2026-07-29",
    "winback": "2026-07-29"
   },
-  "segment": "champion"
+  "segment": "winback"
  },
  "forest-park-dialysis": {
   "enrolled": {},
@@ -1116,7 +1122,7 @@
  },
  "gateway-region-ymca---association-resource-office": {
   "enrolled": {},
-  "segment": "warm"
+  "segment": "winback"
  },
  "gatewood-wealth-solutions": {
   "enrolled": {},
@@ -1216,7 +1222,7 @@
  },
  "hilton-frontenac": {
   "enrolled": {},
-  "segment": "winback"
+  "segment": "cold"
  },
  "hilton-st-louis-at-the-ballpark": {
   "enrolled": {},
@@ -1310,9 +1316,10 @@
  },
  "hunter-engineering---c-o-jim-t": {
   "enrolled": {
-   "cold-reintro": "2026-07-29"
+   "cold-reintro": "2026-07-29",
+   "warm-nudge": "2026-08-04"
   },
-  "segment": "active"
+  "segment": "warm"
  },
  "hunter-engineering---c-o-jim-tworek": {
   "enrolled": {
@@ -1322,9 +1329,10 @@
  },
  "hunter-engineering---c-o-joy-s": {
   "enrolled": {
-   "warm-nudge": "2026-07-29"
+   "warm-nudge": "2026-07-29",
+   "winback": "2026-08-04"
   },
-  "segment": "warm"
+  "segment": "winback"
  },
  "icl": {
   "enrolled": {
@@ -1554,7 +1562,7 @@
  },
  "lou-fusz-soccer-complex": {
   "enrolled": {},
-  "segment": "active"
+  "segment": "warm"
  },
  "lou-fusz-soccer-complex--field-#6": {
   "enrolled": {},
@@ -1567,8 +1575,10 @@
   "segment": "cold"
  },
  "marriott-st-louis-west": {
-  "enrolled": {},
-  "segment": "active"
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
  },
  "martone-legal-llc": {
   "enrolled": {
@@ -1592,9 +1602,10 @@
  },
  "maxfi-surgical-simulations": {
   "enrolled": {
+   "cold-reintro": "2026-08-04",
    "winback": "2026-07-29"
   },
-  "segment": "winback"
+  "segment": "cold"
  },
  "mccarthy-@-courtyard-hotel": {
   "enrolled": {},
@@ -1678,7 +1689,7 @@
  },
  "mercy-david-c-pratt-cancer-center-hematology-and-oncology-deptartment": {
   "enrolled": {},
-  "segment": "warm"
+  "segment": "winback"
  },
  "mercy-dr-levey": {
   "enrolled": {},
@@ -1718,9 +1729,10 @@
  },
  "mercy-neurology": {
   "enrolled": {
+   "cold-reintro": "2026-08-04",
    "winback": "2026-07-29"
   },
-  "segment": "winback"
+  "segment": "cold"
  },
  "mercy-ob-gyn": {
   "enrolled": {},
@@ -1814,9 +1826,10 @@
  },
  "midwest-ent-centre": {
   "enrolled": {
+   "cold-reintro": "2026-08-04",
    "winback": "2026-07-29"
   },
-  "segment": "winback"
+  "segment": "cold"
  },
  "midwest-sinus-sleep": {
   "enrolled": {
@@ -1928,9 +1941,10 @@
  },
  "nestle-purina": {
   "enrolled": {
+   "cold-reintro": "2026-08-04",
    "winback": "2026-07-29"
   },
-  "segment": "winback"
+  "segment": "cold"
  },
  "nestle-purina-pet-care": {
   "enrolled": {},
@@ -1938,7 +1952,7 @@
  },
  "nestle-purina-petcare": {
   "enrolled": {},
-  "segment": "winback"
+  "segment": "cold"
  },
  "nestle-purina-petcare---e-bldg": {
   "enrolled": {},
@@ -2098,7 +2112,7 @@
  },
  "plancorp-llc": {
   "enrolled": {},
-  "segment": "cold"
+  "segment": "warm"
  },
  "plancorp-wealth-management": {
   "enrolled": {
@@ -2234,7 +2248,7 @@
  },
  "ritz-carlton:-guest-jed-tuminaro": {
   "enrolled": {},
-  "segment": "warm"
+  "segment": "winback"
  },
  "rnaissance-ag": {
   "enrolled": {},
@@ -2259,7 +2273,7 @@
    "cold-reintro": "2026-07-29",
    "warm-nudge": "2026-07-29"
   },
-  "segment": "cold"
+  "segment": "warm"
  },
  "rottler-pest-solutions": {
   "enrolled": {
@@ -2451,7 +2465,7 @@
   "enrolled": {
    "winback": "2026-07-29"
   },
-  "segment": "winback"
+  "segment": "warm"
  },
  "somers-hall;-danforth-campus-washington-univ-st-louis": {
   "enrolled": {
@@ -2491,9 +2505,10 @@
  },
  "special-school-district-of-st-louis-county": {
   "enrolled": {
-   "warm-nudge": "2026-07-29"
+   "warm-nudge": "2026-07-29",
+   "winback": "2026-08-04"
   },
-  "segment": "warm"
+  "segment": "winback"
  },
  "specialists-in-dermatology": {
   "enrolled": {},
@@ -2643,7 +2658,7 @@
  },
  "st-lukes-multispecialty": {
   "enrolled": {},
-  "segment": "active"
+  "segment": "warm"
  },
  "st-lukes-neurology": {
   "enrolled": {},
@@ -2759,7 +2774,7 @@
   "enrolled": {
    "warm-nudge": "2026-07-29"
   },
-  "segment": "active"
+  "segment": "warm"
  },
  "tanoli": {
   "enrolled": {},
@@ -2777,7 +2792,7 @@
  },
  "tarlton-corporation": {
   "enrolled": {},
-  "segment": "warm"
+  "segment": "winback"
  },
  "tarlton-corportation": {
   "enrolled": {},
@@ -3160,8 +3175,10 @@
   "segment": "cold"
  },
  "washington-university---pediatric-residency": {
-  "enrolled": {},
-  "segment": "active"
+  "enrolled": {
+   "warm-nudge": "2026-08-04"
+  },
+  "segment": "warm"
  },
  "washington-university---south-40": {
   "enrolled": {},
@@ -3175,7 +3192,7 @@
  },
  "washington-university-brauer-dock": {
   "enrolled": {},
-  "segment": "warm"
+  "segment": "winback"
  },
  "washington-university-cupples-ii-hall": {
   "enrolled": {
@@ -3323,9 +3340,10 @@
  },
  "weissman": {
   "enrolled": {
+   "cold-reintro": "2026-08-04",
    "winback": "2026-07-29"
   },
-  "segment": "winback"
+  "segment": "cold"
  },
  "weissman-photo-studio": {
   "enrolled": {},
@@ -3425,7 +3443,7 @@
  },
  "yoon-dermatology": {
   "enrolled": {},
-  "segment": "champion"
+  "segment": "warm"
  },
  "zbmidark": {
   "enrolled": {},

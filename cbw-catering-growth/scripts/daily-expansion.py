@@ -26,6 +26,8 @@ from datetime import date, timedelta
 
 import requests
 
+from apollo_dedupe import all_contacts
+
 # --- person-location guard -------------------------------------------------
 # Apollo's organization_ids filter matches the EMPLOYER's location, which can be a
 # global HQ or a different office than the person. That let a Portland church and a
@@ -275,35 +277,29 @@ def email_matches_org(email, org):
 def apollo_contact_base():
     """Every contact already in Apollo: emails, and org-name token sets.
 
-    Apollo is the only store that survives a container recycle, so it - not the local
-    state file - is the authority on "have we already prospected this company". Without
-    this the page cursors reset to 1 after a recycle and the engine re-reveals (and
-    re-charges for) the exact people it created on the previous run.
+    Apollo is the only store that survives a container recycle, so it - not the local state
+    file - is the authority on "have we already prospected this company". Without this the page
+    cursors reset to 1 after a recycle and the engine re-reveals (and re-charges for) the exact
+    people it created on the previous run.
+
+    Delegates the read to apollo_dedupe.all_contacts, which unions repeated passes until it has
+    as many unique ids as Apollo claims. A single pass is not safe: contacts/search returns
+    short pages mid-run, and stopping at the first one truncated this set badly enough that a
+    contact created on 07-31 was created again on 08-04.
     """
+    union, expected = all_contacts()
+    if expected and len(union) < expected:
+        print(f"WARNING: dedupe base read {len(union)} of {expected} contacts - "
+              f"duplicates are possible this run")
     emails, orgs = set(), []
-    page = 1
-    # No fixed cap: a short page budget silently truncates the dedupe memory, and a contact
-    # the engine cannot see is a contact it will happily create and pay for a second time.
-    while page <= 200:
-        try:
-            d = post("contacts/search", {"per_page": 100, "page": page})
-        except RuntimeError:
-            break
-        got = d.get("contacts") or []
-        if not got:
-            break
-        for c in got:
-            e = (c.get("email") or "").strip().lower()
-            if e:
-                emails.add(e)
-            on = ((c.get("organization") or {}).get("name")
-                  or c.get("organization_name") or "")
-            t = tokens(on)
-            if t:
-                orgs.append(t)
-        if len(got) < 100:
-            break
-        page += 1
+    for c in union.values():
+        e = (c.get("email") or "").strip().lower()
+        if e:
+            emails.add(e)
+        on = ((c.get("organization") or {}).get("name") or c.get("organization_name") or "")
+        t = tokens(on)
+        if t:
+            orgs.append(t)
     return emails, orgs
 
 

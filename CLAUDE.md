@@ -24,10 +24,15 @@ correctly, confirm the gap exists, and only then look for a cause.
 **Verify against Apollo, not against a prior summary.** Counts drift, snapshots go stale, and
 step-1 counters are not sequence totals. Re-pull before reporting.
 
-**Beware your own pagination.** `contacts/search` caps around 10 pages / ~1000 rows. An
-incomplete pull once produced a false "6 contacts are missing addresses" alarm; all six were
-fine. Page to exhaustion and reconcile against `pagination.total_entries` before concluding
-something is absent.
+**Beware your own pagination — this has caused both a false alarm and real damage.**
+`contacts/search` returns **short pages in the middle of a run** and shuffles records between
+pages across calls. Never `break` on `len(got) < per_page`; break only on an empty page or
+`page >= pagination.total_pages`, then **repeat full passes and union the ids until the count
+reaches `pagination.total_entries`** (see `apollo_dedupe.all_contacts`). One pass returned 755
+emails where the truth was 853, and that 98-email blind spot let a contact created on 07-31 be
+created again on 08-04. A separate incomplete pull invented a "6 contacts are missing
+addresses" alarm; all six were fine. Any conclusion of the form "X is absent" or "X is a
+duplicate" must come from a union pull that reconciles against `total_entries`.
 
 **When the user pushes back, re-derive from the API.** Every pushback in this project has been
 correct. Argue the mechanism through, don't defend the conclusion.
