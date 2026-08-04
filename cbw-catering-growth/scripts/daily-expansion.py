@@ -88,7 +88,8 @@ BASE = "https://api.apollo.io/api/v1"
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE_PATH = os.path.join(HERE, "expansion-state.json")
 
-DAILY_CONTACT_QUOTA = 40
+DAILY_CONTACT_QUOTA = 60
+CONTACTS_PER_ORG = 2  # e.g. office manager AND HR lead at the same site
 CREDITS_BUDGET_START = 1700   # trued up manually; ledger counts down from here
 RESERVE_FLOOR = 400
 
@@ -98,9 +99,9 @@ CBW_COLD, CBW_SENDER = "6a69d5305214390010407a8d", "6a67c6456fab0c0020dec04d"
 WE_COLD, WE_SENDER = "6a6a3fce1dfd6f0018cb9ec6", "6a6a51a90618ba001ca84350"
 F_NAME, F_EMAIL, F_URL = "6a6a30e70618ba0018f4cce7", "6a6a30e7a24677000c36ff4e", "6a6a30e8a24677000c36ff51"
 
-CBW_NAICS = [["62"], ["61"], ["54"], ["52"], ["31", "32", "33"], None]
-WE_NAICS = [["8131"], ["62"], ["52"], ["61"], None]
-EMPLOYEE_RANGES = ["20,49", "50,99", "100,199", "200,499"]
+CBW_NAICS = [["62"], ["61"], ["54"], ["52"], ["31", "32", "33"], ["8131"], ["92"], ["71"], ["23"], None]
+WE_NAICS = [["8131"], ["62"], ["52"], ["61"], ["54"], ["92"], ["71"], None]
+EMPLOYEE_RANGES = ["11,20", "20,49", "50,99", "100,199", "200,499", "500,1000"]
 WE_STATIC_GEOFENCE = {
     "Hamburg": ["Lexington, KY", "Georgetown, KY", "Winchester, KY"],
     "Palomar": ["Lexington, KY", "Versailles, KY", "Nicholasville, KY"],
@@ -236,6 +237,10 @@ def run_brand(brand, state, ledger, quota_left):
             cursor[f"{key0}|{nkey}"] = page + 1 if orgs else 1  # wrap when a vertical dries up
             fresh = []
             for o in orgs:
+                name_l = (o.get("name") or "").lower()
+                if any(k in name_l for k in ("staffing", "recruit", "talent solutions",
+                                             "employment agency", "interim physicians")):
+                    continue  # agencies: high hiring signal, low catering intent
                 t = tokens(o.get("name") or "")
                 if t and any(ks <= t or len(t & ks) / len(ks) >= 0.6 for ks in known):
                     continue
@@ -250,48 +255,57 @@ def run_brand(brand, state, ledger, quota_left):
                 except RuntimeError:
                     continue
                 ledger["remaining"] -= 0.35
-                best, score = None, 0
+                scored = []
                 for p in pd.get("people", []) or []:
-                    s = title_score(p.get("title"), small)
-                    if s > score:
-                        best, score = p, s
-                if not best:
+                    sc = title_score(p.get("title"), small)
+                    if sc > 0:
+                        scored.append((sc, p))
+                scored.sort(key=lambda x: -x[0])
+                picks = [p for _, p in scored[:CONTACTS_PER_ORG]]
+                if not picks:
                     continue
                 try:
-                    md = post("people/bulk_match", {"details": [{"id": best["id"],
-                              "organization_name": o.get("name")}], "reveal_personal_emails": False})
+                    # one batched reveal: the org search is the shared cost, so a second
+                    # persona at the same site is materially cheaper than a new company
+                    md = post("people/bulk_match",
+                              {"details": [{"id": p["id"], "first_name": p.get("first_name"),
+                                            "organization_name": o.get("name")} for p in picks],
+                               "reveal_personal_emails": False})
                 except RuntimeError:
                     continue
-                m = (md.get("matches") or [None])[0]
-                if not (m and m.get("email") and m.get("email_status") == "verified"):
+                matches = [m for m in (md.get("matches") or [])
+                           if m and m.get("email") and m.get("email_status") == "verified"
+                           and person_in_market(m, allowed)]
+                if not matches:
                     continue
-                if not person_in_market(m, allowed):
-                    continue     # person sits outside the brand's served states
-                ledger["remaining"] -= 1
-                cd = post("contacts", {"first_name": m.get("first_name"), "last_name": m.get("last_name"),
-                                       "title": best.get("title"), "email": m["email"],
-                                       "organization_name": o.get("name")})
-                cid = cd["contact"]["id"]
+                ledger["remaining"] -= len(matches)
                 slug = re.sub(r"[^a-z0-9]+", "-", store.lower()).strip("-")
-                post("labels/add_entity_ids_to_label_names",
-                     {"entity_ids": [cid], "modality": "contacts",
-                      "label_names": labels_base + [f"store:{slug}"]})
-                if brand == "we":
-                    fields = {F_NAME: store, F_URL: urls_map.get(store, "https://wildeggs.com/catering")}
-                    if emails_map.get(store):
-                        fields[F_EMAIL] = emails_map[store]
-                    requests.put(f"{BASE}/contacts/{cid}", headers=H, timeout=30,
-                                 json={"typed_custom_fields": fields})
-                post(f"emailer_campaigns/{cold}/add_contact_ids",
-                     {"contact_ids": [cid], "emailer_campaign_id": cold,
-                      "send_email_from_email_account_id": sender,
-                      "sequence_active_in_other_campaigns": True})
-                created_total += 1
+                for m in matches:
+                    if created_total >= quota_left:
+                        break
+                    cd = post("contacts", {"first_name": m.get("first_name"), "last_name": m.get("last_name"),
+                                           "title": m.get("title"), "email": m["email"],
+                                           "organization_name": o.get("name")})
+                    cid = cd["contact"]["id"]
+                    post("labels/add_entity_ids_to_label_names",
+                         {"entity_ids": [cid], "modality": "contacts",
+                          "label_names": labels_base + [f"store:{slug}"]})
+                    if brand == "we":
+                        fields = {F_NAME: store, F_URL: urls_map.get(store, "https://wildeggs.com/catering")}
+                        if emails_map.get(store):
+                            fields[F_EMAIL] = emails_map[store]
+                        requests.put(f"{BASE}/contacts/{cid}", headers=H, timeout=30,
+                                     json={"typed_custom_fields": fields})
+                    post(f"emailer_campaigns/{cold}/add_contact_ids",
+                         {"contact_ids": [cid], "emailer_campaign_id": cold,
+                          "send_email_from_email_account_id": sender,
+                          "sequence_active_in_other_campaigns": True})
+                    created_total += 1
+                    rows_out.append({"org_name": o.get("name"), "vertical": nkey, "city": o.get("city"),
+                                     "contact": f"{m.get('first_name')} {m.get('last_name')}",
+                                     "title": m.get("title"), "email": m["email"], "store": store})
+                    time.sleep(0.3)
                 known.append(tokens(o.get("name") or ""))
-                rows_out.append({"org_name": o.get("name"), "vertical": nkey, "city": o.get("city"),
-                                 "contact": f"{m.get('first_name')} {m.get('last_name')}",
-                                 "title": best.get("title"), "email": m["email"], "store": store})
-                time.sleep(0.3)
             time.sleep(0.4)
 
     state["store_offset"][brand] = (start + 3) % max(len(stores), 1)
