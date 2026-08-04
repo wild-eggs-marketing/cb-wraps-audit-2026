@@ -1,11 +1,17 @@
 # Craziologist chat Worker — patch spec (2026-08-04)
 
-**Status: the deployed Worker's source is not in any repo.** Elle: open the
-`craziologist-chat` Worker in the Cloudflare dashboard (Edit code), copy the
-whole file, and commit it to this repo as `nutrition-calculator/worker/
-craziologist-chat.js` (or paste it in chat). Apply the patch below to that
-file — or hand it to a future session, which can then produce the patched
-file for pasting back.
+**Status: PATCHED, 2026-08-04.** Elle supplied the deployed source; it revealed
+the root cause was worse than the projection: the Worker inlined a pre-audit
+MENU_DATA snapshot (Nutritionix, 2026-07-12) with no dietaryTags or dietNote at
+all, and it never fetches the live feed (workers.dev blocks same-account
+worker-to-worker fetch). The patched Worker is now GENERATED:
+`node data/build_chat_menu.cjs` builds `worker/craziologist-chat_v2.js` from
+`worker/craziologist-chat.template.js` (code) + the current nutrition worker
+(menu incl. dietaryTags/dietNote) + `data/chat-static.json` (locations,
+knowledge pack) + `data/chat-system-prompt.txt` (prompt v2). Paste the
+generated file into the craziologist-chat Worker on every feed bump — same
+ritual as the nutrition worker itself. The sections below stand as the record
+of the defect and the patch.
 
 ## The defect, proven live on 4 Aug
 
