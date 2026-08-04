@@ -17,6 +17,12 @@ import { addPropertyControls, ControlType } from "framer"
  * Text that restates data has to be generated from that data or it goes stale
  * silently, and this block is the only version of it a crawler ever sees.
  *
+ * 2026-08-04: the `answers` prop is now DELIBERATELY IGNORED. The canvas
+ * instance on /nutrition-calculator was found carrying the original
+ * hand-written answers as a prop override — including both falsehoods above —
+ * which silently beat every code update since July. The page XML API cannot
+ * read or clear that override, so the generated defaults always render.
+ *
  * @framerSupportedLayoutWidth any
  * @framerSupportedLayoutHeight auto
  */
@@ -58,13 +64,13 @@ export default function NutritionQuickAnswers(props: {
     tint?: string
 }) {
     const {
-        answers = ANSWERS_DEFAULT,
         accent = "rgb(13, 79, 79)",
         ink = "rgb(28, 43, 28)",
         inkSoft = "rgba(28, 43, 28, 0.72)",
         tint = "rgb(234, 244, 244)",
     } = props
 
+    const answers = ANSWERS_DEFAULT // see header: instance prop overrides are ignored
     const list = (Array.isArray(answers) ? answers : []).filter((a) => a && a.heading && a.body)
     if (!list.length) return null
 
@@ -174,19 +180,6 @@ export default function NutritionQuickAnswers(props: {
 }
 
 addPropertyControls(NutritionQuickAnswers, {
-    answers: {
-        type: ControlType.Array,
-        title: "Answers",
-        control: {
-            type: ControlType.Object,
-            controls: {
-                heading: { type: ControlType.String, title: "Heading" },
-                body: { type: ControlType.String, title: "Body" },
-                examples: { type: ControlType.String, title: "Examples", description: "Comma list of item names" },
-            },
-        },
-        defaultValue: ANSWERS_DEFAULT,
-    },
     accent: { type: ControlType.Color, title: "Accent", defaultValue: "rgb(13, 79, 79)" },
     ink: { type: ControlType.Color, title: "Ink", defaultValue: "rgb(28, 43, 28)" },
     inkSoft: { type: ControlType.Color, title: "Ink Soft", defaultValue: "rgba(28, 43, 28, 0.72)" },
