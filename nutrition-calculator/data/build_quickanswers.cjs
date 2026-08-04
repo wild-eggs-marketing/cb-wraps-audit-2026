@@ -22,7 +22,7 @@ const path = require("path")
 // NOTE: this path has now been left pinned to a stale worker twice (v6 while v7
 // shipped, caught 4 Aug). If you bump the worker version, grep data/*.cjs for
 // worker_v — every builder must move together.
-const WORKER = path.join(__dirname, "..", "worker", "worker_v10.js")
+const WORKER = path.join(__dirname, "..", "worker", "worker_v11.js")
 const TSX = path.join(__dirname, "..", "framer", "NutritionQuickAnswers.tsx")
 
 const src = fs.readFileSync(WORKER, "utf8")

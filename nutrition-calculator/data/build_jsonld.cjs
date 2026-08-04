@@ -13,7 +13,7 @@
 const fs = require("fs")
 const path = require("path")
 
-const WORKER = path.join(__dirname, "..", "worker", "worker_v10.js")
+const WORKER = path.join(__dirname, "..", "worker", "worker_v11.js")
 const OUT = path.join(__dirname, "..", "framer", "head-jsonld-snippet.txt")
 // In-repo, not /tmp: the container gets recycled and /tmp with it. This file is
 // the question set; answers are regenerated from the feed on every build.
