@@ -7,3 +7,5 @@ cbw-catering-growth/data/lookalikes-*.csv
 */data/daily-*.csv
 */data/lookalikes-*.csv
 */data/signals-*.csv
+__pycache__/
+*.pyc
