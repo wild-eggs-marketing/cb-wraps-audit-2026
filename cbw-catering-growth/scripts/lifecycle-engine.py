@@ -16,7 +16,7 @@ What it does each run:
       warm -> winback                                -> Winback
       any -> cold (verified email only)              -> Cold Reintro
  4. Applies guardrails: never enroll 'active'; 90-day cooldown per sequence;
-    skip contacts who ever replied (Apollo marks them finished_replied);
+    skip contacts who ever replied (read from the message records, not the contact status);
     skip contacts with no matched email.
  5. Writes updated state + prints a run report.
 
@@ -24,6 +24,7 @@ Sequences are the permanent send layer; this script is the only thing that
 feeds them. Contacts must already exist in Apollo (import-and-enroll-contacts.py).
 """
 import csv
+import glob
 import json
 import os
 import sys
@@ -126,8 +127,14 @@ def rebuild_accounts(orders_path, today):
 def load_contacts():
     """slug -> contact row (email, status) from the enriched CSVs."""
     contacts = {}
-    for f in ["enriched-champions-winback.csv", "enriched-warm-active-cold.csv"]:
-        path = os.path.join(DATA, f)
+    # Glob rather than a hardcoded pair of filenames: the whole point of this engine is that
+    # it re-reads a FRESH export each week, and a new export named anything else was being
+    # silently ignored - the engine would run, report zero transitions, and look healthy.
+    paths = sorted(glob.glob(os.path.join(DATA, "enriched-*.csv"))
+                   + glob.glob(os.path.join(DATA, "accounts-enriched*.csv")))
+    if not paths:
+        print(f"WARNING: no enriched-*.csv found in {DATA}; no contacts loaded")
+    for path in paths:
         if not os.path.exists(path):
             continue
         with open(path, newline="", encoding="utf-8") as fh:
@@ -140,8 +147,36 @@ def load_contacts():
     return contacts
 
 
+def replied_contact_ids():
+    """Contact ids that have genuinely replied, read from the message records.
+
+    The contact-level status 'finished_replied' does NOT exist in this Apollo account - the
+    only observed values are active / paused / failed / finished, and a contact who replied
+    looks identical to one who merely reached the end of the sequence. Checking for it meant
+    reply-suppression never fired even once, so anyone who answered could be re-enrolled and
+    mailed again. The message-level 'replied' flag is the real signal.
+
+    An out-of-office auto-reply is not a reply: suppressing on it would permanently retire a
+    live prospect who never actually answered.
+    """
+    ids, page = set(), 1
+    while page <= 20:
+        d = post("emailer_messages/search", {"per_page": 100, "page": page})
+        got = d.get("emailer_messages") or []
+        if not got:
+            break
+        for m in got:
+            if m.get("replied") and m.get("reply_class") != "out_of_office" and m.get("contact_id"):
+                ids.add(m["contact_id"])
+        if len(got) < 100:
+            break
+        page += 1
+    return ids
+
+
 def apollo_contact_index():
-    """email -> {id, replied_ever} from saved contacts."""
+    """email -> {id, replied} for every contact in Apollo."""
+    replied = replied_contact_ids()
     idx = {}
     page = 1
     while True:
@@ -149,9 +184,11 @@ def apollo_contact_index():
         for c in d.get("contacts", []):
             if not c.get("email"):
                 continue
-            replied = any(s.get("status") == "finished_replied"
-                          for s in c.get("contact_campaign_statuses", []))
-            idx[c["email"].lower()] = {"id": c["id"], "replied": replied}
+            # A suppressed duplicate must never be picked as the enrollable record.
+            if c.get("email_unsubscribed"):
+                continue
+            idx[c["email"].lower()] = {"id": c["id"],
+                                       "replied": c["id"] in replied}
         if page >= (d.get("pagination", {}) or {}).get("total_pages", 1):
             break
         page += 1
