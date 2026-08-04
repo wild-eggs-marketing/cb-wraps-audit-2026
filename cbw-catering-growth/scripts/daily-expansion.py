@@ -22,7 +22,7 @@ import os
 import re
 import time
 from collections import Counter
-from datetime import date
+from datetime import date, timedelta
 
 import requests
 
@@ -128,8 +128,15 @@ TIERS_SMALL = [
     (2, ["director", "pastor"]),
     (1, ["manager"]),
 ]
-SENIOR_EXCLUDE = ["vice president", " vp ", "vp,", "chief ", " svp", " evp", "president",
-                  " ceo", " cfo", " coo", "founder", "executive director"]
+# Apollo does not return estimated_num_employees on ANY search result for this plan (verified
+# null on every org in mixed_companies/search and on person.organization), so the old
+# `small = (employees or 999) <= 100` was False for every company and the small-business
+# personas below could never score. Company size is simply not knowable at scoring time, so
+# the small-business titles are always eligible and the exclusion list is narrowed to the
+# unambiguous large-corporate markers. At a 20-person practice the owner IS the catering
+# buyer; at a 500-person firm an "Owner" title is rare, so the trade is worth it.
+SENIOR_EXCLUDE = ["vice president", " vp ", "vp,", "chief ", " svp", " evp",
+                  " ceo", " cfo", " coo", "executive director"]
 # "admin" in TIERS_COMMON tier 2 also matches "System Administrator" / "Network
 # Administrator" / "Database Administrator", which pulled IT staff into a catering list.
 TITLE_EXCLUDE = ["system administrator", "systems administrator", "network administrator",
@@ -157,16 +164,16 @@ def tokens(name):
             if w not in STOPWORDS and len(w) >= 3}
 
 
-def title_score(title, small):
+def title_score(title):
     if not title:
         return 0
     t = f" {title.lower()} "
     if any(k in t for k in TITLE_EXCLUDE):
         return 0
-    if not small and any(k in t for k in SENIOR_EXCLUDE):
+    if any(k in t for k in SENIOR_EXCLUDE):
         return 0
-    tiers = TIERS_COMMON + (TIERS_SMALL if small else [])
-    return max([s for s, kws in tiers if any(k in t for k in kws)] or [0])
+    return max([s for s, kws in TIERS_COMMON + TIERS_SMALL
+                if any(k in t for k in kws)] or [0])
 
 
 def load_known(data_dir):
@@ -275,7 +282,9 @@ def apollo_contact_base():
     """
     emails, orgs = set(), []
     page = 1
-    while page <= 12:
+    # No fixed cap: a short page budget silently truncates the dedupe memory, and a contact
+    # the engine cannot see is a contact it will happily create and pay for a second time.
+    while page <= 200:
         try:
             d = post("contacts/search", {"per_page": 100, "page": page})
         except RuntimeError:
@@ -319,12 +328,19 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
     unstamped = []   # created but not enrolled: their store merge fields never landed
     cursor = state.setdefault("cursors", {}).setdefault(brand, {})
     stores = list(fences.keys())
-    start = state.setdefault("store_offset", {}).setdefault(brand, 0)
+    # Least-recently-prospected first. The old rotation advanced a start offset by 3 each run
+    # and wrapped modulo the store count: with 15 CBW stores gcd(3,15)=3, so it only ever
+    # started at offsets 0/3/6/9/12 and - because the quota fills from the first stores it
+    # reaches - 10 of the 15 CBW stores were never prospected at all. Tracking a per-store
+    # timestamp is coverage-correct for any store count.
+    last_seen = state.setdefault("store_last_seen", {}).setdefault(brand, {})
+    stores.sort(key=lambda s: (last_seen.get(s, ""), s))
 
     for si in range(len(stores)):
         if created_total >= quota_left or ledger["remaining"] <= RESERVE_FLOOR:
             break
-        store = stores[(start + si) % len(stores)]
+        store = stores[si]
+        last_seen[store] = date.today().isoformat()
         key0 = f"{store}"
         # Spread the day's quota geographically. Without a per-store cap the first store in
         # the rotation absorbs the whole quota (2026-08-04: all 30 CBW leads were West Oak),
@@ -365,7 +381,6 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
             for o in fresh[:6]:  # spread quota across stores/verticals
                 if created_total >= quota_left:
                     break
-                small = (o.get("estimated_num_employees") or 999) <= 100
                 try:
                     pd = post("mixed_people/api_search", {"organization_ids": [o["id"]],
                               "person_locations": fences[store], "per_page": 10})
@@ -374,7 +389,7 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
                 ledger["remaining"] -= 0.35
                 scored = []
                 for p in pd.get("people", []) or []:
-                    sc = title_score(p.get("title"), small)
+                    sc = title_score(p.get("title"))
                     if sc > 0:
                         scored.append((sc, p))
                 scored.sort(key=lambda x: -x[0])
@@ -445,7 +460,6 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
             w.writerows(unstamped)
         print(f"  {len(unstamped)} contacts created but NOT enrolled (stamp failed) -> {p}")
 
-    state["store_offset"][brand] = (start + 3) % max(len(stores), 1)
     if rows_out:
         out = os.path.join(data_dir, f"daily-{date.today().isoformat()}-{brand}.csv")
         with open(out, "a", newline="", encoding="utf-8") as f:
@@ -467,7 +481,19 @@ def main():
     if state.get("last_run") == today:
         print(f"already ran {today}; skipping")
         return
+    # Apollo's lead credits renew on a billing cycle. Without this the ledger only ever counts
+    # down, so expansion stops permanently a couple of weeks in and never restarts even though
+    # the credits came back. CREDIT_CYCLE_DAY is the day-of-month the allowance resets.
     ledger = state.setdefault("ledger", {"remaining": CREDITS_BUDGET_START})
+    cycle_day = int(os.environ.get("CREDIT_CYCLE_DAY", "28"))
+    last_reset = ledger.get("last_reset")
+    d = date.today()
+    cycle_start = d.replace(day=cycle_day) if d.day >= cycle_day else (
+        (d.replace(day=1) - timedelta(days=1)).replace(day=cycle_day))
+    if last_reset != cycle_start.isoformat():
+        ledger["remaining"] = CREDITS_BUDGET_START
+        ledger["last_reset"] = cycle_start.isoformat()
+        print(f"credit cycle reset {cycle_start}: ledger back to {CREDITS_BUDGET_START}")
     if ledger["remaining"] <= RESERVE_FLOOR:
         print(f"credit ledger at reserve floor ({ledger['remaining']}); not expanding")
         return

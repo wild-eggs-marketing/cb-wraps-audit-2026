@@ -202,14 +202,19 @@ def main():
                 best, score = p, s
         if best:
             candidates.append({"person_id": best["id"], "org_name": meta["name"],
+                               "first_name": best.get("first_name"),
                                "title": best.get("title"), "meta": meta})
         time.sleep(0.3)
 
     enriched = []
     for i in range(0, len(candidates), 10):
         batch = candidates[i:i+10]
+        # first_name is load-bearing: the people-search API returns last_name_obfuscated
+        # rather than last_name, so a bulk_match keyed only on id + organization_name
+        # fuzzy-matches and has returned an unrelated person at a different company.
         d = post("people/bulk_match",
-                 {"details": [{"id": c["person_id"], "organization_name": c["org_name"]} for c in batch],
+                 {"details": [{"id": c["person_id"], "first_name": c.get("first_name"),
+                               "organization_name": c["org_name"]} for c in batch],
                   "reveal_personal_emails": False})
         by_id = {m["id"]: m for m in d.get("matches", [])}
         for c in batch:

@@ -22,7 +22,7 @@ def _headers():
     return {"x-api-key": os.environ["APOLLO_API_KEY"], "Content-Type": "application/json"}
 
 
-def existing_emails(max_pages=12):
+def existing_emails(max_pages=200):
     """Lower-cased set of every email already attached to a contact in this Apollo account."""
     out = set()
     for page in range(1, max_pages + 1):
@@ -42,7 +42,7 @@ def existing_emails(max_pages=12):
     return out
 
 
-def existing_org_tokensets(tokens_fn, max_pages=12):
+def existing_org_tokensets(tokens_fn, max_pages=200):
     """Token sets for every organization we already hold a contact at.
 
     Feed these into an engine's "already covered" check so a company that a previous run
