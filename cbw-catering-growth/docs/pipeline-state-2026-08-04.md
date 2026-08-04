@@ -11,22 +11,31 @@ Everything below was read from the live Apollo API or resolved over DNS, not inf
 | DKIM selector2 | publishes a key | **target resolves NXDOMAIN — no key** |
 | DMARC | `p=none` | `p=quarantine`, `aspf=s`, `adkim=s` |
 | Tracking host | `mail.crazybowlsandwraps.com` | `mail.wildeggs.com` → `proud-deer.aploconnect.com` |
-| Open rate | ~21% of delivered | ~3.5% of delivered |
+| Open rate (unfiltered / open-tracked) | 60% | 50-59% |
 
-**The Wild Eggs open-rate gap is a DKIM problem, not a content problem.** Microsoft 365
-rotates signing between selector1 and selector2. `selector2._domainkey.wildeggs.com` CNAMEs to
-`selector2-wildeggs-com._domainkey.wildeggs.onmicrosoft.com`, which publishes no TXT record, so
-every message M365 signs with selector2 fails DKIM. Combined with `p=quarantine` and strict
-alignment, those messages are accepted by the receiving server and then filed as spam — which
-is why Wild Eggs shows delivery without engagement. Crazy Bowls sits at `p=none`, so its
-selector failures do not quarantine.
+**Engagement is equivalent between the brands.** Measured against messages Apollo actually
+open-tracked: CBW Winback 33/55 = 60%, WE Winback 13/22 = 59%, WE Warm Nudge 11/22 = 50%.
+There is no Wild Eggs engagement deficit. An earlier note claimed ~3.5% for WE by dividing
+filtered opens by total delivered - the wrong denominator on both terms - and then attributed
+the invented gap to DKIM. Both claims were wrong.
 
-Fix: re-publish DKIM for wildeggs.com in the Microsoft 365 admin centre (Defender → Email
-authentication → DKIM), which regenerates both selector CNAMEs, then confirm both resolve.
-Do not raise Wild Eggs volume until selector2 answers.
+Open-tracking coverage is uneven and must be checked before comparing any two sequences:
+CBW Champion Reactivation open-tracked only 1 of 21 delivered messages, so its open rate is
+not meaningful.
+
+**The missing wildeggs.com selector2 key does not cause quarantine.** DMARC is satisfied by
+either aligned SPF or aligned DKIM, and wildeggs.com publishes
+`include:spf.protection.outlook.com -all` while Apollo sends through the M365 mailbox itself,
+so envelope-from is @wildeggs.com and SPF aligns strictly under `aspf=s`. DMARC passes on SPF
+regardless of DKIM. Microsoft 365 also signs with one active selector rather than alternating,
+so an unprovisioned selector2 is a standby slot, not a live failure - which is why Crazy Bowls
+never needed this either.
+
+Residual value in fixing it: DKIM is the authentication signal that survives forwarding, where
+SPF breaks. Low priority hygiene, not a blocker, and not a precondition for raising volume.
 
 Apollo injects a one-click unsubscribe into `appendment_html` on every sent message
-(`https://mail.wildeggs.com/u?mid=…`, verified HTTP 200). The templates also carry their own
+(`https://mail.wildeggs.com/u?mid=...`, verified HTTP 200). The templates also carry their own
 plain-language opt-out and the CAN-SPAM physical address. No unsubscribe work is needed.
 
 ## Send performance
