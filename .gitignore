@@ -12,3 +12,4 @@ __pycache__/
 .contact-cache.json
 wildeggs-franchise/data/*.csv
 wildeggs-franchise/scripts/franchise-import-progress.json
+wildeggs-franchise/scripts/franchise-verify-results.json
