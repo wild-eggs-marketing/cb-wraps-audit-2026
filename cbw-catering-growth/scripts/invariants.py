@@ -58,7 +58,11 @@ def check(name, ok, detail):
 
 
 def main():
-    union, expected = all_contacts()
+    # use_cache=False is not optional. This is a verification gate: reading apollo_dedupe's
+    # 15-minute cache means checking the state as it was BEFORE the engine that just ran, which
+    # is how a run that created 60 contacts was graded against a 1042-contact snapshot and the
+    # newest records went unchecked entirely.
+    union, expected = all_contacts(use_cache=False)
     check("contact_read_complete", bool(expected) and len(union) >= expected,
           f"read {len(union)} of {expected} contacts")
     if not expected or len(union) < expected:

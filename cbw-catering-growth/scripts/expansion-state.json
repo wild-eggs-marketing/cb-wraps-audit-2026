@@ -1,6 +1,7 @@
 {
  "ledger": {
-  "remaining": 1085.350000000009
+  "remaining": 977.600000000003,
+  "last_reset": "2026-07-28"
  },
  "cursors": {
   "cbw": {
@@ -11,7 +12,14 @@
    "West Oak|31,32,33": 2,
    "West Oak|8131": 2,
    "West Oak|92": 2,
-   "West Oak|71": 2
+   "West Oak|71": 2,
+   "Chesterfield Valley|62": 2,
+   "Chesterfield Valley|61": 2,
+   "Creve Coeur|62": 2,
+   "Creve Coeur|61": 2,
+   "Edwardsville|62": 2,
+   "Edwardsville|61": 2,
+   "Edwardsville|54": 2
   },
   "we": {
    "Landis|8131": 2,
@@ -23,16 +31,36 @@
    "Landis|71": 2,
    "Landis|general": 2,
    "Oakley|8131": 2,
-   "Oakley|62": 2
+   "Oakley|62": 2,
+   "Avon|8131": 2,
+   "Bowling Green|8131": 2,
+   "Bowling Green|62": 2,
+   "Carmel|8131": 2,
+   "Carmel|62": 2,
+   "Dupont|8131": 2,
+   "Dupont|62": 2
   }
  },
  "store_offset": {
   "cbw": 3,
   "we": 3
  },
- "last_run": "2026-08-04",
+ "last_run": "2026-08-05",
  "totals": {
-  "cbw": 30,
-  "we": 30
+  "cbw": 60,
+  "we": 60
+ },
+ "store_last_seen": {
+  "cbw": {
+   "Chesterfield Valley": "2026-08-05",
+   "Creve Coeur": "2026-08-05",
+   "Edwardsville": "2026-08-05"
+  },
+  "we": {
+   "Avon": "2026-08-05",
+   "Bowling Green": "2026-08-05",
+   "Carmel": "2026-08-05",
+   "Dupont": "2026-08-05"
+  }
  }
 }
