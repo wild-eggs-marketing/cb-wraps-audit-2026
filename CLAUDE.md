@@ -58,8 +58,11 @@ correct. Argue the mechanism through, don't defend the conclusion.
 - `people/bulk_match` **must include `first_name`**. Person search returns
   `last_name_obfuscated`, not `last_name`, so id + organization_name alone fuzzy-matches to an
   unrelated person at another company.
-- `typed_custom_fields` must be created with `"type": "string"`. `"text"` is silently accepted
-  and yields a type-less field that rejects both CSV import and API writes.
+- `typed_custom_fields` must be created with `"type": "string"` **and `"modality": "contact"`
+  (SINGULAR)**. Apollo silently accepts `"text"` and `"contacts"`, stores them verbatim, and the
+  resulting field then **no-ops on every write** — the `PUT` returns 200 with the field simply
+  absent from the response body. Both traps have cost a rebuild. After creating a field, write a
+  value and read it back before using it for anything.
 - Empty merge fields make Apollo **refuse the send** (`not_sent_reason: snippets_missing`) — the
   message is never transmitted. Stamp custom fields and confirm they landed *before* enrolling.
 - `contacts/search` does **not** return `label_names`; store attribution can only be read from
