@@ -30,17 +30,19 @@ import requests
 BASE = "https://api.apollo.io/api/v1"
 H = {"x-api-key": os.environ["APOLLO_API_KEY"], "Content-Type": "application/json"}
 
-# Created 2026-08-05 with type "string" ("text" is silently accepted and yields a type-less
-# field that rejects every write).
+# Created 2026-08-05 with type "string" AND modality "contact" (SINGULAR). Apollo accepts
+# modality "contacts" and type "text" silently, storing them verbatim, and the resulting
+# fields then no-op on every write - a PUT returns 200 with the field simply absent from
+# the response. The first eight fr_ fields were created that way and had to be deleted.
 FIELDS = {
-    "fr_tier": "6a7344a6ff97ce0010d93efd",
-    "fr_score": "6a7344a85ba735001c20adea",
-    "fr_role_segment": "6a7344aa1c27730018b2bda4",
-    "fr_concept_segment": "6a7344ab9df203001498e72e",
-    "fr_total_units": "6a7344ad4adf78001c6259fc",
-    "fr_territory": "6a7344aff6b007000c033871",
-    "fr_approach": "6a7344b1a71d960010509aee",
-    "fr_campaign_code": "6a7344b30adee3000c6fe5ed",
+    "fr_tier": "6a73462aac9021001049abb6",
+    "fr_score": "6a73462c034a4f0014257cdd",
+    "fr_role_segment": "6a73462e4c81c100204648b6",
+    "fr_concept_segment": "6a73462fcdc7b7000c4c439e",
+    "fr_total_units": "6a73463166e827001418efa4",
+    "fr_territory": "6a73463266e827001418efac",
+    "fr_approach": "6a7346344c81c100204648c3",
+    "fr_campaign_code": "6a73463652ad7a0020f379a0",
 }
 
 US_STATES = {"AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN",
@@ -96,32 +98,44 @@ def load_rows(path):
     return d
 
 
-def existing_maps():
-    """email -> contact id, and lowercased account name -> account id, read in full."""
-    contacts, accounts = {}, {}
-    for path, sink, key in (("contacts/search", contacts, "contacts"),
-                            ("accounts/search", accounts, "accounts")):
+def _read_all(path, key):
+    """Union repeated passes until the count matches total_entries.
+
+    contacts/search and accounts/search both return short pages mid-run. A single pass that
+    stops early under-reads: the first version of this function reported 920 contacts when the
+    account held 1,102, and every unseen contact is one this importer would create again.
+    """
+    union, expected = {}, None
+    for _ in range(4):
         page = 1
         while page <= 60:
             body, err = req(path, {"per_page": 100, "page": page})
             if err or not body:
                 break
             got = body.get(key) or []
-            if not got:
-                break
-            for x in got:
-                if key == "contacts":
-                    e = (x.get("email") or "").strip().lower()
-                    if e:
-                        sink[e] = x["id"]
-                else:
-                    n = (x.get("name") or "").strip().lower()
-                    if n:
-                        sink[n] = x["id"]
             pag = body.get("pagination") or {}
-            if page >= (pag.get("total_pages") or 1):
+            if expected is None:
+                expected = pag.get("total_entries")
+            for x in got:
+                union[x["id"]] = x
+            if not got or page >= (pag.get("total_pages") or 1):
                 break
             page += 1
+        if expected and len(union) >= expected:
+            break
+        time.sleep(1)
+    if expected and len(union) < expected:
+        raise RuntimeError(f"read {len(union)} of {expected} from {path} - refusing to import "
+                           f"against an incomplete view, it would create duplicates")
+    return union
+
+
+def existing_maps():
+    """email -> contact id, and lowercased account name -> account id, both read in full."""
+    contacts = {(c.get("email") or "").strip().lower(): c["id"]
+                for c in _read_all("contacts/search", "contacts").values() if c.get("email")}
+    accounts = {(a.get("name") or "").strip().lower(): a["id"]
+                for a in _read_all("accounts/search", "accounts").values() if a.get("name")}
     return contacts, accounts
 
 
