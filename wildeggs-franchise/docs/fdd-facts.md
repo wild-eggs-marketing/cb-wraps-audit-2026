@@ -6,10 +6,19 @@ from the full FDD Elle supplied 2026-08-05.
 
 ## Corrections to previously drafted copy
 
-- **"19 restaurants" is wrong for franchise copy.** Item 20: as of 12/30/2025 there were
-  **18** Wild Eggs restaurants — 15 affiliate-operated (KY 6, IN 7, OH 2) + 3 franchised
-  (all Lexington KY). The catering side's "19 stores" is operational store count, not the
-  FDD figure. Copy: "18 restaurants across Kentucky, Indiana and Ohio."
+- **Unit count: copy says 19 (live count), the FDD says 18 (snapshot).** Item 20 counts
+  **18** restaurants as of fiscal year end 12/30/2025 — 15 affiliate-operated (KY 6, IN 7,
+  OH 2) + 3 franchised (all Lexington KY). The live count TODAY is **19 open**: verified
+  2026-08-05 against wildeggs.com/locations, which lists 20 locations of which exactly one
+  (Columbus, OH) is marked "Coming soon!" — Tates Creek Lexington carries an address and a
+  live phone number, consistent with one of the FDD's signed Lexington agreements having
+  opened since the snapshot. Elle confirmed 19 (2026-08-05). An earlier version of this
+  sheet corrected 19→18 by treating the FDD snapshot as current; that was the mistake in
+  reverse. Rule: **the FDD is a fiscal-year-end snapshot, never the live count — cold-email
+  unit counts come from the live locations page + franchisor confirmation, re-verified the
+  week of send.** Copy: "19 restaurants across Kentucky, Indiana and Ohio." Any claim ABOUT
+  the FDD's own tables (e.g. Item 19 covering 16 restaurants' 2025 data) keeps the FDD's
+  numbers.
 - **"Founded 2007" is not in the FDD.** Wild Eggs Franchising LLC formed 2015 (Indiana);
   franchising offered since April 2015. The trademark registered 2008. Do not use a
   founding year unless Elle confirms one that appears in approved brand materials.
@@ -27,7 +36,8 @@ from the full FDD Elle supplied 2026-08-05.
 
 - Concept: "upscale dining experience serving innovative dishes with a fresh, contemporary
   approach to traditional breakfast, brunch, and lunch" (cover page — official language).
-- 18 restaurants (15 affiliate + 3 franchised), KY/IN/OH, as of 12/30/2025 (Item 20).
+- 19 restaurants open today (live count, verified 2026-08-05 + Elle); the FDD's Item 20
+  snapshot is 18 (15 affiliate + 3 franchised) as of 12/30/2025. KY/IN/OH either way.
 - Signed-but-unopened franchise agreements: Houston TX (Eggs Gone Wild LLC) and
   Lexington KY (Golden Eggs LLC) — Item 20/Exhibit D. "Operators are already signing,
   including Texas" is FDD-verifiable.
@@ -50,6 +60,9 @@ from the full FDD Elle supplied 2026-08-05.
   substantiation available on request (Item 19). The B3 conditional line is now cleared.
 - Contact channels of record: Franchising@WildEggs.com · 502-807-9403 ·
   www.WildEggsFranchising.com · 1211 Herr Lane, Suite 290, Louisville, KY 40222.
+- **Nathan's sending mailbox is nathan@wildeggs.com** (Elle, 2026-08-05) — that is the
+  account to connect in Apollo and send from. Franchising@WildEggs.com stays in the
+  signature as the FDD channel of record.
 
 ## Hard constraints confirmed
 

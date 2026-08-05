@@ -37,6 +37,18 @@ duplicate" must come from a union pull that reconciles against `total_entries`.
 **When the user pushes back, re-derive from the API.** Every pushback in this project has been
 correct. Argue the mechanism through, don't defend the conclusion.
 
+**A document's snapshot is not the live value.** The FDD's Item 20 says 18 restaurants — as of
+fiscal year end 12/30/2025. The live count on 2026-08-05 was 19 (wildeggs.com/locations: 20
+listed, exactly one "Coming soon" — Columbus OH), because a signed Lexington location opened
+after the snapshot. Copy shipped saying "18" and the owner caught it. Unit counts, open
+locations, and anything else that grows must come from the live source at write time and be
+re-verified the week of send; the FDD's numbers are only correct for claims about the FDD
+itself (e.g. "Item 19 covers 16 restaurants' 2025 tables"). Standing order from the owner:
+**no factual claim ships without verification, with reasons, sources, and confidence scores.**
+
+Franchise program: Nathan Haffke's sending mailbox is **nathan@wildeggs.com** (connect this in
+Apollo; Franchising@WildEggs.com stays in the signature as the FDD channel of record).
+
 ## Apollo API facts (hard-won, mostly undocumented)
 
 - Auth is `x-api-key`. MCP connector tools are approval-gated (`-32003`); use REST.

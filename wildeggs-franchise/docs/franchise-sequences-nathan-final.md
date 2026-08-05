@@ -58,7 +58,7 @@ Merge fields: `{{first_name}}` `{{fr_total_units}}` `{{fr_concept_segment}}` `{{
 >
 > {{fr_approach}}
 >
-> I run franchise development at Wild Eggs. We're 18 restaurants across Kentucky, Indiana and Ohio. Upscale breakfast, brunch and lunch. One daypart; the doors close by mid-afternoon. The owners who look hardest at us already run {{fr_concept_segment}} restaurants and want a shift pattern their current concept can't give them.
+> I run franchise development at Wild Eggs. We're 19 restaurants across Kentucky, Indiana and Ohio. Upscale breakfast, brunch and lunch. One daypart; the doors close by mid-afternoon. The owners who look hardest at us already run {{fr_concept_segment}} restaurants and want a shift pattern their current concept can't give them.
 >
 > We added two restaurants in 2024, two more in 2025, and have seven projected for next year, including a signed deal in Texas.
 >
@@ -71,7 +71,8 @@ Merge fields: `{{first_name}}` `{{fr_total_units}}` `{{fr_concept_segment}}` `{{
 | Decision | Claims | Confidence |
 |---|---|---|
 | Named-human direct outreach as the opening frame | [1][4] | 0.93 / 0.75 |
-| 18 units (not 19), no founding year, "closed by mid-afternoon" | fdd-facts corrections | fact sheet |
+| 19 units = live count (wildeggs.com/locations 2026-08-05: 20 listed, only Columbus OH "Coming soon"; Elle confirmed); FDD Item 20's 18 is the 12/30/2025 snapshot | fdd-facts corrections | 0.95 |
+| No founding year, "closed by mid-afternoon" | fdd-facts corrections | fact sheet |
 | +2/+2/7 momentum with Texas as *signed deal*, not open store | fdd-facts; [15] | 0.93 |
 | Interest-reply CTA, no calendar ask (ladder step 1) | prior spec ladder; [3] | 0.95 |
 | "one daypart; the doors close by mid-afternoon" phrasing, no triad | [6] | 0.96 |
@@ -154,7 +155,7 @@ Merge fields: `{{first_name}}` `{{fr_total_units}}` `{{fr_concept_segment}}` `{{
 >
 > {{fr_approach}}
 >
-> I run franchise development at Wild Eggs: upscale breakfast, brunch and lunch, 18 restaurants across Kentucky, Indiana and Ohio. One daypart; the doors close by mid-afternoon. We grew by two restaurants in 2024, two in 2025, and have seven more projected, including a signed agreement in Houston.
+> I run franchise development at Wild Eggs: upscale breakfast, brunch and lunch, 19 restaurants across Kentucky, Indiana and Ohio. One daypart; the doors close by mid-afternoon. We grew by two restaurants in 2024, two in 2025, and have seven more projected, including a signed agreement in Houston.
 >
 > We sign multi-unit development agreements with established groups, and the unit count and schedule are negotiated, not pulled off a rate card.
 >
@@ -245,7 +246,7 @@ Merge fields: `{{first_name}}` `{{fr_total_units}}` `{{fr_concept_segment}}` `{{
 
 1. **Item 19 pointer now UNCONDITIONAL.** The prior B3 bracketed line ("include only if counsel confirms a current Item 19") is resolved: the FDD has a substantial Item 19 (full 2025 tables, 14 affiliate + 2 franchised restaurants). The pointer appears in A4 and B2, describing **scope only** — never "strong/healthy/impressive," which edges toward an implied FPR [13]. No figure from it appears anywhere.
 2. **Fee facts now INCLUDED (they were omitted "pending FDD cross-check").** Included in B2: $45k/$40k/$30k fee ladder, $15,000 × (units−1) MUA development fee with credit-back, 5.5% royalty — cost data alone is not an FPR [14]. **Excluded by choice:** the $686,350–$2,252,550 Item 7 range as digits (the conversion low-end is used qualitatively in A2 instead — the full range is a mouthful that invites transcription drift against 436.9(a)); the 0.5% ad fund (not yet activated — explaining that costs more words than it earns); the $63k–$65k MUA-only figure and Exhibit F financials (fdd-facts bans the latter outright). Hard rule kept: no email that carries a cost figure may ever carry any revenue/sales figure, including third-party segment stats [14].
-3. **Factual corrections applied everywhere:** 18 restaurants not 19; no founding year (2007 removed); "closed by mid-afternoon" not "6am–2pm"; "relaunched since 2025" replaced with the FDD-supported +2 (2024) / +2 (2025) / 7 projected incl. Texas; Texas phrased as signed agreement/projection, never an open store [15].
+3. **Factual corrections applied everywhere:** unit count is **19** — the live count (wildeggs.com/locations, verified 2026-08-05: 20 locations listed, exactly one marked "Coming soon!" — Columbus OH; confirmed by Elle), while the FDD's Item 20 says 18 as a 12/30/2025 fiscal-year-end snapshot. Claims about the FDD's own tables (Item 19 covering 16 restaurants' 2025 data) keep the FDD numbers. Re-verify the live count the week of launch. Also: no founding year (2007 removed); "closed by mid-afternoon" not "6am–2pm"; "relaunched since 2025" replaced with the FDD-supported +2 (2024) / +2 (2025) / 7 projected incl. Texas; Texas phrased as signed agreement/projection, never an open store [15].
 4. **Registration-state posture: same holds, stronger grounding, tighter mechanics.** The prior R6 worry ("exclusion list covers only 7 of 14") is superseded — the 39-name set already excludes all 14 pending states per fdd-facts. The holds are now known to be legally *required*, not conservative: an email received in MI/CA/NY is an offer made there regardless of build location [11], and NY's internet-offer exemption can never cover a one-to-one email to a NY resident [12]. New controls: verify **person-level residence state** for each of the 39 at send and at every list refresh; before emailing any Texas *resident*, confirm the Form 2703 exemption notice is on file with the Texas SOS [15]; when a state goes effective, check its ad-filing rules before lifting the hold — NY requires filing the copy first [16]. Optional footer line added (§1).
 5. **Sender swap Elle → Nathan** with the FDD Item 2 title exactly ("Franchise Development Manager," not "head of franchise sales") and the FDD channels of record. Nathan's receipts-page status means prospects later see his exact name in the legal document — a verification loop the copy is built to survive [4, unverified composite 0.51].
 6. **First Watch / Snooze claims re-verified as of 2026-08-05** and re-phrased to the precisely true versions [9][10]; A2/B3 carry them.
@@ -254,10 +255,10 @@ Merge fields: `{{first_name}}` `{{fr_total_units}}` `{{fr_concept_segment}}` `{{
 
 ## 4. LAUNCH PRECONDITIONS (ordered — none skippable)
 
-1. **Nathan's M365 mailbox connected in Apollo** as the sending account, send-as verified with a live test message to an internal address. Replies must land in Nathan's inbox, and Nathan commits to same-business-day manual replies — no autoresponder, no router [2].
+1. **Nathan's M365 mailbox — nathan@wildeggs.com (per Elle, 2026-08-05) — connected in Apollo** as the sending account, send-as verified with a live test message to an internal address. Replies must land in Nathan's inbox, and Nathan commits to same-business-day manual replies — no autoresponder, no router [2].
 2. **Sender swap executed in the sequences:** From-name "Nathan Haffke," signature block from §1 on every touch, reply-to Nathan. Per project rules: never trust a 200 — read every template back after writing it, and no Apollo UI edits after API load.
 3. **Residence-state verification of all 39** against the 14 pending states, at person level (not company HQ — the geofencing lesson). Any Texas resident held until the Form 2703 filing is confirmed with the Texas SOS [11][12][15].
-4. **Nathan confirms his own facts** match FDD Item 2 verbatim (Silbar title, Franchising by Grace since 2013) and confirms whether Clifford Harris goes by "Cliff" (copy currently says Clifford). Elle confirms 18-unit count and the Houston/Lexington signed agreements are still current at send date; re-check First Watch/Snooze status the week of launch [9][10].
+4. **Nathan confirms his own facts** match FDD Item 2 verbatim (Silbar title, Franchising by Grace since 2013) and confirms whether Clifford Harris goes by "Cliff" (copy currently says Clifford). Elle re-confirms the 19-unit live count at send date (recount wildeggs.com/locations, excluding "Coming soon" cards) and that the Houston/Lexington signed agreements are still current; re-check First Watch/Snooze status the week of launch [9][10].
 5. **Style gate:** run the S1 grep and the S2–S8 checklist on the final loaded copy; counsel signs off on the exact text (including B2's fee figures against Items 5/6); version-control the loaded copy in the repo.
 6. **Merge fields stamped and read back** for all 39 (`fr_approach` hand-written per S10) *before* enrollment — empty snippets make Apollo silently refuse the send. Custom fields must be `type: string`, `modality: contact`, verified by write-then-read.
 7. **Activation gates:** approve the campaign AND every touch (`to_be_reviewed` touches silently block all sends); confirm the FDD (June 25, 2026) is packaged for prompt delivery on request; brief Clifford and the Lexington operator that sales/earnings anecdotes are off-limits on calls.
@@ -280,7 +281,7 @@ Merge fields: `{{first_name}}` `{{fr_total_units}}` `{{fr_concept_segment}}` `{{
 **Top 3 things a human must check before approval:**
 
 1. **Residence-state screen, re-run at send:** all 39 verified at person level against the 14 pending states; Texas residents gated on the Form 2703 filing. One email to one Michigan or New York resident is an unregistered offer no wording can cure [11][12].
-2. **Number-for-number FDD match on B2 and the Item 19 lines:** $45,000 / $40,000 / $30,000, $15,000 × (units−1) with credit-back, 5.5%, "16 restaurants / full 2025 tables," 18 units, Houston + Lexington signed agreements — verbatim against the June 25, 2026 FDD, plus Nathan's Item 2 bio facts. Any drift violates 436.9(a) [13][14].
+2. **Number-for-number FDD match on B2 and the Item 19 lines:** $45,000 / $40,000 / $30,000, $15,000 × (units−1) with credit-back, 5.5%, "16 restaurants / full 2025 tables," Houston + Lexington signed agreements — verbatim against the June 25, 2026 FDD, plus Nathan's Item 2 bio facts; the 19-unit line checked against the live locations page (it is deliberately NOT the FDD's 18-unit snapshot). Any drift violates 436.9(a) [13][14].
 3. **Comp-claim and channel freshness the week of launch:** First Watch still not selling franchises, Snooze still not franchising [9][10]; 502-807-9403 actually rings Nathan and he answers; Franchising@WildEggs.com and WildEggsFranchising.com live and current — the copy stakes Nathan's credibility on all three.
 
 ---
