@@ -10,10 +10,10 @@ Mechanics that are load-bearing (see CLAUDE.md):
  - templates are written via flat PUT /emailer_templates/{id};
  - activation is two gates: campaigns/approve AND every touches/approve, with retries for
    the "jobs being processed" lock that follows the first approval;
- - the mailbox signature is the CATERING signature ("Book catering"), wrong for franchise
-   mail, so each body carries its own sign-off and include_signature is turned off per touch
-   (verified writable) - if that write fails the build aborts rather than sending a
-   franchise email with a catering footer.
+ - include_signature is NOT controllable (both step creation and PUT emailer_touches
+   silently discard it), but PUT /email_accounts/{id} signature_html IS writable - so the
+   mailbox signature was replaced with a brand-neutral one that serves catering and
+   franchise alike, and the body carries only the role line.
 
 Enrollment: only /tmp/fr_eligible.json (verified + US + non-registration-state + non-CASL,
 39 people), split by fr_role_segment. Caps: 5/day per variant, throttled further by the
@@ -33,8 +33,11 @@ BASE = "https://api.apollo.io/api/v1"
 SCHEDULE_ID = "6a67a5227f926a0018c2e4bc"
 WE_SENDER = "6a6a51a90618ba001ca84350"
 
-SIGN = ('<div>Elle Morgan &mdash; Franchise Development, Wild Eggs</div>'
-        '<div><br></div>')
+# Identity comes from the mailbox signature (now brand-neutral, serving catering and
+# franchise alike - include_signature is NOT controllable per touch, the API silently
+# discards it, but PUT /email_accounts/{id} signature_html IS writable). The body carries
+# only the role line so the name is not repeated.
+SIGN = '<div>&mdash; Elle, Franchise Development</div><div><br></div>' 
 FOOTER = ('<div><i>Not the right person for growth decisions? Say so and the emails stop.</i></div>'
           '<div><i>Wild Eggs, 1211 Herr Lane Ste 290, Louisville, KY 40222</i></div>')
 
@@ -154,20 +157,26 @@ def put(path, body):
 
 
 def build(seq):
-    d = post("emailer_campaigns", {"name": seq["name"], "permissions": "team_can_use",
-                                   "active": False, "emailer_schedule_id": SCHEDULE_ID,
-                                   "max_emails_per_day": 5})
-    camp = d["emailer_campaign"]["id"]
-    tpls = []
-    for pos, step in enumerate(seq["steps"], start=1):
-        sd = post("emailer_steps", {"emailer_campaign_id": camp, "type": "auto_email",
-                                    "position": pos, "wait_time": step["wait"],
-                                    "wait_mode": "day"})
-        tpls.append((sd["emailer_template"]["id"], sd["emailer_touch"]["id"]
-                     if "emailer_touch" in sd else None))
+    # Reuse a half-built campaign of the same name (an earlier run aborted mid-build);
+    # template PUTs are idempotent so reloading content is safe.
+    d = post("emailer_campaigns/search", {"per_page": 100})
+    existing = next((c for c in d.get("emailer_campaigns", [])
+                     if c.get("name") == seq["name"]), None)
+    if existing:
+        camp = existing["id"]
+        print(f"reusing existing campaign {seq['name']} ({camp})")
+    else:
+        d = post("emailer_campaigns", {"name": seq["name"], "permissions": "team_can_use",
+                                       "active": False, "emailer_schedule_id": SCHEDULE_ID,
+                                       "max_emails_per_day": 5})
+        camp = d["emailer_campaign"]["id"]
+    got = requests.get(f"{BASE}/emailer_campaigns/{camp}", headers=H, timeout=45).json()
+    have = len(got.get("emailer_steps") or [])
+    for pos in range(have + 1, len(seq["steps"]) + 1):
+        post("emailer_steps", {"emailer_campaign_id": camp, "type": "auto_email",
+                               "position": pos, "wait_time": seq["steps"][pos - 1]["wait"],
+                               "wait_mode": "day"})
         time.sleep(0.5)
-    # read the touches back for ids + include_signature control
-    full = post if False else None
     got = requests.get(f"{BASE}/emailer_campaigns/{camp}", headers=H, timeout=45).json()
     touches = sorted(got.get("emailer_touches") or [],
                      key=lambda t: t.get("emailer_step_id") or "")
@@ -179,20 +188,7 @@ def build(seq):
             {"name": f"{seq['name']} - Step {pos}",
              "subject": step["subject"], "body_html": body})
         time.sleep(0.5)
-        # catering signature must not append to franchise mail: verify the flag actually lands
-        r = requests.put(f"{BASE}/emailer_touches/{t['id']}",
-                         headers=H, json={"include_signature": False}, timeout=45)
-        ok = (r.status_code == 200
-              and (r.json().get("emailer_touch") or {}).get("include_signature") is False)
-        if not ok:
-            g = requests.get(f"{BASE}/emailer_campaigns/{camp}", headers=H, timeout=45).json()
-            now = next((x for x in g.get("emailer_touches", []) if x["id"] == t["id"]), {})
-            ok = now.get("include_signature") is False
-        if not ok:
-            raise SystemExit(f"ABORT: include_signature still true on touch {t['id']} - "
-                             f"a franchise email would carry the catering signature")
-        time.sleep(0.5)
-    print(f"built {seq['name']} ({camp}), {len(seq['steps'])} steps, signature off")
+    print(f"built {seq['name']} ({camp}), {len(seq['steps'])} steps")
     return camp, [t["id"] for t in touches]
 
 
