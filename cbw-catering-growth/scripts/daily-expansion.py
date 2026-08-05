@@ -156,6 +156,13 @@ def post(path, body):
             time.sleep(3 * (a + 1)); continue
         if r.status_code == 429:
             time.sleep(30 * (a + 1)); continue
+        # Apollo returns transient 5xx ("502 policy unavailable") under load. Only 429 was
+        # retried before, so a single 502 on the labels call killed a run mid-contact and left
+        # a created-but-unenrolled orphan behind. These are safe to retry: the calls that reach
+        # here are idempotent per contact (label add, field write) or already guarded by the
+        # email dedupe (contact create).
+        if r.status_code in (500, 502, 503, 504):
+            time.sleep(5 * (a + 1)); continue
         break
     if r.status_code != 200:
         raise RuntimeError(f"POST {path} -> {r.status_code}: {r.text[:150]}")
