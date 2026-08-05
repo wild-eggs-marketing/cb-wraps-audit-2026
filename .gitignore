@@ -10,3 +10,5 @@ cbw-catering-growth/data/lookalikes-*.csv
 __pycache__/
 *.pyc
 .contact-cache.json
+wildeggs-franchise/data/*.csv
+wildeggs-franchise/scripts/franchise-import-progress.json
