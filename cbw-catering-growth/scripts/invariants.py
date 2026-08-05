@@ -46,6 +46,16 @@ failures = []
 notes = []
 
 
+def _load_expansion_helpers():
+    """daily-expansion.py has a dash in its name, so import it by path."""
+    import importlib.util
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "daily-expansion.py")
+    spec = importlib.util.spec_from_file_location("daily_expansion", p)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
 def call(path, body=None):
     r = urllib.request.Request(f"{BASE}/{path}",
                                data=json.dumps(body).encode() if body is not None else None,
@@ -115,18 +125,40 @@ def main():
     # A person whose keeper failed verification (verify:apollo-moved / apollo-unverified in
     # cold-verify-results.json) is fully suppressed ON PURPOSE - that is the verification
     # working, not the dedupe orphaning someone. Only unexplained full suppression is a defect.
+    # Paths must be absolute: run from the repo root, a bare "cold-verify-results.json" found
+    # nothing, the exclusion silently vanished, and the gate reported 30 orphans where the true
+    # count was 22.
+    here = os.path.dirname(os.path.abspath(__file__))
     for_cause = set()
-    for p in ("cold-verify-results.json",
-              os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                           "..", "..", "wildeggs-franchise", "scripts",
+    for p in (os.path.join(here, "cold-verify-results.json"),
+              os.path.join(here, "..", "..", "wildeggs-franchise", "scripts",
                            "franchise-verify-results.json")):
         if os.path.exists(p):
             for e, v in json.load(open(p)).items():
                 if v.get("verdict") in ("apollo-moved", "apollo-unverified"):
                     for_cause.add(e)
+    # The 2026-08-05 out-of-market sweep is also for-cause, but its list lived only in the
+    # recycled container. Re-derive it from live state instead of a file: a fully-suppressed
+    # person whose own location is outside every state either brand serves was retired by the
+    # geofence, not orphaned by the dedupe. Served sets come from each brand's order history
+    # (accounts-master.csv), same as daily-expansion's geofence.
+    de = _load_expansion_helpers()
+    allowed = (de.allowed_states_for(os.path.join(here, "..", "data"))
+               | de.allowed_states_for(os.path.join(here, "..", "..",
+                                                    "wildeggs-catering-growth", "data")))
+
+    def geo_for_cause(recs):
+        if not allowed:
+            return False        # can't know the served set: fail closed, keep the alarm
+        st = de.norm_state(next((c.get("state") for c in recs if c.get("state")), ""))
+        country = next((c.get("country") for c in recs if c.get("country")), "")
+        if country and country != "United States":
+            return True
+        return bool(st) and st not in allowed
+
     orphaned = [e for e, recs in by_email.items()
                 if len(recs) > 1 and all(c.get("email_unsubscribed") for c in recs)
-                and e not in for_cause]
+                and e not in for_cause and not geo_for_cause(recs)]
     check("dedupe_left_no_one_unreachable", not orphaned,
           "no multi-record person is fully suppressed" if not orphaned
           else f"{len(orphaned)} people have duplicates and ZERO mailable record: "
