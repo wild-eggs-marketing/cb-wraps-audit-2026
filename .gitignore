@@ -13,3 +13,4 @@ __pycache__/
 wildeggs-franchise/data/*.csv
 wildeggs-franchise/scripts/franchise-import-progress.json
 wildeggs-franchise/scripts/franchise-verify-results.json
+cbw-catering-growth/scripts/cold-verify-results.json
