@@ -1,0 +1,3372 @@
+{
+ "cindy.farris@meridianmt.com": {
+  "id": "6a6910251a6e7100100db960",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "ssweeney@wustl.edu": {
+  "id": "6a691053e3931c00100fd0c5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "george.keyrouz@slu.edu": {
+  "id": "6a69f832e04d580010a30184",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "kristina.dzara@health.slu.edu": {
+  "id": "6a69f85b476c11000c72a74e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jordyn.watson@rc-stl.com": {
+  "id": "6a69f86694347f000c27d6f4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jmoss@gomedhealthcare.com": {
+  "id": "6a6a427c9854980018ef8345",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shweta.bhatia@gatewayfiber.com": {
+  "id": "6a6a723f979d4f00202e0a23",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "aadelman@dovercompanies.com": {
+  "id": "6a69100a1b2e52001c123b2b",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "kristin.rutzinski@esmw.org": {
+  "id": "6a691010e98eba001063229b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "wsantana@medicalofficeonline.com": {
+  "id": "6a6a4030028b0f001460d0e9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "everetia@bgcstl.org": {
+  "id": "6a6910080b56390010b83c30",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "srambousek@hydrosat.com": {
+  "id": "6a6a723c5ad80e0010683af8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mryan@careeradvancers.com": {
+  "id": "6a6a555326125a00207e61f8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lynn.jones@icl-group.com": {
+  "id": "6a69101f3a3b3a00206fd346",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "arnold@clarksoneyecare.com": {
+  "id": "6a69f82ad23c7200145c8478",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "brimoore@microsoft.com": {
+  "id": "6a69f84994347f000c27d339",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "clang@rgsz.com": {
+  "id": "6a69f8561d0f5b0010720f0b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rsheehan@terrabis.co": {
+  "id": "6a6a72407b114b0014ce7fa5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "aschnarr@regionaleyecare.com": {
+  "id": "6a69103a85357e0020740396",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "thomas.siler.md@midwestchest.com": {
+  "id": "6a69f84a03ba06000c892a71",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "emma.wirth@anheuser-busch.com": {
+  "id": "6a691004e502e0001077eabd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tia.mccartney@plancorp.com": {
+  "id": "6a6910388e6607001462ece6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lmagness@ckpower.com": {
+  "id": "6a6ce47095c06b00140f523b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "adarnell@techstyle.com": {
+  "id": "6a6a2c34e24d570014ad988f",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "rrowland@urologygroup.com": {
+  "id": "6a6a2c3547b3f5001c1509bf",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ctillman@sullivan.edu": {
+  "id": "6a6ce4f8877577000cb1bfe0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "azhar@exatechinc.com": {
+  "id": "6a6ce20b8f4f0f001cfe8633",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cbennett@interactforhealth.org": {
+  "id": "6a6a2c4dc66de90010da2858",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "theresa.newton@louisville.edu": {
+  "id": "6a6ce524affe8a000cfed043",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "john.faunce@teamrwb.org": {
+  "id": "6a6ce54a580c9a0014d60387",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jsons@dci.org": {
+  "id": "6a6a68049ebc5100182194ab",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "christined@syrahealth.com": {
+  "id": "6a6a6831ae62830020793ec9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amyjohnson@cobank.com": {
+  "id": "6a6a2c4eae7a03002074530c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "msmith@prevounce.com": {
+  "id": "6a6a71d339da72001c82d429",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "athornton@mercy.com": {
+  "id": "6a6a2c77e24d570014ad9ee1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chays@kdf.org": {
+  "id": "6a6ce565cca53f001c282e40",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jloving@citygospelmission.org": {
+  "id": "6a6a680da0e1ad000c972bba",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kasey_brown@newhopeservices.org": {
+  "id": "6a6a7207ee3309000c52d979",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gsebetlela@caab.co.bw": {
+  "id": "6a6ce53196f2bf0018bebaa1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mmalone@ebony.com": {
+  "id": "6a6b69643d44a1001cd041ba",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chris.schultz@lochgroup.com": {
+  "id": "6a6a2c373537a600100fb3f7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "naveen.ts@jll.com": {
+  "id": "6a6b692d20fa17001099c28b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "maggie.vinson@dynamiccatholic.com": {
+  "id": "6a6a679d49e898000c3c1ca4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bpotts@aclaratech.com": {
+  "id": "6a6b68b34ab2f70014f00ed5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "daniel.ulrich@winlandfoods.com": {
+  "id": "6a69105969e5f70014d7051d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rwarner@beltonealliance.com": {
+  "id": "6a6a408788caba000c731174",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cdwerkmann@ranken.edu": {
+  "id": "6a6a7227b0834c000c4b7b34",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "blawlor@buddobot.com": {
+  "id": "6a6ce16c5ed0a10020f24f32",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kathleen@spark-stl.com": {
+  "id": "6a69f85f3d7a0c0010366d61",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "achaney@axespt.com": {
+  "id": "6a6a420d94372e001cb1bf64",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ksedlack@instinctpetfood.com": {
+  "id": "6a6a7221e1a7f4001422c094",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "thayne.oliveira@semeq.com": {
+  "id": "6a6ce10a98e2f3001c79f673",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amaddray@ofallon.org": {
+  "id": "6a6a7253fb17b40020b72477",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "angel@slunicorns.com": {
+  "id": "6a691046ecdbdc0010d9db84",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "natalie.meyer@capitalinnovators.com": {
+  "id": "6a6ce45da3322e0018ecd1bb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "molly.cunningham@crossroads.net": {
+  "id": "6a6a2be9e1a7f4001c76df43",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "diamondd@ggclinic.com": {
+  "id": "6a6a2bb1f1bab60014ddecfb",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "scott.baldwin@technosmarts.com": {
+  "id": "6a71ff408156c90010fab00a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "pstephens@sm-usa.org": {
+  "id": "6a71ff92f6e7840010836b79",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rbarach@placesforpeople.org": {
+  "id": "6a7338331826ab001896b036",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "thuling@clinicalresearchprofessionals.net": {
+  "id": "6a7337e053414000188f1566",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "syed@abspectrum.org": {
+  "id": "6a7337e8ff9379000c66ee40",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sean@restorationmarketing.com": {
+  "id": "6a733883a37b470014a033f4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "pclegg@littleflowerparish.org": {
+  "id": "6a7338b3e16313001c12bd66",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ktanaro@hopeharbor.net": {
+  "id": "6a7338fc7cea2a0020a933b6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "srucker@thegundcompany.com": {
+  "id": "6a733682821eb3000c9b0198",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "c.whitehouse@truepointwealth.com": {
+  "id": "6a6a2c1cd3891b000cb68b38",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chinko@iuhealth.org": {
+  "id": "6a6a2becc66de900141f99d4",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "melissa.hockaday@ascension.org": {
+  "id": "6a6a2c1f084e60001440adb0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kasey_kleem@gap.com": {
+  "id": "6a6a2c76fd1c64001c806415",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lindsye.proud@ukg.com": {
+  "id": "6a6a2c65f14bd900105615fe",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chris.musillo@muimmigration.com": {
+  "id": "6a6a2c097d32c0001873ed63",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "z.muzik@luxco.com": {
+  "id": "6a6ce1bab7c77b00205df6ad",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "abrockoconnor@c2n.com": {
+  "id": "6a6a424455390c00145a6d61",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sbrown@arco1.com": {
+  "id": "6a6a555acd8c15002036b0cf",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "aschreiber@truefitness.com": {
+  "id": "6a69f8645e6777002078f2c0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dawn.mcmillen@ipcpain.com": {
+  "id": "6a6a41464eef240020758e1e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kmiller@vip-us.net": {
+  "id": "6a6a42a55ce01e000c6f54be",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "heissman@sbscreatix.com": {
+  "id": "6a6b687ee2963500189d292a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kathylong@harrishouse.org": {
+  "id": "6a6a42152cfca9000ce6e56f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kate.burkhardt@newpath.org": {
+  "id": "6a6ce23286ca73001476d1cd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "thiggins@freestorefoodbank.org": {
+  "id": "6a6ce22d9c39830014456989",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "megan.popplewell@gocrossings.org": {
+  "id": "6a6a6853f599f8000c6aa79d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dulces.hernandez@hunterhamiltonpr.com": {
+  "id": "6a6b69ae8be08b0010bd252e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "emily@lifeinabundance.org": {
+  "id": "6a6a684af97dcc000c8fa653",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "steve.lain@allworthfinancial.com": {
+  "id": "6a6a2c6a0842f700205db1e9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gregory.turner@formica.com": {
+  "id": "6a6a2c2d77dfa2001c54fb30",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shane.swinton@worldpay.com": {
+  "id": "6a6ce23f4012f1001c2670b4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tamecia.lamar@schultehospitality.com": {
+  "id": "6a6ce572a3322e000c356a2e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gary.painter@uc.edu": {
+  "id": "6a6a2c22d3891b000cb68bbd",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "mareika@hopehousebg.com": {
+  "id": "6a6a68808faadc00146e60f3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "andrew.regosch@rehabwithoutwalls.com": {
+  "id": "6a6ce4ca5a1e000020306db4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dan.benjamin@stelizabeth.com": {
+  "id": "6a6a2c6d4874a9001cf2df95",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ejennings@luminaut.com": {
+  "id": "6a6a2c7305eeaf0020930346",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "otto.portillo@pepsico.com": {
+  "id": "6a6a2c1efd1c6400187dd9a9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "snodgrassm@ggclinic.com": {
+  "id": "6a6a2c39e1a7f4000cd1d0f4",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "michelle@generousgiving.org": {
+  "id": "6a6a733c1c24de001847cc5e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ali.haider@planstreetinc.com": {
+  "id": "6a6a734467e9a20014934cbd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "heather.bowser@16-bitbar.com": {
+  "id": "6a6a2c6cc83b7b0020fe749e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "eguthrie@atsbwc.com": {
+  "id": "6a6a67e53d7a0c0014e74528",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "taylor.gorman@ermstaff.org": {
+  "id": "6a6a692bee2f07001cef1db5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chloe.brotherton@patientpoint.com": {
+  "id": "6a6a2c267df4d10010f76fd2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jsuiter@iu.edu": {
+  "id": "6a6ce4f2fe721700103972be",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "maria@prosoft-us.com": {
+  "id": "6a6ce510555cee00207e874a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mahernandez@healthfirstlex.com": {
+  "id": "6a6a736d7df4d100142276c9",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "mlotz@fertilityu.com": {
+  "id": "6a6b69d735ca2b0014192a73",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mroseman@brewster-co.com": {
+  "id": "6a6a414af6188c001410c9da",
+  "verdict": "apollo-moved",
+  "new_email": "mroseman@midwestmulch.com"
+ },
+ "rbarackman@beltservice.com": {
+  "id": "6a6ce149660402000c4bcc4c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "daleh@nutriformance.com": {
+  "id": "6a69f821ee2f07000ce6dbe1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "hbland@cerroflow.com": {
+  "id": "6a69f82fd23c7200145c8594",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lcrumpley@mysohdental.com": {
+  "id": "6a6a42a694372e001cb1cb23",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lswearingen@sharxplan.com": {
+  "id": "6a6a425005eeaf0020948296",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "robert.mitchell@astadia.com": {
+  "id": "6a6ce0f686f24a002043f567",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "emily.tessereau@potterglobaltech.com": {
+  "id": "6a69f852f80a50000ccdf341",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "eunice.koo@lessannoyingcrm.com": {
+  "id": "6a69f84588caba00205e6907",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dsando@holytrinityladera.org": {
+  "id": "6a6a408a280f2b0014590a3e",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "loren@faithgroupllc.com": {
+  "id": "6a6a7224476c110020e03112",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lhaisman@harlingtonhospice.org": {
+  "id": "6a6a42169854980018ef7cfb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "datrad@thecrossing.church": {
+  "id": "6a69104b4a688b001879e76e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "taylor.skouby@goldingff.com": {
+  "id": "6a69f83b1164cf001855af55",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lbryant@cityacademystl.org": {
+  "id": "6a69100ce98eba00149e1d27",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "llindgren@technologypartners.net": {
+  "id": "6a6ce13a3dc1af0017e397b1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ccallahan@impactgrouphr.com": {
+  "id": "6a69f81b88caba001cec1e91",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "david_flerra@ssmhc.com": {
+  "id": "6a6a427a94347f001cfd8a00",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "awynne@rehabmedical.com": {
+  "id": "6a720079c929e10014edec6b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "afreihofer@capturehighered.com": {
+  "id": "6a7200168fb14c0018cf92d2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "hope@olio.health": {
+  "id": "6a7200859ecd95000c673b66",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "karl.babb@kybaptist.org": {
+  "id": "6a71ffc0972ccb00103a13dd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rsusuki@becker.com": {
+  "id": "6a71ff2cee78b1000ce1ec04",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kbrown@rawlings.com": {
+  "id": "6a71ff710f618b001c452261",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bvarala@omniskope.com": {
+  "id": "6a71ff35c445410010fb0ac9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "darhonda@southcentralworkforce.com": {
+  "id": "6a7338d960677a0010bdf69a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "beth@earthandspiritcenter.org": {
+  "id": "6a7339596c4b2c001815588a",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "mandi@mytimesaversky.com": {
+  "id": "6a7338eecca97900102f1906",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "charlene.terry@biermanautism.com": {
+  "id": "6a733910435381000c15d255",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "melissa.girard@uoflhealth.org": {
+  "id": "6a71ffd2aafaea00140cae74",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "dowens@aph.org": {
+  "id": "6a71fff6885617000cce293f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mmahle@storedvalue.com": {
+  "id": "6a71ffe6eaada70010d1932e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mollyt@wustl.edu": {
+  "id": "6a69f82e0dd05e002003407e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "karmchr@siue.edu": {
+  "id": "6a6a4147d040e50020fee01f",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "brian.irvine@bjc.org": {
+  "id": "6a6910338e66070020ce3666",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "andreas.roj@vtg.com": {
+  "id": "6a6a414b0842f70014f7b793",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bvolansky@premierrange.com": {
+  "id": "6a6ce18eca888100149ae16a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tduhigg@cocastl.org": {
+  "id": "6a6ce42879e99400200a7f9a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mschasch@kciconstruction.com": {
+  "id": "6a69f841d350620014d08ccb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "czipparo@midashospitality.com": {
+  "id": "6a6a7222d62f05000c94c3d8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dcrain@remigerdesign.com": {
+  "id": "6a69f8542af0ef002018a785",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lesley@drj.com": {
+  "id": "6a6ce1cfaf4c870020447a36",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ashley@idealeyesurgery.com": {
+  "id": "6a69f83d1de8fd00186f10a2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dstanton@empirecomfort.com": {
+  "id": "6a6ce187424e820010ebdca6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "terrie.metzger@navvishealthcare.com": {
+  "id": "6a6a42438faadc000cf6c5d7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "abaker@cocastl.org": {
+  "id": "6a6ce42d53cf85001c5f6aef",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "hagemanh@wustl.edu": {
+  "id": "6a69f817d87183000c576471",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mblind@edwymca.com": {
+  "id": "6a6a4144954f37001ce90ab7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mariarosario@foster-adopt.org": {
+  "id": "6a6a424d00ae07001cee836d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kgavin@adelanteschools.org": {
+  "id": "6a6a2c10d3891b000cb6897e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kori.matney@louisville.edu": {
+  "id": "6a6a2c689853c0001c77e48d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "renee.lam@skofirm.com": {
+  "id": "6a6a2c699b4a550018a5fd3d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kbutterweck@speedmuseum.org": {
+  "id": "6a6ce56b43480d00109790f1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "allie.price@morganstanley.com": {
+  "id": "6a6a2c2085097a000ca5eb17",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dcampbell@cityofjeff.net": {
+  "id": "6a6ce53b5f5da40010481a69",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "wkang@centerforcongregations.org": {
+  "id": "6a6a680fa0e1ad000c972bc2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gstevens@maryhurst.org": {
+  "id": "6a6a691167b299001451c30d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "taylors@cymliving.com": {
+  "id": "6a6a2c329798c5001069a5c8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rosannem@blessingsinabackpack.org": {
+  "id": "6a6a68c1ac483800202e1c2e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kirby@proactiveltcexperts.com": {
+  "id": "6a6a6931f0044c0020a6b552",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jchristodoulides@hmh.net": {
+  "id": "6a6a2c67ae7a0300207453c8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sdarby@walkermechanical.com": {
+  "id": "6a6a2c46fd1c6400187de1c7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "melissa@highalpha.com": {
+  "id": "6a6b69952c7ed4002060f4a7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "saraw@viacharacter.org": {
+  "id": "6a6ce2542da837001cdbcdc8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mceuenc@southwestern.org": {
+  "id": "6a6a69389798c5000c8c6e0a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "brayden.ayer@schweigerderm.com": {
+  "id": "6a69f85cf14d6e0010d9b337",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jenn.mesey@unitedaccess.com": {
+  "id": "6a69f86aa6c806000c9cccb8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "benjamin.hazelton@parentsasteachers.org": {
+  "id": "6a6a424530da350018098905",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "epayne@thenccs.org": {
+  "id": "6a6a4084d550860014f8395d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ehuff@altusproperties.com": {
+  "id": "6a6ce467424e8200141b602c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "helen@petitekeep.com": {
+  "id": "6a6ce478a25519001c4b694f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kasey@musickderm.com": {
+  "id": "6a69f81f9bbc71000c9e1a3d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jparker@poolplayers.com": {
+  "id": "6a6a42827df4d1000cc03124",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "angie.groth@coreandmain.com": {
+  "id": "6a69f819b0834c00100bf91d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bstiles@subtextliving.com": {
+  "id": "6a69f8232af0ef001c9b0959",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jennifer.mitchell@bjc.org": {
+  "id": "6a69f84d65b2c300140ebf89",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "pattid@gkas.org": {
+  "id": "6a6a421a3cf72e00143eceed",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mroberts@bfmgroupinc.com": {
+  "id": "6a6a428088caba000c731f82",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jgage@sihf.org": {
+  "id": "6a69f857fd1c6400187b9c35",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jason.law@lcms.org": {
+  "id": "6a6ce4919f86a0002020c311",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bill.flynn@grimco.com": {
+  "id": "6a71ff5fee78b1000ce1f05c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "christine.lockwood@markandy.com": {
+  "id": "6a71ff693699cf00103427c3",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "alexa.moser@fscurtis.com": {
+  "id": "6a73369d18873c000cbd83fb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chanford@bizlibrary.com": {
+  "id": "6a7337f5305ddb001ca74feb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lcuddy@bizlibrary.com": {
+  "id": "6a7337fa260339000c363576",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mir@ai-mir.com": {
+  "id": "6a7338128049370020826a9d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "hendrix@lifeworksforautism.org": {
+  "id": "6a7338f660677a0010be012e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lee@thebridgetorecovery.com": {
+  "id": "6a7338e5e25744001440aacf",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mcarter@pdindy.com": {
+  "id": "6a7338a90a31bb001453087c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "olivia@earthandspiritcenter.org": {
+  "id": "6a73395e05fe0200106fdae7",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "jeffrey.preisack@sial.com": {
+  "id": "6a69f84b9b4a55000cbd31aa",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "natequest@wustl.edu": {
+  "id": "6a69f850ee2f070020f6d416",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lschaefer@serenityllc.net": {
+  "id": "6a69f85e26f057000c79e189",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "elise.szarek@whitebridgepet.com": {
+  "id": "6a69f86f9bbc71000c9e1f3e",
+  "verdict": "apollo-moved",
+  "new_email": "eszarek@rawlings.com"
+ },
+ "dfrench@directorie.com": {
+  "id": "6a6a72fc9f6f15000c8b95f8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "blawson@spencerfane.com": {
+  "id": "6a69f8602595c1001093bee1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "susan.gerard@nisa.com": {
+  "id": "6a6b68a433ccd2002099116b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mamatha@globexdigitalcorp.com": {
+  "id": "6a6b68948fe0490020203bfd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "danie.salas@volpifoods.com": {
+  "id": "6a6b68ba8fe04900107b7f6f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "klewis@exegy.com": {
+  "id": "6a6ce48984c7ef001cdf4938",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amcmahon@thesheldon.org": {
+  "id": "6a69104f1648480010e1e0f5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mdodson@midwestomfs.com": {
+  "id": "6a6a42a788caba000c7321e9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "arathmann@caleres.com": {
+  "id": "6a69f8159798c5001822e801",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cmanderson@atllp.com": {
+  "id": "6a6ce4423c2646001848a561",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "dbeene@abstraktmg.com": {
+  "id": "6a6ce44f58216c000c509685",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "vtruong@grgstl.org": {
+  "id": "6a6ce495b398cc001c765fff",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "krista.gapen@listwithclever.com": {
+  "id": "6a6a555526125a001447ef40",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ariana.lewis@rubinbrown.com": {
+  "id": "6a6ce447a68608001cd97c75",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "carrie.derby@ewgateway.org": {
+  "id": "6a6ce4ab4bb11b0018f199d6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ltolliver@claytonmo.gov": {
+  "id": "6a6ce4b54012f1001c26c8b3",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "abartnick@worldoptometry.org": {
+  "id": "6a6ce113e0b15400108367e9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "uros@alvalabs.io": {
+  "id": "6a6a68de145993001ca5d988",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "oakesmb@businessfurniture.net": {
+  "id": "6a6a2c5cc98b51001012ba8c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dsross@huc.edu": {
+  "id": "6a6a68061ca2340018c9c67f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jgilbert@have2020.com": {
+  "id": "6a6a720d4eef240020780faa",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shippmm@ucmail.uc.edu": {
+  "id": "6a6ce260b18ecd0010daf155",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ctrue@hospicesoky.org": {
+  "id": "6a6a6878f97dcc000c8fb316",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "s.marshall@kolardesign.net": {
+  "id": "6a6a2c407d32c0001873f0c7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jenny.beyer@orlctosa.org": {
+  "id": "6a6a681077f4eb001872c98a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rachel.trotter@kybloodcenter.org": {
+  "id": "6a6a73715430b10014a53d4c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "colthaus@womenhelpingwomen.org": {
+  "id": "6a6a67e7517f9d001886c881",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "l.allex@yourprs.com": {
+  "id": "6a6a6875e25c440014af7607",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amcdonald@ksmlocationadvisors.com": {
+  "id": "6a6a2c30c98b510014a75fb6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "pat.skogen@abodecarepartners.com": {
+  "id": "6a6a68bf1ca2340018c9ec68",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mitchell.mk@pg.com": {
+  "id": "6a6a2c33d24bd30010f5b1b3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "christy@monadermatology.com": {
+  "id": "6a6a2c36f14d6e0020407042",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "courtney.maxim@trimedx.com": {
+  "id": "6a6a2c702aafe60020212c7c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dee@hopeforhaitischildren.org": {
+  "id": "6a6a684ed71123001422e258",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "colton.smith@affirmedrx.com": {
+  "id": "6a6a685715f429001c442250",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gabriella.alaimo@jaanhealth.com": {
+  "id": "6a6a67e152ef2300105ce4f9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "liz.thibault@onemissionsociety.org": {
+  "id": "6a6a682aae7a030010999c95",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chris.brown@waystar.com": {
+  "id": "6a6a2c07856b9400186c40bf",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rmcelwain@ur.com": {
+  "id": "6a6a2c3fb0834c0018af465d",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "scrowder@slhv.com": {
+  "id": "6a69f861ee2f07000ce6df4b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "stacey.tyree@bjc.org": {
+  "id": "6a69f81e2af0ef002018a1db",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "jwatters@altorsolutions.com": {
+  "id": "6a6a72fa58a2890020b241b2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lleverington@compasshn.org": {
+  "id": "6a6a4277a99f0800180b5622",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "blake.stumpf@geneoscopy.com": {
+  "id": "6a6910146d6cb1001c01c391",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "trezabeck@homeandharvest.com": {
+  "id": "6a6a414c268236001c2e8b31",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "awright@riverhills.cc": {
+  "id": "6a720024dbca80001ce289b6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "brexford@marylandheights.com": {
+  "id": "6a71ffae34b0bf0020e7784d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "hgreenwell@mhsindiana.com": {
+  "id": "6a73393d2e312a000c7aa88f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jedding@lifeskills.com": {
+  "id": "6a7338cea79e340010b03e84",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dgolden@fontbonne.edu": {
+  "id": "6a733847a907880018c9f1c4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bridget.norlie@nwfa.org": {
+  "id": "6a73380244c45400a93c66b7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jcrawford@pdindy.com": {
+  "id": "6a7338ad1dbf1900103dcc5b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "larry.hepler@heplerbroom.com": {
+  "id": "6a73387d5933780014876ac0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "leanne.wright@centralbank.net": {
+  "id": "6a690f7903a1ad000cb4a1b6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "david@azimuth-renewables.com": {
+  "id": "6a69f82b0e3ec90014a3930b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dpoole@kai-db.com": {
+  "id": "6a6a72263537a6001885054a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "todd.parrish@htetech.com": {
+  "id": "6a69f83c993d9c0014aabf6a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ann.richter@sensient.com": {
+  "id": "6a6910429a28900010364142",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gnedev@drivestl.com": {
+  "id": "6a6a7283fb17b40020b727ea",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "matthew@neteffects.com": {
+  "id": "6a6b68cc02b525001c9c9174",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "vanisha.rodrigues@brado.net": {
+  "id": "6a6a7223cdf6c7000c8a7cb2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "nikaury.liriano@transactly.com": {
+  "id": "6a6a72bec98b51000cadbb27",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "camille.ewing@milliporesigma.com": {
+  "id": "6a69f84c5658bd000c7c86d8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rachael.king@wentzvillemo.gov": {
+  "id": "6a6a72e756f04c001077b34e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "msomers@synergimedspa.com": {
+  "id": "6a69f8621de8fd00186f110a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "emurray@arco1.com": {
+  "id": "6a69f8271d0f5b00107207f8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mbrown@vcchc.com": {
+  "id": "6a6a4275f97dcc000c8d9312",
+  "verdict": "apollo-moved",
+  "new_email": "melissabrown@northwesternmutual.com"
+ },
+ "rachel@archford.com.au": {
+  "id": "6a6ce17c9c4e0d0018a94d54",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ihubbard@connectionstosuccess.org": {
+  "id": "6a6a420c94347f001cfd8015",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ani.koleva@gomomentus.com": {
+  "id": "6a6a427f5430b10014a39e74",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gruesser_p@olctk.org": {
+  "id": "6a6a684c5430b1000c8247e9",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "doug@relatesearch.com": {
+  "id": "6a6ce26fd1782d0020ffedb6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dolly.mills@ingeniumtalent.com": {
+  "id": "6a6b6970915359001fe5535f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dougreynolds@mtcalvaryftwayne.org": {
+  "id": "6a6a692f47b3f50010ca154b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jthomas@kccmfg.com": {
+  "id": "6a6a2c4109afd20021eac77b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sarah.meares@interapt.com": {
+  "id": "6a6b693b02d082000c3903be",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lucas@narwal.ai": {
+  "id": "6a6ce269b54af000218761d2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kdawson@barnesdennig.com": {
+  "id": "6a6a2c624f4cf500148915dc",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "holly.menzer@keynote.org": {
+  "id": "6a6a68a61dcc03001cdf76a2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "david@fuse2.com": {
+  "id": "6a6a72114eef24000ca0b526",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "hlawrence@higusa.com": {
+  "id": "6a6a2c753537a600100fb567",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lzine@medilinkint.com": {
+  "id": "6a6a6855f2fe680020378e7a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jnewton@lasikplus.com": {
+  "id": "6a6ce238c10f6e002081f754",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jfinke@child-focus.org": {
+  "id": "6a6a2c4849e8980010e55cd6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "karey@progressparkky.com": {
+  "id": "6a6a2c6b3ddb010020d19a99",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jcaminiti@kyrm.org": {
+  "id": "6a6a68f8c7b09b000cc59145",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tim@portermemorial.net": {
+  "id": "6a6a7341e64d5d000cd665b6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "spepper@tristate-ortho.com": {
+  "id": "6a6a6934f334dc000c57c7ee",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mdubinin@gleaners.org": {
+  "id": "6a6ce2870dcc7c001cff12f1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kristen.wiesman@vitas.com": {
+  "id": "6a6a2c31a7e7c2000cbba3ea",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "belkus@gilmanpartners.com": {
+  "id": "6a6ce25a424e8200141b28c9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jade.pettigrew@cagents.com": {
+  "id": "6a6a2c5a09afd20021eac803",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bbender@calculatedhire.com": {
+  "id": "6a6b69a7f595c9000c80bb85",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jennifer.salas@softwaremind.com": {
+  "id": "6a6b6958ddea020015b024dd",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "arijit.maiti@avoautomation.com": {
+  "id": "6a6ce2751ecd10000c2e331f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "nkitchens@socu.com": {
+  "id": "6a6a6882517f9d001886eb0d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dcaplin@parkcrestplasticsurgery.com": {
+  "id": "6a69f8513d7a0c0010366b5c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rob.krosley@ewgateway.org": {
+  "id": "6a6ce4af0824590010afbef6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "omelia.durso-missey@permobil.com": {
+  "id": "6a6a408cb9a7b8001048542f",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "drichter@lifewisestl.org": {
+  "id": "6a6a424b05eeaf0020948289",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jstaaby@wieseusa.com": {
+  "id": "6a690ffea1e1b2000ccf1f8f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "wrightt@cgsm.org": {
+  "id": "6a6b6877278bfa001cdbe33a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "nick@first-spear.com": {
+  "id": "6a6b690f4ab2f70018e2ded5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "vmansfield@aph.org": {
+  "id": "6a71fffb450d18000d64ff98",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lori.sherwood@fmcusa.org": {
+  "id": "6a72006d9fafb500107356a4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "deborah.bryson@usi-inc.org": {
+  "id": "6a6a1bdb979d4f001c55fcf3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bob@africanvisionofhope.org": {
+  "id": "6a7338663eba71000c645f0c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kkinnaird@lifeskills.com": {
+  "id": "6a7338d312a6870010059436",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "adrew@iotdeployment.com": {
+  "id": "6a733892f8436b00186fc5c5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "erica@corktreecreative.com": {
+  "id": "6a73389b6b5f52000c198fd7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rewing@truthatwork.org": {
+  "id": "6a7338a30a31bb001453086c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dmiller@orthoindy.com": {
+  "id": "6a7339236c4b2c001815555a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "wpartin@gomin.org": {
+  "id": "6a73394f508c37001caad029",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gina.shanfeld@safetynational.com": {
+  "id": "6a733679e70af00018d07fca",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jsingh@unitedsrvcs.org": {
+  "id": "6a6a421794347f00187931de",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dcovert@fratrust.com": {
+  "id": "6a6ce181c7b6c200180df3ec",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jeff@syllogisteks.com": {
+  "id": "6a6b688e23bd5d0018a24ed5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "hhill@iselectfund.com": {
+  "id": "6a6ce458ca888100209d8217",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mandrews@rezilienthealth.com": {
+  "id": "6a6a41d9ae7a03000cea8add",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mhazan@kochdevelopment.com": {
+  "id": "6a6a723e58a2890020b2367a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "denise.johnson@spectrumbrands.com": {
+  "id": "6a691048e3fb2f0020380472",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "k.staser@meramecdermatology.com": {
+  "id": "6a69f81de25d1b0018a014e3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bzerillo@ddrb.org": {
+  "id": "6a6a4219d73566001cc6ad9f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lgladden@easa.com": {
+  "id": "6a6b68e235ca2b001418fa96",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "vfrohn@tvsscs.com": {
+  "id": "6a691050e0ffdd000ccbf9f8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "osands@mgmlaw.com": {
+  "id": "6a69103116e00d0020db641e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bonnier@swtdesign.com": {
+  "id": "6a69f859a6c806000c9ccabd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "emily.bozich@ccoleadership.com": {
+  "id": "6a6a7285b0834c00209302c3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "myna@isna.net": {
+  "id": "6a6a71d1b519620010fa7b3a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "fgallardo@mayfieldclinic.com": {
+  "id": "6a6a67eb3577d3001c29952c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "llaw@fameworld.org": {
+  "id": "6a6a689df2fe6800142df767",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amurphy@derbymuseum.org": {
+  "id": "6a6ce55c424e8200141b7421",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chiland@indonornetwork.org": {
+  "id": "6a6a2c4565b2c300107ec5b4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "elawton@theoris.com": {
+  "id": "6a6ce21e069be400201e8d51",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amy.miller@newat.com": {
+  "id": "6a6b6940f2e78e000cc68f36",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mriley@bgadd.org": {
+  "id": "6a6a735982cec700144fdd30",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "james.shepherd@kctcs.edu": {
+  "id": "6a6ce503d1782d001c00664d",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "markevia.williams@youthopportunity.com": {
+  "id": "6a6ce1e0660402000c4be621",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jlekeane@cng.com": {
+  "id": "6a6ce249ad3353000cf66458",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "carrie.elbert@cieng.com": {
+  "id": "6a6ce517555cee00207e878e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shem.odhiambo@plasmidsaurus.com": {
+  "id": "6a6a2c4bb23261000cbd5d93",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kmarsh@gvcc.com": {
+  "id": "6a6a42aa7df4d1000cc032d8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "drguilfoy@oakdc.com": {
+  "id": "6a69f84e4e328000149bcef0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lisa.correa@tcare.ai": {
+  "id": "6a6a42469853c000105fd374",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "alorenz@craftsmenind.com": {
+  "id": "6a6a72bfb1e5bf00208c6ea7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rosalynn.robinson@operationfoodsearch.org": {
+  "id": "6a6a424c9ab08300103b5c5d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "merve.ortay@rapsodo.com": {
+  "id": "6a6a723a82cec70020c83eb7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lbonugli@hcfraudshield.com": {
+  "id": "6a6a723bd040e5001cfca3de",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "taylor@petitekeep.com": {
+  "id": "6a6ce475d1782d0020001217",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ctuttle@dovercompanies.com": {
+  "id": "6a69104db534b3001053b1b1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bob.lamkin@stereotaxis.com": {
+  "id": "6a6b68bf89883f000cb2b0a8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cfilcoff@stockell.com": {
+  "id": "6a6ce132346ff9001c43f78e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cynthia.patikas@nidec-aerospace.com": {
+  "id": "6a6ce4809419330018d247a0",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "emmira@regenstrief.org": {
+  "id": "6a6a708a280f2b0020db210b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "emily.rowan@gopai.com": {
+  "id": "6a71ffe096f99600140f6f8d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "j.linter@brightviewhealth.com": {
+  "id": "6a72008adde093000b6e44a8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "eogrady@capturehighered.com": {
+  "id": "6a72001915b83f0014163ba0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kenlon.theresa@nestle.com": {
+  "id": "6a690fa65346ad0020b1d790",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "tschroeder@entmidwest.com": {
+  "id": "6a690fa21648480018970d20",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tracey.leslie@inumc.org": {
+  "id": "6a7338c670de27000cebda58",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "donna@teammedglobal.com": {
+  "id": "6a73386cac7675000cf91b53",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shera@thebridgetorecovery.com": {
+  "id": "6a7338e19821820010224431",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "danielle.lopezroque@biermanautism.com": {
+  "id": "6a733918adc03b0010982514",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gina.wideman@lssliving.org": {
+  "id": "6a733658a248ee000cb3819f",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "paula@usacares.org": {
+  "id": "6a733966ae42840020dc8aa9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "nadine@purposefullivinginc.org": {
+  "id": "6a73390828201300108e0e76",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "vbiondo@marylandheights.com": {
+  "id": "6a71ffaaf8acf0000c5fd9e6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ssmith@jesuits.org": {
+  "id": "6a71ff9780911000208dd0a6",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "smmasterson@gatewayarch.com": {
+  "id": "6a71ffb4e434a200109e91ea",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sbrown@svdpusa.org": {
+  "id": "6a71ff81deeab700109bab90",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "anand.palagiri@mercy.net": {
+  "id": "6a69f848d35062001c8e741f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "afton@launchcode.org": {
+  "id": "6a6a4251d3891b0018677d39",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dana.thomas@optimist.org": {
+  "id": "6a6910366d6cb10020aa37bb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jennifer.stowe@gatesagone.org": {
+  "id": "6a6ce1adc10f6e002081e610",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rkappel@altusproperties.com": {
+  "id": "6a6ce46a58216c0020fb656f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "morgan.schaper@insperity.com": {
+  "id": "6a69f83ff599f80010b526c2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mikedineen@stpatrickcenter.org": {
+  "id": "6a6a424ebf05bb001c1e6ace",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "swells@kaskaskiaeng.com": {
+  "id": "6a6ce171877577001c51ed77",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ghollins@paraquad.org": {
+  "id": "6a6ce417a84e490010c1d35a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sjankowski@grgstl.org": {
+  "id": "6a6ce49856ee76000c8ba275",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "klong@arco1.com": {
+  "id": "6a6a555994347f001879cc3a",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "lcarter@mcbridehomes.com": {
+  "id": "6a6a72fd9b4a550010121041",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "luke.mcginn@climate.com": {
+  "id": "6a6b6884ca8517001c240965",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cbarnett@techelectronics.com": {
+  "id": "6a6a728226f05700180f0ead",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jena@diodedynamics.com": {
+  "id": "6a6a72c11ca234002055e485",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "akendrick@fairviewcommunityhealth.org": {
+  "id": "6a6a687ec85fa30014a97bb3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chuchel@irisrecruiting.com": {
+  "id": "6a6ce218119ebf0020149b95",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "aleasha@brassinc.org": {
+  "id": "6a6a687c8faadc00146e60cb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "pierre.cassigneul@aspida-dx.com": {
+  "id": "6a6a68a494347f00148e0027",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "clanes@logicmark.com": {
+  "id": "6a6a68f63537a600144fcfef",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "msimon@louisvillewater.com": {
+  "id": "6a6a2c17c7b09b000cc2c88f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cordale.boyd@thechristhospital.com": {
+  "id": "6a6a2c3a979d4f000c464db7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jnunley@thefamilyark.org": {
+  "id": "6a6a720fb232610010efc245",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lrenwick@indianalandmarks.org": {
+  "id": "6a6a680a4e328000149fe27e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "megan.bowman@helloencore.com": {
+  "id": "6a6b69b5da8e960020cd614c",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "kwolz@bghotrods.com": {
+  "id": "6a6a2c19d7adc40018c1b003",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "shannon.keller@crossroadshospice.com": {
+  "id": "6a6a2c086af2450020fdb687",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shannon@louisvillerealtors.com": {
+  "id": "6a6a2c5f00f4d300186d1324",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "adimmitt@qsrautomations.com": {
+  "id": "6a6a2c613537a600100fb51c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "djackson@familyscholarhouse.org": {
+  "id": "6a6a68dc1164cf0010350c56",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "darren.hauss@mercer.com": {
+  "id": "6a6a2c2980a0b60018e95462",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jskodinski@dccevv.com": {
+  "id": "6a6a6936ee2f07001cef1de4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "maegan.howard@lifespringhealthsystems.org": {
+  "id": "6a6a2c2e82cec70018c69cc4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "stefanie.upton@uoflhealth.org": {
+  "id": "6a6ce4da52fec0001cd70f57",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "kbryant@claytonmo.gov": {
+  "id": "6a6ce4b88f4f0f001427f27b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "becca.preuss@icl-group.com": {
+  "id": "6a69101df5f4c1001c521851",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "pdower@monetagroup.com": {
+  "id": "6a691035b829c90013efd526",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "k.crabtree@vodaland-usa.com": {
+  "id": "6a69f824b519620010f4a93c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kbrownfield@newground.com": {
+  "id": "6a6a72635ad80e0010683ca3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ted.stanhope@securedatatech.com": {
+  "id": "6a6ce160130c7700209e5d5a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kheim@kentuckycenter.org": {
+  "id": "6a7200448337c3001029c3a5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "roxie.ruckriegel@kyvenues.com": {
+  "id": "6a720053827c3200201929bc",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tmurrell@stephenministries.org": {
+  "id": "6a71ff8b22922500189879f0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "adranderson@deloitte.com": {
+  "id": "6a6a2bb6f14d6e0020405435",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "aly.maixner@weissmans.com": {
+  "id": "6a690fe1c2e5b5001cf3bc8f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kpetti@max-fi.com": {
+  "id": "6a690f9c2efd5f000c318586",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shannon.guevara@envolvehealth.com": {
+  "id": "6a7338396de28f0018263919",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mparsons@ospartners.com": {
+  "id": "6a7337d7d6077d000c3e6e58",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "beckford@placesforpeople.org": {
+  "id": "6a73382ec77700000cd0cd7e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dlifritz@lacrossdental.com": {
+  "id": "6a73385b3f43dc0018fc577f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kayla@mytimesaversky.com": {
+  "id": "6a7338f15a6596001b418b3e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ehellman@orthoindy.com": {
+  "id": "6a73391f272419000c32f7cb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jeparks@mhsindiana.com": {
+  "id": "6a733939b610fc000c85ea42",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shull@schaefferoil.com": {
+  "id": "6a733696c928e400149c828c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "marsha.enchelmaier@lssliving.org": {
+  "id": "6a733654ccb85b000cd902a7",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "brook@gomin.org": {
+  "id": "6a73394992a4220010897f16",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "laura@corktreecreative.com": {
+  "id": "6a733898e605fc00d6eca9f6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cmartin@linak-us.com": {
+  "id": "6a6a2c1139da72001444405a",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "nnicholson@onecause.com": {
+  "id": "6a6a2c15ba36e2001cd09a2e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kristen.way@parker.com": {
+  "id": "6a6a2c12eb627c001cf9114d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kenzie.true@milhaus.com": {
+  "id": "6a6a2c4fe64d5d001e019ca1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jjointer@jqolusa.com": {
+  "id": "6a6a2c554874a9001cf2dd9e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "hfisher@teamaegis.com": {
+  "id": "6a6ce20403cdd900149204ee",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "donnreed@iu.edu": {
+  "id": "6a6ce4ed555cee00207e69de",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "alockhart@inheme.org": {
+  "id": "6a6a2c4a88536f0010dbd0fb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "taylor.maier@uc.edu": {
+  "id": "6a6a2c549ced4f001c34c48b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lorriesmith@managemypain.net": {
+  "id": "6a6a687a954f370020569e4e",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "aemery@evdio.org": {
+  "id": "6a6a692d384f40000c177319",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ptarbox@athenaeum.edu": {
+  "id": "6a6a682b7d32c0000c96c971",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mmiddleton@lexlf.org": {
+  "id": "6a6a733e199a2f0018e23dce",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "james.sells@usc.salvationarmy.org": {
+  "id": "6a6a689b5ce01e001cd9f47b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "travis.roberts@lge-ku.com": {
+  "id": "6a6a2c64667552001ccc7657",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "renee@riverridgecc.com": {
+  "id": "6a6ce529d1782d000c55f2d0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mryan@21cmuseumhotels.com": {
+  "id": "6a6ce55084c7ef0010b3a0d6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "pmillhouse@bordersandborders.com": {
+  "id": "6a6a2c2bae7a03000ce97eb2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "marci.modrak@malonesolutions.com": {
+  "id": "6a6b696aaa96a6001434933d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "john.tichenor@louisville.edu": {
+  "id": "6a6a2c0d05eeaf0010174732",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bwright@oswaldcompanies.com": {
+  "id": "6a6a2c5130da35001808f9db",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "batkins@pepperpointe.com": {
+  "id": "6a6a73569cf4990010bc3fbb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amy.nedzesky@vmsbiomarketing.com": {
+  "id": "6a6b69808be08b000c5f1a07",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "paula.cerdeira@savealife.com": {
+  "id": "6a6b6934d56e86001c1863a4",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "paridhi@buconsultants.co": {
+  "id": "6a6b69c5302929002016a6ea",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "decker@amendllc.com": {
+  "id": "6a6a2c7294347f001cfc8d08",
+  "verdict": "apollo-moved",
+  "new_email": "cdecker@prestigeav.com"
+ },
+ "cinthia@prosoft-us.com": {
+  "id": "6a6ce50ca3322e000c355db4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dsnedeker@ladueschools.net": {
+  "id": "6a6910279a93970020de004c",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "heverett@midtownhi.com": {
+  "id": "6a6a72e8199a2f0018e230f4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jroberson@adaptivesg.com": {
+  "id": "6a6b6889d193a7001c72a246",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "paula.springmeyer@jmagroup.com": {
+  "id": "6a69f840f80a50000ccdf04a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lcathcart@boonecenter.com": {
+  "id": "6a6a420b85097a001c305544",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "matoryb@cusd187.org": {
+  "id": "6a69f82c5430b1001c2619d9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "aundrea@rungforwomen.org": {
+  "id": "6a69103e2b48b5001c4bfc32",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mpratt@woodardcurran.com": {
+  "id": "6a69105bc48a910014b2238f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jennifer.hoormann@gatewayclassiccars.com": {
+  "id": "6a6a408b1860eb00201ccd5c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dkumar@pegstaff.com": {
+  "id": "6a6a5554f6188c0020979199",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "niccole.brewer@target.com": {
+  "id": "6a69104a188ad60014b3cd91",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tpsprung@afbinternational.com": {
+  "id": "6a69f8122af0ef001c9b087c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "daniel@latch.com": {
+  "id": "6a6a555877dfa20010750096",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dana.nichols@hopeignites.org": {
+  "id": "6a6a42485bccf6000ca790cc",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kiley.meringer@inclusively.com": {
+  "id": "6a6a555af6188c001411cb92",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amanda.morgan@eckerts.com": {
+  "id": "6a6a7254fb17b40020b724de",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "joshs@cgep.com": {
+  "id": "6a6b689ddcc1740014464118",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jfarmer@weberchevrolet.net": {
+  "id": "6a69f86e1dcc03000c857329",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "andrewradtke@boydgaming.com": {
+  "id": "6a6a72c00618ba001caa378c",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "annette@deafinc.org": {
+  "id": "6a6a424acdf6c70010ae0993",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tori.morris@atb-tech.com": {
+  "id": "6a691006eb8b3a000c1c7b53",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "julie.a.taylor@ehi.com": {
+  "id": "6a69f837ee2f070014f7bde9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kgoodman@spreporting.com": {
+  "id": "6a6a7291d73566000cc25a69",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cbruno@mccarthy.com": {
+  "id": "6a69f81665b2c300140eb717",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "maureen.schulte@stlfertility.com": {
+  "id": "6a69f858e04d580010a3033d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "theresa.czolgosz@jacobs.com": {
+  "id": "6a6910212d7dc60018bc18c7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sarah.white@digcastle.com": {
+  "id": "6a69f82dac48380018e05d8c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jtownsend@cacnemo.org": {
+  "id": "6a6a427665b2c3001c784e2a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "brooke.pagan@slu.edu": {
+  "id": "6a69103ff48fd9000cac8bf2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bnelson@aoa.org": {
+  "id": "6a6a4242b1e5bf000c660e70",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cristian@biogeneratorventures.com": {
+  "id": "6a6b69077c754000142362d7",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "alexis.vines@aegissortation.com": {
+  "id": "6a72000cffa4880014da90da",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "davidgiles@cmfi.org": {
+  "id": "6a7200628d17820020aa8b68",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dawsyn.young@nimblercm.com": {
+  "id": "6a71ff4aa0883a001cce840e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ryan.schultz@nimblercm.com": {
+  "id": "6a71ff46760876001c927bdd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lnaber@rawlings.com": {
+  "id": "6a71ff75450d18000d64ecc4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mmoleski@grimco.com": {
+  "id": "6a71ff5c4520d9000cb1f946",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kumar@omniskope.com": {
+  "id": "6a71ff398337c3001841d273",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "afeiner@svdpusa.org": {
+  "id": "6a71ff849ab48d000c5b0cce",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "cschacht@divisionsinc.com": {
+  "id": "6a6a2bbc8b79c8001cf4e2d1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jrobben@epicsysinc.com": {
+  "id": "6a73366d0d23c100209fc019",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mclark@hopeharbor.net": {
+  "id": "6a7339009896270014885b24",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tsmith@famchildplace.org": {
+  "id": "6a6a6913b9a7b8001cfd8c95",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jsample@sportsworld.org": {
+  "id": "6a6a682fde1c3a000cb4dd25",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cgeiser@cityofjeff.net": {
+  "id": "6a6ce537cb53fc001089e987",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "fwilson@sullivan.edu": {
+  "id": "6a6ce4fca954c300206af976",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kristina.gehring@communicare-advantage.com": {
+  "id": "6a6a67e909afd2001977b3b3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "benjamin.esslinger@franciscanalliance.org": {
+  "id": "6a6a2c0b85097a001c2f66d0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kylie.miller@themjcos.com": {
+  "id": "6a6ce1ef13dcd90018fa4432",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "eendler1@humana.com": {
+  "id": "6a6a2c44667552001ccc73f0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "giesa@ahgonline.org": {
+  "id": "6a6a680c3a811900202b42f0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mmcgraw@cincinnatiarts.org": {
+  "id": "6a6a2c3d667552001ccc72d8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "payton.russell@lhbg.org": {
+  "id": "6a6a6873d1c1410014649045",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jmarqua@archindy.org": {
+  "id": "6a6a68a1f97dcc000c8fb7e0",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "brayden@invets.org": {
+  "id": "6a6a71d5af2626001cdf8fec",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "danielle@sigmanursing.org": {
+  "id": "6a6b69bd6b64d90018aacd14",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amanda.grabowski@vetsp.com": {
+  "id": "6a6a2c6e05eeaf002093033a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "micowells@tcipro.com": {
+  "id": "6a6b695e1535ca000c38715d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "regina_eaton@trihealth.com": {
+  "id": "6a6a2c2c3522a2000ceb03ec",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "jeepm@umsl.edu": {
+  "id": "6a69f867f80a50000ccdf507",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "alfredo.rodriguez@kellymitchell.com": {
+  "id": "6a6a5552973f83001cb3cbf6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dseipp@mocpa.org": {
+  "id": "6a6ce4366cae80001028b0e3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jessicaphelan@linkedselling.com": {
+  "id": "6a6b68fa1793c90014a42353",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lisamp52@rnservicesstl.com": {
+  "id": "6a6a42ab67e9a200206229f6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kbarze@nowges.com": {
+  "id": "6a6a725277f4eb001c57c894",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bobl@concerotech.com": {
+  "id": "6a6b68c86b64d90018aa89c4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "molly@atr-stl.com": {
+  "id": "6a6a42a860cde8002010bb46",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "brenda.shelton@distributionmgmt.com": {
+  "id": "6a69f8339b4a55000cbd3125",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jmcginness@dermskincancercenter.com": {
+  "id": "6a69f846fb05170010af3983",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amcclain@swankmp.com": {
+  "id": "6a6a722582cec7000c4ab5d9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "liz.angle@bizzycar.com": {
+  "id": "6a6a7274fec12d000c8b4de9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jhughes@accentgroupsolutions.com": {
+  "id": "6a69f828b5f6db00147b217d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "davidg@s2tech.com": {
+  "id": "6a6a72f9d62f050010ead12d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mwobbe@eden.edu": {
+  "id": "6a69f836ae62830018000e2c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jyoung@ibridgesolutions.com": {
+  "id": "6a6a555726125a00207e620f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "skyler.jenkins@kyvenues.com": {
+  "id": "6a720050b1cd4c001453538f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "alison.blevins@metlife.com": {
+  "id": "6a71ffec327ba6000ca70b2d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tredd@ford.com": {
+  "id": "6a6a2c250842f70014f705a3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tstallard@lpcdocs.com": {
+  "id": "6a6a2b9e4ee1810020d51acd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jbhampton@cshco.com": {
+  "id": "6a6a2bafdb9c3c00207e065a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chris.cooke@cookefg.com": {
+  "id": "6a6a2bdce24d570020776a7f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mikez@1stphorm.com": {
+  "id": "6a71ff64eacfc7000c07eb45",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lcox@lifestylemedicine.org": {
+  "id": "6a71ff27556dc90020acf02e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mgeisel@chesterfield.mo.us": {
+  "id": "6a71ffa3da476a0018ab1791",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "trisha.smith@markandy.com": {
+  "id": "6a71ff6c13cdfe002050c7d6",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "megarcia@sm-usa.org": {
+  "id": "6a71ff90be49e8001cb658b5",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "estone@epicsysinc.com": {
+  "id": "6a73367044c45400d1f28372",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bmcbride@thegundcompany.com": {
+  "id": "6a733686155dba002036c9ea",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jluker@schaefferoil.com": {
+  "id": "6a733692d05aaf000c586327",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "smckay@disciples.org": {
+  "id": "6a7338b88d467c001c80fac3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bsullivan@disciples.org": {
+  "id": "6a7338bc12a6870010058e59",
+  "verdict": "apollo-moved",
+  "new_email": "sullive@regenstrief.org"
+ },
+ "scott@steadymd.com": {
+  "id": "6a73381c5e7d96001cd86e47",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jdickson@essencehealthcare.com": {
+  "id": "6a73382899bad800145099d0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jody.kyle@abspectrum.org": {
+  "id": "6a7337ee718bdf00201f8505",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "olivia@teammedglobal.com": {
+  "id": "6a733870f7ce2900189b057a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dhehmann@iotdeployment.com": {
+  "id": "6a73388df25816001cd0cd9e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lterneus@rscj.org": {
+  "id": "6a6ce4a0580c9a0020032432",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "angela.mckeever@royalcanin.com": {
+  "id": "6a69103c461109001c67725a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "efrain@chiroup.com": {
+  "id": "6a6ce1651a82e80010fe00d9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jenny@victorymenshealth.com": {
+  "id": "6a6a40884874a900100a7ca9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ttownsend@marinsoftware.com": {
+  "id": "6a6b68ed915359001fe54357",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "eljulian@deloitte.com": {
+  "id": "6a69100e108856001c46d3fd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lpalmero@integrityhcc.com": {
+  "id": "6a6a4145c98b510020606a7d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mattrobinson@hessemartone.com": {
+  "id": "6a69f8470dd05e00200341b6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "nkeene@lange-companies.com": {
+  "id": "6a6ce4626bb418000c9e137f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mary.mcguire@worldchesshof.org": {
+  "id": "6a69105d69e5f70020949c2c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jcampbell@seyerind.com": {
+  "id": "6a6a72c29b4a5500101204ad",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kimhoff@grace-design.com": {
+  "id": "6a6910158e66070020ce3197",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sydney.holcomb@alberici.com": {
+  "id": "6a69f818ca44160010849308",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "valeria@balto.fr": {
+  "id": "6a6a726277f4eb00106e31b0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mstith@breezehospicemo.com": {
+  "id": "6a6a42a1ae7a03000cea9774",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "avargas@lmiaerospace.com": {
+  "id": "6a6a7273d62f050018afcf81",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "senglert@communitycouncilstc.org": {
+  "id": "6a6a421849e89800144e649e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "rmcnealy@paraquad.org": {
+  "id": "6a6ce4144bb11b0018f17a9f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dgrasso@specialcarecorp.com": {
+  "id": "6a6a42a400ae07001cee8975",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jfredman@aegisdigitalhealth.com": {
+  "id": "6a6ce41dec997b000cfa797e",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "d.megha@wustl.edu": {
+  "id": "6a69f86d94347f000c27d79b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "acentemero@emmetech.com": {
+  "id": "6a6a4281226ed30013108bf3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "etrask@saintlouischessclub.org": {
+  "id": "6a69f86826f057000c79e2e5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "egould@hlkagency.com": {
+  "id": "6a6a723dedb2370020f108d8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mnicks@vetjobs.org": {
+  "id": "6a6a427e67e9a20020622483",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "pberg@natoli.com": {
+  "id": "6a6a72bde1a7f40018976760",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "john.menchella@thecignagroup.com": {
+  "id": "6a69f838d040e500185cfe32",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "meganwallis@eyecare-partners.com": {
+  "id": "6a691012b0c32c0020d45acb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "pbommarito@rosemann.com": {
+  "id": "6a69f855d711230020a939b8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mmartin-yodis@communitylivingmo.org": {
+  "id": "6a6a42122a64ba00182a9034",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "terri.eschbacher@equifax.com": {
+  "id": "6a69f81a1dcc03000c856fc1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cbrauer@twm-inc.com": {
+  "id": "6a6a72519ced4f000c83cbcf",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chupperts@visory.net": {
+  "id": "6a6a72fb03ba06000c8dc774",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "cegan@naed.org": {
+  "id": "6a6b68711535ca0017fc1d40",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kenc@vpcswi.org": {
+  "id": "6a6a4089145993001ca4cae2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jcarroll@sabaiglobal.com": {
+  "id": "6a6a42a288caba000c7321c8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kwebb@apicenter.org": {
+  "id": "6a69f82632e89c001c2de41a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "barb.romito@lendkey.com": {
+  "id": "6a6ce1ea13dcd9002065446c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amerder@onboardmeetings.com": {
+  "id": "6a6a2c6f667552001ccc76e6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shaugo@medicalacademiccenter.com": {
+  "id": "6a6a2c21d3891b001866930d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ahead@brickyard.com": {
+  "id": "6a6a2c0c80a0b60018e95140",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "samantha.embry@hcahealthcare.com": {
+  "id": "6a6a68778faadc0020a97215",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "courtney.bunn@teamrwb.org": {
+  "id": "6a6ce543b18ecd001c20a52d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jeanette.mewhinney@onebridge.tech": {
+  "id": "6a6ce2106b080f00100755e9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "colin.kramer@7hillschurch.tv": {
+  "id": "6a6b69d06f09760018f9a71b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sseeger@cts.edu": {
+  "id": "6a6a6808fcb598000c2980c3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jeff.hathaway@360care.com": {
+  "id": "6a6b69229963380018f4da7a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shackett@yourchurch.com": {
+  "id": "6a6a68a2c7b09b0014ae9cb5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "elsie.bunyan@centralgospel.com": {
+  "id": "6a6a67df521439000c37ad90",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "kclark@help4seniors.org": {
+  "id": "6a6b698a051262001058950b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amanda@prodigalky.org": {
+  "id": "6a6ce4c3580c9a000c71ddb2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mary.shoop@kyfb.com": {
+  "id": "6a6ce4e4c10f6e00144c03f8",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "swhitney@golove.org": {
+  "id": "6a6a6e29fcb5980018ea9e4f",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "lyn-dawsyn.steenbergen@kylottery.com": {
+  "id": "6a720033b3aa9600206e5dab",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "taylor@olio.health": {
+  "id": "6a7200810076ed001c81f9f3",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gmattingly@amatrol.com": {
+  "id": "6a720002e434a200109ea18a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mgoodwin@alicenter.org": {
+  "id": "6a720039366a54002019e3a2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kathy.marshak@iconagility.com": {
+  "id": "6a73380c09228e001cd02c21",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sharon.keller-schaller@nwfa.org": {
+  "id": "6a7338064922c70010a513e0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kimberly_h@mackeymitchell.com": {
+  "id": "6a69102d2b48b5001c4bfa4a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jinoll@avmats.com": {
+  "id": "6a6a72ff00ae0700174c9885",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "courtney.johnston@imagen.ai": {
+  "id": "6a69f86bb9a7b80010442adf",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "robbie.taylor@nidec-aerospace.com": {
+  "id": "6a6ce47d9f86a0002020c02e",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "pia@thenativepet.com": {
+  "id": "6a6b68ace535e3001c7a78b6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "matt@techartistafoundation.org": {
+  "id": "6a69f865d040e500185d0000",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gkorando@jacares.org": {
+  "id": "6a6a421c03ba06001894c4d7",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "gwistrom@gershman.com": {
+  "id": "6a6a7301cfd01700189aff6f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lnewcomb@mocpa.org": {
+  "id": "6a6ce433b7ba920010c22e37",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "emulroney@eclife.org": {
+  "id": "6a6a6cf967e9a20018c4e901",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mandy.hall@twinspires.com": {
+  "id": "6a72004adf3a78001070df29",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "drollins@alicenter.org": {
+  "id": "6a72003fc00e470018f9510a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "stephanie.rogers@uoflhealth.org": {
+  "id": "6a71ffcd8d17820020aa5982",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "lurschel@rehabmedical.com": {
+  "id": "6a720076d34d5f0010d89e16",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jessica.vogt@aegissortation.com": {
+  "id": "6a72000fa881120020392af4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sarah.patterson@rtim.org": {
+  "id": "6a6a68bda0e1ad000c97486c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kmclaren@heavenhill.com": {
+  "id": "6a6ce578f17b2000208ea381",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kjdebell@trane.com": {
+  "id": "6a6a2c3bc83b7b0020fe7276",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "d.orbaugh@adaptivenursing.com": {
+  "id": "6a6a720c9ebc5100182202a4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "bradleys@ibc.family": {
+  "id": "6a6a733f5214390010471aab",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sjones@cmmoore.com": {
+  "id": "6a6a68839f6f15000c8ae1c6",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "suchita.kedia@protivitiglobal.in": {
+  "id": "6a6a2c2a4f036a0010d8a33c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "matt.miller@scripps.com": {
+  "id": "6a6a2c50d24bd30010f5b7cb",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kevin.newkirk@newcitycincy.org": {
+  "id": "6a6a2c563d7a0c0014e513a9",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sarah.hartley@fivesgroup.com": {
+  "id": "6a6ce51c2f38f5001ccafa63",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "bstivers@zborthosolutions.com": {
+  "id": "6a6a68d855390c001858f6c2",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "anndee.gosnell@franciscanalliance.org": {
+  "id": "6a6a2c0a1d0f5b001c03a8fa",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jrichards4@gaig.com": {
+  "id": "6a6a2c3c85097a000ca5ecd1",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "shelia.rogers@duke-energy.com": {
+  "id": "6a6a2c4c39da720014444290",
+  "verdict": "apollo-moved",
+  "new_email": "shelia.rogers@thompsonhine.com"
+ },
+ "kdavidson@ichinenusa.com": {
+  "id": "6a6a2c52954f37000ce11cee",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mriley@derbymuseum.org": {
+  "id": "6a6ce560424e820010ec0298",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jmishler@teamexpansion.org": {
+  "id": "6a6a6848f1bab6001cfdb053",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jennifer.howard@onebloc.org": {
+  "id": "6a6a6852bb04970020abd884",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dtessier@youthfirstinc.org": {
+  "id": "6a6a6933c83b7b001476ad22",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "alexandra.herald@pnc.com": {
+  "id": "6a6a2c1a5ad80e0020abe704",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jennifer.ingramson@fastpacehealth.com": {
+  "id": "6a6ce4d64827a8000cd4d13b",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "f.rodriguez@aflaba.com": {
+  "id": "6a6a7205b4c3e2000c9b53e5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "vickie.kennedy@hntb.com": {
+  "id": "6a69101a9a28900010363d29",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "tracym@switch.us": {
+  "id": "6a6ce0fbf17b200010b0ed39",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lswank@f-w.com": {
+  "id": "6a69f83a2af0ef002018a45b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dcobin@kennedycapital.com": {
+  "id": "6a69f842e25d1b0020e6f066",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "amber.chavez@hicuityhealth.com": {
+  "id": "6a6a42473ddb01001445805c",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jbader@mcrmfertility.com": {
+  "id": "6a6a42a988caba000c732223",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "ceklingler@hornershifrin.com": {
+  "id": "6a69101b987025000c3e407e",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dfonner@exegy.com": {
+  "id": "6a6ce486b7c77b0014fc2d0d",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "marshallv@utilitra.com": {
+  "id": "6a6a414d67e9a2001c32e99b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kpowell@contegracc.com": {
+  "id": "6a6a41481c24de0020abab2a",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "patti.mercer@druryhotels.com": {
+  "id": "6a69f835a6c806000c9cca18",
+  "verdict": "apollo-unverified",
+  "new_email": null
+ },
+ "kewana.regans@youradv.com": {
+  "id": "6a69f8143d7a0c0010366259",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "jeff.armstrong@interimphysicians.com": {
+  "id": "6a6ce11ac61675000c0f3ad5",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "skassing@artigem.com": {
+  "id": "6a6ce177ec997b000cfa65a0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dhinkle@soundhealthservices.com": {
+  "id": "6a69f8229798c5001473b727",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "chulsey@hoyleton.org": {
+  "id": "6a6a4083028b0f001460d618",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "sheryl.wolf@mercy.net": {
+  "id": "6a690f9da42f3900108a1e4f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "lneal@mobot.org": {
+  "id": "6a71ffb97bf21f001040f4f0",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mbutler@essencehealthcare.com": {
+  "id": "6a73382449d7840010d628fd",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "nblattner@fontbonne.edu": {
+  "id": "6a7338433ef417001811e0f4",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "mbass@pcapainted.org": {
+  "id": "6a7338507696ed000c037814",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "aleze.fulbright@inumc.org": {
+  "id": "6a7338c268b08f0014f7cb55",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "monica.ryan@elessentct.com": {
+  "id": "6a73368ccbbf9f000cc45599",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "dlucal@caringtransitions.com": {
+  "id": "6a6a67e3d24bd30010f7e75f",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "memersch@cshco.com": {
+  "id": "6a6a2c27f14d6e0010db7594",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "david.thornton@colts.com": {
+  "id": "6a6a2c0e85097a000ca5ea7b",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "kelsey.downing@schaefer-inc.com": {
+  "id": "6a6a2c429ced4f001c34c378",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ },
+ "wcox@jci.cc": {
+  "id": "6a71ff22f5616f0010f2ee23",
+  "verdict": "apollo-confirmed",
+  "new_email": null
+ }
+}

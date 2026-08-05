@@ -1,0 +1,922 @@
+{
+ "andy@aubrees.com": {
+  "id": "6a734569d3d04d0018deb611",
+  "canada": false,
+  "fields_ok": true
+ },
+ "bcohen@meetyouatarnis.com": {
+  "id": "6a734571dc29b400106096e6",
+  "canada": false,
+  "fields_ok": true
+ },
+ "cgrabowski@harvestrestaurants.com": {
+  "id": "6a7346f9db1b1c0010a52b3c",
+  "canada": false,
+  "fields_ok": true
+ },
+ "victor@ansararestaurantgroup.com": {
+  "id": "6a73470003db92001c89e7ac",
+  "canada": false,
+  "fields_ok": true
+ },
+ "denise@gtpie.com": {
+  "id": "6a7347074744c800101a4539",
+  "canada": false,
+  "fields_ok": true
+ },
+ "eric@wingerbros.com": {
+  "id": "6a73470f3f43dc0010dc0993",
+  "canada": false,
+  "fields_ok": true
+ },
+ "gary@aroogas.com": {
+  "id": "6a73471778f2ee00183c7822",
+  "canada": false,
+  "fields_ok": true
+ },
+ "gheine@thenorthstarcafe.com": {
+  "id": "6a73471f01d08c00184346d6",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jeffjabot@hookedonharrys.com": {
+  "id": "6a73472600eebb0020f95f2e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jerry.hancock@subzeroicecream.com": {
+  "id": "6a73472eca7b7a0020be6490",
+  "canada": false,
+  "fields_ok": true
+ },
+ "joe@bonosbarbq.com": {
+  "id": "6a734736aae774001866eea2",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jrothschild@primerestaurants.com": {
+  "id": "6a73473dbd911b00182e1275",
+  "canada": true,
+  "fields_ok": true
+ },
+ "john@lovesofresh.com": {
+  "id": "6a7347454922c7000cd77b4d",
+  "canada": false,
+  "fields_ok": true
+ },
+ "ksmith@steakescape.com": {
+  "id": "6a73474c528412002033ff91",
+  "canada": false,
+  "fields_ok": true
+ },
+ "larry@tokyojoes.com": {
+  "id": "6a7347546a168e000ceaed4d",
+  "canada": false,
+  "fields_ok": true
+ },
+ "lorrie@streetsofnewyork.com": {
+  "id": "6a73475b75792e000cb7f274",
+  "canada": false,
+  "fields_ok": true
+ },
+ "mario@grazianosgroup.com": {
+  "id": "6a734763fb4f8e001469d593",
+  "canada": false,
+  "fields_ok": true
+ },
+ "matt@rangecafe.com": {
+  "id": "6a73476ab6fab500106b7eeb",
+  "canada": false,
+  "fields_ok": true
+ },
+ "pat@riograndemexican.com": {
+  "id": "6a734772b2f03500184baea8",
+  "canada": false,
+  "fields_ok": true
+ },
+ "pstrang@strangcorp.com": {
+  "id": "6a73477a4e082f001bf1d2f4",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tcarbone@carbonespizzeria.com": {
+  "id": "6a734783868de20018df9f80",
+  "canada": false,
+  "fields_ok": true
+ },
+ "sgb@eastcoastwings.com": {
+  "id": "6a73478b9251ca0020a87927",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tavallone@earlofsandwichusa.com": {
+  "id": "6a7347944a344c00142d84e9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tim@haciendacolorado.com": {
+  "id": "6a73479d159b4b000c88e0af",
+  "canada": false,
+  "fields_ok": true
+ },
+ "vincent@antoniospizza.net": {
+  "id": "6a7347a594b5280018a95e32",
+  "canada": false,
+  "fields_ok": true
+ },
+ "sam@dogfish.com": {
+  "id": "6a7347acc7ca8c000c30ece7",
+  "canada": false,
+  "fields_ok": true
+ },
+ "roger@amigos-gmc.com": {
+  "id": "6a7347b4d7362300149a333e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rcornog@punchbowlsocial.com": {
+  "id": "6a7347bb3ca3e80020220efb",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rkukler@fifthgroup.com": {
+  "id": "6a7347c4658d71000c1941d1",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rschoch@direstaurants.com": {
+  "id": "6a7347cbf8c318000cbed1db",
+  "canada": false,
+  "fields_ok": true
+ },
+ "randy@bigwhiskeys.com": {
+  "id": "6a7347d488361800207748cb",
+  "canada": false,
+  "fields_ok": true
+ },
+ "phil@franklincafe.com": {
+  "id": "6a7347db868981001052fade",
+  "canada": false,
+  "fields_ok": true
+ },
+ "pwkhoury@aol.com": {
+  "id": "6a7347e4b426b0001c35c4cc",
+  "canada": false,
+  "fields_ok": true
+ },
+ "nedal@pinchofactory.com": {
+  "id": "6a7347ec5806dc001ce62eb9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "martha@cafepatachou.com": {
+  "id": "6a7347f433d9a2000c1af632",
+  "canada": false,
+  "fields_ok": true
+ },
+ "mgreenberg@pluckers.net": {
+  "id": "6a7347fc34cb63001021dc68",
+  "canada": false,
+  "fields_ok": true
+ },
+ "ltrotter@thetmjgroup.com": {
+  "id": "6a7348048310a50020210139",
+  "canada": false,
+  "fields_ok": true
+ },
+ "kurt.guttshall@qrcllc.com": {
+  "id": "6a73480d6768ee001c85f982",
+  "canada": false,
+  "fields_ok": true
+ },
+ "johnlanni@gmail.com": {
+  "id": "6a734818114a0d0020a2cc08",
+  "canada": false,
+  "fields_ok": true
+ },
+ "joe@bakersribs.com": {
+  "id": "6a73482070de2700103a0fe8",
+  "canada": false,
+  "fields_ok": true
+ },
+ "razorbackpizza@cox-internet.com": {
+  "id": "6a734827c357fc00145f7673",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jneely@inspiredcpts.com": {
+  "id": "6a73482fc777000018210baa",
+  "canada": false,
+  "fields_ok": true
+ },
+ "janon@berryhillbajagrill.com": {
+  "id": "6a734837d3bc720010cd2360",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jason@twistedrootburgerco.com": {
+  "id": "6a73483f8bd026000c0f05e7",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jpallone@masseyspizza.com": {
+  "id": "6a7348486ae22700208cdbdf",
+  "canada": false,
+  "fields_ok": true
+ },
+ "gmoore@scnbnc.com": {
+  "id": "6a734850e605fc00d6eccff5",
+  "canada": false,
+  "fields_ok": true
+ },
+ "gtimmering@aol.com": {
+  "id": "6a73485869a4bd0010d7fd4c",
+  "canada": false,
+  "fields_ok": true
+ },
+ "fforsley@shipyard.com": {
+  "id": "6a73485f364b58001c178b0f",
+  "canada": false,
+  "fields_ok": true
+ },
+ "elise.crg@gmail.com": {
+  "id": "6a73486670de2700103a2466",
+  "canada": false,
+  "fields_ok": true
+ },
+ "dlaukien@blackforestventures.com": {
+  "id": "6a73486ee7c14100208742d8",
+  "canada": false,
+  "fields_ok": true
+ },
+ "dbraga7827@aol.com": {
+  "id": "6a73487669e9bf0010d32cbf",
+  "canada": false,
+  "fields_ok": true
+ },
+ "dpelletier@margs.com": {
+  "id": "6a73487f45682e0010a44624",
+  "canada": false,
+  "fields_ok": true
+ },
+ "davidhead@primantibros.com": {
+  "id": "6a7348871983d0001803cd14",
+  "canada": false,
+  "fields_ok": true
+ },
+ "dave@bigredf.com": {
+  "id": "6a734890695f8d002087a8c9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "corey@tomandchee.com": {
+  "id": "6a7348973723560014799248",
+  "canada": false,
+  "fields_ok": true
+ },
+ "chuck@doubledaves.com": {
+  "id": "6a7348a0c88685001e239142",
+  "canada": false,
+  "fields_ok": true
+ },
+ "clarocca@crushed-red.com": {
+  "id": "6a7348a80712df00203bfcce",
+  "canada": false,
+  "fields_ok": true
+ },
+ "cartinian@thebeekmangroup.com": {
+  "id": "6a7348af6a168e0020481418",
+  "canada": false,
+  "fields_ok": true
+ },
+ "hdtaz16@aol.com": {
+  "id": "6a7348b768ccad0020f8f3a2",
+  "canada": false,
+  "fields_ok": true
+ },
+ "carlos@sergiosrestaurant.net": {
+  "id": "6a7348be2a5733001cdb1977",
+  "canada": false,
+  "fields_ok": true
+ },
+ "brucef@happydaycorp.com": {
+  "id": "6a7348c58b654d001836d0f7",
+  "canada": false,
+  "fields_ok": true
+ },
+ "briannolen@wesellmeat.com": {
+  "id": "6a7348cdb03e7c0018355abb",
+  "canada": false,
+  "fields_ok": true
+ },
+ "brandon@walk-ons.com": {
+  "id": "6a7348d50fb0b700201181ac",
+  "canada": false,
+  "fields_ok": true
+ },
+ "brad.b@cabincoffee.net": {
+  "id": "6a7348dcc46ba30014040c78",
+  "canada": false,
+  "fields_ok": true
+ },
+ "blanca@eltiempocantina.com": {
+  "id": "6a7348e481d8480014c254b9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "eat@avenuegrill.com": {
+  "id": "6a7348ec81d8480014c25534",
+  "canada": false,
+  "fields_ok": true
+ },
+ "bmcatee@dreamlandbbq.com": {
+  "id": "6a7348f46ae22700208ce456",
+  "canada": false,
+  "fields_ok": true
+ },
+ "berge@salata.com": {
+  "id": "6a7348fcf2a08c0018fb0bcc",
+  "canada": false,
+  "fields_ok": true
+ },
+ "bpelts@corkysbbq.com": {
+  "id": "6a7349042a5733001cdb20f5",
+  "canada": false,
+  "fields_ok": true
+ },
+ "blennon@jchristophers.com": {
+  "id": "6a73490c81d8480014c2567b",
+  "canada": false,
+  "fields_ok": true
+ },
+ "aomessineo@valscorp.com": {
+  "id": "6a734915d683a9001c9756d6",
+  "canada": false,
+  "fields_ok": true
+ },
+ "acopeland@wgbest.com": {
+  "id": "6a73491d9080db000caee7f0",
+  "canada": false,
+  "fields_ok": true
+ },
+ "von@trifons.com": {
+  "id": "6a73492524a520000ce61957",
+  "canada": true,
+  "fields_ok": true
+ },
+ "ians@ilfornello.com": {
+  "id": "6a73492ed3bc72001fa18a7e",
+  "canada": true,
+  "fields_ok": true
+ },
+ "george.raios@mrgreek.com": {
+  "id": "6a73493576e8d5001832aa94",
+  "canada": true,
+  "fields_ok": true
+ },
+ "bwaring@dedutch.com": {
+  "id": "6a73493d58050e00146bbc01",
+  "canada": true,
+  "fields_ok": true
+ },
+ "mhanley@royalpizza.ca": {
+  "id": "6a7349444cf582001c54f07b",
+  "canada": true,
+  "fields_ok": true
+ },
+ "bob@wintzellsoysterhouse.com": {
+  "id": "6a73494c7a3aeb00105fe87f",
+  "canada": false,
+  "fields_ok": true
+ },
+ "fouad@pitajungle.com": {
+  "id": "6a73495416fe3f0010d98279",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tbelfer@saucepizzaandwine.com": {
+  "id": "6a73495c7a3aeb00105fe946",
+  "canada": false,
+  "fields_ok": true
+ },
+ "cparker@freshandhealthybrands.com": {
+  "id": "6a734964b74e82001ced489f",
+  "canada": true,
+  "fields_ok": true
+ },
+ "pbuckley@osf.ca": {
+  "id": "6a73496c0adee30018ecd06d",
+  "canada": true,
+  "fields_ok": true
+ },
+ "sales@vinarestaurant.com": {
+  "id": "6a73497462cc84001cc67f3d",
+  "canada": true,
+  "fields_ok": true
+ },
+ "buddy@rushbowls.com": {
+  "id": "6a73497c8d219100208fa04e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "kbrown@mohegansun.com": {
+  "id": "6a734984c555d5001039030a",
+  "canada": false,
+  "fields_ok": true
+ },
+ "gbimonte@pepespizzeria.com": {
+  "id": "6a73498c2142ab00182f0914",
+  "canada": false,
+  "fields_ok": true
+ },
+ "eric@bigfishgrill.com": {
+  "id": "6a734993cbc1ca001e500c8e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "kevind@ironhillbrewery.com": {
+  "id": "6a73499b93dbed00106b0fb5",
+  "canada": false,
+  "fields_ok": true
+ },
+ "cdesca@globalmia.com": {
+  "id": "6a7349a3364a290020e32131",
+  "canada": false,
+  "fields_ok": true
+ },
+ "ajohnston@burger21.com": {
+  "id": "6a7349aafb3a8b0014eb65b7",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tami@flanigans.net": {
+  "id": "6a7349b2cbc1ca001e500e46",
+  "canada": false,
+  "fields_ok": true
+ },
+ "nypdpaulr@aol.com": {
+  "id": "6a7349b9c14c380010cf6a20",
+  "canada": false,
+  "fields_ok": true
+ },
+ "offerdahl@offerdahls.com": {
+  "id": "6a7349c27d9ee0001c1cf4df",
+  "canada": false,
+  "fields_ok": true
+ },
+ "r.stoky@fkrm.com": {
+  "id": "6a7349cb1983d00020b7bf6d",
+  "canada": false,
+  "fields_ok": true
+ },
+ "pat_casey@mindspring.com": {
+  "id": "6a7349d575792e000cb801b9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "keith.mahen@kekes.com": {
+  "id": "6a7349dcf37463000cdc774f",
+  "canada": false,
+  "fields_ok": true
+ },
+ "daniel@fordsgarageusa.com": {
+  "id": "6a7349e435f1c900181bbf02",
+  "canada": false,
+  "fields_ok": true
+ },
+ "louie@louiebossi.com": {
+  "id": "6a7349ec3128dd00148a9138",
+  "canada": false,
+  "fields_ok": true
+ },
+ "gatorgroup@gatorsdockside.com": {
+  "id": "6a7349f4e16313001441c156",
+  "canada": false,
+  "fields_ok": true
+ },
+ "mschneider@looppizzagrill.com": {
+  "id": "6a7349fd7a3aeb00202b1189",
+  "canada": false,
+  "fields_ok": true
+ },
+ "schan@tindrumcafe.com": {
+  "id": "6a734a060edbc50010fc6b61",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rlbogino@provinos.com": {
+  "id": "6a734a0e42bf5800144807cb",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jim@countrysbarbecue.com": {
+  "id": "6a734a16334875001c1e53a9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "drew@stonerspizzajoint.com": {
+  "id": "6a734a1d7552ec000c6d903f",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jloftin@locosgrill.com": {
+  "id": "6a734a2502084e0010677e1e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "charlie@royalwaffleking.com": {
+  "id": "6a734a2dd0a01b001ca19b35",
+  "canada": false,
+  "fields_ok": true
+ },
+ "pswitzer@texascorralmail.com": {
+  "id": "6a734a3539fed10018988f65",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jweaver@wingsetc.net": {
+  "id": "6a734a3e8c30bc000c88b249",
+  "canada": false,
+  "fields_ok": true
+ },
+ "mitch@rotolos.com": {
+  "id": "6a734a46f37463000cdc8025",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rlksuperior@yahoo.com": {
+  "id": "6a734a4eac22ab0014406ba9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "nlupoli@lupolicompanies.com": {
+  "id": "6a734a5542bf580014480978",
+  "canada": false,
+  "fields_ok": true
+ },
+ "psalas@raii.com": {
+  "id": "6a734a5da60a4c001cd25a59",
+  "canada": false,
+  "fields_ok": true
+ },
+ "esparks@lyonsgroup.com": {
+  "id": "6a734a646651f8001454911a",
+  "canada": false,
+  "fields_ok": true
+ },
+ "carlo@peppinospizza.com": {
+  "id": "6a734a6c1983d00020b7c93f",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rdl@rcfc.com": {
+  "id": "6a734a748049370018a49b03",
+  "canada": false,
+  "fields_ok": true
+ },
+ "russ.corporate@russrestaurants.com": {
+  "id": "6a734a7bfb4f8e001c4b29a8",
+  "canada": false,
+  "fields_ok": true
+ },
+ "pcandoni@aol.com": {
+  "id": "6a734a836ebdf70010ce1932",
+  "canada": false,
+  "fields_ok": true
+ },
+ "mbeatty@greektowncasino.com": {
+  "id": "6a734a8b1f14710010121118",
+  "canada": false,
+  "fields_ok": true
+ },
+ "msheena@pizzapapalis.com": {
+  "id": "6a734a92b917f70010cc60aa",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jkruizenga@broadwaypizza.com": {
+  "id": "6a734a9a4d42b80018aaa261",
+  "canada": false,
+  "fields_ok": true
+ },
+ "hadi@hrprestaurants.com": {
+  "id": "6a734aa2f37c11000c21af5d",
+  "canada": false,
+  "fields_ok": true
+ },
+ "edbrownell1@gmail.com": {
+  "id": "6a734aa920be0b000c275085",
+  "canada": false,
+  "fields_ok": true
+ },
+ "michael@mdprestaurants.com": {
+  "id": "6a734ab41c886d0010eda8e6",
+  "canada": false,
+  "fields_ok": true
+ },
+ "brett@sybergs.com": {
+  "id": "6a734abcb917f70010cc6331",
+  "canada": false,
+  "fields_ok": true
+ },
+ "preston@lostpizza.com": {
+  "id": "6a734ac41d190a0010be8b27",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jbean@eatwithus.com": {
+  "id": "6a734acc5754e50010f595e0",
+  "canada": false,
+  "fields_ok": true
+ },
+ "michael@pennsrestaurant.com": {
+  "id": "6a734ad3afb92e00204b70df",
+  "canada": false,
+  "fields_ok": true
+ },
+ "robert@nsrg.com": {
+  "id": "6a734add868981001053027e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tommyj@pinnaclerestaurantcorp.com": {
+  "id": "6a734ae6ca2b590014430a5b",
+  "canada": false,
+  "fields_ok": true
+ },
+ "justin@jakers.com": {
+  "id": "6a734aeeaaca3300202f0f8d",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jamal@penogrill.com": {
+  "id": "6a734af646f409000c3160e8",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jwalker@rhbri.com": {
+  "id": "6a734afee008f2000c4c4c0a",
+  "canada": false,
+  "fields_ok": true
+ },
+ "t.moore@foodmastersinc.com": {
+  "id": "6a734b065ed672001c7cfd64",
+  "canada": false,
+  "fields_ok": true
+ },
+ "srichardson@villagetavern.com": {
+  "id": "6a734b0eb4c2290020627c62",
+  "canada": false,
+  "fields_ok": true
+ },
+ "cam@wolfmanpizza.com": {
+  "id": "6a734b17e008f2000c4c4c6a",
+  "canada": false,
+  "fields_ok": true
+ },
+ "bbodford-morgan@brixxpizza.com": {
+  "id": "6a734b1fa37b470014a091d0",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tom@risefranchising.com": {
+  "id": "6a734b27d5bbab00140646e4",
+  "canada": false,
+  "fields_ok": true
+ },
+ "ruddm@rudinos.com": {
+  "id": "6a734b2e3a80590018357e63",
+  "canada": false,
+  "fields_ok": true
+ },
+ "gnolan@samandlouiesnyp.com": {
+  "id": "6a734b365ed672001c7cff0f",
+  "canada": false,
+  "fields_ok": true
+ },
+ "anthony@frg.rest": {
+  "id": "6a734b3fafb92e00204b749b",
+  "canada": false,
+  "fields_ok": true
+ },
+ "scott.gillman@mascott.com": {
+  "id": "6a734b46a9c02400181665b9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "malkon@tpbbl.com": {
+  "id": "6a734b4dd3d45a00180a04a7",
+  "canada": false,
+  "fields_ok": true
+ },
+ "lenny@fresquezcompanies.com": {
+  "id": "6a734b55515b710014abadd7",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jpatten@dions.com": {
+  "id": "6a734b5dd43ecb002029dc11",
+  "canada": false,
+  "fields_ok": true
+ },
+ "brad@theeggworks.com": {
+  "id": "6a734b65c60cc6000c16dc23",
+  "canada": false,
+  "fields_ok": true
+ },
+ "brian@ichorgroup.com": {
+  "id": "6a734b6d250a3e001c48ea17",
+  "canada": false,
+  "fields_ok": true
+ },
+ "michael@lolabistro.com": {
+  "id": "6a734b75a8f7db000c7b64b1",
+  "canada": false,
+  "fields_ok": true
+ },
+ "ray@hotheadburritos.com": {
+  "id": "6a734b7e0283b50018778b5b",
+  "canada": false,
+  "fields_ok": true
+ },
+ "corporate@scramblermaries.com": {
+  "id": "6a734b87156fac002061ceb9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rob_armstrong@bennett-enterprises.com": {
+  "id": "6a734b908fd866000cea34fc",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rusty@interurban.us": {
+  "id": "6a734b986e217e000c76fc14",
+  "canada": false,
+  "fields_ok": true
+ },
+ "rick@johnniesok.com": {
+  "id": "6a734ba1f481bf0018b1ad32",
+  "canada": false,
+  "fields_ok": true
+ },
+ "terry@foxandfiddle.com": {
+  "id": "6a734ba91b8d7e0020ae3b75",
+  "canada": true,
+  "fields_ok": true
+ },
+ "jlishman@tortoise.ca": {
+  "id": "6a734bb6e11082000c251809",
+  "canada": true,
+  "fields_ok": true
+ },
+ "stanley@firkinpubs.com": {
+  "id": "6a734bbef53533000cd7d82f",
+  "canada": true,
+  "fields_ok": true
+ },
+ "peter@jacobssteakhouse.com": {
+  "id": "6a734bc63e8b19001cbbd266",
+  "canada": true,
+  "fields_ok": true
+ },
+ "admin@cafeyumm.com": {
+  "id": "6a734bce7ea70a002093bfca",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tracyf@pizzicatopizza.com": {
+  "id": "6a734bd646f409000c316b83",
+  "canada": false,
+  "fields_ok": true
+ },
+ "crduffie@allamericanrestaurants.com": {
+  "id": "6a734bdea8f7db0014380c26",
+  "canada": false,
+  "fields_ok": true
+ },
+ "chrisd@osf.com": {
+  "id": "6a734be673a8bd001c3989aa",
+  "canada": false,
+  "fields_ok": true
+ },
+ "cellos1980@gmail.com": {
+  "id": "6a734bf0520f2600202c7d81",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tomcross1429@gmail.com": {
+  "id": "6a734bf8c6cbe800205724b5",
+  "canada": false,
+  "fields_ok": true
+ },
+ "n_lehoux@convivia.ca": {
+  "id": "6a734c00c022e5001cddef63",
+  "canada": true,
+  "fields_ok": true
+ },
+ "jbedard@cage.ca": {
+  "id": "6a734c070064e70018a121d5",
+  "canada": true,
+  "fields_ok": true
+ },
+ "bhall@hallmanagementgroup.com": {
+  "id": "6a734c0fdae01c000c1f777f",
+  "canada": false,
+  "fields_ok": true
+ },
+ "awoodman@corkysbbq.com": {
+  "id": "6a734c170708fd000c51c130",
+  "canada": false,
+  "fields_ok": true
+ },
+ "marks@buddysbarbq.com": {
+  "id": "6a734c216e217e000c77027e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "bmcmanus@dclfood.com": {
+  "id": "6a734c295ca9260020ec7276",
+  "canada": false,
+  "fields_ok": true
+ },
+ "aubrey@aubreysrestaurants.com": {
+  "id": "6a734c305bd56500184e847e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "mbrooks@nixonsdeli.com": {
+  "id": "6a734c39f33bdc001446f869",
+  "canada": false,
+  "fields_ok": true
+ },
+ "karrie.league@drafthouse.com": {
+  "id": "6a734c411fb6140010697f4d",
+  "canada": false,
+  "fields_ok": true
+ },
+ "tiffany@babescatering.com": {
+  "id": "6a734c499350a000102199b8",
+  "canada": false,
+  "fields_ok": true
+ },
+ "don@soulmans.com": {
+  "id": "6a734c52b0ec0a00146e18e9",
+  "canada": false,
+  "fields_ok": true
+ },
+ "george.melville@bostons.com": {
+  "id": "6a734c5a3c5f5700183b2b18",
+  "canada": false,
+  "fields_ok": true
+ },
+ "bill@fishcitygrill.com": {
+  "id": "6a734c623d59fd00145e424e",
+  "canada": false,
+  "fields_ok": true
+ },
+ "richard@herschels.com": {
+  "id": "6a734c6b70a6ab000cb8a6bd",
+  "canada": false,
+  "fields_ok": true
+ },
+ "dhipskind@mricorp.com": {
+  "id": "6a734c72fdbef90018ae650b",
+  "canada": false,
+  "fields_ok": true
+ },
+ "davidbryan@cristinasmex.com": {
+  "id": "6a734c7a520f2600202c81d6",
+  "canada": false,
+  "fields_ok": true
+ },
+ "mark@wingsnmore.com": {
+  "id": "6a734c8246d60e000c29c905",
+  "canada": false,
+  "fields_ok": true
+ },
+ "pete@fajitapetes.com": {
+  "id": "6a734c8905893a00202fd3b5",
+  "canada": false,
+  "fields_ok": true
+ },
+ "david.l.wynn@ampf.com": {
+  "id": "6a734c92adc59d001846edc4",
+  "canada": false,
+  "fields_ok": true
+ },
+ "ivan@rodiziogrill.com": {
+  "id": "6a734c9afdbef90018ae6884",
+  "canada": false,
+  "fields_ok": true
+ },
+ "nick.ouimet@superchix.com": {
+  "id": "6a734ca2adc59d001846ee1f",
+  "canada": false,
+  "fields_ok": true
+ },
+ "jay@supplegroup.com": {
+  "id": "6a734ca9995ce3000c6c8641",
+  "canada": false,
+  "fields_ok": true
+ }
+}

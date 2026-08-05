@@ -1,16 +1,5 @@
-# Prospect/contact data syncs to Apollo directly - local files are engine dedupe memory only
-wildeggs-catering-growth/data/lookalikes-*.csv
-wildeggs-catering-growth/data/signals-*.csv
-cbw-catering-growth/data/signals-*.csv
-cbw-catering-growth/data/lookalikes-*.csv
-# Contact/prospect data lives in Apollo only (per policy) - never in the repo
-*/data/daily-*.csv
-*/data/lookalikes-*.csv
-*/data/signals-*.csv
 __pycache__/
 *.pyc
-.contact-cache.json
-wildeggs-franchise/data/*.csv
-wildeggs-franchise/scripts/franchise-import-progress.json
-wildeggs-franchise/scripts/franchise-verify-results.json
-cbw-catering-growth/scripts/cold-verify-results.json
+# ephemeral 15-min cache only - never worth committing
+cbw-catering-growth/scripts/.contact-cache.json
+.claude/settings.local.json
