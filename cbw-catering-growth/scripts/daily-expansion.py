@@ -411,11 +411,23 @@ def run_brand(brand, state, ledger, quota_left, seen_emails, seen_orgs):
                                "reveal_personal_emails": False})
                 except RuntimeError:
                     continue
-                matches = [m for m in (md.get("matches") or [])
-                           if m and m.get("email") and m.get("email_status") == "verified"
-                           and person_in_market(m, allowed)
-                           and m["email"].strip().lower() not in seen_emails
-                           and email_matches_org(m["email"], o)]
+                matches, batch_seen = [], set()
+                for m in (md.get("matches") or []):
+                    if not (m and m.get("email") and m.get("email_status") == "verified"):
+                        continue
+                    e = m["email"].strip().lower()
+                    # Dedupe WITHIN the batch as well as against Apollo. CONTACTS_PER_ORG asks
+                    # for two personas at one company and bulk_match can resolve both person
+                    # records to the same address (a shared or role inbox). The whole batch is
+                    # filtered before anything is created, so seen_emails - which is only
+                    # updated after a create - cannot catch that pair. It produced two records
+                    # for sean@restorationmarketing.com five seconds apart.
+                    if e in seen_emails or e in batch_seen:
+                        continue
+                    if not (person_in_market(m, allowed) and email_matches_org(m["email"], o)):
+                        continue
+                    batch_seen.add(e)
+                    matches.append(m)
                 if not matches:
                     continue
                 ledger["remaining"] -= len(matches)
