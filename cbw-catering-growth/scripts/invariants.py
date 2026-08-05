@@ -112,8 +112,21 @@ def main():
     for c in union.values():
         if c.get("email"):
             by_email[(c["email"] or "").lower()].append(c)
+    # A person whose keeper failed verification (verify:apollo-moved / apollo-unverified in
+    # cold-verify-results.json) is fully suppressed ON PURPOSE - that is the verification
+    # working, not the dedupe orphaning someone. Only unexplained full suppression is a defect.
+    for_cause = set()
+    for p in ("cold-verify-results.json",
+              os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           "..", "..", "wildeggs-franchise", "scripts",
+                           "franchise-verify-results.json")):
+        if os.path.exists(p):
+            for e, v in json.load(open(p)).items():
+                if v.get("verdict") in ("apollo-moved", "apollo-unverified"):
+                    for_cause.add(e)
     orphaned = [e for e, recs in by_email.items()
-                if len(recs) > 1 and all(c.get("email_unsubscribed") for c in recs)]
+                if len(recs) > 1 and all(c.get("email_unsubscribed") for c in recs)
+                and e not in for_cause]
     check("dedupe_left_no_one_unreachable", not orphaned,
           "no multi-record person is fully suppressed" if not orphaned
           else f"{len(orphaned)} people have duplicates and ZERO mailable record: "
