@@ -96,6 +96,10 @@ CONTACTS_PER_ORG = 2  # e.g. office manager AND HR lead at the same site
 # this plan (usage_stats/credit_usage_stats 404s). After a container recycle the local state
 # is gone and this number is a guess, so it is overridable: EXPANSION_CREDITS=1200 python3 ...
 CREDITS_BUDGET_START = int(os.environ.get("EXPANSION_CREDITS", "1200"))
+# An EXPLICIT env override must also beat a STORED ledger, not just seed a missing one.
+# 2026-08-07: EXPANSION_CREDITS=474 was silently ignored because setdefault kept the stale
+# 1085 estimate; the run spent ~126 credits believing it had 2x the plausible balance.
+EXPLICIT_CREDITS = float(os.environ["EXPANSION_CREDITS"]) if "EXPANSION_CREDITS" in os.environ else None
 RESERVE_FLOOR = 400
 
 CBW_DATA = "/home/user/cb-wraps-audit-2026/cbw-catering-growth/data"
@@ -521,6 +525,9 @@ def main():
         ledger["remaining"] = CREDITS_BUDGET_START
         ledger["last_reset"] = cycle_start.isoformat()
         print(f"credit cycle reset {cycle_start}: ledger back to {CREDITS_BUDGET_START}")
+    if EXPLICIT_CREDITS is not None:
+        print(f"ledger set from EXPANSION_CREDITS: {ledger['remaining']} -> {EXPLICIT_CREDITS}")
+        ledger["remaining"] = EXPLICIT_CREDITS
     if ledger["remaining"] <= RESERVE_FLOOR:
         print(f"credit ledger at reserve floor ({ledger['remaining']}); not expanding")
         return

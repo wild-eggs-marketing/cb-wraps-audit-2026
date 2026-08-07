@@ -1,6 +1,6 @@
 {
  "ledger": {
-  "remaining": 977.600000000003,
+  "remaining": 348.45,
   "last_reset": "2026-07-28"
  },
  "cursors": {
@@ -19,7 +19,29 @@
    "Creve Coeur|61": 2,
    "Edwardsville|62": 2,
    "Edwardsville|61": 2,
-   "Edwardsville|54": 2
+   "Edwardsville|54": 2,
+   "South City|62": 2,
+   "South City|61": 2,
+   "South City|54": 2,
+   "South City|52": 2,
+   "South City|31,32,33": 2,
+   "South City|8131": 2,
+   "South City|92": 2,
+   "Creve Coeur|54": 2,
+   "Creve Coeur|52": 2,
+   "Creve Coeur|31,32,33": 2,
+   "Creve Coeur|8131": 2,
+   "Creve Coeur|92": 2,
+   "Creve Coeur|71": 2,
+   "Shiloh|62": 2,
+   "Shiloh|61": 2,
+   "Shiloh|54": 2,
+   "Lindell/SLU|62": 2,
+   "Lindell/SLU|61": 2,
+   "Lindell/SLU|54": 2,
+   "Lindell/SLU|52": 2,
+   "Lindell/SLU|31,32,33": 2,
+   "Lindell/SLU|8131": 2
   },
   "we": {
    "Landis|8131": 2,
@@ -38,17 +60,23 @@
    "Carmel|8131": 2,
    "Carmel|62": 2,
    "Dupont|8131": 2,
-   "Dupont|62": 2
+   "Dupont|62": 2,
+   "Pulliam|8131": 2,
+   "Pulliam|62": 2,
+   "Pulliam|52": 2,
+   "Pulliam|61": 2,
+   "Mercantile|8131": 2,
+   "Mercantile|62": 2
   }
  },
  "store_offset": {
   "cbw": 3,
   "we": 3
  },
- "last_run": "2026-08-05",
+ "last_run": "2026-08-07",
  "totals": {
-  "cbw": 60,
-  "we": 60
+  "cbw": 90,
+  "we": 72
  },
  "store_last_seen": {
   "cbw": {
