@@ -94,6 +94,8 @@ The site never mixes up its *own* per-location IDs — the Locations CMS, the `/
 
 **Fix:** Regardless of picker behavior, normalize every retail entry link to `…/locations?catering_only=false` — it's already the site's dominant pattern.
 
+> **✅ FIXED 2026-09-01:** Per the owner, Paytronix now serves pickup and delivery from a single link and checkout re-confirms the store, so the "Order Pickup" / "Order Delivery" double button on the `/menu/:slug` template was replaced with a single CTA. A new Framer code component `OrderCTA.tsx` was created and swapped in for the "Order + Pickup Pair" instance (old node `N0kELHs5j` deleted; Tablet/Phone breakpoints inherit as replicas). The component is **catering-aware** — the same template serves catering items, so on paths starting `/menu/catering-` it renders "Order Catering" → `…/locations?catering_only=true`, and everywhere else "Order Now" → `…/locations?catering_only=false` with subtext "Pickup · Curbside · Delivery — choose at checkout". This also removes the hardcoded stale `_gl` parameter (part of finding 6) and closes the retail-CTA half of finding 4. UTM tags (`utm_medium=item_page`) and `order_click` gtag events follow the StickyOrderBar convention. **Requires a Framer publish to go live; spot-check one retail and one catering item page in preview first.**
+
 ---
 
 ### 6. Amplifiers: no store confirmation on deep links; hero "Catering →" beside "Directions →" — MEDIUM
