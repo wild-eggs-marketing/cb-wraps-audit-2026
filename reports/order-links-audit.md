@@ -36,6 +36,8 @@ The site never mixes up its *own* per-location IDs — the Locations CMS, the `/
 
 **Fix:** Relabel to "Order Catering", visually de-emphasize it (text link, not twin button), or route it to `/catering` (info page) instead of the live catering menu.
 
+> **✅ FIXED 2026-09-01 (pending publish):** `LocationsGrid_1.tsx` card button relabeled "Catering" → "Order Catering" with an `aria-label` naming the store; the location-page hero's "Catering →" quick link (`LocationHero.tsx`) likewise relabeled "Order Catering →". Links and UTM tags unchanged. Typechecked clean.
+
 ---
 
 ### 2. "Nearby locations" cards use a bare "Order →" that opens a different store — HIGH
@@ -49,6 +51,8 @@ The site never mixes up its *own* per-location IDs — the Locations CMS, the `/
 **Confidence: 85%.** Link targets verified on every location page; the labels are unambiguous in HTML and unambiguous *ly wrong* for a skimming user.
 
 **Fix:** Label nearby CTAs with the store name ("Order from Lindell →") or link the card to the location page rather than straight into ordering.
+
+> **✅ FIXED 2026-09-01 (pending publish):** `NearbyLocations.tsx` card CTA now renders "Order from {Store} →" (e.g. "Order from Lindell →") with a matching `aria-label`. Typechecked clean.
 
 ---
 
@@ -94,7 +98,7 @@ The site never mixes up its *own* per-location IDs — the Locations CMS, the `/
 
 **Fix:** Regardless of picker behavior, normalize every retail entry link to `…/locations?catering_only=false` — it's already the site's dominant pattern.
 
-> **✅ FIXED 2026-09-01:** Per the owner, Paytronix now serves pickup and delivery from a single link and checkout re-confirms the store, so the "Order Pickup" / "Order Delivery" double button on the `/menu/:slug` template was replaced with a single CTA. A new Framer code component `OrderCTA.tsx` was created and swapped in for the "Order + Pickup Pair" instance (old node `N0kELHs5j` deleted; Tablet/Phone breakpoints inherit as replicas). The component is **catering-aware** — the same template serves catering items, so on paths starting `/menu/catering-` it renders "Order Catering" → `…/locations?catering_only=true`, and everywhere else "Order Now" → `…/locations?catering_only=false` with subtext "Pickup · Curbside · Delivery — choose at checkout". This also removes the hardcoded stale `_gl` parameter (part of finding 6) and closes the retail-CTA half of finding 4. UTM tags (`utm_medium=item_page`) and `order_click` gtag events follow the StickyOrderBar convention. **Requires a Framer publish to go live; spot-check one retail and one catering item page in preview first.** *Rev 2:* catering detection no longer relies on the URL alone (Framer preview iframes don't always carry the real route) — it now also checks an optional CMS-bindable `slug` prop and the page's own MenuItemSchema JSON-LD for a `/menu/catering-` reference.
+> **✅ FIXED & VERIFIED LIVE 2026-09-01:** Published and confirmed on production — retail item pages serve one "Order Now" CTA with the choose-at-checkout subtext and `utm_medium=item_page`; the catering item pages carry the catering-aware component (JSON-LD + path detection); "Order Pickup"/"Order Delivery" and the stale `_gl` are gone from item pages. Original fix note: Per the owner, Paytronix now serves pickup and delivery from a single link and checkout re-confirms the store, so the "Order Pickup" / "Order Delivery" double button on the `/menu/:slug` template was replaced with a single CTA. A new Framer code component `OrderCTA.tsx` was created and swapped in for the "Order + Pickup Pair" instance (old node `N0kELHs5j` deleted; Tablet/Phone breakpoints inherit as replicas). The component is **catering-aware** — the same template serves catering items, so on paths starting `/menu/catering-` it renders "Order Catering" → `…/locations?catering_only=true`, and everywhere else "Order Now" → `…/locations?catering_only=false` with subtext "Pickup · Curbside · Delivery — choose at checkout". This also removes the hardcoded stale `_gl` parameter (part of finding 6) and closes the retail-CTA half of finding 4. UTM tags (`utm_medium=item_page`) and `order_click` gtag events follow the StickyOrderBar convention. **Requires a Framer publish to go live; spot-check one retail and one catering item page in preview first.** *Rev 2:* catering detection no longer relies on the URL alone (Framer preview iframes don't always carry the real route) — it now also checks an optional CMS-bindable `slug` prop and the page's own MenuItemSchema JSON-LD for a `/menu/catering-` reference.
 
 ---
 
