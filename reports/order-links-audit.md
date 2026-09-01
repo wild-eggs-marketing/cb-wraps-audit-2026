@@ -64,6 +64,8 @@ The site never mixes up its *own* per-location IDs — the Locations CMS, the `/
 
 **Fix:** Replace with each item's correct behavior (link to `/catering#order-catering` or the catering picker `…/locations?catering_only=true`). This is a 31-row CMS edit.
 
+> **✅ FIXED 2026-09-01:** All 27 affected items' Button Links updated via the Framer MCP to the catering location picker (`https://crazybowlsandwraps.orderexperience.net/locations?catering_only=true`). Verified: no Menu item references `67db1999dfdbeb3f0308f211` anymore. Two items (`catering-chicken-tex-mex-egg-roll-dozen`, `catering-black-bean-egg-roll-dozen`) also had a broken Dietary Tags reference (`high-protein` stored as a slug instead of an item ID) that blocked saving; repaired to the correct item reference in the same update. **The Framer site must be published for these CMS changes to go live.**
+
 ---
 
 ### 4. Catering platters are listed inside the retail `/menu`, and their pages push retail ordering CTAs — HIGH
