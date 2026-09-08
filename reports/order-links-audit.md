@@ -135,3 +135,26 @@ The site never mixes up its *own* per-location IDs — the Locations CMS, the `/
 - Attempted to resolve Paytronix store IDs to store names by fetching/rendering `orderexperience.net/<id>/menu`: blocked (SPA + PerimeterX 403 on assets, connection resets in headless Chromium). Flagged as manual checks above.
 
 *Confidence scores combine (a) certainty the described links/data exist as stated — mostly verified directly — and (b) likelihood the pattern actually produces mis-orders.*
+
+---
+
+## Round 2 — Mobile audit additions (2026-09-08)
+
+User-reported: the mobile sticky "Order Now" bar lands on the Paytronix picker's **"All" list, which includes catering stores** (confirming finding 5's hypothesis — unfiltered picker = catering included, confidence now 95%), and the "Ask the Craziologist" chat launcher overlaps the sticky bar.
+
+| # | Issue | Fix | Drives | Source | Confidence |
+|---|-------|-----|--------|--------|-----------|
+| 7 | `StickyOrderBar.tsx` fallback `PICKER` is the bare `…/locations` (no `catering_only=false`) — every mobile visitor without a saved "usual store" lands on the All list with catering twins | Add `?catering_only=false` to `PICKER` | Accidental catering | Component source (const `PICKER`); user-confirmed live behavior | 95% |
+| 8 | Craziologist chat launcher overlaps the sticky order bar on mobile (both pinned bottom, no coordination) | StickyOrderBar publishes its height as CSS var `--cbw-orderbar-offset`; chat launcher offsets by it | Blocked/mis-taps on the order CTA | User screenshot 2026-09-08; both are `position:fixed` bottom components | 90% |
+| 9 | Homepage hero "Order Now →" (2 Fill Button instances, desktop+mobile breakpoints) links to the bare picker | Change link to `…?catering_only=false` on both canvas instances | Accidental catering | Live homepage HTML (2 bare hrefs inside `data-framer-name="Fill Button"`); only remaining bare links in SSR sitewide | 95% |
+| 10 | 4 catering platters still listed under "Sides" on retail `/menu` (finding 4, content half — still open) | Remove from the menu page's Sides collection/filter in the editor | Accidental catering | Live `/menu` HTML today: 4 `./menu/catering-*` links | 85% |
+| 11 | `StickyOrderBar` shows a retail "Order Now" bar on `/catering` pages, inviting the wrong flow mid-catering-journey | Add `/catering` to its `hideOnPaths` default | Wrong flow | Component source: `hideOnPaths` defaults to `/nutrition-calculator` only | 70% |
+| 12 | Store hours/URLs hardcoded in 3 code components (`StickyOrderBar`, `LocationsGrid_1`, `NearbyLocations`) + `LocationHero`'s `CATERING_BY_STREET` map — 4 copies that can drift from the Locations CMS (the system of record) | Document; consolidate to CMS-driven data or one shared source when convenient | Wrong location (future drift) | Component sources | 80% risk over time |
+| 13 | 4 stores (Lindell, West Oak, O'Fallon, Lindenwood) still use Sep-2024-generation catering store IDs (`66e8…`) vs Mar-2025 (`67db…`) for the rest | Verify in Paytronix admin these four catering stores are the intended live ones | Wrong/stale catering menus | CMS Locations collection; ID creation timestamps embedded in ObjectIds | 60% |
+| 14 | Catering item pages' SSR HTML shows "Order Now" until hydration flips it to "Order Catering" (first-paint flash; what the user saw in preview) | Bind the `slug` prop of the OrderCTA instance to the CMS slug in the editor — detection becomes server-side-correct | Brief mislabel | OrderCTA design; live SSR HTML of `/menu/catering-chips-salsa-platter` | 90% |
+| 15 | 4 orphaned CMS items (`protein-scrambler`, `veggie-scrambler`, `mixed-berry-bowl`, `banana-chocolate-chip-bowl`) carry `Catering - *` categories, no Button Link, and aren't listed anywhere — but their pages are live and indexable with retail CTAs | Set their Button Link to the catering picker (same as the other 27) or unpublish if obsolete | Confusion from search landings | CMS Menu collection; live page checks | 75% |
+| 16 | Wild Eggs corporate address (1211 Herr Ln, Louisville, KY) on `/contact-us` with a maps link and no label — reads like a CB&W location in a state with no stores | Label it "Corporate office (Wild Eggs Hospitality) — not a restaurant" or remove | Wrong-location expectations, misdirected catering inquiries | Live `/contact-us` (3× "Herr Ln" today) | 70% |
+| 17 | ~28 legacy WordPress URLs (old menu items, 2023 catering PDF) still 404; customers with old bookmarks/search results dead-end and re-navigate via whatever CTA they find | Add Framer redirects → `/menu` (and `/catering` for the PDF) | Lost sessions feeding mis-taps | Crawl comparison vs live | 65% |
+| 18 | Unfiltered picker confirmed to include catering stores means ANY future bare `…/locations` link re-opens the hole | Convention: always link `?catering_only=false` (retail) or `=true` (catering); consider asking Paytronix to default the picker to retail | Systemic guard | User confirmation + link history | 90% |
+
+Status: #7, #8, #11 are code fixes prepared for `StickyOrderBar.tsx`/`CraziologistChat.tsx`; #9, #10, #14 are editor/CMS changes; #12, #13, #16–18 are recommendations/manual checks. Applied as the Framer MCP plugin connection allows (requires the plugin open in the project).
