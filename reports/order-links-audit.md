@@ -157,4 +157,11 @@ User-reported: the mobile sticky "Order Now" bar lands on the Paytronix picker's
 | 17 | ~28 legacy WordPress URLs (old menu items, 2023 catering PDF) still 404; customers with old bookmarks/search results dead-end and re-navigate via whatever CTA they find | Add Framer redirects → `/menu` (and `/catering` for the PDF) | Lost sessions feeding mis-taps | Crawl comparison vs live | 65% |
 | 18 | Unfiltered picker confirmed to include catering stores means ANY future bare `…/locations` link re-opens the hole | Convention: always link `?catering_only=false` (retail) or `=true` (catering); consider asking Paytronix to default the picker to retail | Systemic guard | User confirmation + link history | 90% |
 
-Status: #7, #8, #11 are code fixes prepared for `StickyOrderBar.tsx`/`CraziologistChat.tsx`; #9, #10, #14 are editor/CMS changes; #12, #13, #16–18 are recommendations/manual checks. Applied as the Framer MCP plugin connection allows (requires the plugin open in the project).
+**Status (2026-09-08, applied — publish required):**
+- ✅ #7 `StickyOrderBar.tsx`: `PICKER` now carries `catering_only=false`; typechecked clean.
+- ✅ #8 Chat overlap: solved from `StickyOrderBar.tsx` without touching the 91KB chat file — while visible, the bar publishes its measured height as `--cbw-orderbar-h` and injects `div[style*="2147483000"][style*="left: auto"]{bottom:calc(var(--cbw-orderbar-h,66px) + 12px)!important}`, which lifts only the CLOSED Craziologist launcher (its root is the sole fixed div with inline z-index 2147483000; the open mobile sheet has `left: 0` and is untouched). Self-cleans on dismiss/desktop.
+- ✅ #9 Homepage hero "Order Now" (`FillButton` node `vEp71z1iH`) relinked to `…?catering_only=false`; Tablet/Phone inherit as replicas.
+- ✅ #11 `/catering` is now ALWAYS excluded in `StickyOrderBar` code (`ALWAYS_HIDE`), independent of the instance's `hideOnPaths` prop, plus the prop default updated.
+- ✅ #15 The 4 orphaned items (`protein-scrambler`, `veggie-scrambler`, `mixed-berry-bowl`, `banana-chocolate-chip-bowl`) got Button Link → catering picker.
+- ⚠️ #10 NOT applied: the `/menu` page node is too large for the plugin's XML serializer ("Node is not a text node" on every read) — remove the 4 catering cards (Tortilla Chips & Salsa Platter, Edamame Sampler, Tostada Starter Sampler, Chicken Tex Mex Egg Roll Dozen) from the Sides section manually in the editor.
+- ⬜ #12, #13, #14, #16, #17, #18 remain recommendations/manual (data consolidation, Paytronix ID check, slug-prop binding, Louisville label, redirects, link convention).
